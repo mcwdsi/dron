@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="duplicate:http://purl.obolibrary.org/obo/dron.owl" uri="dron-full.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="duplicate:http://purl.obolibrary.org/obo/dron.owl" uri="dron-lite.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="http://purl.obolibrary.org/obo/dron/dron-hand.owl/" uri="dron-hand.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="http://purl.obolibrary.org/obo/dron/dron-ingredient.owl" uri="dron-ingredient.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="http://purl.obolibrary.org/obo/dron/dron-ndc.owl" uri="dron-ndc.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="http://purl.obolibrary.org/obo/dron/dron-pro.owl" uri="dron-pro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl" uri="dron-rxnorm.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="http://purl.obolibrary.org/obo/dron/dron-upper.owl" uri="dron-upper.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1603463435576" name="http://www.w3.org/2002/07/owl" uri="dron-chebi.owl"/>
+    </group>
+</catalog>

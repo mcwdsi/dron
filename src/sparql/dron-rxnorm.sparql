@@ -1,0 +1,18 @@
+prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
+prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?cls ?cls_label ?type ?parent ?rxcui (group_concat(?bearer;separator="|") as ?bearers) WHERE 
+{
+  ?cls rdf:type ?type .
+  OPTIONAL { ?cls rdfs:label ?cls_label } .
+  OPTIONAL { ?cls rdfs:subClassOf ?parent } .
+  OPTIONAL { ?cls <http://purl.obolibrary.org/obo/DRON_00010000> ?rxcui } .
+  OPTIONAL { ?cls rdfs:subClassOf [ rdf:type owl:Restriction ;
+  owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000053> ;
+  owl:someValuesFrom ?bearer ] . }
+  FILTER (!isBlank(?cls))
+  FILTER (!isBlank(?parent))
+} group by ?cls ?cls_label ?type ?parent ?rxcui

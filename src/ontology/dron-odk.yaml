@@ -1,0 +1,57 @@
+id: dron
+title: "The Drug Ontology"
+github_org: uamsdbmi
+repo: dron
+report_fail_on: None
+use_dosdps: TRUE
+export_formats:
+  - owl
+  - obo
+  - json
+release_artefacts: 
+  - base
+  - full
+  - custom-dron-lite
+import_group:
+  module_type: filter
+  annotation_properties:
+    - rdfs:label
+    - IAO:0000115
+    - IAO:0000116
+    - IAO:0000111
+    - oboInOwl:hasDbXref
+    - rdfs:comment
+  products:
+    - id: ro
+      module_type: slme
+      slme_individuals: exclude
+    - id: bfo
+      module_type: slme
+      slme_individuals: exclude
+    - id: omo
+      module_type: mirror
+    - id: chebi
+      module_type: filter
+      is_large: TRUE
+      use_gzipped: TRUE
+    - id: pr
+      module_type: filter
+      is_large: TRUE
+      use_gzipped: TRUE
+components:
+  products:
+    - filename: dron-ingredient.owl
+    - filename: dron-ndc.owl
+    - filename: dron-rxnorm.owl
+robot_java_args: '-Xmx8G'
+custom_makefile_header: |
+  ### Workflow
+  #
+  # Tasks to edit and release DRON.
+  #
+  # #### Edit
+  #
+  # 1. [Prepare release](prepare_release)
+  # 2. [Refresh imports](all_imports)
+  # 3. [Update repo to latest ODK](update_repo)
+
