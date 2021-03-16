@@ -94,10 +94,6 @@ dirs:
 matches:
 	dosdp-tools query --ontology=tmp/rename-unmerge-ingredient.owl --catalog=catalog-v001.xml --reasoner=elk --obo-prefixes=true --batch-patterns="$(ALL_PATTERNS)" --template="../patterns/dosdp-patterns" --outfile="../patterns/data/matches/"
 
-
-merge_release:
-	$(ROBOT) merge -i $(SRC) -i components/dron-hand.owl  -i components/dron-upper.owl --collapse-import-closure false -o $(SRC).ofn
-
 DRON_RELEASE_LOCATION=https://bitbucket.org/uamsdbmi/dron/raw/master/
 DRON_NDC_RELEASE=$(DRON_RELEASE_LOCATION)/dron-ndc.owl
 DRON_RXNORM_RELEASE=$(DRON_RELEASE_LOCATION)/dron-rxnorm.owl
@@ -108,3 +104,11 @@ reset_components:
 	wget $(DRON_NDC_RELEASE) -O components/dron-ndc.owl
 	wget $(DRON_RXNORM_RELEASE) -O components/dron-rxnorm.owl
 	wget $(DRON_INGREDIENTS_RELEASE) -O components/dron-ingredient.owl
+
+
+################################
+## From March 2021 Migration ###
+################################
+
+merge_release:
+	$(ROBOT) merge -i $(SRC) -i components/dron-hand.owl  -i components/dron-upper.owl --collapse-import-closure false -o $(SRC).ofn

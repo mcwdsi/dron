@@ -48,3 +48,14 @@ reports/
 src/ontology/components/dron-rxnorm.owl
 src/ontology/components/dron-ndc.owl
 src/ontology/components/dron-ingredient.owl
+/dron.json
+/dron.obo
+/dron.owl
+dron-base.*
+dron-full.*
+
+src/ontology/archive
+src/patterns
+dron-lite.json
+dron-lite.obo
+dron-lite.owl

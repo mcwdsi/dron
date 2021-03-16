@@ -1,0 +1,27 @@
+site_name: The Drug Ontology
+theme: readthedocs
+nav:
+  - Basics:
+      - Index: index.md
+      - Quickstart: quickstart.md
+      - History: history.md
+  - Editors Guide:
+      - Standard ODK workflows:
+          - Editors Workflow: odk-workflows/EditorsWorkflow.md
+          - Release Workflow: odk-workflows/ReleaseWorkflow.md
+          - Manage your ODK Repository: odk-workflows/RepoManagement.md
+          - Setting up Docker for ODK: odk-workflows/SettingUpDockerForODK.md
+          - Imports management: odk-workflows/UpdateImports.md
+#  - Design Patterns:
+#    - Design Patterns Overview: design-patterns.md
+#  - Components
+#  - Imports
+#    - Modules Overview: modules.md
+#  - Mappings:
+#  - Semantics:
+#    - RO and BFO: ro-and-bfo.md
+#    - Temporal Semantics: temporal-semantics.md
+#  - Cite:
+#    cite.md
+#  - Contributing:
+#    - Editors guide: editing-ro.md

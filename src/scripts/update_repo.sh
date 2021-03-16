@@ -15,6 +15,7 @@ mkdir target
 ls -l target/$OID/src
 ls -l $SRCDIR
 rsync -r -u --ignore-existing --exclude 'patterns/data/default/example.tsv' --exclude 'patterns/dosdp-patterns/example.yaml' target/$OID/src/ $SRCDIR
+rsync -r -u --ignore-existing target/$OID/docs/ $ROOTDIR/docs
 cp target/$OID/src/scripts/update_repo.sh $SRCDIR/scripts/
 cp target/$OID/src/ontology/Makefile $SRCDIR/ontology/
 cp target/$OID/src/ontology/run.sh $SRCDIR/ontology/
@@ -23,5 +24,7 @@ cp -n target/$OID/.travis.yml $ROOTDIR
 mkdir -p $ROOTDIR/.github
 mkdir -p $ROOTDIR/.github/workflows
 cp -n target/$OID/.github/workflows/qc.yml $ROOTDIR/.github/workflows/qc.yml
+
+cp -n target/$OID/mkdocs.yaml $ROOTDIR
 echo "WARNING: These files should be manually migrated: .gitignore, src/ontology/catalog.xml (if you added a new import or component)"
 echo "Update successfully completed."

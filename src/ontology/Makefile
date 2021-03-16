@@ -117,7 +117,8 @@ all_imports: $(IMPORT_FILES)
 SUBSETS = 
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
-SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
+SUBSET_FORMATS = $(sort tsv owl)
+SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(SUBSET_FORMATS), $(n).$(f)))
 
 .PHONY: all_subsets
 all_subsets: $(SUBSET_FILES)
