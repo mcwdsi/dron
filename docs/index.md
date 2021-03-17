@@ -1,7 +1,7 @@
-# dron
+# DRON Ontology Documentation
 
 [//]: # "This file is meant to be edited by the ontology maintainer."
 
-Welcome to the dron documentation!
+Welcome to the DRON documentation!
 
-You can find some information about standard ontology engineering workflows [here](odk-workflows/index.md).
+You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
