@@ -6,7 +6,7 @@ nav:
       - Cite: cite.md
       - History: history.md
   - Editors Guide:
-      - Standard ODK workflows: odk-workflows/index.md
+      - Standard ODK workflows:
           - Editors Workflow: odk-workflows/EditorsWorkflow.md
           - Release Workflow: odk-workflows/ReleaseWorkflow.md
           - Manage your ODK Repository: odk-workflows/RepoManagement.md
