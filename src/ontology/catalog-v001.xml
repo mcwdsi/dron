@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/omo_import.owl" uri="imports/omo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>  
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/pr_import.owl" uri="imports/pr_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/apollo_sv_import.owl" uri="imports/apollo_sv_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/go_import.owl" uri="imports/go_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/obi_import.owl" uri="imports/obi_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/ogms_import.owl" uri="imports/ogms_import.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-chebi.owl" uri="components/dron-chebi.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-hand.owl" uri="components/dron-hand.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-ingredient.owl" uri="components/dron-ingredient.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-lite.owl" uri="components/dron-lite.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-ndc.owl" uri="components/dron-ndc.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-pro.owl" uri="components/dron-pro.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl" uri="components/dron-rxnorm.owl"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-upper.owl" uri="components/dron-upper.owl"/>
+  
+
+</group>
+</catalog>
