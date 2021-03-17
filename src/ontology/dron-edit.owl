@@ -13,10 +13,10 @@ Import(<http://purl.obolibrary.org/obo/dron/dron-ingredient.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/dron-ndc.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/imports/omo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/imports/pr_import.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/imports/omo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/imports/pr_import.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/imports/ro_import.owl>)
 Annotation(dce:creator "Eric Joseph")
 Annotation(dce:creator "Josh Hanna")
 Annotation(dce:creator "Mathias Brochhausen")
@@ -300,74 +300,6 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#sho
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/BFO_0000179> (BFO OWL specification label)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000179> "BFO OWL specification label"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/BFO_0000180> (BFO CLIF specification label)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000180> "BFO CLIF specification label"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000111> (editor preferred term)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred label"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000112> (example of usage)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000114> (has curation status)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000114> "has curation status"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "textual definition"^^xsd:string)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000116> (editor note)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000116> "editor note"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000117> (term editor)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "definition editor")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "definition editor"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "term editor"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative term)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative term")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative term"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000119> (definition source)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "definition source"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000232> (curator note)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000232> "curator note")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000232> "curator note"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000600> (elucidation)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000600> "elucidation"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000602> (has associated axiom(fol))
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000602> "has associated axiom(fol)"@en)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/RO_0001900> (temporal interpretation)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001900> "temporal interpretation"@en)
-
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> (has_alternative_id)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "has_alternative_id"^^xsd:string)
@@ -409,186 +341,37 @@ AnnotationAssertion(rdfs:label rdfs:label "label")
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (is part of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000050> "part of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000050> "part_of"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "is part of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000050> owl:topObjectProperty)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000001>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000001>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000051> (has part)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000051> "has_part"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000051> "has part"@en)
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000053> (is bearer of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000053> "bearer of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000053> "bearer_of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000053> "http://purl.obolibrary.org/obo/omrse.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000053> "is bearer of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000053> owl:topObjectProperty)
-
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000054> (realized in)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/BFO_0000054> "realized in"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000054> "this disease is realized in this disease course"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000054> "this fragility is realized in this shattering"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000054> "this investigator role is realized in this investigation"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000054> "is realized by"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000054> "realized_in"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000054> "http://purl.obolibrary.org/obo/ro.owl"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/BFO_0000054> "[copied from inverse property 'realizes'] to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/BFO_0000054> "Paraphrase of elucidation: a relation between a realizable entity and a process, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process")
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/bfo.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000054> "realized in"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000054> owl:topObjectProperty)
 
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000055> (realizes)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/BFO_0000055> "realizes"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000055> "this disease course realizes this disease"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000055> "this investigation realizes this investigator role"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000055> "this shattering realizes this fragility"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000055> "http://purl.obolibrary.org/obo/ro.owl"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/BFO_0000055> "to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/BFO_0000055> "Paraphrase of elucidation: a relation between a process and a realizable entity, where there is some material entity that is bearer of the realizable entity and participates in the process, and the realizable entity comes to be realized in the course of the process")
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/iao.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000055> "realizes"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000055> owl:topObjectProperty)
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000071> (has granular part)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000113> (<http://purl.obolibrary.org/obo/BFO_0000113>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000071> "has_granular_part"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000071> "has granular part"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/BFO_0000051>)
-InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/BFO_0000073>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000073> (is granular part of)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000073> "granular part of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/BFO_0000073> "granular_part_of"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000073> "is granular part of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000073> <http://purl.obolibrary.org/obo/BFO_0000050>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/BFO_0000073> <http://purl.obolibrary.org/obo/BFO_0000040>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000073> <http://purl.obolibrary.org/obo/BFO_0000040>)
-
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000113> (has material basis at all times)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/BFO_0000179> <http://purl.obolibrary.org/obo/BFO_0000113> "has-material-basis_at")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/BFO_0000180> <http://purl.obolibrary.org/obo/BFO_0000113> "hasMaterialBasisAt")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000113> "the material basis of John’s disposition to cough is the viral infection in John’s upper respiratory tract"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/BFO_0000113> "the material basis of the disposition to wear unevenly of John’s tires is the worn suspension of his car."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/BFO_0000113> "Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance-level, relation. The BFO reading of the binary relation 'has material basis at all times@en' is: forall(t) exists_at(x,t) -> exists_at(y,t) and 'has material basis@en(x,y,t)'.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000113> "http://purl.obolibrary.org/obo/bfo.owl"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/BFO_0000113> "b has_material_basis c at t means: b is a disposition & c is a material entity & there is some d bearer_of b at t& c continuant_part_of d at t& d has_disposition b at t because c continuant_part_of d at t. (axiom label in BFO2 Reference: [071-002])"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000602> <http://purl.obolibrary.org/obo/BFO_0000113> "(forall (x y t) (if (hasMaterialBasisAt x y t) (and (Disposition x) (MaterialEntity y) (exists (z) (and (bearerOfAt z x t) (continuantPartOfAt y z t) (exists (w) (and (Disposition w) (if (hasDisposition z w) (continuantPartOfAt y z t))))))))) // axiom label in BFO2 CLIF: [071-002] ")
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000113> <http://purl.obolibrary.org/obo/bfo.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000113> "has material basis at all times"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000113> owl:topObjectProperty)
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000127> (material basis of at some time)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000127> (<http://purl.obolibrary.org/obo/BFO_0000127>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/BFO_0000179> <http://purl.obolibrary.org/obo/BFO_0000127> "material-basis-of_st")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000127> "http://purl.obolibrary.org/obo/bfo.owl"^^xsd:string)
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000127> <http://purl.obolibrary.org/obo/bfo.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000127> "material basis of at some time"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000127> owl:topObjectProperty)
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000163> (material basis of at all times)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000163> (<http://purl.obolibrary.org/obo/BFO_0000163>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/BFO_0000179> <http://purl.obolibrary.org/obo/BFO_0000163> "material-basis-of_at")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000163> "http://purl.obolibrary.org/obo/bfo.owl"^^xsd:string)
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000163> <http://purl.obolibrary.org/obo/bfo.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000163> "material basis of at all times"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000163> <http://purl.obolibrary.org/obo/BFO_0000127>)
 
-# Object Property: <http://purl.obolibrary.org/obo/IAO_0000039> (has measurement unit label)
+# Object Property: <http://purl.obolibrary.org/obo/OBI_0001938> (<http://purl.obolibrary.org/obo/OBI_0001938>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000039> "has measurement unit label"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000039> "A relation between a value specification and its unit of measurement.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/IAO_0000039> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000039> "has measurement unit label"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000039> owl:topObjectProperty)
-
-# Object Property: <http://purl.obolibrary.org/obo/OBI_0001938> (has value specification)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001938> "has value specification")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001938> <http://purl.obolibrary.org/obo/IAO_0000120>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001938> "A relation between an information content entity and a value specification that specifies its value.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001938> "PERSON: James A. Overton")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001938> "OBI")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0001938> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001938> "has value specification")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/OBI_0001938> owl:topObjectProperty)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000052> (inheres in)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0000052> "inheres in"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000052> "this fragility inheres in this vase"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000052> "this red color inheres in this apple"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000052> "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000052> "A dependent inheres in its bearer at all times for which the dependent exists."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000052> "inheres_in"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/RO_0000052> "http://purl.obolibrary.org/obo/ro.owl"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0001901>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000052> "inheres in"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000052> owl:topObjectProperty)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (bearer of)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0000053> "bearer of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000053> "this apple is bearer of this red color"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000053> "this vase is bearer of this fragility"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000053> "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000053> "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000053> "bearer_of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000053> "is bearer of"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/RO_0000053> "http://purl.obolibrary.org/obo/ro.owl"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/RO_0001901>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "bearer of"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000053> owl:topObjectProperty)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates in)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0000056> "participates in"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000056> "this blood clot participates in this blood coagulation"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000056> "this input material (or this output material) participates in this process"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000056> "this investigator participates in this investigation"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000056> "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000056> "participates_in"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/RO_0000056> "http://purl.obolibrary.org/obo/ro.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000056> "participates in"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000056> owl:topObjectProperty)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000057> (has participant)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/RO_0000057> "has participant"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000057> "this blood coagulation has participant this blood clot"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000057> "this investigation has participant this investigator"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/RO_0000057> "this process has participant this input material (or this output material)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000057> "a relation between a process and a continuant, in which the continuant is somehow involved in the process"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/RO_0000057> "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/RO_0000057> "has_participant"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/RO_0000057> "http://purl.obolibrary.org/obo/ro.owl"^^xsd:string)
-AnnotationAssertion(dce:source <http://purl.obolibrary.org/obo/RO_0000057> "http://www.obofoundry.org/ro/#OBO_REL:has_participant")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000057> "has participant"@en)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0000057> owl:topObjectProperty)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002211> (regulates)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/RO_0002211> "http://purl.obolibrary.org/obo/go/releases/2020-10-09/go.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002211> "RO:0002211"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002211> "external"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002211> "regulates"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0002211> "regulates"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002211> "regulates"^^xsd:string)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002211> owl:topObjectProperty)
 
 # Object Property: <http://www.obofoundry.org/ro/ro.owl#has_part> (has_part)
 
@@ -611,60 +394,15 @@ SubObjectPropertyOf(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> owl:to
 #   Data Properties
 ############################
 
-# Data Property: <http://purl.obolibrary.org/obo/OBI_0001937> (has specified value)
+# Data Property: <http://purl.obolibrary.org/obo/OBI_0001937> (<http://purl.obolibrary.org/obo/OBI_0001937>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0001937> "has specified value")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0001937> <http://purl.obolibrary.org/obo/IAO_0000120>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001937> "A relation between a value specification and a number that quantifies it.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0001937> "A range of 'real' might be better than 'float'. For now we follow 'has measurement value' until we can consider technical issues with SPARQL queries and reasoning.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0001937> "PERSON: James A. Overton")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0001937> "OBI")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001937> "has specified value")
 
 
 
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/APOLLO_SV_00000145> (resistance to infection)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145> "The dispostion of an organism of a particular biological taxon A that is realized by inhibiting the establishment of an infection by an organism of another particular biological taxon that bears an infectious disposition towards members of A"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145> "Mathias Brochhausen"@de)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145> "Key issue with equivalent class axiom is how to say that this scattered molecular aggregate is both 1) not originally part of the organism and/or 2) is temporary.
-
-I suppose baby could be born with drug acquired from its mother's system.
-
-Somehow, it's not innate and it's temporary, ie, the body will eventually clear it."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145> "http://purl.obolibrary.org/obo/apollo_sv/dev/apollo_sv.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/APOLLO_SV_00000145> "resistance to infection"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/APOLLO_SV_00000145> <http://purl.obolibrary.org/obo/BFO_0000016>)
-
-# Class: <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> (chemical resistance to infection)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "chemical resistance to infection"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "A resistance to infection that is conferred by the presence, in sufficient quantity, of a particular molecular entity that is not normally present in the organism."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "chemoprotection"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "chemoprotective resistance"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "chemotherapeutic resistance to infection"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "http://purl.obolibrary.org/obo/apollo_sv/dev/apollo_sv.owl"^^xsd:string)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "As with all dispositions, chemical resistance need not be realized to exist.  The presence of cholorquine confers this disposition even if the person is never bitten by a mosquito, let alone a malaria-laden mosquito."@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "Examples: chemoprophylaxis of malaria with chloroquine, treatment of infections with antibiotics, antiviral treatment"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "chemical resistance to infection"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/APOLLO_SV_00000335> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145>)
-
-# Class: <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> (resistance to malaria infection)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> "resistance to malaria infection"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> "A resistance to infection by P. vivax, P. ovale, P. malariae, and/or P. falciparum."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> "malaria resistance"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> "resistance to malaria"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> "http://purl.obolibrary.org/obo/apollo_sv/dev/apollo_sv.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> "resistance to malaria infection"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/APOLLO_SV_00000336> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_10100> (zafirlukast)
 
@@ -1086,7 +824,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000032> "d
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000032> <http://purl.obolibrary.org/obo/BFO_0000034>)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000032> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/DRON_00000005>)))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000033> (anti-malarial function)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000033> (anti-malarial function of a drug product)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000033> "anti-malarial function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000033> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in creation of a material basis of a resistance to malaria infection disposition"@en)
@@ -1096,7 +834,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000033> "anti-malarial function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000033> <http://purl.obolibrary.org/obo/DRON_00000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000034> (anti-hypertensive function)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000034> (anti-hypertensive function of a drug product)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000034> "anti-hypertensive function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000034> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in a decrease of systemic arterial pressure"@en)
@@ -1105,7 +843,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000034> "anti-hypertensive function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000034> <http://purl.obolibrary.org/obo/DRON_00000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000035> (analgesic function)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000035> (analgesic function of a drug product)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000035> "analgesic function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000035> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in blocked realization of a disposition to pain"@en)
@@ -2287,141 +2025,23 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00750806> ObjectSomeValuesFrom(<
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00771100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0003008> (system process)
+# Class: <http://purl.obolibrary.org/obo/GO_0005488> (<http://purl.obolibrary.org/obo/GO_0005488>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003008> "A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0003008> "http://purl.obolibrary.org/obo/go/releases/2020-10-09/go.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003008> "GOC:mtg_cardio"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0003008> "organ system process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0003008> "biological_process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0003008> "GO:0003008"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003008> "system process"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0003008> <http://purl.obolibrary.org/obo/GO_0032501>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0005488> (binding)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005488> "The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005488> "http://purl.obolibrary.org/obo/go.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005488> "Wikipedia:Binding_(molecular)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0005488> "ligand"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005488> "molecular_function"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0005488> "GO:0005488"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005488> <http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005488> <http://purl.obolibrary.org/obo/go#goslim_pir>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005488> <http://purl.obolibrary.org/obo/go#goslim_plant>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005488> <http://purl.obolibrary.org/obo/go#gosubset_prok>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0005488> "Note that this term is in the subset of terms that should not be used for direct, manual gene product annotation. Please choose a more specific child term, or request a new one if no suitable term is available. For ligands that bind to signal transducing receptors, consider the molecular function term 'receptor binding ; GO:0005102' and its children."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005488> "binding"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0005488> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0005515> (protein binding)
+# Class: <http://purl.obolibrary.org/obo/GO_0005515> (<http://purl.obolibrary.org/obo/GO_0005515>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005515> "Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules)."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005515> "http://purl.obolibrary.org/obo/go.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0005515> "GO:0045308"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_100287"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_101129"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_102084"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_102457"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_103972"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_104029"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_104599"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_105776"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_105895"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_106168"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_106189"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_107402"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_108283"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_109392"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_110419"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_110570"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_15321"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_15325"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_15355"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_15417"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_15419"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_15506"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_15541"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_20509"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_20539"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_28794"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_30571"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_30672"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_31305"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_31537"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_31641"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_31648"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_32973"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_33135"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_34719"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_6923"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_6945"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_78382"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_78466"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_79634"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_80470"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_80778"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_83147"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_83165"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_83532"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_85250"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_85858"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_85975"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_87187"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_87374"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_87652"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_88068"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_88138"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_88223"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_89261"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_90027"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_90105"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_90666"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_91560"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_92029"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_93175"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_93938"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_94522"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_94808"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_95241"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_95561"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_95647"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_96236"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_96264"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_98028"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005515> "Reactome:REACT_98807"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005515> "protein amino acid binding"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0005515> "protein folding chaperone"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0005515> "molecular_function"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0005515> "alpha-2 macroglobulin receptor-associated protein activity"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0005515> "protein degradation tagging activity"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0005515> "protein tagging activity"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0005515> "GO:0005515"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/go#goslim_aspergillus>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/go#goslim_candida>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/go#goslim_pir>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/go#goslim_plant>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/go#gosubset_prok>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005515> "protein binding"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/GO_0005488>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008150> "A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0008150> "http://purl.obolibrary.org/obo/go/releases/2020-10-09/go.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GO_0008150> "jl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GO_0008150> "2012-09-19T15:05:24Z"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0008150> "GO:0000004"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0008150> "GO:0007582"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0008150> "GO:0044699"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008150> "GOC:pdt"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008150> "Wikipedia:Biological_process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008150> "biological process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008150> "physiological process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0008150> "biological_process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0008150> "single organism process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0008150> "single-organism process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0008150> "GO:0008150"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_aspergillus>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_candida>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_chembl>)
@@ -2431,249 +2051,61 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_plant>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_pombe>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_yeast>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0008150> "Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological_process"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0019899> (enzyme binding)
+# Class: <http://purl.obolibrary.org/obo/GO_0019899> (<http://purl.obolibrary.org/obo/GO_0019899>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0019899> "Interacting selectively and non-covalently with any enzyme."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0019899> "http://purl.obolibrary.org/obo/go.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0019899> "molecular_function"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0019899> "GO:0019899"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0019899> <http://purl.obolibrary.org/obo/go#goslim_generic>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0019899> <http://purl.obolibrary.org/obo/go#goslim_yeast>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0019899> <http://purl.obolibrary.org/obo/go#gosubset_prok>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019899> "enzyme binding"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0019899> <http://purl.obolibrary.org/obo/GO_0005515>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0032501> (multicellular organismal process)
+# Class: <http://purl.obolibrary.org/obo/GO_0032501> (<http://purl.obolibrary.org/obo/GO_0032501>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032501> "Any biological process, occurring at the level of a multicellular organism, pertinent to its function."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0032501> "http://purl.obolibrary.org/obo/go/releases/2020-10-09/go.owl"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/GO_0032501> <http://purl.obolibrary.org/obo/NCBITaxon_4896>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/GO_0032501> <http://purl.obolibrary.org/obo/NCBITaxon_4932>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GO_0032501> "jl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GO_0032501> "2012-09-19T16:07:47Z"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0032501> "GO:0044707"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0032501> "GO:0050874"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0032501> "GOC:curators"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0032501> "GOC:dph"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0032501> "GOC:isa_complete"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0032501> "GOC:tb"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0032501> "organismal physiological process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0032501> "biological_process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0032501> "single-multicellular organism process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0032501> "GO:0032501"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0032501> <http://purl.obolibrary.org/obo/go#goslim_pir>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032501> "multicellular organismal process"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0032501> <http://purl.obolibrary.org/obo/GO_0008150>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0050886> (endocrine process)
+# Class: <http://purl.obolibrary.org/obo/GO_0050886> (<http://purl.obolibrary.org/obo/GO_0050886>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0050886> "The process that involves the secretion of or response to endocrine hormones. An endocrine hormone is a hormone released into the circulatory system."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0050886> "http://purl.obolibrary.org/obo/go/releases/2020-10-09/go.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0050886> "ISBN:0721662544"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050886> "endocrine physiological process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0050886> "endocrine physiology"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0050886> "biological_process"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0050886> "GO:0050886"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0050886> <http://purl.obolibrary.org/obo/go#goslim_pir>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050886> "endocrine process"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0050886> <http://purl.obolibrary.org/obo/GO_0003008>)
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000003> (measurement unit label)
+# Class: <http://purl.obolibrary.org/obo/IAO_0000003> (<http://purl.obolibrary.org/obo/IAO_0000003>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000003> "measurement unit label"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IAO_0000003> "Examples of measurement unit labels are liters, inches, weight per volume."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000003> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000003> "A data item label that denotes a unit of measure."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000003> "2009-03-16: provenance: a term measurement unit was
-proposed for OBI (OBI_0000176) , edited by Chris Stoeckert and
-Cristian Cocos, and subsequently moved to IAO where the objective for
-which the original term was defined was satisfied with the definition
-of this, different, term."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000003> "2009-03-16: review of this term done during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify this definition please notify OBI."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000003> "PERSON: Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000003> "PERSON: Melanie Courtot"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/IAO_0000003> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000003> "measurement unit label"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000003> <http://purl.obolibrary.org/obo/IAO_0000009>)
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000009> (data item label)
+# Class: <http://purl.obolibrary.org/obo/IAO_0000009> (<http://purl.obolibrary.org/obo/IAO_0000009>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/IAO_0000009> "data item label"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000009> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000009> "An information content entity that is part of some data item and is used to partially define the denotation of that data item."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/IAO_0000009> "http://www.golovchenko.org/cgi-bin/wnsearch?q=label#4n"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/IAO_0000009> "GROUP: IAO"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/IAO_0000009> "datum label")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/IAO_0000009> "9/22/11 BP: changed the rdfs:label for this class from 'label' to 'datum label' to convey that this class is not intended to cover all kinds of labels (stickers, radiolabels, etc.), and not even all kind of textual labels, but rather the kind of labels occuring in a datum. 
-")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/IAO_0000009> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000009> "data item label"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000009> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
+# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (<http://purl.obolibrary.org/obo/OBI_0000011>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000011> "planned process"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000011> "Injecting mice with a vaccine in order to test its efficacy"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000011> "A processual entity that realizes a plan which is the concretization of a plan specification."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000011> "'Plan' includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn't have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0000011> "We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process, the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some 
-objectives is a planned process."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000011> "Bjoern Peters"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000011> "branch derived"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000011> "6/11/9: Edited at workshop. Used to include: is initiated by an agent"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OBI_0000011> "This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000011> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (processed material)
+# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (<http://purl.obolibrary.org/obo/OBI_0000047>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000047> "processed material"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000047> "Examples include gel matrices, filter paper, parafilm and buffer solutions, mass spectrometer, tissue samples"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000047> "Is a material entity that is created or changed during material processing."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000047> "PERSON: Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000047> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000047> "processed material"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0000576> (scattered molecular aggregate)
+# Class: <http://purl.obolibrary.org/obo/OBI_0000576> (<http://purl.obolibrary.org/obo/OBI_0000576>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0000576> "scattered molecular aggregate"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0000576> "the sodium and chloride ions in a glass of salt water"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000576> <http://purl.obolibrary.org/obo/IAO_0000123>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000576> "A scattered molecular aggregate is a material entity that consists of all the molecules of a specific type that are located in some bounded region and which is part of a more massive material entity that has parts that are other such aggregates"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0000576> "PERSON: Alan Ruttenberg"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000576> "Collective"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0000576> "Discussion in Karslruhe with, among others, Alan Rector, Stefan Schulz, Marijke Keet, Melanie Courtot, and Alan Ruttenberg. With inspiration from the paper Granularity, scale and collectivity: When size does and does not matter, Alan Recto, Jeremy Rogers, Thomas Bittner, Journal of Biomedical Informatics 39 (2006) 333-349"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000576> "scattered molecular aggregate"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000576> <http://purl.obolibrary.org/obo/BFO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0100026> (organism)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/OBI_0100026> "organism"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0100026> "animal"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0100026> "fungus"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0100026> "plant"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBI_0100026> "virus"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0100026> "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0100026> "10/21/09: This is a placeholder term, that should ideally be imported from the NCBI taxonomy, but the high level hierarchy there does not suit our needs (includes plasmids and 'other organisms')"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/OBI_0100026> "13-02-2009:
-OBI doesn't take position as to  when an organism starts or ends being an organism - e.g. sperm, foetus.
-This issue is outside the scope of OBI."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OBI_0100026> "GROUP: OBI Biomaterial Branch"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OBI_0100026> "WEB: http://en.wikipedia.org/wiki/Organism"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0100026> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0100026> "organism"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
-# Class: <http://purl.obolibrary.org/obo/OGMS_0000090> (treatment)
+# Class: <http://purl.obolibrary.org/obo/PATO_0000125> (<http://purl.obolibrary.org/obo/PATO_0000125>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OGMS_0000090> "A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/OGMS_0000090> "Albert Goldfain")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/OGMS_0000090> "http://code.google.com/p/ogms/issues/detail?id=35")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000090> "creation date: 2010-03-31T04:51:11Z")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OGMS_0000090> "http://purl.obolibrary.org/obo/ogms.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000090> "treatment")
-SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000090> <http://purl.obolibrary.org/obo/OBI_0000011>)
-
-# Class: <http://purl.obolibrary.org/obo/PATO_0000125> (mass)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000125> "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/PATO_0000125> "http://purl.obolibrary.org/obo/pato.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PATO_0000125> "quality"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0000125> "PATO:0000125"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/pato#attribute_slim>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/pato#relational_slim>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/pato#scalar_slim>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000125> "mass"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/BFO_0000019>)
-
-# Class: <http://purl.obolibrary.org/obo/PR_000000001> (protein)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000000001> "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/PR_000000001> "http://purl.obolibrary.org/obo/pr.owl"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000000001> "protein"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000000001> "PR:000000001"^^xsd:string)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB]."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000000001> "protein"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/BFO_0000030>)
-
-# Class: <http://purl.obolibrary.org/obo/UO_0000001> (length unit)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UO_0000001> "length unit"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000001> "A unit which is a standard measure of the distance between two points."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000001> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000001> "length unit"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000001> <http://purl.obolibrary.org/obo/IAO_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/UO_0000002> (mass unit)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UO_0000002> "mass unit"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000002> "A unit which is a standard measure of the amount of matter/energy of a physical object."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000002> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000002> "mass unit"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000002> <http://purl.obolibrary.org/obo/IAO_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/UO_0000006> (substance unit)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UO_0000006> "substance unit"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000006> "A unit which is a standardised quantity of an element or compound with uniform composition."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000006> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000006> "substance unit"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000006> <http://purl.obolibrary.org/obo/IAO_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/UO_0000051> (concentration unit)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UO_0000051> "concentration unit"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000051> "A unit which represents a standard measurement of how much of a given substance there is mixed with another substance."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000051> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000051> "concentration unit"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000051> <http://purl.obolibrary.org/obo/IAO_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/UO_0000095> (volume unit)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UO_0000095> "volume unit"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000095> "A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000095> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000095> "volume unit"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000095> <http://purl.obolibrary.org/obo/IAO_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/UO_0000105> (frequency unit)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UO_0000105> "frequency unit"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000105> "A unit which is a standard measure of the number of repetitive actions in a particular time."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000105> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000105> "frequency unit"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000105> <http://purl.obolibrary.org/obo/IAO_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/UO_0000280> (rate unit)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UO_0000280> "rate unit"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000280> "A unit which represents a standard measurement occurrence of a process per unit time."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000280> "http://purl.obolibrary.org/obo/obi.owl"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000280> "rate unit"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/UO_0000280> <http://purl.obolibrary.org/obo/IAO_0000003>)
 
 
 ############################
 #   Named Individuals
 ############################
 
-# Individual: <http://purl.obolibrary.org/obo/UO_0000022> (milligram)
+# Individual: <http://purl.obolibrary.org/obo/UO_0000022> (<http://purl.obolibrary.org/obo/UO_0000022>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UO_0000022> "milligram"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UO_0000022> "A mass unit which is equal to one thousandth of a gram or 10^[-3] g."^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UO_0000022> "mg"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000022> <http://purl.obolibrary.org/obo/uo.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UO_0000022> "milligram"^^xsd:string)
-ClassAssertion(<http://purl.obolibrary.org/obo/UO_0000002> <http://purl.obolibrary.org/obo/UO_0000022>)
 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00723856> "ciara lusnia")
