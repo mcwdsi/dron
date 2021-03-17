@@ -2,16 +2,17 @@ site_name: The Drug Ontology
 theme: readthedocs
 nav:
   - Basics:
-      - Index: index.md
-      - Quickstart: quickstart.md
+      - Overview: index.md
+      - Cite: cite.md
       - History: history.md
   - Editors Guide:
-      - Standard ODK workflows:
+      - Standard ODK workflows: odk-workflows/index.md
           - Editors Workflow: odk-workflows/EditorsWorkflow.md
           - Release Workflow: odk-workflows/ReleaseWorkflow.md
           - Manage your ODK Repository: odk-workflows/RepoManagement.md
           - Setting up Docker for ODK: odk-workflows/SettingUpDockerForODK.md
           - Imports management: odk-workflows/UpdateImports.md
+      - Contributing: contributing.md
 #  - Design Patterns:
 #    - Design Patterns Overview: design-patterns.md
 #  - Components
