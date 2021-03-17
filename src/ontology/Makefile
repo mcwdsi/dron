@@ -98,7 +98,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  ro bfo omo chebi pr
+IMPORTS =  ro apollo_sv go obi ogms bfo omo chebi pr
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -198,16 +198,28 @@ $(PRESEED): $(SRCMERGED)
 	$(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@.tmp &&\
 	cat $@.tmp | sort | uniq >  $@
 
+ 
+IMPORT_MODULE_TEMPLATE=$(TEMPLATEDIR)/external_import.tsv
+IMPORT_MODULE_SIGNATURE=$(TMPDIR)/external_import_terms.txt
+IMPORT_MODULE=imports/external_import.owl
+$(IMPORT_MODULE): $(IMPORT_MODULE_TEMPLATE)
+	$(ROBOT) template --template $< \
+  --ontology-iri "$(ONTBASE)/external_import.owl" \
+  --output $@
+
+$(IMPORT_MODULE_SIGNATURE): $(IMPORT_MODULE)
+	$(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@.tmp &&\
+	cat $@.tmp | sort | uniq >  $@
 
 
 ALLSEED = $(PRESEED)  $(PATTERNDIR)/all_pattern_terms.txt \
-
+ $(IMPORT_MODULE_SIGNATURE) 
 
 $(IMPORTSEED):  prepare_patterns  $(ALLSEED) 
 	if [ $(IMP) = true ]; then cat $(ALLSEED) | sort | uniq > $@; fi
 
 
-ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 IAO:0000116 IAO:0000111 oboInOwl:hasDbXref rdfs:comment 
+ANNOTATION_PROPERTIES=rdfs:label IAO:0000111 IAO:0000112 IAO:0000115 IAO:0000116 IAO:0000117 IAO:0000119 IAO:0000412 oboInOwl:hasDbXref rdfs:comment 
 
 # -- Generate Import Modules --
 #
@@ -313,6 +325,42 @@ mirror/ro.trigger: $(SRC)
 
 mirror/ro.owl: mirror/ro.trigger
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: apollo_sv
+## Copy of apollo_sv is re-downloaded whenever source changes
+mirror/apollo_sv.trigger: $(SRC)
+
+mirror/apollo_sv.owl: mirror/apollo_sv.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/apollo_sv.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: go
+## Copy of go is re-downloaded whenever source changes
+mirror/go.trigger: $(SRC)
+
+mirror/go.owl: mirror/go.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/go.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: obi
+## Copy of obi is re-downloaded whenever source changes
+mirror/obi.trigger: $(SRC)
+
+mirror/obi.owl: mirror/obi.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/obi.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: ogms
+## Copy of ogms is re-downloaded whenever source changes
+mirror/ogms.trigger: $(SRC)
+
+mirror/ogms.owl: mirror/ogms.trigger
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ogms.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/%.owl
 
 

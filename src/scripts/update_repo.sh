@@ -16,6 +16,8 @@ ls -l target/$OID/src
 ls -l $SRCDIR
 rsync -r -u --ignore-existing --exclude 'patterns/data/default/example.tsv' --exclude 'patterns/dosdp-patterns/example.yaml' target/$OID/src/ $SRCDIR
 rsync -r -u --ignore-existing target/$OID/docs/ $ROOTDIR/docs
+rm -r $ROOTDIR/docs/odk-workflows/*
+cp -r target/$OID/docs/odk-workflows/* $ROOTDIR/docs/odk-workflows
 cp target/$OID/src/scripts/update_repo.sh $SRCDIR/scripts/
 cp target/$OID/src/ontology/Makefile $SRCDIR/ontology/
 cp target/$OID/src/ontology/run.sh $SRCDIR/ontology/

@@ -29,6 +29,17 @@ $(TMPDIR)/export_dron-%.tsv: components/dron-%.owl | $(TMPDIR)
   --header "ID|Type|LABEL|has_obo_namespace|SubClass Of|definition|hasDbXref|comment|hasExactSynonym|has_narrow_synonym|hasRelatedSynonym|created_by|creation_date|in_subset|has_alternative_id" \
   --include "classes properties" \
   --export $@
+	
+tmp/dron-edit-external.ofn: $(SRC)
+	$(ROBOT) filter --input $< \
+  --select "DRON:*" \
+	--select complement \
+  --preserve-structure false \
+  --output $@
+	
+	
+unmerge_src:
+	$(ROBOT) merge -i $(SRC) unmerge -i tmp/dron-edit-external.ofn convert -f ofn -o $(SRC)
 
 export: $(TMPDIR)/export_dron-hand.tsv
 

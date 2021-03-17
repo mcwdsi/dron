@@ -55,7 +55,7 @@ _TextEdit_
 Consider the following when making the edit.
 
 1. According to our development philosophy, the only places that should be manually edited are:
-   - `src/ontology/myont-edit.owl`
+   - `src/ontology/dron-edit.owl`
    - Any ROBOT templates you chose to use (the TSV files only)
    - Any DOSDP data tables you chose to use (the TSV files, and potentially the associated patterns)
    - components (anything in `src/ontology/components`), see [here](RepositoryFileStructure.md).
