@@ -39,7 +39,7 @@ tmp/dron-edit-external.ofn: $(SRC)
 	
 	
 unmerge_src:
-	$(ROBOT) merge -i $(SRC) unmerge -i tmp/dron-edit-external.ofn convert -f ofn -o $(SRC)
+	$(ROBOT) merge -i $(SRC) --collapse-import-closure false unmerge -i tmp/dron-edit-external.ofn convert -f ofn -o $(SRC)
 
 export: $(TMPDIR)/export_dron-hand.tsv
 

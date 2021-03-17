@@ -606,5 +606,9 @@ validate_idranges:
 .PHONY: update_repo
 update_repo:
 	sh $(SCRIPTSDIR)/update_repo.sh
+	
+
+update_docs:
+	mkdocs gh-deploy --config-file ../../mkdocs.yaml
 
 include dron.Makefile

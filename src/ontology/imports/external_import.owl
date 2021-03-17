@@ -1,0 +1,701 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/dron/external_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/dron/external_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dron/external_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000071 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000071"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000073 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000073"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000113 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000113"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000127 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000127"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000163 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000163"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000039 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000039"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001938 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001938"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001937 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001937"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000145"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000335"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000336"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_100241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_100241"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_12777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_12777"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15854"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17650"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17698"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17754"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17833"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_205919 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_205919"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22907"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2453"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2549"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2666"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2676"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27470"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27902"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28971"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3077"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3534"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3561"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3638"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3745"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3764"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_41879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_41879"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4636"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47381"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_487869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_487869"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48923"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49566"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6532"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6704"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6909"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6923"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7507"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7660"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7872"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8461"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005488"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005515"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019899"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032501"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050886"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000009"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000576"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000105"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000280"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000022 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000022"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

@@ -1,14 +1,136 @@
 <?xml version="1.0"?>
-<rdf:RDF 
-     xml:base="http://purl.obolibrary.org/obo/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/dron/imports/apollo_sv_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/dron/imports/apollo_sv_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dron/imports/apollo_sv_import.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dron/imports/apollo_sv_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/dron/releases/2021-03-17/imports/apollo_sv_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-03-17</owl:versionInfo>
+    </owl:Ontology>
+    
 
-    <!-- This is a placeholder, it will be regenerated when makefile is first executed -->
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">The dispostion of an organism of a particular biological taxon A that is realized by inhibiting the establishment of an infection by an organism of another particular biological taxon that bears an infectious disposition towards members of A</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="de">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">Key issue with equivalent class axiom is how to say that this scattered molecular aggregate is both 1) not originally part of the organism and/or 2) is temporary.
+
+I suppose baby could be born with drug acquired from its mother&apos;s system.
+
+Somehow, it&apos;s not innate and it&apos;s temporary, ie, the body will eventually clear it.</obo:IAO_0000232>
+        <obo:IAO_0000600 xml:lang="en">The dispostion of an organism of a particular biological taxon A that is realized by inhibiting the establishment of an infection by an organism of another particular biological taxon that bears an infectious disposition towards members of A</obo:IAO_0000600>
+        <rdfs:label xml:lang="en">resistance to infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000145"/>
+        <obo:IAO_0000111 xml:lang="en">chemical resistance to infection</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A resistance to infection that is conferred by the presence, in sufficient quantity, of a particular molecular entity that is not normally present in the organism.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">chemoprotection</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">chemoprotective resistance</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">chemotherapeutic resistance to infection</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">A resistance to infection that is conferred by the presence, in sufficient quantity, of a particular molecular entity that is not normally present in the organism.</obo:IAO_0000600>
+        <rdfs:comment xml:lang="en">As with all dispositions, chemical resistance need not be realized to exist.  The presence of cholorquine confers this disposition even if the person is never bitten by a mosquito, let alone a malaria-laden mosquito.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Examples: chemoprophylaxis of malaria with chloroquine, treatment of infections with antibiotics, antiviral treatment</rdfs:comment>
+        <rdfs:label xml:lang="en">chemical resistance to infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000145"/>
+        <obo:IAO_0000111 xml:lang="en">resistance to malaria infection</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">A resistance to infection by P. vivax, P. ovale, P. malariae, and/or P. falciparum.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">malaria resistance</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">resistance to malaria</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">A resistance to infection by P. vivax, P. ovale, P. malariae, and/or P. falciparum.</obo:IAO_0000600>
+        <rdfs:label xml:lang="en">resistance to malaria infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
