@@ -11,7 +11,7 @@
 # In essence we merge rxnorm, dron-ingredient, all imports and the edit file
 # (no NDC) and the run a regular full release.
 
-LITE_ARTEFACTS=components/dron-rxnorm.owl components/dron-ingredient.owl $(IMPORT_OWL_FILES)
+LITE_ARTEFACTS=$(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-ingredient.owl $(IMPORT_OWL_FILES)
 $(TMPDIR)/dron-edit_lite.owl: $(SRC) $(LITE_ARTEFACTS)
 	$(ROBOT) remove --input $(SRC) --select imports \
 	merge $(patsubst %, -i %, $(LITE_ARTEFACTS)) --output $@.tmp.owl && mv $@.tmp.owl $@
@@ -28,12 +28,12 @@ dron-lite.owl: $(TMPDIR)/dron-edit_lite.owl
 
 # export: $(TMPDIR)/export_dron-hand.tsv
 # 
-# $(TMPDIR)/export_dron-%.tsv: components/dron-%.owl | $(TMPDIR)
+# $(TMPDIR)/export_dron-%.tsv: $(COMPONENTSDIR)/dron-%.owl | $(TMPDIR)
 # 	$(ROBOT) export --input $< \
 #   --header "ID|Type|LABEL|has_obo_namespace|SubClass Of|definition|hasDbXref|comment|hasExactSynonym|has_narrow_synonym|hasRelatedSynonym|created_by|creation_date|in_subset|has_alternative_id" \
 #   --include "classes properties" \
 #   --export $@
-# reports/dron-%.tsv: components/dron-%.owl
+# reports/dron-%.tsv: $(COMPONENTSDIR)/dron-%.owl
 # 	$(ROBOT) query -i $< --query ../sparql/dron-$*.sparql $@
 # 	cat $@ | sed 's|http://purl.obolibrary.org/obo/DRON_|DRON:|g' | sed 's|http://purl.obolibrary.org/obo/CHEBI_|CHEBI:|g' | sed 's|http://purl.obolibrary.org/obo/OBI_|OBI:|g' | sed 's|http://www.w3.org/2002/07/owl#|owl:|g' | sed 's/[<>]//g' > $@.tmp && mv $@.tmp $@
 # 
@@ -59,7 +59,7 @@ dron-lite.owl: $(TMPDIR)/dron-edit_lite.owl
 # 
 # tables: reports/dron-rxnorm.tsv reports/dron-ingredient.tsv reports/dron-ndc.tsv
 # 
-# tmp/unmerge-%.owl: components/dron-%.owl reports/template-dron-%.owl
+# tmp/unmerge-%.owl: $(COMPONENTSDIR)/dron-%.owl reports/template-dron-%.owl
 # 	$(ROBOT) merge -i $< unmerge -i reports/template-dron-$*.owl convert -f ofn -o $@
 # 
 # tmp/unmerge-%.ttl: tmp/unmerge-%.owl
@@ -87,9 +87,10 @@ DRON_INGREDIENTS_RELEASE=$(DRON_RELEASE_LOCATION)/dron-ingredient.owl
 
 download_components:
 	echo "Resetting components to the last release. This is usually only necessary when the project is cloned on a new machine."
-	wget $(DRON_NDC_RELEASE) -O components/dron-ndc.owl
-	wget $(DRON_RXNORM_RELEASE) -O components/dron-rxnorm.owl
-	wget $(DRON_INGREDIENTS_RELEASE) -O components/dron-ingredient.owl
+	mkdir -p $(COMPONENTSDIR)
+	wget $(DRON_NDC_RELEASE) -O $(COMPONENTSDIR)/dron-ndc.owl
+	wget $(DRON_RXNORM_RELEASE) -O $(COMPONENTSDIR)/dron-rxnorm.owl
+	wget $(DRON_INGREDIENTS_RELEASE) -O $(COMPONENTSDIR)/dron-ingredient.owl
 
 
 ################################
@@ -109,7 +110,7 @@ download_components:
 # 
 # 
 # merge_release:
-# 	$(ROBOT) merge -i $(SRC) -i components/dron-hand.owl  -i components/dron-upper.owl --collapse-import-closure false -o $(SRC).ofn
+# 	$(ROBOT) merge -i $(SRC) -i $(COMPONENTSDIR)/dron-hand.owl  -i $(COMPONENTSDIR)/dron-upper.owl --collapse-import-closure false -o $(SRC).ofn
 
 ##### Diff #####
 
