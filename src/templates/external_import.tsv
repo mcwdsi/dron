@@ -23,8 +23,6 @@ GO:0008150	owl:Class
 GO:0019899	owl:Class
 GO:0032501	owl:Class
 GO:0050886	owl:Class
-http://www.obofoundry.org/ro/ro.owl#has_part	owl:ObjectProperty
-http://www.obofoundry.org/ro/ro.owl#has_proper_part	owl:ObjectProperty
 IAO:0000003	owl:Class
 IAO:0000009	owl:Class
 IAO:0000039	owl:ObjectProperty

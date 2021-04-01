@@ -13,21 +13,21 @@
   <uri name="http://purl.obolibrary.org/obo/dron/imports/obi_import.owl" uri="imports/obi_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/dron/imports/ogms_import.owl" uri="imports/ogms_import.owl"/>
   
-  <uri name="http://purl.obolibrary.org/obo/dron/dron-chebi.owl" uri="components/dron-chebi.owl"/>
+<!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-chebi.owl" uri="components/dron-chebi.owl"/>-->
   
-  <uri name="http://purl.obolibrary.org/obo/dron/dron-hand.owl" uri="components/dron-hand.owl"/>
+  <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-hand.owl" uri="components/dron-hand.owl"/>-->
   
-  <uri name="http://purl.obolibrary.org/obo/dron/dron-ingredient.owl" uri="components/dron-ingredient.owl"/>
+  <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-ingredient.owl" uri="components/dron-ingredient.owl"/> -->
   
-  <uri name="http://purl.obolibrary.org/obo/dron/dron-lite.owl" uri="components/dron-lite.owl"/>
+  <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-lite.owl" uri="components/dron-lite.owl"/>-->
   
-  <uri name="http://purl.obolibrary.org/obo/dron/dron-ndc.owl" uri="components/dron-ndc.owl"/>
+  <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-ndc.owl" uri="components/dron-ndc.owl"/>-->
   
-  <uri name="http://purl.obolibrary.org/obo/dron/dron-pro.owl" uri="components/dron-pro.owl"/>
+  <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-pro.owl" uri="components/dron-pro.owl"/>-->
   
-  <uri name="http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl" uri="components/dron-rxnorm.owl"/>
+  <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl" uri="components/dron-rxnorm.owl"/>-->
   
-  <uri name="http://purl.obolibrary.org/obo/dron/dron-upper.owl" uri="components/dron-upper.owl"/>
+  <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-upper.owl" uri="components/dron-upper.owl"/>-->
   
 
 </group>
