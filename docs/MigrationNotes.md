@@ -5,6 +5,7 @@ This document summarises the migration process to regular ODK setup in March 202
 The original repo of DrOn was on bitbucket: https://bitbucket.org/uamsdbmi/dron
 
 To make use of the GitHub ecosystem (GitHub actions for CI, GitHub releases), we migrated Dron to GitHub as well. This migration had one major downside: the GitHub maximum file size is 100 MB. This had two consequences:
+
 1. Large Dron components (dron-ndc, dron-ingredient and dron-rxnorm) could not be checked in directly.
 2. The Dron history could not be migrated, as the file size restriction applies to the git history as well.
 
@@ -24,9 +25,9 @@ merge_release:
 The new DrOn release is a bit different than the old one. In the following we will discuss the differences in detail.
 
 1. *Added imports*. Same as in other ontologies, such as OMRSE, we added proper imports to the Relation Ontology RO and BFO. This ensures that DRON modelling is logically consistent with the BFO worldview, which keeps it compatible with other OBO/BFO-based ontologies. This means there are a few changes in and around external axioms, such as:
-   - include BFO/RO axioms
-   - added/removed CHEBI axioms
-   - added/removed PRO axioms
+    - include BFO/RO axioms
+    - added/removed CHEBI axioms
+    - added/removed PRO axioms
 2. *Inferred subclasses*. If you open `src/ontology/dron-edit.owl` and run the reasoner, you will notice that DrOn has a good number of inferred-only subsumptions. Inferred-only subsumptions are those that the reasoner can deduce from the given axioms, but that are not *asserted* as a SubClassOf axiom. Example, if you run the reasoner in Protege, you will find that [Ampicillin / cloxacillin suspension](http://purl.obolibrary.org/obo/DRON_00001110) is asserted to be a subclass of `drug suspension`. However, you will also notice that it can be inferred to be a SubClassOf `cloxacillin suspension`:
 
 [[img/inferred_subs.png]]
@@ -57,6 +58,6 @@ _Note:_ When reviewing diffs, its good to keep in mind that lines starting with 
 - Review [release-to-merge diff (non DrOn (external stuff))](https://www.dropbox.com/s/8pt56w13o9dgzu8/release-diff-merged.txt?dl=0). This is a huge diff including axioms that are due to changes in imported ontologies. Of the roughly 99% of these changes are due to the refreshed CHEBI import (80K changes). We believe its worth trying to identify patterns in these changes, like missing properties. Not that this is using the exact same config as OMRSE, so Matt D. should be quite familiar reviewing these.
 - Review [release-to-build diff (non DrOn (external stuff)](https://www.dropbox.com/s/2z7eiv11k0ago11/release-diff-build.txt?dl=0). This (equally huge) diff includes all non-DrOn axioms that have changed between the current dron.owl release (from Bitbucket) and the _ODK-released_ version of DrOn. This is 99% redundant with the above release-to-merge diff, so we recommend to disregard it.
 - Become aware of issues we noticed during the work:
-  - [Has-proper-part and has-part usage Dron not compatible with RO](https://github.com/matentzn/dron/issues/3)
-  - [Dron uses BFO:0000053 which is neither in RO nor BFO](https://github.com/matentzn/dron/issues/1)
+    - [Has-proper-part and has-part usage Dron not compatible with RO](https://github.com/matentzn/dron/issues/3)
+    - [Dron uses BFO:0000053 which is neither in RO nor BFO](https://github.com/matentzn/dron/issues/1)
 - Close the unsatisfiable classes [issue](https://github.com/matentzn/dron/issues/2).

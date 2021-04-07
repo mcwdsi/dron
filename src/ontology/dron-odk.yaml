@@ -63,5 +63,6 @@ custom_makefile_header: |
   # 2. [Refresh imports](all_imports)
   # 3. [Update repo to latest ODK](update_repo)
 documentation:
+  documentation_system: mkdocs
 use_custom_import_module: TRUE
 create_obo_metadata: FALSE

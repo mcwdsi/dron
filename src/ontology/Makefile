@@ -64,7 +64,7 @@ RELEASE_ARTEFACTS = $(sort $(ONT)-base $(ONT)-full dron-lite $(ONT)-base $(ONT)-
 all: odkversion all_imports all_main all_subsets sparql_test all_reports all_assets
 
 .PHONY: test
-test: odkversion sparql_test all_reports
+test: odkversion sparql_test all_reports 
 	$(ROBOT) reason --input $(SRC) --reasoner ELK  --equivalent-classes-allowed all --exclude-tautologies structural --output test.owl && rm test.owl && echo "Success"
 
 .PHONY: odkversion
@@ -125,6 +125,13 @@ robot_reports: $(REPORT_FILES)
 
 .PHONY: all_reports
 all_reports: all_reports_onestep $(REPORT_FILES)
+
+$(REPORTDIR)/validate_profile_owl2dl_%.txt: % | $(REPORTDIR)
+	$(ROBOT) validate-profile --profile DL -i $< -o $@
+.PRECIOUS: $(REPORTDIR)/validate_profile_owl2dl_%.txt
+
+.PHONY: validate_profile_%
+validate_profile_%: $(REPORTDIR)/validate_profile_owl2dl_%.txt
 
 ## -- all files/assets --
 
@@ -534,5 +541,7 @@ update_repo:
 	sh $(SCRIPTSDIR)/update_repo.sh
 	
 
+update_docs:
+	mkdocs gh-deploy --config-file ../../mkdocs.yaml
 
 include dron.Makefile

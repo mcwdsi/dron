@@ -7,22 +7,18 @@ nav:
       - History: history.md
   - Editors Guide:
       - Standard ODK workflows:
+          - Overview: odk-workflows/index.md
           - Editors Workflow: odk-workflows/EditorsWorkflow.md
           - Release Workflow: odk-workflows/ReleaseWorkflow.md
           - Manage your ODK Repository: odk-workflows/RepoManagement.md
           - Setting up Docker for ODK: odk-workflows/SettingUpDockerForODK.md
           - Imports management: odk-workflows/UpdateImports.md
+          - Managing the documentation: odk-workflows/ManageDocumentation.md
+          - Continuous Integration: odk-workflows/ContinuousIntegration.md
+          - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md 
       - Contributing: contributing.md
-#  - Design Patterns:
-#    - Design Patterns Overview: design-patterns.md
-#  - Components
-#  - Imports
-#    - Modules Overview: modules.md
-#  - Mappings:
-#  - Semantics:
-#    - RO and BFO: ro-and-bfo.md
-#    - Temporal Semantics: temporal-semantics.md
-#  - Cite:
-#    cite.md
-#  - Contributing:
-#    - Editors guide: editing-ro.md
+      - Dron specific docs:
+          - DrOn Release Workflow: DronReleaseWorkflow.md
+          - Updateing DrOn components: UpdateComponents.md
+          - Notes on the 2021 Migration to ODK: MigrationNotes.md
+
