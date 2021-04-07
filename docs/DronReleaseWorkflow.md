@@ -2,12 +2,12 @@
 
 To create a new Dron release:
 
-1. [Update the external components](UpdateComponents.md)
-2. Import the external components
-3. Build the release files
-4. Create a GitHub release
+1. [Update the external components](#Update-the-external-components)
+2. [Import the external components](#Import-the-external-components)
+3. [Build the release files](#Build-the-release-files-and-create-a-GitHub-release)
+4. [Create a GitHub release](#Build-the-release-files-and-create-a-GitHub-release)
 
-## 1. Update the external components
+## Update the external components
 DrOn has three large external components:
 
 1. dron-rxnorm
@@ -49,7 +49,7 @@ This command will now download dron-ingredient.owl, dron-ndc.owl, dron-rxnorm.ow
 
 Follow the [default ODK release instructions](odk-workflows/ReleaseWorkflow.md).
 
-# Experimental workflow using GitHub client API (`gh`)
+### Experimental workflow using GitHub client API (`gh`)
 
 - Install the GitHub release client API: https://github.com/cli/cli#installation. Note, this is a highly experimental process that requires a bit of pioneers spirit. When we did it on 7th April 2021, we performed the following steps on a Ubuntu machine (see [here](https://github.com/cli/cli#installation) for instructions on other systems):
 
