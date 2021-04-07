@@ -42,6 +42,7 @@ The following section is intended as a guide for the DrOn team to fully migrate 
 1. Perform the repo review (see below)
 2. Migrate the GitHub repo to the `ufbmi` GitHub organisation
 3. Make a test release according [the instructions](DronReleaseWorkflow.md)
+4. If all good, change OBO foundry purls (Nico will do)
 
 If there are problems along the way, the Knocean team will help you sort them out.
 
