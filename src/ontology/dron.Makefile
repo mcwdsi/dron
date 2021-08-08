@@ -7,6 +7,10 @@
 #### Custom release artefacts ####
 ##################################
 
+define swap_chebi
+    $(ROBOT) rename -i $(1) --mappings mappings/dron-chebi-mapping.csv --allow-missing-entities true convert -f ofn -o $(1)
+endef
+
 # The following describes the definition of the dron-lite release. 
 # In essence we merge rxnorm, dron-ingredient, all imports and the edit file
 # (no NDC) and the run a regular full release.
@@ -22,8 +26,6 @@ dron-lite.owl: $(TMPDIR)/dron-edit_lite.owl
 		relax \
 		reduce -r ELK \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
-
-
 
 
 # export: $(TMPDIR)/export_dron-hand.tsv
@@ -89,8 +91,11 @@ download_components:
 	echo "Resetting components to the last release. This is usually only necessary when the project is cloned on a new machine."
 	mkdir -p $(COMPONENTSDIR)
 	wget $(DRON_NDC_RELEASE) -O $(COMPONENTSDIR)/dron-ndc.owl
+	$(call swap_chebi,$(COMPONENTSDIR)/dron-ndc.owl)
 	wget $(DRON_RXNORM_RELEASE) -O $(COMPONENTSDIR)/dron-rxnorm.owl
+	$(call swap_chebi,$(COMPONENTSDIR)/dron-rxnorm.owl)
 	wget $(DRON_INGREDIENTS_RELEASE) -O $(COMPONENTSDIR)/dron-ingredient.owl
+	$(call swap_chebi,$(COMPONENTSDIR)/dron-ingredient.owl)
 
 
 ################################
@@ -145,3 +150,7 @@ tmp/dron_unsat.ofn: $(SRC)
   -M unsatisfiability --unsatisfiable all --explanation $@.md \
     annotate --ontology-iri "$(ONTBASE)/$@" \
     --output $@
+
+.PHONY: swap_chebi_in_edit
+swap_chebi_in_edit:
+	 $(call swap_chebi,$(SRC))
