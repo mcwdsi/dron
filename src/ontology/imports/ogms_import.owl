@@ -9,9 +9,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dron/imports/ogms_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/dron/releases/2021-04-01/imports/ogms_import.owl"/>
-        <dc:source rdf:resource="https://github.com/OGMS/ogms/releases/tag/2020-07-06"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-04-01</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/dron/releases/2021-08-12/imports/ogms_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/ogms/2021-06-28/ogms.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-08-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -62,16 +62,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://code.google.com/p/ogms/issues/detail?id=35</obo:IAO_0000119>
