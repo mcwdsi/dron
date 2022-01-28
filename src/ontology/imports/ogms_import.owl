@@ -9,9 +9,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dron/imports/ogms_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/dron/releases/2021-10-20/imports/ogms_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/dron/releases/2022-01-28/imports/ogms_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-10-20</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-28</owl:versionInfo>
     </owl:Ontology>
     
 
