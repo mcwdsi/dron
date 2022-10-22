@@ -8,7 +8,7 @@
 ##################################
 
 define swap_chebi
-    $(ROBOT) rename -i $(1) --mappings mappings/dron-chebi-mapping.csv --allow-missing-entities true convert -f ofn -o $(1)
+    $(ROBOT) rename -i $(1) --mappings mappings/dron-chebi-mapping.csv --allow-missing-entities true --allow-duplicates true convert -f ofn -o $(1)
 endef
 
 # The following describes the definition of the dron-lite release. 
