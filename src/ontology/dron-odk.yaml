@@ -39,11 +39,11 @@ import_group:
     - id: omo
       module_type: mirror
     - id: chebi
-      module_type: filter
+      module_type: slme
       is_large: TRUE
       use_gzipped: TRUE
     - id: pr
-      module_type: filter
+      module_type: slme
       is_large: TRUE
       use_gzipped: TRUE
 components:
