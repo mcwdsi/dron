@@ -270,8 +270,17 @@ Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00001509>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00001510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00001511>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00016478>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00017257>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00018161>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00020327>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00020594>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00023263>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00023291>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00023294>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00023437>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00030878>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00031260>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00730857>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00750806>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005488>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005515>))
@@ -342,11 +351,11 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference"^^xsd:string)
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym"^^xsd:string)
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has narrow synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has_narrow_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has_narrow_synonym"^^xsd:string)
 
@@ -354,7 +363,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace"^^xsd:string)
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has related synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym"^^xsd:string)
 
@@ -446,7 +455,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_10100> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_10112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000062>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_111762> (Nordazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_111762> (nordazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_111762> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -462,39 +471,39 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135556> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_15407> (Ephedrine)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_15407> ((-)-ephedrine)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000064>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_16962> (Cortisone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_16962> (cortisone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16962> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_17650> (Hydrocortisone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_17650> (cortisol)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_17650> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_2611> (Alprazolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_2611> (alprazolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_2611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_27732> (Caffeine)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_27732> (caffeine)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27732> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000071>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_28177> (Theophylline)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_28177> (theophylline)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_28177> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000070>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3001> (Beclomethasone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3001> (beclomethasone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3013> (Bendroflumethiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3013> (bendroflumethiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3077> (Betamethasone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3077> (betamethasone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
@@ -502,11 +511,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3077> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_31308> (brotizolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_31308> (Brotizolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_31397> (ciclesonide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_31397> (Ciclesonide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31397> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
@@ -514,7 +523,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31397> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_31425> (clotiazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_31425> (Clotiazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31425> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -526,7 +535,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31426> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31448> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_31622> (Flunitrazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_31622> (flunitrazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -534,43 +543,43 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31622> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31807> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3207> (Budesonide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3207> (budesonide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3207> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3611> (Chlordiazepoxide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3611> (chlordiazepoxide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3640> (Chlorothiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3640> (chlorothiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3640> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3654> (Chlorthalidone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3654> (chlorthalidone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3654> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3756> (Clonazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3756> (clonazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3756> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_41879> (Dexamethasone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_41879> (dexamethasone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_41879> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_4728> (Dyphylline)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_4728> (dyphylline)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_4728> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000068>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_4858> (Estazolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_4858> (estazolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_4858> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_4876> (Ethacrynate)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_4876> (etacrynic acid)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_4876> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00020327>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_49575> (Diazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_49575> (diazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_49575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -578,7 +587,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_49575> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50730> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000063>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5103> (Flumazenil)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5103> (flumazenil)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5103> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -586,7 +595,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5103> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5128> (Flurazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5128> (flurazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -598,35 +607,35 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5134> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000061>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_52993> (Lorazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_52993> (lormetazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_52993> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5603> (halazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5603> (Halazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5603> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5778> (Hydrochlorothiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5778> (hydrochlorothiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5778> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5784> (Hydroflumethiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5784> (hydroflumethiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5784> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5893> (Indapamide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5893> (indapamide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5893> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5956> (Ipratropium)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5956> (ipratropium)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5956> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000066>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_59590> (clorazepate)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_59590> (clorazepic acid anion)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_59590> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_64354> (Metolazone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64354> (metolazone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64354> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
@@ -638,19 +647,23 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6792> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6847> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_6888> (Methylprednisolone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_6888> (6alpha-methylprednisolone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6888> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_6931> (Midazolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_6931> (midazolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_6970> (Mometasone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_6970> (mometasone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6970> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_7823> (Oxazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_76230> (meclofenamic acid(1-))
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_76230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000062>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_7823> (oxazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_7823> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -662,11 +675,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8327> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8362> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_8382> (Prednisone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_8382> (prednisone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8382> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_8694> (quazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_8694> (Quazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8694> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -674,7 +687,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8694> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8717> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_8746> (Levalbuterol)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_8746> ((R)-salbutamol)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8746> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000061>))
 
@@ -682,19 +695,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8746> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9435> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9449> (Terbutaline)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9449> (terbutaline)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9449> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000061>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9667> (Triamcinolone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9667> (triamcinolone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9667> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000067>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9674> (Triazolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9674> (triazolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9674> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9683> (Trichlormethiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9683> (trichlormethiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9683> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
@@ -978,7 +991,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000032> "d
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000032> <http://purl.obolibrary.org/obo/BFO_0000034>)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000032> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/DRON_00000005>)))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000033> (anti-malarial function of a drug product)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000033> (anti-malarial function)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000033> "anti-malarial function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000033> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in creation of a material basis of a resistance to malaria infection disposition"@en)
@@ -988,7 +1001,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000033> "anti-malarial function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000033> <http://purl.obolibrary.org/obo/DRON_00000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000034> (anti-hypertensive function of a drug product)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000034> (anti-hypertensive function)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000034> "anti-hypertensive function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000034> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in a decrease of systemic arterial pressure"@en)
@@ -997,7 +1010,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000034> "anti-hypertensive function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000034> <http://purl.obolibrary.org/obo/DRON_00000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000035> (analgesic function of a drug product)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000035> (analgesic function)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000035> "analgesic function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000035> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in blocked realization of a disposition to pain"@en)
@@ -1454,7 +1467,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000500> <http://purl.obolibrar
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000501> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000501> "gentian violet solution"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000501> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/DRON_00017257>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000501> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_41688>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000501> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000502> (ciprofloxacin tablet)
@@ -2011,47 +2024,39 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001511> "s
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001511> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_2549>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001511> <http://purl.obolibrary.org/obo/DRON_00000021>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00015310> (Metaclazepam hydrochloride)
-
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00015310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
-
-# Class: <http://purl.obolibrary.org/obo/DRON_00018872> (Meclofenamate)
-
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00018872> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000062>))
-
-# Class: <http://purl.obolibrary.org/obo/DRON_00020594> (Hydroflumethiazide Oral Tablet)
+# Class: <http://purl.obolibrary.org/obo/DRON_00020594> (<http://purl.obolibrary.org/obo/DRON_00020594>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00020594> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023263> (quinethazone Oral Tablet)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023263> (<http://purl.obolibrary.org/obo/DRON_00023263>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023291> (Hydroflumethiazide / Reserpine Oral Tablet)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023291> (<http://purl.obolibrary.org/obo/DRON_00023291>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023294> (quinethazone / Reserpine Oral Tablet)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023294> (<http://purl.obolibrary.org/obo/DRON_00023294>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023294> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023437> (Hydroflumethiazide / Spironolactone Oral Tablet)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023437> (<http://purl.obolibrary.org/obo/DRON_00023437>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023437> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00030878> (Ethacrynate Oral Tablet)
+# Class: <http://purl.obolibrary.org/obo/DRON_00030878> (<http://purl.obolibrary.org/obo/DRON_00030878>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00030878> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00031260> (Hydroflumethiazide / Potassium / Rauwolfia preparation Oral Tablet)
+# Class: <http://purl.obolibrary.org/obo/DRON_00031260> (<http://purl.obolibrary.org/obo/DRON_00031260>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00031260> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00730857> (mepolizumab)
+# Class: <http://purl.obolibrary.org/obo/DRON_00730857> (<http://purl.obolibrary.org/obo/DRON_00730857>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00730857> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000069>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00750806> (Zolazepam)
+# Class: <http://purl.obolibrary.org/obo/DRON_00750806> (<http://purl.obolibrary.org/obo/DRON_00750806>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00750806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
