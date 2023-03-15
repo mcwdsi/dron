@@ -269,7 +269,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00001508>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00001509>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00001510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00001511>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00016478>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00018161>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00020327>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00020594>))
@@ -1721,7 +1720,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001110> <http://purl.obolibrar
 
 AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001111> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001111> "Mefenamic acid tablet"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001111> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/DRON_00016478>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001111> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_6717>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001111> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001112> (Gentamicin solution)
