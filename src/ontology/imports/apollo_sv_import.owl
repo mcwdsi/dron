@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/apollo_sv_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2023-03-10/imports/apollo_sv_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/apollo_sv/releases/v2023-01-10/apollo_sv.owl>)
-Annotation(owl:versionInfo "2023-03-10")
+<http://purl.obolibrary.org/obo/dron/releases/2023-05-19/imports/apollo_sv_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/apollo_sv/releases/2023-05-05/apollo_sv.owl>)
+Annotation(owl:versionInfo "2023-05-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/APOLLO_SV_00000145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/APOLLO_SV_00000335>))
@@ -25,6 +25,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://www.referent-tracking.com/RTS_00000001>))
 Declaration(AnnotationProperty(<http://www.referent-tracking.com/RTS_00000002>))
@@ -60,7 +61,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "As with all dispositions, chemical resistance need not be realized to exist.  The presence of cholorquine confers this disposition even if the person is never bitten by a mosquito, let alone a malaria-laden mosquito."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "Examples: chemoprophylaxis of malaria with chloroquine, treatment of infections with antibiotics, antiviral treatment"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> "chemical resistance to infection"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/APOLLO_SV_00000335> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145>)
 
 # Class: <http://purl.obolibrary.org/obo/APOLLO_SV_00000336> (resistance to malaria infection)
 
