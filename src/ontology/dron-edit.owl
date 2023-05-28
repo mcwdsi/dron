@@ -344,35 +344,35 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#sho
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> (has_alternative_id)
 
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "has_alternative_id"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "has_alternative_id")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
 
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
 
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has_narrow_synonym)
 
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has_narrow_synonym"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has_narrow_synonym")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
 
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
 
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#inSubset> (in_subset)
 
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#shorthand> (shorthand)
 
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#shorthand> "shorthand"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#shorthand> "shorthand")
 
 # Annotation Property: rdfs:label (label)
 
@@ -417,7 +417,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obo
 
 # Object Property: <http://www.obofoundry.org/ro/ro.owl#has_part> (has_part)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.obofoundry.org/ro/ro.owl#has_part> "http://purl.org/obo/owl/relationship"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.obofoundry.org/ro/ro.owl#has_part> "http://purl.org/obo/owl/relationship")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://www.obofoundry.org/ro/ro.owl#has_part> "OBO_REL:0000003")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://www.obofoundry.org/ro/ro.owl#has_part> "relationship")
 AnnotationAssertion(rdfs:label <http://www.obofoundry.org/ro/ro.owl#has_part> "has_part"@en)
@@ -425,7 +425,7 @@ SubObjectPropertyOf(<http://www.obofoundry.org/ro/ro.owl#has_part> owl:topObject
 
 # Object Property: <http://www.obofoundry.org/ro/ro.owl#has_proper_part> (has_proper_part)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.obofoundry.org/ro/ro.owl#has_proper_part> "http://purl.org/obo/owl/relationship"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.obofoundry.org/ro/ro.owl#has_proper_part> "http://purl.org/obo/owl/relationship")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://www.obofoundry.org/ro/ro.owl#has_proper_part> "OBO_REL:0000007")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://www.obofoundry.org/ro/ro.owl#has_proper_part> "relationship")
 AnnotationAssertion(rdfs:label <http://www.obofoundry.org/ro/ro.owl#has_proper_part> "has_proper_part"@en)
@@ -446,6 +446,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 #   Classes
 ############################
 
+# Class: <http://purl.obolibrary.org/obo/APOLLO_SV_00000335> (chemical resistance to infection)
+
+SubClassOf(<http://purl.obolibrary.org/obo/APOLLO_SV_00000335> <http://purl.obolibrary.org/obo/APOLLO_SV_00000145>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_10100> (zafirlukast)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_10100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000063>))
@@ -454,7 +458,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_10100> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_10112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000062>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_111762> (nordazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_111762> (Nordazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_111762> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -466,43 +470,43 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135198> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (metaclazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (Metaclazepam hydrochloride)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_15407> ((-)-ephedrine)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_15407> (Ephedrine)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000064>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_16962> (cortisone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_16962> (Cortisone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16962> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_17650> (cortisol)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_17650> (Hydrocortisone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_17650> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_2611> (alprazolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_2611> (Alprazolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_2611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_27732> (caffeine)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_27732> (Caffeine)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27732> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000071>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_28177> (theophylline)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_28177> (Theophylline)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_28177> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000070>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3001> (beclomethasone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3001> (Beclomethasone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3013> (bendroflumethiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3013> (Bendroflumethiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3077> (betamethasone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3077> (Betamethasone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
@@ -510,11 +514,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3077> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_31308> (Brotizolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_31308> (brotizolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_31397> (Ciclesonide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_31397> (ciclesonide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31397> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
@@ -522,7 +526,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31397> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_31425> (Clotiazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_31425> (clotiazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31425> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -534,7 +538,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31426> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31448> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_31622> (flunitrazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_31622> (Flunitrazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31622> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -542,43 +546,47 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31622> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_31807> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3207> (budesonide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3207> (Budesonide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3207> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3611> (chlordiazepoxide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3611> (Chlordiazepoxide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3640> (chlorothiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36342> (subatomic particle)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36342> <http://purl.obolibrary.org/obo/CHEBI_24431>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3640> (Chlorothiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3640> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3654> (chlorthalidone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3654> (Chlorthalidone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3654> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_3756> (clonazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_3756> (Clonazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_3756> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_41879> (dexamethasone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_41879> (Dexamethasone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_41879> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_4728> (dyphylline)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_4728> (Dyphylline)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_4728> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000068>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_4858> (estazolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_4858> (Estazolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_4858> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_4876> (etacrynic acid)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_4876> (Ethacrynate)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_4876> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00020327>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_49575> (diazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_49575> (Diazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_49575> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -586,7 +594,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_49575> ObjectSomeValuesFrom(<ht
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50730> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000063>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5103> (flumazenil)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50906> (role)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50906> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5103> (Flumazenil)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5103> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -594,7 +606,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5103> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5128> (flurazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5128> (Flurazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -606,35 +618,35 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5134> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000061>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_52993> (lormetazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_52993> (Lorazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_52993> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5603> (Halazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5603> (halazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5603> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5778> (hydrochlorothiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5778> (Hydrochlorothiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5778> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5784> (hydroflumethiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5784> (Hydroflumethiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5784> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5893> (indapamide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5893> (Indapamide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5893> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5956> (ipratropium)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5956> (Ipratropium)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5956> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000066>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_59590> (clorazepic acid anion)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_59590> (clorazepate)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_59590> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_64354> (metolazone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_64354> (Metolazone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64354> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
@@ -646,23 +658,23 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6792> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6847> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_6888> (6alpha-methylprednisolone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_6888> (Methylprednisolone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6888> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_6931> (midazolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_6931> (Midazolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_6970> (mometasone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_6970> (Mometasone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6970> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_76230> (meclofenamic acid(1-))
+# Class: <http://purl.obolibrary.org/obo/CHEBI_76230> (Meclofenamate)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_76230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000062>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_7823> (oxazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_7823> (Oxazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_7823> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -674,11 +686,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8327> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8362> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_8382> (prednisone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_8382> (Prednisone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8382> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_8694> (Quazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_8694> (quazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8694> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -686,7 +698,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8694> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8717> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_8746> ((R)-salbutamol)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_8746> (Levalbuterol)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8746> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000061>))
 
@@ -694,19 +706,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8746> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9435> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9449> (terbutaline)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9449> (Terbutaline)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9449> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000061>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9667> (triamcinolone)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9667> (Triamcinolone)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9667> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000067>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9674> (triazolam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9674> (Triazolam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9674> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9683> (trichlormethiazide)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9683> (Trichlormethiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9683> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
 
@@ -989,8 +1001,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000032> "drug product therapeutic function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000032> <http://purl.obolibrary.org/obo/BFO_0000034>)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000032> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/DRON_00000005>)))
+SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000032> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/GO_0050886>)))))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000033> (anti-malarial function)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000033> (anti-malarial function of a drug product)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000033> "anti-malarial function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000033> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in creation of a material basis of a resistance to malaria infection disposition"@en)
@@ -1000,7 +1013,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000033> "anti-malarial function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000033> <http://purl.obolibrary.org/obo/DRON_00000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000034> (anti-hypertensive function)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000034> (anti-hypertensive function of a drug product)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000034> "anti-hypertensive function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000034> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in a decrease of systemic arterial pressure"@en)
@@ -1009,7 +1022,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000034> "anti-hypertensive function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000034> <http://purl.obolibrary.org/obo/DRON_00000032>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000035> (analgesic function)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000035> (analgesic function of a drug product)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000035> "analgesic function of a drug product"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000035> "a therapeutic function of a drug product that is realized by administration of the drug product resulting in blocked realization of a disposition to pain"@en)
@@ -1138,7 +1151,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000042> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000042> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000042> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000042> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000042> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000042> "An administration coating is one that somehow improves administration of the drug, by for example making insertion or consumption of the drug easier or masking undesirable flavors."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000042> "administration coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000042> <http://purl.obolibrary.org/obo/DRON_00000056>)
@@ -1150,7 +1163,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000043> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000043> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000043> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000043> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000043> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000043> "Flavored coatings make it more palatable to consume a drug product by improving its taste, often by masking the unpleasant taste of the active ingredients."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000043> "flavor coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000043> <http://purl.obolibrary.org/obo/DRON_00000042>)
@@ -1162,7 +1175,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000044> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000044> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000044> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000044> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000044> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000044> "A lubricant coating makes it easier to consume or insert a drug product by decreasing the friction or adhesion between the drug preparation and some body part such as the throat or esophagus."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000044> "lubricant coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000044> <http://purl.obolibrary.org/obo/DRON_00000042>)
@@ -1174,7 +1187,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000045> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000045> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000045> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000045> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000045> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000045> "Colored excipients are added to a drug preparation to make various kinds of drugs more easily identifiable by sight to decrease the possibility of using the wrong dosage or wrong drug product altogether."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000045> "color excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000045> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1186,7 +1199,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000046> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000046> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000046> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000046> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000046> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000046> "Like a flavored coating, a flavored excipient is added to the drug preparation to make it more palatable. This is especially important for drug products targeted towards children to make administration easier."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000046> "flavor excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000046> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1198,7 +1211,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000047> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000047> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000047> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000047> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000047> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000047> "A disintegrant is added to a drug preparation to cause it to break apart whenever it is introduced to moisture. A disintegrant can improve administration (such as oral medications that dissolve in the mouth) or improve uptake of active ingredients for example, in the intestine."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000047> "disintegrant excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000047> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1210,7 +1223,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000048> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000048> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000048> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000048> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000048> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000048> "Preservatives are added to a drug preparation to increase the lifetime of the drug preparation. Examples include antioxidants such as ascorbic acid that prevent oxidation-reduction reactions that change active ingredients into inactive compounds and methyl paraben which is an antimicrobial preservative."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000048> "preservative excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000048> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1222,7 +1235,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000049> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000049> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000049> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000049> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000049> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000049> "Sorbents are added to protect the drug preparation from destruction or disintegration by water. A common example is a desiccant, which is a sorbent that prevents absorption of water into the drug product."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000049> "sorbent excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000049> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1234,7 +1247,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000050> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000050> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000050> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000050> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000050> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000050> "Generally, vehicles are the media in which the active ingredient is dispersed to facilitate the active ingredient reaching its intended target tissue. For example, active ingredients that exist in solid form such as a powder cannot be directly injected intravenously without causing damage to veins or becoming emboli that cause damage to the lungs. Thus they are dissolved in solution for safe and proper administration. Other examples of vehicles include creams, ointments, lotions, gels, and solvents for ophthalmic, otic, and oral solutions."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000050> "vehicle excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000050> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1246,7 +1259,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000051> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000051> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000051> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000051> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000051> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000051> "Lubricant excipients are added to drug products to prevent ingredients from sticking to themselves (cohesion) and to other things with which they come into contact (adhesion). Common lubricants are minerals like magnesium stearate."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000051> "lubricant excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000051> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1258,7 +1271,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000052> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000052> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000052> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000052> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000052> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000052> "A glidant is added to a drug product to reduce cohesion and interparticle friction. Common glidants are talc and magnesium carbonate."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000052> "glidant excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000052> <http://purl.obolibrary.org/obo/DRON_00000051>)
@@ -1270,7 +1283,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000053> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000053> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000053> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000053> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000053> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000053> "Anti-adherents are added to drug products to decrease the tendency of drug molecules to adhere to manufacturing equipment or some body part such as the throat or esophagus during swallowing."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000053> "anti-adherent excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000053> <http://purl.obolibrary.org/obo/DRON_00000051>)
@@ -1282,7 +1295,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000054> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000054> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000054> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000054> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000054> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000054> "Anti-friction excipients are added to decrease either internal friction (i.e., friction between ingredient parti- cles) or friction between the drug ingredients or product and some other object, such as manufacturing equip- ment or some body part."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000054> "anti-friction excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000054> <http://purl.obolibrary.org/obo/DRON_00000051>)
@@ -1294,7 +1307,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000055> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000055> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000055> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000055> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000055> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000055> "Binding excipients are added to drug preparations to 1) bind active ingredients together, and 2) increase the volume of the preparation (which is especially important for formulations with otherwise small volumes). Common binding agents are saccharides (like sucrose) or synthetic compounds like polyethylene glycol."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000055> "binding excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000055> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1306,7 +1319,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000056> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000056> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000056> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000056> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000056> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000056> "Coatings are extremely common excipients, added to protect the drug preparation from destruction or contamination, to ease administration by making it easier to consume, or to improve flavor."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000056> "coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000056> <http://purl.obolibrary.org/obo/DRON_00000029>)
@@ -1318,7 +1331,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000057> "Jiang Bian"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000057> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000057> "William R. Hogan"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000057> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000057> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000057> "A protective coating acts against destruction or contamination of a drug preparation by keeping the other drug ingredients, especially active ingredients, away from potentially reactive substances like oxygen, water, and various forms of electromagnetic radiation (e.g., light)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000057> "protective coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000057> <http://purl.obolibrary.org/obo/DRON_00000056>)
@@ -1331,7 +1344,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000058> "Josh Hanna"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000058> "William R. Hogan"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00000058> "enteric coating"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000058> "doi: 10.1186/s13326-016-0048-2"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/DRON_00000058> "doi: 10.1186/s13326-016-0048-2")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000058> "An enteric coating also protects the drug preparation from destruction or contamination, but also is designed to disintegrate on a controlled timeline or in a particular place. For instance, some enteric coatings are designed to withstand the relatively low PH of the stomach, but break down in the relatively high PH of the large intestine, allowing an ingredient that would otherwise be destroyed by or absorbed by the stomach to be absorbed in the intestine."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000058> "enteric coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000058> <http://purl.obolibrary.org/obo/DRON_00000057>)
@@ -2023,39 +2036,39 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001511> "s
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001511> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_2549>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001511> <http://purl.obolibrary.org/obo/DRON_00000021>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00020594> (<http://purl.obolibrary.org/obo/DRON_00020594>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00020594> (Hydroflumethiazide Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00020594> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023263> (<http://purl.obolibrary.org/obo/DRON_00023263>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023263> (quinethazone Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023291> (<http://purl.obolibrary.org/obo/DRON_00023291>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023291> (Hydroflumethiazide / Reserpine Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023294> (<http://purl.obolibrary.org/obo/DRON_00023294>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023294> (quinethazone / Reserpine Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023294> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023437> (<http://purl.obolibrary.org/obo/DRON_00023437>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023437> (Hydroflumethiazide / Spironolactone Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023437> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00030878> (<http://purl.obolibrary.org/obo/DRON_00030878>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00030878> (Ethacrynate Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00030878> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00031260> (<http://purl.obolibrary.org/obo/DRON_00031260>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00031260> (Hydroflumethiazide / Potassium / Rauwolfia preparation Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00031260> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00730857> (<http://purl.obolibrary.org/obo/DRON_00730857>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00730857> (mepolizumab)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00730857> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000069>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00750806> (<http://purl.obolibrary.org/obo/DRON_00750806>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00750806> (Zolazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00750806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -2085,6 +2098,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_plant>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_pombe>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go#goslim_yeast>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0019899> (enzyme binding)
 
