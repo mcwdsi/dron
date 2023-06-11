@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/ro_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2023-05-19/imports/ro_import.owl>
+<http://purl.obolibrary.org/obo/dron/releases/2023-06-11/imports/ro_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl>)
-Annotation(owl:versionInfo "2023-05-19")
+Annotation(owl:versionInfo "2023-06-11")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -22,6 +22,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50906>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016301>))
@@ -1564,6 +1565,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000034> <http://purl.obolibrary.
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000040> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50906> (<http://purl.obolibrary.org/obo/CHEBI_50906>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50906> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
 
