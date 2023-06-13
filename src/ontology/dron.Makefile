@@ -96,7 +96,9 @@ download_components:
 	$(call swap_chebi,$(COMPONENTSDIR)/dron-rxnorm.owl)
 	wget $(DRON_INGREDIENTS_RELEASE) -O $(COMPONENTSDIR)/dron-ingredient.owl
 	$(call swap_chebi,$(COMPONENTSDIR)/dron-ingredient.owl)
-
+	grep -v "SubClassOf.*CHEBI_.*/OBI_0000047" components/dron-ingredient.owl > components/dron-ingredient-remediated.owl
+	mv components/dron-ingredient.owl components/dron-ingredient-initial.owl
+	mv components/dron-ingredient-remediated.owl components/dron-ingredient.owl 
 
 ################################
 ## From March 2021 Migration ###
