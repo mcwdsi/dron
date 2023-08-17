@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/go_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2023-06-11/imports/go_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/go/releases/2023-05-10/go.owl>)
-Annotation(owl:versionInfo "2023-06-11")
+<http://purl.obolibrary.org/obo/dron/releases/2023-08-17/imports/go_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/go/releases/2023-07-27/go.owl>)
+Annotation(owl:versionInfo "2023-08-17")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005488>))
@@ -19,6 +19,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019899>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032501>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050886>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002161>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#goslim_candida>))
