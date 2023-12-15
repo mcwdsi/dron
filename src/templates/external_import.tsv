@@ -4,6 +4,7 @@ owl:Thing	owl:Class
 APOLLO_SV:00000145	owl:Class
 APOLLO_SV:00000335	owl:Class
 APOLLO_SV:00000336	owl:Class
+BFO:0000031	owl:Class
 BFO:0000050	owl:ObjectProperty
 BFO:0000051	owl:ObjectProperty
 BFO:0000053	owl:ObjectProperty
