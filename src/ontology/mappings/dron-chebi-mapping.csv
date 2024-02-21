@@ -310,7 +310,6 @@ http://purl.obolibrary.org/obo/DRON_00012332,http://purl.obolibrary.org/obo/CHEB
 http://purl.obolibrary.org/obo/DRON_00012398,http://purl.obolibrary.org/obo/CHEBI_23334
 http://purl.obolibrary.org/obo/DRON_00012403,http://purl.obolibrary.org/obo/CHEBI_2674
 http://purl.obolibrary.org/obo/DRON_00012411,http://purl.obolibrary.org/obo/CHEBI_91090
-http://purl.obolibrary.org/obo/DRON_00012429,http://purl.obolibrary.org/obo/CHEBI_50114
 http://purl.obolibrary.org/obo/DRON_00012430,http://purl.obolibrary.org/obo/CHEBI_4882
 http://purl.obolibrary.org/obo/DRON_00012431,http://purl.obolibrary.org/obo/CHEBI_134857
 http://purl.obolibrary.org/obo/DRON_00012434,http://purl.obolibrary.org/obo/CHEBI_81568
@@ -2155,3 +2154,8 @@ http://purl.obolibrary.org/obo/DRON_00016478,http://purl.obolibrary.org/obo/CHEB
 http://purl.obolibrary.org/obo/DRON_00973902,http://purl.obolibrary.org/obo/CHEBI_30512
 http://purl.obolibrary.org/obo/DRON_00980172,http://purl.obolibrary.org/obo/CHEBI_194186
 http://purl.obolibrary.org/obo/DRON_00980177,http://purl.obolibrary.org/obo/CHEBI_86567
+http://purl.obolibrary.org/obo/DRON_00994954,http://purl.obolibrary.org/obo/CHEBI_229233
+http://purl.obolibrary.org/obo/DRON_00994948,http://purl.obolibrary.org/obo/CHEBI_229236
+http://purl.obolibrary.org/obo/DRON_00993044,http://purl.obolibrary.org/obo/CHEBI_229212
+http://purl.obolibrary.org/obo/DRON_00993039,http://purl.obolibrary.org/obo/CHEBI_6700
+http://purl.obolibrary.org/obo/DRON_00994955,http://purl.obolibrary.org/obo/CHEBI_229225
