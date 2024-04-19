@@ -1,0 +1,22 @@
+curie	label
+DRON:00000033	anti-malarial function
+DRON:00000034	anti-hypertensive function
+DRON:00000035	analgesic function
+DRON:00000036	function-inhibiting mu receptor binding disposition
+DRON:00000037	function-activating mu receptor binding disposition
+DRON:00000038	function-inhibiting delta receptor binding disposition
+DRON:00000039	function-activating delta receptor binding disposition
+DRON:00000040	function-inhibiting kappa receptor binding disposition
+DRON:00000041	function-activating kappa receptor binding disposition
+DRON:00020323	non-activating competitive beta-adrenergic receptor binding disposition
+DRON:00020324	function-inhibiting hydrogen/potassium adenosine triphosphatase enzyme (H+/K+ ATPase) binding disposition
+DRON:00020325	function-inhibiting L-type voltage-gated calcium channel binding disposition
+DRON:00020326	function-inhibiting vitamin K epoxide reductase binding disposition
+DRON:00020327	function-inhibiting Na-K-Cl cotransporter 2 (NKCC2) binding disposition
+DRON:00020328	function-inhibiting T-type calcium channel binding disposition
+DRON:00698710	function-inhibiting cytochrome P450 2C19 (CYP2C19) binding disposition
+DRON:00723853	function-inhibiting angiotensin-converting enzyme binding disposition
+DRON:00723854	function-inhibiting cytochrome P450 2D6 (CYP2D6) binding disposition
+DRON:00723855	cytochrome P450 isoenzyme 2C19 (CYP2C19) substrate disposition
+DRON:00723856	cytochrome P450 isoenzyme 2D6 (CYP2D6) substrate disposition
+DRON:00724207	function-inhibiting angiotensin receptor binding disposition
