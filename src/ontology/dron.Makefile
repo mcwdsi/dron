@@ -28,7 +28,7 @@ dron-lite.owl: $(TMPDIR)/dron-edit_lite.owl
 ###################################
 
 $(TMPDIR)/ldtab.jar: | $(TMPDIR)
-	wget https://github.com/ontodev/ldtab.clj/releases/download/v2023-12-21/ldtab.jar -O $@
+	wget https://github.com/ontodev/ldtab.clj/releases/download/v2024-05-14/ldtab.jar -O $@
 
 LDTAB := java -jar $(TMPDIR)/ldtab.jar
 
@@ -39,14 +39,14 @@ $(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-
 	sqlite3 $@ < $(word 2,$^)
 
 # Convert DrOn template tables to LDTab format tables.
-$(TMPDIR)/ldtab.db: $(TMPDIR)/dron.db $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/create-statement-table.sql $(SCRIPTSDIR)/convert-dron-ldtab.sql | $(TMPDIR)/ldtab.jar
+$(TMPDIR)/ldtab.db: $(TMPDIR)/dron.db $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/convert-dron-ldtab.sql | $(TMPDIR)/ldtab.jar
+	$(eval DB=$@)
 	rm -f $@
-	$(LDTAB) init $@
+	$(LDTAB) init $(DB) --table dron_ingredient
+	$(LDTAB) init $(DB) --table dron_rxnorm
+	$(LDTAB) init $(DB) --table dron_ndc
 	$(LDTAB) prefix $@ $(word 2,$^)
-	sed 's/statement/dron_ingredient/' $(word 3,$^) | sqlite3 $@
-	sed 's/statement/dron_rxnorm/' $(word 3,$^) | sqlite3 $@
-	sed 's/statement/dron_ndc/' $(word 3,$^) | sqlite3 $@
-	sqlite3 $@ < $(word 4,$^)
+	sqlite3 $@ < $(word 3,$^)
 
 # Export an LDTab table to Turtle format.
 $(COMPONENTSDIR)/dron-%.ttl: $(TMPDIR)/ldtab.db | $(COMPONENTSDIR)
@@ -107,21 +107,13 @@ reverse: $(TMPDIR)/reverse.db
 $(COMPONENTSDIR)/dron-%.tsv: $(COMPONENTSDIR)/dron-%.owl
 	$(eval DB=$(TMPDIR)/ldtab.db)
 	rm -f $@
-	$(LDTAB) export $(DB) $@ --table dron_$*
-	head -n1 $@ > $@.head
-	tail -n+2 $@ | sort > $@.rest
-	cat $@.head $@.rest > $@
-	rm $@.head $@.rest
+	$(LDTAB) export $(DB) $@ --table dron_$* --sort
 
 .PRECIOUS: $(TMPDIR)/reverse/dron-%.tsv
 $(TMPDIR)/reverse/dron-%.tsv: | $(TMPDIR)/reverse.db
 	$(eval DB=$|)
 	rm -f $@
-	$(LDTAB) export $(DB) $@ --table dron_$*
-	head -n1 $@ > $@.head
-	tail -n+2 $@ | sort > $@.rest
-	cat $@.head $@.rest > $@
-	rm $@.head $@.rest
+	$(LDTAB) export $(DB) $@ --table dron_$* --sort
 
 $(TMPDIR)/%.tsv.diff: $(TMPDIR)/reverse/%.tsv $(COMPONENTSDIR)/%.tsv
 	-diff -u $^ > $@
