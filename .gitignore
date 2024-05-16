@@ -55,6 +55,7 @@ dron-base.*
 dron-full.*
 
 src/ontology/archive
+src/ontology/components
 src/patterns
 dron-lite.json
 dron-lite.obo

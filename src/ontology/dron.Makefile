@@ -7,10 +7,6 @@
 #### Custom release artefacts ####
 ##################################
 
-define swap_chebi
-    $(ROBOT) rename -i $(1) --mappings mappings/dron-chebi-mapping.csv --allow-missing-entities true --allow-duplicates true convert -f ofn -o $(1)
-endef
-
 # The following describes the definition of the dron-lite release. 
 # In essence we merge rxnorm, dron-ingredient, all imports and the edit file
 # (no NDC) and the run a regular full release.
@@ -27,132 +23,103 @@ dron-lite.owl: $(TMPDIR)/dron-edit_lite.owl
 		reduce -r ELK \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
+###################################
+#### Create OWL from templates ####
+###################################
 
-# export: $(TMPDIR)/export_dron-hand.tsv
-# 
-# $(TMPDIR)/export_dron-%.tsv: $(COMPONENTSDIR)/dron-%.owl | $(TMPDIR)
-# 	$(ROBOT) export --input $< \
-#   --header "ID|Type|LABEL|has_obo_namespace|SubClass Of|definition|hasDbXref|comment|hasExactSynonym|has_narrow_synonym|hasRelatedSynonym|created_by|creation_date|in_subset|has_alternative_id" \
-#   --include "classes properties" \
-#   --export $@
-# reports/dron-%.tsv: $(COMPONENTSDIR)/dron-%.owl
-# 	$(ROBOT) query -i $< --query ../sparql/dron-$*.sparql $@
-# 	cat $@ | sed 's|http://purl.obolibrary.org/obo/DRON_|DRON:|g' | sed 's|http://purl.obolibrary.org/obo/CHEBI_|CHEBI:|g' | sed 's|http://purl.obolibrary.org/obo/OBI_|OBI:|g' | sed 's|http://www.w3.org/2002/07/owl#|owl:|g' | sed 's/[<>]//g' > $@.tmp && mv $@.tmp $@
-# 
-# reports/template-dron-ingredient.tsv: reports/dron-ingredient.tsv
-# 	sed -i '1d' reports/dron-ingredient.tsv > $@
-# 	echo "ID	LABEL	TYPE	PARENT	RXCUI	p1_bfo53	p1_bfo71	p1_genus	BEARER\nID	LABEL	TYPE	SC %	A DRON:00010000			SC 'is bearer of' some % SPLIT=|" | cat - reports/dron-ingredient.tsv > $@.tmp && mv $@.tmp $@
-# 	echo "BFO:0000053	is bearer of	owl:ObjectProperty			" >> $@
-# 
-# reports/template-dron-ndc.tsv: reports/dron-ndc.tsv
-# 	sed -i '1d' reports/dron-ndc.tsv > $@
-# 	echo "ID	LABEL	TYPE	PARENT	BEARER\nID	LABEL	TYPE	SC %	SC 'has_proper_part' some % SPLIT=|" | cat - reports/dron-ndc.tsv > $@.tmp && mv $@.tmp $@
-# 	echo "http://www.obofoundry.org/ro/ro.owl#has_proper_part	has_proper_part	owl:ObjectProperty			" >> $@
-# 
-# reports/template-dron-rxnorm.tsv: reports/dron-rxnorm.tsv
-# 	sed -i '1d' reports/dron-rxnorm.tsv > $@
-# 	echo "ID	LABEL	TYPE	PARENT	RXCUI	BEARER\nID	LABEL	TYPE	SC %	A DRON:00010000	SC 'is bearer of' some % SPLIT=|" | cat - reports/dron-rxnorm.tsv > $@.tmp && mv $@.tmp $@
-# 	echo "BFO:0000053	is bearer of	owl:ObjectProperty			" >> $@
-# 
-# reports/template-%.owl: reports/template-%.tsv
-# 	$(ROBOT) template --template $< \
-#   --ontology-iri "$(ONTBASE)/$@" \
-#   --output $@
-# 
-# tables: reports/dron-rxnorm.tsv reports/dron-ingredient.tsv reports/dron-ndc.tsv
-# 
-# tmp/unmerge-%.owl: $(COMPONENTSDIR)/dron-%.owl reports/template-dron-%.owl
-# 	$(ROBOT) merge -i $< unmerge -i reports/template-dron-$*.owl convert -f ofn -o $@
-# 
-# tmp/unmerge-%.ttl: tmp/unmerge-%.owl
-# 	$(ROBOT) convert -i $< -f ttl -o $@
-# 
-# tmp/unmerge-ingredient.owl:
-# 	echo "skipped"
-# 
-# unmerge: tmp/unmerge-ingredient.owl tmp/unmerge-ingredient.ttl
-# unmerge: tmp/unmerge-ndc.owl tmp/unmerge-ndc.owl tmp/unmerge-rxnorm.owl
-# 
-# tmp/rename-%.owl: tmp/%.owl
-# 	$(ROBOT) rename -i $< --mappings config/rename.tsv -o $@
-# 
-# ALL_PATTERNS=$(patsubst ../patterns/dosdp-patterns/%.yaml,%,$(wildcard ../patterns/dosdp-patterns/[a-z]*.yaml))
-# 
-# .PHONY: matches	
-# matches:
-# 	dosdp-tools query --ontology=tmp/rename-unmerge-ingredient.owl --catalog=catalog-v001.xml --reasoner=elk --obo-prefixes=true --batch-patterns="$(ALL_PATTERNS)" --template="../patterns/dosdp-patterns" --outfile="../patterns/data/matches/"
+$(TMPDIR)/ldtab.jar: | $(TMPDIR)
+	wget https://github.com/ontodev/ldtab.clj/releases/download/v2024-05-14/ldtab.jar -O $@
 
-DRON_RELEASE_LOCATION=https://drugontology.s3.amazonaws.com
-DRON_NDC_RELEASE=$(DRON_RELEASE_LOCATION)/dron-ndc.owl
-DRON_RXNORM_RELEASE=$(DRON_RELEASE_LOCATION)/dron-rxnorm.owl
-DRON_INGREDIENTS_RELEASE=$(DRON_RELEASE_LOCATION)/dron-ingredient.owl
+LDTAB := java -jar $(TMPDIR)/ldtab.jar
 
-download_components:
-	echo "Resetting components to the last release. This is usually only necessary when the project is cloned on a new machine."
-	mkdir -p $(COMPONENTSDIR)
-	wget $(DRON_NDC_RELEASE) -O $(COMPONENTSDIR)/dron-ndc.owl
-	$(call swap_chebi,$(COMPONENTSDIR)/dron-ndc.owl)
-	wget $(DRON_RXNORM_RELEASE) -O $(COMPONENTSDIR)/dron-rxnorm.owl
-	$(call swap_chebi,$(COMPONENTSDIR)/dron-rxnorm.owl)
-	wget $(DRON_INGREDIENTS_RELEASE) -O $(COMPONENTSDIR)/dron-ingredient.owl
-	$(call swap_chebi,$(COMPONENTSDIR)/dron-ingredient.owl)
-	grep -v "SubClassOf.*CHEBI_.*/OBI_0000047" components/dron-ingredient.owl > components/dron-ingredient-remediated.owl
-	mv components/dron-ingredient.owl components/dron-ingredient-initial.owl
-	mv components/dron-ingredient-remediated.owl components/dron-ingredient.owl 
+# Load DrOn templates into SQLite.
+$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql
+	rm -f $@
+	sqlite3 $@ < $<
+	sqlite3 $@ < $(word 2,$^)
 
-################################
-## From March 2021 Migration ###
-################################
+# Convert DrOn template tables to LDTab format tables.
+$(TMPDIR)/ldtab.db: $(TMPDIR)/dron.db $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/convert-dron-ldtab.sql | $(TMPDIR)/ldtab.jar
+	$(eval DB=$@)
+	rm -f $@
+	$(LDTAB) init $(DB) --table dron_ingredient
+	$(LDTAB) init $(DB) --table dron_rxnorm
+	$(LDTAB) init $(DB) --table dron_ndc
+	$(LDTAB) prefix $@ $(word 2,$^)
+	sqlite3 $@ < $(word 3,$^)
 
-# tmp/dron-edit-external.ofn: $(SRC)
-# 	$(ROBOT) filter --input $< \
-#   --select "DRON:*" \
-# 	--select complement \
-#   --preserve-structure false \
-#   --output $@
-# 
-# 
-# unmerge_src:
-# 	$(ROBOT) merge -i $(SRC) --collapse-import-closure false unmerge -i tmp/dron-edit-external.ofn convert -f ofn -o $(SRC)
-# 
-# 
-# merge_release:
-# 	$(ROBOT) merge -i $(SRC) -i $(COMPONENTSDIR)/dron-hand.owl  -i $(COMPONENTSDIR)/dron-upper.owl --collapse-import-closure false -o $(SRC).ofn
+# Export an LDTab table to Turtle format.
+$(COMPONENTSDIR)/dron-%.ttl: $(TMPDIR)/ldtab.db | $(COMPONENTSDIR)
+	rm -f $@
+	$(LDTAB) export $< $@ --table dron_$*
 
-##### Diff #####
+# Convert a Turtle file to an OWL file in RDFXML format.
+$(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.ttl
+	$(ROBOT) convert -i $< -o $@
 
-tmp/$(ONT)-build.owl:
-	cp ../../$(ONT).owl $@
-	
-tmp/$(ONT)-merged.owl: $(SRC)
-	$(ROBOT) merge -i $< -o $@
+# Override the all_components task.
+all_components: $(COMPONENTSDIR)/dron-ingredient.ttl $(COMPONENTSDIR)/dron-rxnorm.ttl $(COMPONENTSDIR)/dron-ndc.ttl $(COMPONENTSDIR)/dron-ingredient.owl $(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-ndc.owl
 
-tmp/$(ONT)-release.owl:
-	$(ROBOT) merge -I http://purl.obolibrary.org/obo/$(ONT).owl -o $@
+###################################
+#### Create templates from OWL ####
+###################################
 
-reports/release-diff-%.md: tmp/$(ONT)-release.owl tmp/$(ONT)-%.owl
-	$(ROBOT) diff --left $< --right tmp/$(ONT)-$*.owl -f markdown -o $@
+# Convert component OWL files to DrOn templates.
+# This should be a one-time action
+# when migrating away from the old Scala DrOn build system,
+# but it could also be helpful for testing changes to new build scripts.
 
-reports/release-diff-%.txt: tmp/$(ONT)-release.owl tmp/$(ONT)-%.owl
-	$(ROBOT) diff --left $< --right tmp/$(ONT)-$*.owl -o $@
-	
-reports/dron-release-diff-%.txt: reports/release-diff-%.txt
-	grep DRON_ $< > $@
+$(TMPDIR)/reverse/:
+	mkdir -p $@
 
-release_diff: reports/release-diff-build.md reports/release-diff-build.txt
-release_diff: reports/release-diff-merged.md reports/release-diff-merged.txt
-release_diff: reports/dron-release-diff-build.txt
-release_diff: reports/dron-release-diff-merged.txt
+# Convert components from OFN to OWL for LDTab to import.
+$(TMPDIR)/reverse/dron-%.owl: components.bk/dron-%.owl | $(TMPDIR)/reverse/
+	$(ROBOT) convert -i $< -o $@
 
-.PHONY: unsat
-unsat: tmp/dron_unsat.ofn
-	
-tmp/dron_unsat.ofn: $(SRC)
-	robot merge --input $< explain --reasoner ELK \
-  -M unsatisfiability --unsatisfiable all --explanation $@.md \
-    annotate --ontology-iri "$(ONTBASE)/$@" \
-    --output $@
+$(TMPDIR)/reverse.db: $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/convert-ldtab-dron.sql $(SCRIPTSDIR)/save-dron-tables.sql $(TMPDIR)/reverse/dron-ingredient.owl $(TMPDIR)/reverse/dron-rxnorm.owl $(TMPDIR)/reverse/dron-ndc.owl | $(TMPDIR)/ldtab.jar
+	$(eval DB=$@)
+	rm -f $(DB)
+	$(LDTAB) init $(DB) --table dron_ingredient
+	$(LDTAB) init $(DB) --table dron_rxnorm
+	$(LDTAB) init $(DB) --table dron_ndc
+	$(LDTAB) prefix $(DB) $<
+	sqlite3 $(DB) < $(word 2,$^)
+	$(LDTAB) import $(DB) --table dron_ingredient $(TMPDIR)/reverse/dron-ingredient.owl
+	$(LDTAB) import $(DB) --table dron_rxnorm $(TMPDIR)/reverse/dron-rxnorm.owl
+	$(LDTAB) import $(DB) --table dron_ndc $(TMPDIR)/reverse/dron-ndc.owl
 
-.PHONY: swap_chebi_in_edit
-swap_chebi_in_edit:
-	 $(call swap_chebi,$(SRC))
+.PHONY: reverse
+reverse: $(TMPDIR)/reverse.db
+	# Convert LDTab tables to DrOn templates
+	sqlite3 $(DB) < $(word 3,$^)
+	# Save template tables to TSV
+	cd $(TMPDIR)/reverse/ && sqlite3 ../../$(DB) < ../../$(word 4,$^)
+	# Copy to src/templates/
+	cp $(TMPDIR)/reverse/*.tsv $(TEMPLATEDIR)
+
+###########################
+#### Roundtrip testing ####
+###########################
+
+# Export LDTab tables as TSV and sort them for diffing.
+
+.PRECIOUS: $(COMPONENTSDIR)/dron-%.tsv
+$(COMPONENTSDIR)/dron-%.tsv: $(COMPONENTSDIR)/dron-%.owl
+	$(eval DB=$(TMPDIR)/ldtab.db)
+	rm -f $@
+	$(LDTAB) export $(DB) $@ --table dron_$* --sort
+
+.PRECIOUS: $(TMPDIR)/reverse/dron-%.tsv
+$(TMPDIR)/reverse/dron-%.tsv: | $(TMPDIR)/reverse.db
+	$(eval DB=$|)
+	rm -f $@
+	$(LDTAB) export $(DB) $@ --table dron_$* --sort
+
+$(TMPDIR)/%.tsv.diff: $(TMPDIR)/reverse/%.tsv $(COMPONENTSDIR)/%.tsv
+	-diff -u $^ > $@
+
+$(TMPDIR)/%.owl.diff: $(TMPDIR)/reverse/%.owl $(COMPONENTSDIR)/%.owl
+	-diff -u $^ > $@
+
+.PHONY: roundtrip
+roundtrip: $(COMPONENTSDIR)/dron-ingredient.ttl $(COMPONENTSDIR)/dron-rxnorm.ttl $(COMPONENTSDIR)/dron-ndc.ttl $(TMPDIR)/dron-ingredient.owl.diff $(TMPDIR)/dron-ingredient.tsv.diff $(TMPDIR)/dron-rxnorm.owl.diff $(TMPDIR)/dron-rxnorm.tsv.diff $(TMPDIR)/dron-ndc.owl.diff $(TMPDIR)/dron-ndc.tsv.diff

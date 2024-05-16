@@ -2,50 +2,34 @@
 
 To create a new Dron release:
 
-1. [Update the external components](#Update-the-external-components)
-2. [Import the external components](#Import-the-external-components)
-3. [Build the release files](#Build-the-release-files-and-create-a-GitHub-release)
-4. [Create a GitHub release](#Build-the-release-files-and-create-a-GitHub-release)
+1. [Update the components](#Update-the-components)
+2. [Build the release files](#Build-the-release-files-and-create-a-GitHub-release)
+3. [Create a GitHub release](#Build-the-release-files-and-create-a-GitHub-release)
 
-## Update the external components
-DrOn has three large external components:
+## Update the components
+
+DrOn has three components:
 
 1. dron-rxnorm
 2. dron-ndc
 3. dron-ingredient
 
-Due to their size, they are not in GitHub version control. 
+They are generated from the templates in `src/templates/`.
+The templates are updated from RxNorm monthly releases.
 
-The process of preparing a release works as follows:
+TODO: RxNorm updates are not implemented in this version of the code.
+That functionality will be added soon!
 
-- Build the components using the DrOn builder application (as of 2021, done by Matt McConnell).
-- Upload the components to their s3 bucket. *Important: After the upload, all three components must be available from the following locations*:
-    - https://drugontology.s3.amazonaws.com/dron-ingredient.owl
-    - https://drugontology.s3.amazonaws.com/dron-ndc.owl
-    - https://drugontology.s3.amazonaws.com/dron-rxnorm.owl
-- (If the location has to change, make sure that update the `DRON_RELEASE_LOCATION` variable in `src/ontology/dron.Makefile` before running an ODK release.)
-
-The Dron Builder code is currently still bundled in a Scala module managed by Matt McConnell. 
-
-## Import the external components
-
-Before running the normal ODK release workflow, the release manager (as of 2021, Bill Hogan) has to download the components into their local DrOn repo. This is achieved as follows:
-
-- In your Terminal, go to your DrOn edit directory, for example:
+Build them with the `all_components` task:
 
 ```
 cd dron/src/ontology
+sh run.sh make all_components -B
 ```
 
-- To download the external components previously uploaded to their s3 bucket: 
+The files will be created in `src/ontology/components/` and will be imported into `dron-edit.owl`.
 
-```
-sh run.sh make download_components
-```
-
-This command will now download dron-ingredient.owl, dron-ndc.owl, dron-rxnorm.owl to your local machine (and overwrite any old versions of these three files), so that the ODK will recognise them as part of the upcoming release.
-
-## 3+4. Build the release files and create a GitHub release
+## 2+3. Build the release files and create a GitHub release
 
 Follow the [default ODK release instructions](odk-workflows/ReleaseWorkflow.md).
 
