@@ -37,6 +37,29 @@ $(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-
 	rm -f $@
 	sqlite3 $@ < $<
 	sqlite3 $@ < $(word 2,$^)
+ 
+# Load ChEBI into SQLite using LDTab.
+$(TMPDIR)/chebi.db: $(SCRIPTSDIR)/prefix.tsv $(TMPDIR)/mirror-chebi.owl | $(TMPDIR)/ldtab.jar
+	$(eval DB=$@)
+	rm -f $@
+	$(LDTAB) init $(DB) --table chebi
+	$(LDTAB) prefix $(DB) $<
+	$(LDTAB) import $(DB) $(word 2,$^) --table chebi
+	sqlite3 $(DB) "CREATE INDEX idx_chebi_subject ON chebi(subject)"
+	sqlite3 $(DB) "CREATE INDEX idx_chebi_predicate ON chebi(predicate)"
+	sqlite3 $(DB) "CREATE INDEX idx_chebi_object ON chebi(object)"
+
+# Create a SQLite database for RxNorm and load data from tmp/rxnorm/*.RRF.
+$(TMPDIR)/rxnorm.db: $(SCRIPTSDIR)/create-rxnorm-tables.sql $(SCRIPTSDIR)/load-rxnorm-tables.sql $(SCRIPTSDIR)/index-rxnorm-tables.sql | $(TMPDIR)/
+	rm -f $@
+	sqlite3 $@ < $<
+	sqlite3 $@ < $(word 2,$^) 2> /dev/null
+	sqlite3 $@ < $(word 3,$^)
+
+.PHONY: update-labels
+update-labels: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPTSDIR)/update-labels.sql $(SCRIPTSDIR)/save-dron-tables.sql
+	sqlite3 < $(word 4,$^)
+	cd $(TEMPLATEDIR) && sqlite3 ../ontology/$< < ../ontology/$(word 5,$^)
 
 # Convert DrOn template tables to LDTab format tables.
 $(TMPDIR)/ldtab.db: $(TMPDIR)/dron.db $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/convert-dron-ldtab.sql | $(TMPDIR)/ldtab.jar
@@ -76,7 +99,7 @@ $(TMPDIR)/reverse/:
 $(TMPDIR)/reverse/dron-%.owl: components.bk/dron-%.owl | $(TMPDIR)/reverse/
 	$(ROBOT) convert -i $< -o $@
 
-$(TMPDIR)/reverse.db: $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/convert-ldtab-dron.sql $(SCRIPTSDIR)/save-dron-tables.sql $(TMPDIR)/reverse/dron-ingredient.owl $(TMPDIR)/reverse/dron-rxnorm.owl $(TMPDIR)/reverse/dron-ndc.owl | $(TMPDIR)/ldtab.jar
+$(TMPDIR)/reverse.db: $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/convert-ldtab-dron.sql $(TMPDIR)/reverse/dron-ingredient.owl $(TMPDIR)/reverse/dron-rxnorm.owl $(TMPDIR)/reverse/dron-ndc.owl | $(TMPDIR)/ldtab.jar
 	$(eval DB=$@)
 	rm -f $(DB)
 	$(LDTAB) init $(DB) --table dron_ingredient
@@ -89,11 +112,9 @@ $(TMPDIR)/reverse.db: $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/create-dron-tables.
 	$(LDTAB) import $(DB) --table dron_ndc $(TMPDIR)/reverse/dron-ndc.owl
 
 .PHONY: reverse
-reverse: $(TMPDIR)/reverse.db
-	# Convert LDTab tables to DrOn templates
-	sqlite3 $(DB) < $(word 3,$^)
+reverse: $(TMPDIR)/reverse.db $(SCRIPTSDIR)/save-dron-tables.sql
 	# Save template tables to TSV
-	cd $(TMPDIR)/reverse/ && sqlite3 ../../$(DB) < ../../$(word 4,$^)
+	cd $(TMPDIR)/reverse/ && sqlite3 ../../$< < ../../$(word 2,$^)
 	# Copy to src/templates/
 	cp $(TMPDIR)/reverse/*.tsv $(TEMPLATEDIR)
 
