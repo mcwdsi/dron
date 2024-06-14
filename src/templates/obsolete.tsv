@@ -1,2 +1,27 @@
 curie	label	type	replaced_by
+DRON:00010528	obsolete corn oil	owl:Class	CHEBI:195250
+DRON:00012997	obsolete basiliximab	owl:Class	CHEBI:63583
+DRON:00013042	obsolete rituximab	owl:Class	CHEBI:64357
+DRON:00013529	obsolete theodrenaline	owl:Class	CHEBI:135580
+DRON:00014271	obsolete azosemide	owl:Class	CHEBI:31248
+DRON:00014495	obsolete benznidazole	owl:Class	CHEBI:133833
+DRON:00015971	obsolete tiratricol	owl:Class	CHEBI:40021
+DRON:00016220	obsolete tilmicosin	owl:Class	CHEBI:195409
+DRON:00016393	obsolete dichlorodifluoromethane	owl:Class	CHEBI:229860
+DRON:00016952	obsolete peginterferon alfa-2b	owl:Class	CHEBI:63615
+DRON:00019228	obsolete certolizumab pegol	owl:Class	CHEBI:63585
+DRON:00019607	obsolete tocilizumab	owl:Class	CHEBI:64360
+DRON:00020097	obsolete gamithromycin	owl:Class	CHEBI:195437
+DRON:00723507	obsolete ferrosoferric oxide	owl:Class	CHEBI:50821
+DRON:00814520	obsolete lotilaner	owl:Class	CHEBI:229657
+DRON:00858645	obsolete selinexor	owl:Class	CHEBI:229764
+DRON:00862673	obsolete entrectinib	owl:Class	CHEBI:195558
+DRON:00965873	obsolete atogepant	owl:Class	CHEBI:196955
+DRON:00975436	obsolete thiosulfate	owl:Class	CHEBI:26977
+DRON:00986431	obsolete elacestrant	owl:Class	CHEBI:229213
+DRON:00988925	obsolete leniolisib	owl:Class	CHEBI:229649
+DRON:00988926	obsolete trofinetide	owl:Class	CHEBI:229599
+DRON:00991306	obsolete sparsentan	owl:Class	CHEBI:229526
 DRON:00991307	obsolete omaveloxolone	owl:Class	CHEBI:229661
+DRON:00991311	obsolete perfluorohexyloctane	owl:Class	CHEBI:229658
+DRON:00994953	obsolete zavegepant	owl:Class	CHEBI:229643
