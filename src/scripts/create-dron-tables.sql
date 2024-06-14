@@ -94,6 +94,12 @@ CREATE TABLE ndc_clinical_drug (
     FOREIGN KEY (clinical_drug) REFERENCES clinical_drug(curie)
 );
 
+CREATE TABLE obsolete (
+    curie TEXT PRIMARY KEY,
+    label TEXT NOT NULL, -- UNIQUE,
+    type TEXT NOT NULL,
+    replaced_by TEXT
+);
 
 -- Create triggers for automatically assigning DRON IDs.
 -- First create a table with one row to track the current ID.

@@ -174,3 +174,22 @@ UNION
 SELECT rxcui FROM clinical_drug
 UNION
 SELECT rxcui FROM branded_drug;
+
+
+-- ## dron-obsolete
+
+INSERT OR IGNORE INTO obsolete(curie, label, type)
+SELECT
+    a.subject AS curie,
+    b.object AS label,
+    a.object AS type
+FROM dron_obsolete AS a
+LEFT JOIN dron_obsolete AS b ON a.subject = b.subject
+WHERE a.predicate = 'rdf:type'
+  AND b.predicate = 'rdfs:label';
+
+UPDATE obsolete
+SET replaced_by = object
+FROM dron_obsolete
+WHERE obsolete.curie = dron_obsolete.subject
+  AND dron_obsolete.predicate = 'IAO:0100001';

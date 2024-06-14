@@ -11,7 +11,7 @@
 # In essence we merge rxnorm, dron-ingredient, all imports and the edit file
 # (no NDC) and the run a regular full release.
 
-LITE_ARTEFACTS=$(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-ingredient.owl $(IMPORT_OWL_FILES)
+LITE_ARTEFACTS=$(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-ingredient.owl $(COMPONENTSDIR)/dron-obsolete.owl $(IMPORT_OWL_FILES)
 $(TMPDIR)/dron-edit_lite.owl: $(SRC) $(LITE_ARTEFACTS)
 	$(ROBOT) remove --input $(SRC) --select imports \
 	merge $(patsubst %, -i %, $(LITE_ARTEFACTS)) --output $@.tmp.owl && mv $@.tmp.owl $@
@@ -68,6 +68,7 @@ $(TMPDIR)/ldtab.db: $(TMPDIR)/dron.db $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/con
 	$(LDTAB) init $(DB) --table dron_ingredient
 	$(LDTAB) init $(DB) --table dron_rxnorm
 	$(LDTAB) init $(DB) --table dron_ndc
+	$(LDTAB) init $(DB) --table dron_obsolete
 	$(LDTAB) prefix $@ $(word 2,$^)
 	sqlite3 $@ < $(word 3,$^)
 
@@ -81,7 +82,7 @@ $(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.ttl
 	$(ROBOT) convert -i $< -o $@
 
 # Override the all_components task.
-all_components: $(COMPONENTSDIR)/dron-ingredient.ttl $(COMPONENTSDIR)/dron-rxnorm.ttl $(COMPONENTSDIR)/dron-ndc.ttl $(COMPONENTSDIR)/dron-ingredient.owl $(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-ndc.owl
+all_components: $(COMPONENTSDIR)/dron-ingredient.ttl $(COMPONENTSDIR)/dron-rxnorm.ttl $(COMPONENTSDIR)/dron-ndc.ttl $(COMPONENTSDIR)/dron-obsolete.ttl $(COMPONENTSDIR)/dron-ingredient.owl $(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-ndc.owl $(COMPONENTSDIR)/dron-obsolete.owl
 
 ###################################
 #### Create templates from OWL ####
@@ -99,17 +100,19 @@ $(TMPDIR)/reverse/:
 $(TMPDIR)/reverse/dron-%.owl: components.bk/dron-%.owl | $(TMPDIR)/reverse/
 	$(ROBOT) convert -i $< -o $@
 
-$(TMPDIR)/reverse.db: $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/convert-ldtab-dron.sql $(TMPDIR)/reverse/dron-ingredient.owl $(TMPDIR)/reverse/dron-rxnorm.owl $(TMPDIR)/reverse/dron-ndc.owl | $(TMPDIR)/ldtab.jar
+$(TMPDIR)/reverse.db: $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/convert-ldtab-dron.sql $(TMPDIR)/reverse/dron-ingredient.owl $(TMPDIR)/reverse/dron-rxnorm.owl $(TMPDIR)/reverse/dron-ndc.owl $(TMPDIR)/reverse/dron-obsolete.owl | $(TMPDIR)/ldtab.jar
 	$(eval DB=$@)
 	rm -f $(DB)
 	$(LDTAB) init $(DB) --table dron_ingredient
 	$(LDTAB) init $(DB) --table dron_rxnorm
 	$(LDTAB) init $(DB) --table dron_ndc
+	$(LDTAB) init $(DB) --table dron_obsolete
 	$(LDTAB) prefix $(DB) $<
 	sqlite3 $(DB) < $(word 2,$^)
 	$(LDTAB) import $(DB) --table dron_ingredient $(TMPDIR)/reverse/dron-ingredient.owl
 	$(LDTAB) import $(DB) --table dron_rxnorm $(TMPDIR)/reverse/dron-rxnorm.owl
 	$(LDTAB) import $(DB) --table dron_ndc $(TMPDIR)/reverse/dron-ndc.owl
+	$(LDTAB) import $(DB) --table dron_obsolete $(TMPDIR)/reverse/dron-obsolete.owl
 
 .PHONY: reverse
 reverse: $(TMPDIR)/reverse.db $(SCRIPTSDIR)/save-dron-tables.sql
@@ -143,4 +146,4 @@ $(TMPDIR)/%.owl.diff: $(TMPDIR)/reverse/%.owl $(COMPONENTSDIR)/%.owl
 	-diff -u $^ > $@
 
 .PHONY: roundtrip
-roundtrip: $(COMPONENTSDIR)/dron-ingredient.ttl $(COMPONENTSDIR)/dron-rxnorm.ttl $(COMPONENTSDIR)/dron-ndc.ttl $(TMPDIR)/dron-ingredient.owl.diff $(TMPDIR)/dron-ingredient.tsv.diff $(TMPDIR)/dron-rxnorm.owl.diff $(TMPDIR)/dron-rxnorm.tsv.diff $(TMPDIR)/dron-ndc.owl.diff $(TMPDIR)/dron-ndc.tsv.diff
+roundtrip: $(COMPONENTSDIR)/dron-ingredient.ttl $(COMPONENTSDIR)/dron-rxnorm.ttl $(COMPONENTSDIR)/dron-ndc.ttl $(COMPONENTSDIR)/dron-obsolete.ttl $(TMPDIR)/dron-ingredient.owl.diff $(TMPDIR)/dron-ingredient.tsv.diff $(TMPDIR)/dron-rxnorm.owl.diff $(TMPDIR)/dron-rxnorm.tsv.diff $(TMPDIR)/dron-ndc.owl.diff $(TMPDIR)/dron-ndc.tsv.diff $(TMPDIR)/dron-obsolete.owl.diff $(TMPDIR)/dron-obsolete.tsv.diff
