@@ -62,6 +62,11 @@ WITH labels AS (
     SELECT subject, object AS label
     FROM chebi.chebi
     WHERE predicate = 'rdfs:label'
+      AND subject NOT IN (
+        SELECT subject
+        FROM chebi.chebi
+        WHERE predicate = 'owl:deprecated'
+      )
 )
 INSERT INTO problem
 SELECT
