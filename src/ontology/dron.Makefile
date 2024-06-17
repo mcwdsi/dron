@@ -33,10 +33,11 @@ $(TMPDIR)/ldtab.jar: | $(TMPDIR)
 LDTAB := java -jar $(TMPDIR)/ldtab.jar
 
 # Load DrOn templates into SQLite.
-$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql
+$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql
 	rm -f $@
 	sqlite3 $@ < $<
 	sqlite3 $@ < $(word 2,$^)
+	sqlite3 $@ < $(word 3,$^)
  
 # Load ChEBI into SQLite using LDTab.
 $(TMPDIR)/chebi.db: $(SCRIPTSDIR)/prefix.tsv $(TMPDIR)/mirror-chebi.owl | $(TMPDIR)/ldtab.jar

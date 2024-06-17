@@ -22,13 +22,17 @@ replace() {
       sed "s/OBSOLETE/${OBSOLETE}/g" \
     | sed "s/REPLACEMENT/${REPLACEMENT}/g" \
     | sqlite3 "${DB}" \
-    || fail "Could not obsolete ${OBSOLETE}"
+    > /dev/null \
+    || fail "Could not obsolete ${OBSOLETE}, replaced by ${REPLACEMENT}"
   fi
 }
 
 # Load template TSVs into SQLite.
 cd "${DIR}" || fail "Could not cd to ${DIR}"
 make tmp/dron.db || fail "Could not make ${DB}"
+
+COUNT=$(wc -l < "$TEMPLATEDIR/obsolete.tsv")
+echo "Attempting to replace ${COUNT} obsolete terms..."
 
 # Iterate over the rows of obsolete.tsv and replace.
 tail -n+2 "${TEMPLATEDIR}/obsolete.tsv" \

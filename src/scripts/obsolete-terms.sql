@@ -1,10 +1,14 @@
 PRAGMA foreign_keys = ON;
+PRAGMA journal_mode = WAL;
+PRAGMA synchronous = normal;
+PRAGMA temp_store = memory;
+PRAGMA mmap_size = 30000000000;
 
 BEGIN TRANSACTION;
 
 -- obsolete ingredient
 
-INSERT INTO ingredient
+INSERT OR IGNORE INTO ingredient
 SELECT
     'REPLACEMENT' AS curie,
     label AS label,
@@ -33,7 +37,7 @@ WHERE curie = 'OBSOLETE';
 
 -- obsolete clinical_drug_form
 
-INSERT INTO clinical_drug_form
+INSERT OR IGNORE INTO clinical_drug_form
 SELECT
     'REPLACEMENT' AS curie,
     label AS label,
@@ -59,7 +63,7 @@ WHERE curie = 'OBSOLETE';
 
 -- obsolete clinical_drug
 
-INSERT INTO clinical_drug
+INSERT OR IGNORE INTO clinical_drug
 SELECT
     'REPLACEMENT' AS curie,
     label AS label,
@@ -85,7 +89,7 @@ WHERE curie = 'OBSOLETE';
 
 -- obsolete branded_drug
 
-INSERT INTO branded_drug
+INSERT OR IGNORE INTO branded_drug
 SELECT
     'REPLACEMENT' AS curie,
     label AS label,

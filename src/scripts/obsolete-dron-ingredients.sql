@@ -1,3 +1,6 @@
+-- Add DRON ingredients to obsolete.tsv
+-- if they match ChEBI labels.
+
 ATTACH 'tmp/dron.db' AS dron;
 ATTACH 'tmp/chebi.db' AS chebi;
 
