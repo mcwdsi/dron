@@ -110,7 +110,7 @@ CREATE TABLE obsolete (
 -- Create triggers for automatically assigning DRON IDs.
 -- First create a table with one row to track the current ID.
 CREATE TABLE current_dron_id ( id INTEGER );
-INSERT INTO current_dron_id VALUES (1003000);
+-- INSERT INTO current_dron_id VALUES (1003000);
 
 -- Then create a trigger for each row where a CURIE can be assigned:
 -- When a row is inserted into the table,
