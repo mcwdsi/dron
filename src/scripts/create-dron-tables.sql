@@ -12,7 +12,7 @@ CREATE TABLE disposition (
 
 CREATE TABLE ingredient (
     curie TEXT PRIMARY KEY,
-    label TEXT, -- UNIQUE,
+    label TEXT UNIQUE,
     rxcui INTEGER,
     FOREIGN KEY (rxcui) REFERENCES rxcui(rxcui)
 );
@@ -35,6 +35,7 @@ CREATE TABLE clinical_drug_form (
 CREATE TABLE clinical_drug_form_ingredient (
     clinical_drug_form TEXT,
     ingredient TEXT,
+    PRIMARY KEY (clinical_drug_form, ingredient),
     FOREIGN KEY (clinical_drug_form) REFERENCES clinical_drug_form(curie),
     FOREIGN KEY (ingredient) REFERENCES ingredient(curie)
 );
@@ -42,6 +43,7 @@ CREATE TABLE clinical_drug_form_ingredient (
 CREATE TABLE clinical_drug_form_disposition (
     clinical_drug_form TEXT,
     disposition TEXT,
+    PRIMARY KEY (clinical_drug_form, disposition),
     FOREIGN KEY (clinical_drug_form) REFERENCES clinical_drug_form(curie),
     FOREIGN KEY (disposition) REFERENCES disposition(curie)
 );
@@ -60,6 +62,9 @@ CREATE TABLE clinical_drug_strength (
     ingredient TEXT,
     strength TEXT,
     unit TEXT,
+    -- WARN: There are some clinical drugs in RxNorm
+    -- with the same ingredient but multiple strengths.
+    -- PRIMARY KEY (clinical_drug, ingredient),
     FOREIGN KEY (clinical_drug) REFERENCES clinical_drug(curie),
     FOREIGN KEY (ingredient) REFERENCES ingredient(curie)
 );
@@ -76,6 +81,7 @@ CREATE TABLE branded_drug (
 CREATE TABLE branded_drug_excipient (
     branded_drug TEXT,
     ingredient TEXT,
+    PRIMARY KEY (branded_drug, ingredient),
     FOREIGN KEY (branded_drug) REFERENCES branded_drug(curie),
     FOREIGN KEY (ingredient) REFERENCES ingredient(curie)
 );
@@ -104,7 +110,7 @@ CREATE TABLE obsolete (
 -- Create triggers for automatically assigning DRON IDs.
 -- First create a table with one row to track the current ID.
 CREATE TABLE current_dron_id ( id INTEGER );
-INSERT INTO current_dron_id VALUES (1000000); -- TODO: check this!
+INSERT INTO current_dron_id VALUES (1003000);
 
 -- Then create a trigger for each row where a CURIE can be assigned:
 -- When a row is inserted into the table,
