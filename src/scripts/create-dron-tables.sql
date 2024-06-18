@@ -1,48 +1,48 @@
 -- Create the DrOn tables.
 
 CREATE TABLE rxcui (
-    rxcui INT PRIMARY KEY,
+    rxcui INTEGER PRIMARY KEY NOT NULL,
     replaced_by INTEGER
 );
 
 CREATE TABLE disposition (
     curie TEXT PRIMARY KEY,
-    label TEXT UNIQUE
+    label TEXT UNIQUE NOT NULL
 );
 
 CREATE TABLE ingredient (
     curie TEXT PRIMARY KEY,
-    label TEXT UNIQUE,
-    rxcui INTEGER,
+    label TEXT NOT NULL,
+    rxcui INTEGER NOT NULL,
     FOREIGN KEY (rxcui) REFERENCES rxcui(rxcui)
 );
 
 CREATE TABLE ingredient_disposition (
-    ingredient TEXT,
-    disposition TEXT,
+    ingredient TEXT NOT NULL,
+    disposition TEXT NOT NULL,
     FOREIGN KEY (ingredient) REFERENCES ingredient(curie),
     FOREIGN KEY (disposition) REFERENCES disposition(curie)
 );
 
 CREATE TABLE clinical_drug_form (
     curie TEXT PRIMARY KEY,
-    label TEXT, -- UNIQUE,
+    label TEXT NOT NULL, -- UNIQUE,
     parent TEXT,
-    rxcui INTEGER,
+    rxcui INTEGER NOT NULL,
     FOREIGN KEY (rxcui) REFERENCES rxcui(rxcui)
 );
 
 CREATE TABLE clinical_drug_form_ingredient (
-    clinical_drug_form TEXT,
-    ingredient TEXT,
+    clinical_drug_form TEXT NOT NULL,
+    ingredient TEXT NOT NULL,
     PRIMARY KEY (clinical_drug_form, ingredient),
     FOREIGN KEY (clinical_drug_form) REFERENCES clinical_drug_form(curie),
     FOREIGN KEY (ingredient) REFERENCES ingredient(curie)
 );
 
 CREATE TABLE clinical_drug_form_disposition (
-    clinical_drug_form TEXT,
-    disposition TEXT,
+    clinical_drug_form TEXT NOT NULL,
+    disposition TEXT NOT NULL,
     PRIMARY KEY (clinical_drug_form, disposition),
     FOREIGN KEY (clinical_drug_form) REFERENCES clinical_drug_form(curie),
     FOREIGN KEY (disposition) REFERENCES disposition(curie)
@@ -50,37 +50,37 @@ CREATE TABLE clinical_drug_form_disposition (
 
 CREATE TABLE clinical_drug (
     curie TEXT PRIMARY KEY,
-    label TEXT, -- UNIQUE,
-    clinical_drug_form TEXT,
-    rxcui INTEGER,
+    label TEXT NOT NULL, -- UNIQUE,
+    clinical_drug_form TEXT NOT NULL,
+    rxcui INTEGER NOT NULL,
     FOREIGN KEY (clinical_drug_form) REFERENCES clinical_drug_form(curie),
     FOREIGN KEY (rxcui) REFERENCES rxcui(rxcui)
 );
 
 CREATE TABLE clinical_drug_strength (
-    clinical_drug TEXT,
-    ingredient TEXT,
-    strength TEXT,
-    unit TEXT,
+    clinical_drug TEXT NOT NULL,
+    ingredient TEXT NOT NULL,
+    strength TEXT NOT NULL,
+    unit TEXT NOT NULL,
     -- WARN: There are some clinical drugs in RxNorm
     -- with the same ingredient but multiple strengths.
-    -- PRIMARY KEY (clinical_drug, ingredient),
+    PRIMARY KEY (clinical_drug, ingredient, strength, unit),
     FOREIGN KEY (clinical_drug) REFERENCES clinical_drug(curie),
     FOREIGN KEY (ingredient) REFERENCES ingredient(curie)
 );
 
 CREATE TABLE branded_drug (
     curie TEXT PRIMARY KEY,
-    label TEXT, -- UNIQUE,
-    clinical_drug TEXT,
-    rxcui INTEGER,
+    label TEXT NOT NULL, -- UNIQUE,
+    clinical_drug TEXT NOT NULL,
+    rxcui INTEGER NOT NULL,
     FOREIGN KEY (clinical_drug) REFERENCES clinical_drug(curie),
     FOREIGN KEY (rxcui) REFERENCES rxcui(rxcui)
 );
 
 CREATE TABLE branded_drug_excipient (
-    branded_drug TEXT,
-    ingredient TEXT,
+    branded_drug TEXT NOT NULL,
+    ingredient TEXT NOT NULL,
     PRIMARY KEY (branded_drug, ingredient),
     FOREIGN KEY (branded_drug) REFERENCES branded_drug(curie),
     FOREIGN KEY (ingredient) REFERENCES ingredient(curie)
@@ -88,20 +88,20 @@ CREATE TABLE branded_drug_excipient (
 
 CREATE TABLE ndc_branded_drug (
     curie TEXT PRIMARY KEY,
-    ndc TEXT,
-    branded_drug TEXT,
+    ndc TEXT UNIQUE NOT NULL,
+    branded_drug TEXT NOT NULL,
     FOREIGN KEY (branded_drug) REFERENCES branded_drug(curie)
 );
 
 CREATE TABLE ndc_clinical_drug (
     curie TEXT PRIMARY KEY,
-    ndc TEXT,
-    clinical_drug TEXT,
+    ndc TEXT UNIQUE NOT NULL,
+    clinical_drug TEXT NOT NULL,
     FOREIGN KEY (clinical_drug) REFERENCES clinical_drug(curie)
 );
 
 CREATE TABLE obsolete (
-    curie TEXT PRIMARY KEY,
+    curie TEXT PRIMARY KEY NOT NULL,
     label TEXT NOT NULL, -- UNIQUE,
     type TEXT NOT NULL,
     replaced_by TEXT
