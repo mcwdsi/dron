@@ -40,7 +40,7 @@ $(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-
 	sqlite3 $@ < $(word 3,$^)
  
 # Load ChEBI into SQLite using LDTab.
-$(TMPDIR)/chebi.db: $(SCRIPTSDIR)/prefix.tsv $(TMPDIR)/mirror-chebi.owl | $(TMPDIR)/ldtab.jar
+$(TMPDIR)/chebi.db: $(SCRIPTSDIR)/prefix.tsv $(TMPDIR)/mirror-chebi.owl $(SCRIPTSDIR)/collect-chebi-labels.sql | $(TMPDIR)/ldtab.jar
 	$(eval DB=$@)
 	rm -f $@
 	$(LDTAB) init $(DB) --table chebi
@@ -49,6 +49,8 @@ $(TMPDIR)/chebi.db: $(SCRIPTSDIR)/prefix.tsv $(TMPDIR)/mirror-chebi.owl | $(TMPD
 	sqlite3 $(DB) "CREATE INDEX idx_chebi_subject ON chebi(subject)"
 	sqlite3 $(DB) "CREATE INDEX idx_chebi_predicate ON chebi(predicate)"
 	sqlite3 $(DB) "CREATE INDEX idx_chebi_object ON chebi(object)"
+	sqlite3 $(DB) "ANALYZE"
+	sqlite3 $(DB) < $(word 3,$^)
 
 # Create a SQLite database for RxNorm and load data from tmp/rxnorm/*.RRF.
 $(TMPDIR)/rxnorm.db: $(SCRIPTSDIR)/create-rxnorm-tables.sql $(SCRIPTSDIR)/load-rxnorm-tables.sql $(SCRIPTSDIR)/index-rxnorm-tables.sql | $(TMPDIR)/

@@ -58,16 +58,6 @@ JOIN chebi.chebi AS c ON c.subject = i.curie
 WHERE c.predicate = 'owl:deprecated';
 
 CREATE INDEX IF NOT EXISTS dron.idx_ingredient_label ON ingredient(label);
-WITH labels AS (
-    SELECT subject, object AS label
-    FROM chebi.chebi
-    WHERE predicate = 'rdfs:label'
-      AND subject NOT IN (
-        SELECT subject
-        FROM chebi.chebi
-        WHERE predicate = 'owl:deprecated'
-      )
-)
 INSERT INTO problem
 SELECT
     'ingredient',
@@ -75,9 +65,9 @@ SELECT
     'label',
     'WARN',
     'DrOn term has matching label in ChEBI',
-    i.curie || ' ' || l.subject || ' ' || i.label
+    i.curie || ' ' || c.curie || ' ' || i.label
 FROM dron.ingredient AS i
-JOIN labels AS l ON l.label = i.label
+JOIN chebi.label AS c ON c.label = i.label
 WHERE i.curie LIKE 'DRON:%';
 
 INSERT INTO problem
