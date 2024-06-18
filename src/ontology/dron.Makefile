@@ -64,6 +64,11 @@ update-labels: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPT
 	sqlite3 < $(word 4,$^)
 	cd $(TEMPLATEDIR) && sqlite3 ../ontology/$< < ../ontology/$(word 5,$^)
 
+.PHONY: update-rxnorm
+update-rxnorm: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPTSDIR)/update-dron-from-rxnorm.sql $(SCRIPTSDIR)/save-dron-tables.sql
+	sqlite3 < $(word 4,$^)
+	cd $(TEMPLATEDIR) && sqlite3 ../ontology/$< < ../ontology/$(word 5,$^)
+
 # Report common problems.
 $(TMPDIR)/problems.db: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPTSDIR)/report-problems.sql
 	sqlite3 $@ < $(word 4,$^)
