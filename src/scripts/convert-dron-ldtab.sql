@@ -478,6 +478,9 @@ FROM (
 
 -- ## Obsolete Terms
 
+INSERT INTO dron_obsolete(subject, predicate, object) VALUES
+('obo:dron/dron-obsolete.owl', 'rdf:type', 'owl:Ontology');
+
 INSERT OR IGNORE INTO dron_obsolete(subject, predicate, object)
 SELECT
     curie AS subject,
