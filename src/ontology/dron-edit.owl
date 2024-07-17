@@ -1460,10 +1460,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000072> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000073> "A drug product therapeutic function that, if realized, is realized by the regulation of some endocrine process."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000073> "Matthew Diller"@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/DRON_00000073> "Mathias Brochhausen"@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/DRON_00000073> "S. Clint Dowland"@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/DRON_00000073> "Sarah Bost"@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/DRON_00000073> "William R. Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000073> "Mathias Brochhausen"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000073> "S. Clint Dowland"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000073> "Sarah Bost"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000073> "William R. Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000073> "hormone therapeutic function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000073> <http://purl.obolibrary.org/obo/DRON_00000032>)
 
