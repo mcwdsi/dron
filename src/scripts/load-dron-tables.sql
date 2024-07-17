@@ -18,3 +18,4 @@ PRAGMA foreign_keys = ON;
 .import --skip 1 ../templates/branded_drug_excipient.tsv branded_drug_excipient
 .import --skip 1 ../templates/ndc_branded_drug.tsv ndc_branded_drug
 .import --skip 1 ../templates/ndc_clinical_drug.tsv ndc_clinical_drug
+.import --skip 1 ../templates/obsolete.tsv obsolete

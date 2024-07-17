@@ -29,6 +29,7 @@
   
   <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-upper.owl" uri="components/dron-upper.owl"/>-->
   
-
+  <uri name="http://purl.obolibrary.org/obo/dron/dron-obsolete.owl" uri="components/dron-obsolete.owl"/>
+  
 </group>
 </catalog>

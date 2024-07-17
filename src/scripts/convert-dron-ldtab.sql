@@ -474,3 +474,41 @@ FROM (
     UNION
     SELECT curie, clinical_drug AS drug FROM dron.ndc_clinical_drug
 );
+
+
+-- ## Obsolete Terms
+
+INSERT INTO dron_obsolete(subject, predicate, object) VALUES
+('obo:dron/dron-obsolete.owl', 'rdf:type', 'owl:Ontology');
+
+INSERT OR IGNORE INTO dron_obsolete(subject, predicate, object)
+SELECT
+    curie AS subject,
+    'rdf:type' AS predicate,
+    type AS object
+FROM obsolete;
+
+INSERT OR IGNORE INTO dron_obsolete(subject, predicate, object, datatype)
+SELECT
+    curie AS subject,
+    'rdfs:label' AS predicate,
+    label AS object,
+    'xsd:string' AS datatype
+FROM obsolete;
+
+INSERT OR IGNORE INTO dron_obsolete(subject, predicate, object, datatype)
+SELECT
+    curie AS subject,
+    'owl:deprecated' AS predicate,
+    'true' AS object,
+    'xsd:boolean' AS datatype
+FROM obsolete;
+
+INSERT OR IGNORE INTO dron_obsolete(subject, predicate, object)
+SELECT
+    curie AS subject,
+    'IAO:0100001' AS predicate,
+    replaced_by AS object
+FROM obsolete
+WHERE replaced_by IS NOT NULL
+  AND replaced_by != '';

@@ -40,3 +40,6 @@ SELECT * FROM ndc_branded_drug ORDER BY curie;
 
 .output ndc_clinical_drug.tsv
 SELECT * FROM ndc_clinical_drug ORDER BY curie;
+
+.output obsolete.tsv
+SELECT * FROM obsolete ORDER BY curie;
