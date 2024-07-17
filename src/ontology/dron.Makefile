@@ -90,7 +90,7 @@ $(COMPONENTSDIR)/dron-%.ttl: $(TMPDIR)/ldtab.db | $(COMPONENTSDIR)
 	$(LDTAB) export $< $@ --table dron_$*
 
 # Convert a Turtle file to an OWL file in RDFXML format.
-$(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.ttl
+$(COMPONENTSDIR)/dron-%.owl: $(COMPONENTSDIR)/dron-%.ttl
 	$(ROBOT) convert -i $< -o $@
 
 # Override the all_components task.
