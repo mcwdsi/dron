@@ -106,18 +106,21 @@ FROM dron.ingredient
 GROUP BY rxcui
 HAVING COUNT(*) > 1;
 
-INSERT INTO problem
-SELECT
-    'ingredient',
-    NULL,
-    'rxcui',
-    'WARN',
-    'missing ingredient',
-    RXCUI || ' ' || STR
-FROM rxnorm.RXNCONSO
-WHERE SAB = 'RXNORM'
-  AND TTY = 'IN'
-  AND RXCUI NOT IN (SELECT rxcui FROM dron.ingredient);
+-- WARN: This check is too broad.
+-- We only care about ingredients for SCDF, SCD, and SBD entries,
+-- and these should be taken care of by our foreign key constraints.
+-- INSERT INTO problem
+-- SELECT
+--     'ingredient',
+--     NULL,
+--     'rxcui',
+--     'WARN',
+--     'missing ingredient',
+--     RXCUI || ' ' || STR
+-- FROM rxnorm.RXNCONSO
+-- WHERE SAB = 'RXNORM'
+--   AND TTY = 'IN'
+--   AND RXCUI NOT IN (SELECT rxcui FROM dron.ingredient);
 
 -- clinical_drug_form
 
@@ -350,3 +353,22 @@ SELECT
     curie || ' NDC ' || ndc
 FROM dron.ndc_branded_drug
 WHERE curie IN (SELECT curie FROM dron.obsolete);
+
+-- Ingredient not in use
+
+INSERT INTO problem
+SELECT
+    'ingredient',
+    rowid,
+    'curie',
+    'WARN',
+    'ingredient not in use',
+    curie || ' ' || label
+FROM dron.ingredient
+WHERE curie NOT IN (
+  SELECT ingredient FROM dron.clinical_drug_form_ingredient
+  UNION
+  SELECT ingredient FROM dron.clinical_drug_strength
+  UNION
+  SELECT ingredient FROM dron.branded_drug_excipient
+);

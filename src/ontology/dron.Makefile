@@ -64,6 +64,11 @@ update-labels: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPT
 	sqlite3 < $(word 4,$^)
 	cd $(TEMPLATEDIR) && sqlite3 ../ontology/$< < ../ontology/$(word 5,$^)
 
+.PHONY: update-rxnorm
+update-rxnorm: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPTSDIR)/update-dron-from-rxnorm.sql $(SCRIPTSDIR)/save-dron-tables.sql
+	sqlite3 < $(word 4,$^)
+	cd $(TEMPLATEDIR) && sqlite3 ../ontology/$< < ../ontology/$(word 5,$^)
+
 # Report common problems.
 $(TMPDIR)/problems.db: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPTSDIR)/report-problems.sql
 	sqlite3 $@ < $(word 4,$^)
@@ -85,7 +90,7 @@ $(COMPONENTSDIR)/dron-%.ttl: $(TMPDIR)/ldtab.db | $(COMPONENTSDIR)
 	$(LDTAB) export $< $@ --table dron_$*
 
 # Convert a Turtle file to an OWL file in RDFXML format.
-$(COMPONENTSDIR)/%.owl: $(COMPONENTSDIR)/%.ttl
+$(COMPONENTSDIR)/dron-%.owl: $(COMPONENTSDIR)/dron-%.ttl
 	$(ROBOT) convert -i $< -o $@
 
 # Override the all_components task.

@@ -1,5 +1,4 @@
 Prefix(:=<http://purl.obolibrary.org/obo/dron.owl#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -22,12 +21,12 @@ Import(<http://purl.obolibrary.org/obo/dron/imports/ogms_import.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/pr_import.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/ro_import.owl>)
-Annotation(dce:creator "Eric Joseph")
-Annotation(dce:creator "Josh Hanna")
-Annotation(dce:creator "Mathias Brochhausen")
-Annotation(dce:creator "William Hogan")
-Annotation(dce:description "We built this ontology primarily to support comparative effectiveness researchers studying claims data. They need to be able to query U.S. National Drug Codes (NDCs) by ingredient, mechanism of action (beta-adrenergic blockade), physiological effect (diuresis), and therapeutic intent (anti-hypertensive).")
-Annotation(dce:title "The Drug Ontology")
+Annotation(dcterms:creator "Eric Joseph")
+Annotation(dcterms:creator "Josh Hanna")
+Annotation(dcterms:creator "Mathias Brochhausen")
+Annotation(dcterms:creator "William Hogan")
+Annotation(dcterms:description "We built this ontology primarily to support comparative effectiveness researchers studying claims data. They need to be able to query U.S. National Drug Codes (NDCs) by ingredient, mechanism of action (beta-adrenergic blockade), physiological effect (diuresis), and therapeutic intent (anti-hypertensive).")
+Annotation(dcterms:title "The Drug Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/3.0/>)
 Annotation(rdfs:comment "An ontology of drugs.")
 Annotation(rdfs:comment "DrOn contains content developed by the National Library of Medicine in RxNorm.  In creating DrOn, we have used RxNorm content only with SAB = RXNORM.")
@@ -328,8 +327,8 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0000022>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0001900>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002161>))
-Declaration(AnnotationProperty(dce:creator))
-Declaration(AnnotationProperty(dce:source))
+Declaration(AnnotationProperty(dcterms:creator))
+Declaration(AnnotationProperty(dcterms:source))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
@@ -727,7 +726,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9683> ObjectSomeValuesFrom(<htt
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000001> "the role of a material entity to prevent, diagnose, treat, or study disease and/or its effects"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000001> "William Hogan")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000001> "William Hogan")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000001> "William Hogan")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000001> "clinical drug role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000001> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
@@ -735,7 +734,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000001> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000002> "an object all of whose parts that are atoms or molecules are of the same type (as determined by a unique structure)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000002> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000002> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000002> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000002> "portion of pure substance"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000002> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
@@ -743,7 +742,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000002> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000003> "a portion of pure substance all of whose atomic parts are of the same type (as determined by a unique structure)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000003> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000003> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000003> "William Hogan"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000003> "the \"unique structure\" clause differentiates a portion of diatomic oxygen from a portion of ozone, graphite from diamond, etc."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000003> "portion of element"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000003> <http://purl.obolibrary.org/obo/DRON_00000002>)
@@ -752,7 +751,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000003> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000004> "a portion of pure substance whose molecular parts are of the same type (as determined by a unique structure), but whose atomic parts are of different types (as determined by a unique structure)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000004> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000004> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000004> "William Hogan"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000004> "The latter clause in the definition excludes diatomic molecules of chlorine, oxygen, nitrogen, etc."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000004> "portion of compound"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000004> <http://purl.obolibrary.org/obo/DRON_00000002>)
@@ -761,7 +760,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000004> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000005> "a material entity (1) containing at least one scattered molecular aggregate as part that is the bearer of an active ingredient role and (2) that is itself the bearer of a clinical drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000005> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000005> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000005> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000005> "drug product"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000005> <http://purl.obolibrary.org/obo/BFO_0000040>)
@@ -770,7 +769,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000005> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000006> "a material entity that contains two or more scattered object aggregates as its only parts, where the grains of each object aggregate are of different types and evenly distributed throughout, such that any two parts of the entity, each of which is spatially contiguous and of the same size, contain nearly equal numbers of grains of the aggregates"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000006> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000006> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000006> "William Hogan"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000006> "Examples: saline solution, a suspension of dust particles in air, milk."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000006> "Typically, the grains of the object aggregates are molecules (as in a solution of salt in water), but a mate- rial entity made of gravel mixed in a heap of soil also meets the definition, where the grains are individual rocks (gravel) and particles of soil."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000006> "portion of mixture"@en)
@@ -780,7 +779,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000006> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000007> "a portion of mixture of two or more portions of pure substances whereby one or more of its pure substance parts called solute(s) is (are) dispersed evenly in another pure substance part called the solvent, whereby (1) the grains of the solvent and solute(s) are of size ≤10^-9m, and (2) the solvent typically has a much greater mass and volume than the solute(s)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000007> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000007> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000007> "William Hogan"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000007> "The phase (solid, liquid, gas) of the solution is usually the phase of the solvent."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000007> "portion of solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000007> <http://purl.obolibrary.org/obo/DRON_00000006>)
@@ -789,7 +788,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000007> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000008> "a portion of mixture whereby the grains of at least one object aggregate are ≥1 μm in size and the grains of at least one other object aggregate are ≤10-9m in size"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000008> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000008> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000008> "William Hogan"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000008> "The two aggregates can be separated by gravitational settling of the grains ≥1 μm. Example: portion of blood (red blood cells and other large grains will settle out in a static portion of blood)."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000008> "portion of suspension"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000008> <http://purl.obolibrary.org/obo/DRON_00000006>)
@@ -798,7 +797,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000008> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000009> "a portion of mixture whereby the grains of at least one object aggregate are >10-9m and <1 μm in size (the dispersed material) and the grains of at least one other object aggregate are <10-9m in size (continuous medium)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000009> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000009> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000009> "William Hogan"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000009> "The aggregates cannot be separated by gravitational settling. Note that in certain cases such as aerosols and foams, the grains are relatively large contiguous por- tions of liquid or gas dispersed in a medium, even though the molecules/atoms that make up the grains are small."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000009> "portion of colloid"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000009> <http://purl.obolibrary.org/obo/DRON_00000006>)
@@ -807,7 +806,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000009> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000010> "a portion of colloid where both the dispersed material and the continuous medium are liquids"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000010> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000010> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000010> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000010> "portion of emulsion"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000010> <http://purl.obolibrary.org/obo/DRON_00000009>)
 
@@ -815,7 +814,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000010> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000011> "a portion of emulsion of oil and water in nearly equal proportions with high viscosity"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000011> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000011> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000011> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000011> "portion of cream"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000011> <http://purl.obolibrary.org/obo/DRON_00000010>)
 
@@ -823,7 +822,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000011> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000012> "a portion of emulsion of oil and water in nearly equal proportions with low viscosity"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000012> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000012> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000012> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000012> "portion of lotion"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000012> <http://purl.obolibrary.org/obo/DRON_00000010>)
 
@@ -831,7 +830,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000012> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000013> "a portion of emulsion of oil and water where the proportion of oil is significantly greater than proportion of water, typically 80% oil and 20% water"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000013> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000013> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000013> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000013> "portion of ointment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000013> <http://purl.obolibrary.org/obo/DRON_00000010>)
 
@@ -839,7 +838,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000013> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000014> "a portion of colloid whereby a liquid is dispersed in a solid that is either gelatin, jelly, or agar"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000014> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000014> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000014> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000014> "portion of gel"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000014> <http://purl.obolibrary.org/obo/DRON_00000009>)
 
@@ -847,7 +846,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000014> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000015> "a portion of gel that is the bearer of a clinical drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000015> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000015> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000015> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000015> "drug gel"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000015> <http://purl.obolibrary.org/obo/DRON_00000014>)
@@ -856,7 +855,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000015> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000016> "a portion of emulsion that is the bearer of a clinical drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000016> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000016> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000016> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000016> "drug emulsion"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000016> <http://purl.obolibrary.org/obo/DRON_00000010>)
@@ -865,7 +864,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000016> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000017> "a portion of cream that is the bearer of a clinical drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000017> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000017> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000017> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000017> "drug cream"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000017> <http://purl.obolibrary.org/obo/DRON_00000011>)
@@ -874,7 +873,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000017> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000018> "a portion of lotion that is the bearer of a drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000018> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000018> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000018> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000018> "drug lotion"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000018> <http://purl.obolibrary.org/obo/DRON_00000012>)
@@ -883,7 +882,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000018> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000019> "a portion of lotion that is the bearer of a clinical drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000019> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000019> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000019> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000019> "drug ointment"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000019> <http://purl.obolibrary.org/obo/DRON_00000013>)
@@ -892,7 +891,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000019> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000020> "a portion of solution that is the bearer of a clinical drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000020> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000020> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000020> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000020> "drug solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000020> <http://purl.obolibrary.org/obo/DRON_00000007>)
@@ -901,7 +900,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000020> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000021> "a portion of suspension that is the bearer of a clinical drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000021> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000021> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000021> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000021> "drug suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000021> <http://purl.obolibrary.org/obo/DRON_00000008>)
@@ -910,7 +909,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000021> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000022> "a solid object typically of discoid, spheroid, or elliptic-cylindrical shape or approximations thereof, that bears a clinical drug role."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000022> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000022> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000022> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000022> "drug tablet"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000022> <http://purl.obolibrary.org/obo/BFO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
@@ -919,7 +918,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectIntersectionOf(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000023> "a portion of colloid whereby a gas is dispersed in a liquid"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000023> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000023> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000023> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000023> "portion of foam"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000023> <http://purl.obolibrary.org/obo/DRON_00000009>)
 
@@ -927,7 +926,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000023> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000024> "a portion of foam that is the bearer of a clinical drug role"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000024> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000024> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000024> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000024> "drug foam"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000024> <http://purl.obolibrary.org/obo/DRON_00000023>)
@@ -936,7 +935,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000024> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000025> "a drug role conferred by the United States Food and Drug Administration that permits the production, marketing, sale, prescribing, and consump- tion of its bearer in the United States"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000025> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000025> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000025> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000025> "FDA approved drug role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000025> <http://purl.obolibrary.org/obo/DRON_00000001>)
 
@@ -944,7 +943,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000025> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000026> "an object that is the bearer of a drug role and is comprised of a solid shell of elliptical-cylindrical shape and another object contained in the shell that has a scattered molecular aggregate as a proper part"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000026> "William Hogan"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000026> "William Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000026> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000026> "drug capsule"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000026> <http://purl.obolibrary.org/obo/BFO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
@@ -1461,51 +1460,51 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000072> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000073> "A drug product therapeutic function that, if realized, is realized by the regulation of some endocrine process."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000073> "Matthew Diller"@en)
-AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/DRON_00000073> "Mathias Brochhausen"@en)
-AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/DRON_00000073> "S. Clint Dowland"@en)
-AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/DRON_00000073> "Sarah Bost"@en)
-AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/DRON_00000073> "William R. Hogan"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000073> "Mathias Brochhausen"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000073> "S. Clint Dowland"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000073> "Sarah Bost"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000073> "William R. Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000073> "hormone therapeutic function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000073> <http://purl.obolibrary.org/obo/DRON_00000032>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000500> (albendazole tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000500> "Baxter Bramblett"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000500> "Baxter Bramblett"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000500> "albendazole tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000500> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_16664>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000500> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000501> (gentian violet solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000501> "Baxter Bramblett")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000501> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000501> "gentian violet solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000501> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_41688>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000501> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000502> (ciprofloxacin tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000502> "Baxter Bramblett")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000502> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000502> "ciprofloxacin tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_100241>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000502> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000503> (amitriptyline tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000503> "Baxter Bramblett")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000503> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000503> "amitriptyline tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000503> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_2666>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000503> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000504> (cetirizine tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000504> "Baxter Bramblett")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000504> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000504> "cetirizine tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000504> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3561>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000504> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000505> (diphenhydramine tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000505> "Baxter Bramblett")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000505> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000505> "diphenhydramine tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000505> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_4636>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000505> <http://purl.obolibrary.org/obo/DRON_00000022>)
@@ -1513,28 +1512,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000505> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00000506> (salbutamol tablet)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00000506> "albuterol tablet"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000506> "Baxter Bramblett"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000506> "Baxter Bramblett"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000506> "salbutamol tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000506> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_2549>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000506> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000507> (tetracycline eye ointment)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000507> "Baxter Bramblett")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000507> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000507> "tetracycline eye ointment"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000507> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000019> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_27902>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000507> <http://purl.obolibrary.org/obo/DRON_00000019>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000508> (cloxacillin suspension)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000508> "Baxter Bramblett")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000508> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000508> "cloxacillin suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000508> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_49566>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000508> <http://purl.obolibrary.org/obo/DRON_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000509> (promethazine suspension)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000509> "Baxter Bramblett")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000509> "Baxter Bramblett")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000509> "promethazine suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000509> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_8461>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000509> <http://purl.obolibrary.org/obo/DRON_00000021>)
@@ -1542,14 +1541,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000509> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00000510> (sulfadoxine / pyrimethamine tablet)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00000510> "fansidar tablet"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000510> "Baxter Bramblett"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000510> "Baxter Bramblett"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000510> "sulfadoxine / pyrimethamine tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000510> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_9329>)))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_8673>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000510> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000511> (hydrocortisone skin ointment)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000511> "Baxter Bramblett"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000511> "Baxter Bramblett"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000511> "hydrocortisone skin ointment"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000511> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000019> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_17650>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000511> <http://purl.obolibrary.org/obo/DRON_00000019>)
@@ -1557,14 +1556,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000511> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00000512> (miconazole / clobetasol / gentamicin cream)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00000512> "miconazole, clobetasol, gentamycin cream"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000512> "Baxter Bramblett"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000512> "Baxter Bramblett"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000512> "miconazole / clobetasol / gentamicin cream"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000512> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_17833>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_205919>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_6923>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000512> <http://purl.obolibrary.org/obo/DRON_00000017>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000900> (mupirocin cream)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000900> "Rodel Enderez"@en)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000900> "Rodel Enderez"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000900> "mupirocin cream"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000900> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_7025>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000900> <http://purl.obolibrary.org/obo/DRON_00000017>)
@@ -1577,7 +1576,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000901> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000902> (vitamin a capsule)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000902> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000902> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000902> "vitamin a capsule"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000902> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_12777>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000902> <http://purl.obolibrary.org/obo/DRON_00000026>)
@@ -1585,7 +1584,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000902> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00000903> (chloramphenical suspension)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00000903> "chloramphenicol syrup"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000903> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000903> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000903> "chloramphenical suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000903> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_17698>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000903> <http://purl.obolibrary.org/obo/DRON_00000021>)
@@ -1593,42 +1592,42 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000903> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00000904> (amoxicillin suspension)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00000904> "amoxicillin syrup"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000904> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000904> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000904> "amoxicillin suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000904> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_2676>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000904> <http://purl.obolibrary.org/obo/DRON_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000905> (betamethasone skin ointment)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000905> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000905> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000905> "betamethasone skin ointment"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000905> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000019> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3077>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000905> <http://purl.obolibrary.org/obo/DRON_00000019>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000906> (clindamycin capsule)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000906> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000906> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000906> "clindamycin capsule"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000906> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3745>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000906> <http://purl.obolibrary.org/obo/DRON_00000026>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000907> (diclofenac tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000907> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000907> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000907> "diclofenac tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000907> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_47381>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000907> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000908> (loperamide tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000908> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000908> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000908> "loperamide tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000908> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_6532>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000908> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000909> (nystatin capsule)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000909> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000909> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000909> "nystatin capsule"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000909> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_7660>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000909> <http://purl.obolibrary.org/obo/DRON_00000026>)
@@ -1636,35 +1635,35 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000909> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00000910> (ampicillin / cloxacillin capsule)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00000910> "ampiclox capsule"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000910> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000910> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000910> "ampicillin / cloxacillin capsule"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000910> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_28971>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_49566>))))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000910> <http://purl.obolibrary.org/obo/DRON_00000026>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000911> (chlorpheniramine tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00000911> "Rodel Enderez")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000911> "Rodel Enderez")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000911> "chlorpheniramine tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000911> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_52010>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000911> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001100> (Benzyl penicillin injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001100> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001100> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001100> "Benzyl penicillin injectable solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001100> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_18208>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001100> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001101> (magnesium trisilicate tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001101> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001101> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001101> "magnesium trisilicate tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001101> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/DRON_00018161>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001101> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001102> (Quinine tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001102> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001102> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001102> "Quinine tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001102> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_15854>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001102> <http://purl.obolibrary.org/obo/DRON_00000022>)
@@ -1672,28 +1671,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001102> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001103> (Glycerin borax solution)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001103> "Glycerin borax drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001103> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001103> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001103> "Glycerin borax solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001103> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_17754>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_33118>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001103> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001104> (Folic acid tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001104> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001104> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001104> "Folic acid tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001104> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_27470>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001104> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001105> (Betamethasone / neomycin skin cream)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001105> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001105> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001105> "Betamethasone / neomycin skin cream"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001105> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3077>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_7507>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001105> <http://purl.obolibrary.org/obo/DRON_00000017>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001106> (Clotrimazole skin cream)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001106> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001106> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001106> "Clotrimazole skin cream"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001106> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3764>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001106> <http://purl.obolibrary.org/obo/DRON_00000017>)
@@ -1701,14 +1700,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001106> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001107> (Erythromycin suspension)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001107> "Erythromycin syrup")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001107> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001107> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001107> "Erythromycin suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001107> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_48923>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001107> <http://purl.obolibrary.org/obo/DRON_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001108> (Mebendazole tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001108> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001108> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001108> "Mebendazole tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001108> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_6704>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001108> <http://purl.obolibrary.org/obo/DRON_00000022>)
@@ -1716,7 +1715,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001108> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001109> (Nystatin suspension)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001109> "Nystatin oral drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001109> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001109> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001109> "Nystatin suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001109> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_7660>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001109> <http://purl.obolibrary.org/obo/DRON_00000021>)
@@ -1724,21 +1723,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001109> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001110> (Ampicillin / cloxacillin suspension)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001110> "Ampiclox syrup")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001110> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001110> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001110> "Ampicillin / cloxacillin suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001110> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_28971>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_49566>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001110> <http://purl.obolibrary.org/obo/DRON_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001111> (Mefenamic acid tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001111> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001111> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001111> "Mefenamic acid tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001111> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_6717>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001111> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001112> (Gentamicin solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001112> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001112> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001112> "Gentamicin solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001112> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_17833>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001112> <http://purl.obolibrary.org/obo/DRON_00000020>)
@@ -1746,19 +1745,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001112> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001113> (Gentamicin solution for otic and ophthalmic administration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001113> "Gentamicin eye/ear drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001113> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001113> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001113> "Gentamicin solution for otic and ophthalmic administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001113> <http://purl.obolibrary.org/obo/DRON_00001112>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001114> (Gentamicin injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001114> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001114> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001114> "Gentamicin injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001114> <http://purl.obolibrary.org/obo/DRON_00001112>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001115> (Dexamethasone solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001115> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001115> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001115> "Dexamethasone solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001115> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_41879>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_7507>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001115> <http://purl.obolibrary.org/obo/DRON_00000020>)
@@ -1766,19 +1765,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001115> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001116> (Dexamethasone solution for otic and ophthalmic administration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001116> "Dexona eye/ear drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001116> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001116> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001116> "Dexamethasone solution for otic and ophthalmic administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001116> <http://purl.obolibrary.org/obo/DRON_00001115>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001117> (Dexamethasone injection)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001117> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001117> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001117> "Dexamethasone injection"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001117> <http://purl.obolibrary.org/obo/DRON_00001115>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001118> (Ciprofloxacin solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001118> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001118> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001118> "Ciprofloxacin solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001118> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_100241>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001118> <http://purl.obolibrary.org/obo/DRON_00000020>)
@@ -1786,7 +1785,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001118> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001119> (Ciprofloxacin solution for otic administration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001119> "Ciprofloxacin ear drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001119> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001119> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001119> "Ciprofloxacin solution for otic administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001119> <http://purl.obolibrary.org/obo/DRON_00001118>)
 
@@ -1797,14 +1796,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001120> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001121> (Quinine injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001121> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001121> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001121> "Quinine injectable solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001121> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_15854>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001121> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001122> (Chloramphenicol solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001122> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001122> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001122> "Chloramphenicol solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001122> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_17698>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001122> <http://purl.obolibrary.org/obo/DRON_00000020>)
@@ -1812,33 +1811,33 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001122> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001123> (Chloramphenicol solution for otic and ophthalmic administration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001123> "Chloramphenicol eye/ear drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001123> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001123> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001123> "Chloramphenicol solution for otic and ophthalmic administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001123> <http://purl.obolibrary.org/obo/DRON_00001122>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001124> (Chloramphenicol injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001124> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001124> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001124> "Chloramphenicol injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001124> <http://purl.obolibrary.org/obo/DRON_00001122>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001125> (Bleomycin injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001125> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001125> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001125> "Bleomycin injectable solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001125> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_22907>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001125> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001126> (Ceftriaxone injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001126> "Mirela L Vasoncelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001126> "Mirela L Vasoncelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001126> "Ceftriaxone injectable solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001126> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_29007>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001126> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001127> (Betamethasone solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001127> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001127> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001127> "Betamethasone solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001127> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3077>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001127> <http://purl.obolibrary.org/obo/DRON_00000020>)
@@ -1846,27 +1845,27 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001127> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001128> (Betamethasone solution for ophthalmic administration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001128> "Betamethasone eye drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001128> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001128> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001128> "Betamethasone solution for ophthalmic administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001128> <http://purl.obolibrary.org/obo/DRON_00001127>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001129> (Betamethasone injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001129> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001129> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001129> "Betamethasone injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001129> <http://purl.obolibrary.org/obo/DRON_00001127>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001130> (Betamethasone / neomycin solution for ophthalmic administration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001130> "Betamethasone / neomycin eye drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001130> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001130> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001130> "Betamethasone / neomycin solution for ophthalmic administration"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001130> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3077>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_7507>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001130> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001131> (Hydrocortisone solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001131> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001131> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001131> "Hydrocortisone solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001131> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_17650>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001131> <http://purl.obolibrary.org/obo/DRON_00000020>)
@@ -1874,112 +1873,112 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001131> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001132> (Hydrocortisone solution for otic and ophthalmic administration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001132> "Hydrocortisone eye/ear drop")
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001132> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001132> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001132> "Hydrocortisone solution for otic and ophthalmic administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001132> <http://purl.obolibrary.org/obo/DRON_00001131>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001133> (Hydrocortisone injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001133> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001133> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001133> "Hydrocortisone injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001133> <http://purl.obolibrary.org/obo/DRON_00001131>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001134> (Chloroquine solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001134> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001134> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001134> "Chloroquine solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001134> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3638>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001134> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001135> (Chloroquine injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001135> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001135> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001135> "Chloroquine injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001135> <http://purl.obolibrary.org/obo/DRON_00001134>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001136> (Diclofenac solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001136> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001136> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001136> "Diclofenac solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_47381>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001136> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001137> (Diclofenac injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001137> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001137> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001137> "Diclofenac injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001137> <http://purl.obolibrary.org/obo/DRON_00001136>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001138> (Metronidazole solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001138> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001138> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001138> "Metronidazole solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001138> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_6909>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001138> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001139> (Metronidazole injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001139> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001139> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001139> "Metronidazole injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001139> <http://purl.obolibrary.org/obo/DRON_00001138>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001140> (Oxytocin solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001140> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001140> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001140> "Oxytocin solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001140> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_7872>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001140> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001141> (Oxytocin injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001141> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001141> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001141> "Oxytocin injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001141> <http://purl.obolibrary.org/obo/DRON_00001140>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001142> (Promethazine solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001142> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001142> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001142> "Promethazine solution"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001142> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_8461>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001142> <http://purl.obolibrary.org/obo/DRON_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001143> (Promethazine injectable solution)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001143> "Mirela L Vasconcelos")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001143> "Mirela L Vasconcelos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001143> "Promethazine injectable solution"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001143> <http://purl.obolibrary.org/obo/DRON_00001142>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001500> (terbinafine tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001500> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001500> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001500> "terbinafine tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001500> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_9448>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001500> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001501> (tenofovir / emtricitabine tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001501> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001501> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001501> "tenofovir / emtricitabine tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001501> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_31536>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_63717>))))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001501> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001502> (hydrocortisone skin cream)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001502> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001502> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001502> "hydrocortisone skin cream"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001502> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_17650>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001502> <http://purl.obolibrary.org/obo/DRON_00000017>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001503> (acyclovir cream)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001503> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001503> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001503> "acyclovir cream"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001503> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_2453>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001503> <http://purl.obolibrary.org/obo/DRON_00000017>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001504> (tetracycline capsule)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001504> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001504> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001504> "tetracycline capsule"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001504> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_27902>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001504> <http://purl.obolibrary.org/obo/DRON_00000026>)
@@ -1987,35 +1986,35 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001504> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001505> (cephalexin suspension)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001505> "cephalexin syrup"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001505> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001505> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001505> "cephalexin suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001505> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_3534>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001505> <http://purl.obolibrary.org/obo/DRON_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001506> (fluconazole capsule)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001506> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001506> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001506> "fluconazole capsule"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001506> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_46081>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001506> <http://purl.obolibrary.org/obo/DRON_00000026>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001507> (cloxacillin capsule)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001507> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001507> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001507> "cloxacillin capsule"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001507> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_49566>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001507> <http://purl.obolibrary.org/obo/DRON_00000026>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001508> (metronidazole tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001508> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001508> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001508> "metronidazole tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001508> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_6909>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001508> <http://purl.obolibrary.org/obo/DRON_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00001509> (prednisolone tablet)
 
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001509> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001509> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001509> "prednisolone tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001509> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_8378>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001509> <http://purl.obolibrary.org/obo/DRON_00000022>)
@@ -2023,7 +2022,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001509> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001510> (ampicillin / clavulanate tablet)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001510> "augmentin tablet"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001510> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001510> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001510> "ampicillin / clavulanate tablet"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001510> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_28971>))) ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_487869>))))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001510> <http://purl.obolibrary.org/obo/DRON_00000022>)
@@ -2031,7 +2030,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001510> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/DRON_00001511> (salbutamol suspension)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DRON_00001511> "salbutamol syrup"@en)
-AnnotationAssertion(dce:creator <http://purl.obolibrary.org/obo/DRON_00001511> "Matthew Diller")
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00001511> "Matthew Diller")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001511> "salbutamol suspension"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001511> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000071> <http://purl.obolibrary.org/obo/CHEBI_2549>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001511> <http://purl.obolibrary.org/obo/DRON_00000021>)

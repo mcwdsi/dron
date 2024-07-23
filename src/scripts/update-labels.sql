@@ -1,3 +1,5 @@
+PRAGMA foreign_keys = ON;
+
 ATTACH 'tmp/dron.db' AS dron;
 ATTACH 'tmp/chebi.db' AS chebi;
 ATTACH 'tmp/rxnorm.db' AS rxnorm;
