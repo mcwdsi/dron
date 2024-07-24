@@ -11,11 +11,15 @@ DROP TABLE IF EXISTS new_clinical_drug_form;
 CREATE TABLE new_clinical_drug_form AS
 SELECT
   RXCUI AS rxcui,
-  STR AS label
-FROM rxnorm.RXNCONSO
-WHERE SAB = 'RXNORM'
-  AND TTY = 'SCDF'
-  AND RXCUI NOT IN (SELECT rxcui FROM dron.clinical_drug_form);
+  STR AS label,
+  COALESCE(df.curie, 'DRON:0000005') AS parent -- default 'drug product'
+FROM rxnorm.RXNCONSO AS c
+LEFT JOIN rxnorm.RXNREL AS r ON r.RXCUI2 = c.RXCUI
+LEFT JOIN dron.dose_form AS df ON r.RXCUI1 = df.rxcui
+WHERE c.SAB = 'RXNORM'
+  AND c.TTY = 'SCDF'
+  AND c.RXCUI NOT IN (SELECT rxcui FROM dron.clinical_drug_form)
+  AND r.RELA = 'has_dose_form';
 
 -- Find new clinical drugs.
 DROP TABLE IF EXISTS new_clinical_drug;
@@ -120,7 +124,7 @@ INSERT INTO dron.clinical_drug_form
 SELECT
   NULL AS curie,
   label AS label,
-  NULL AS parent,
+  parent AS parent,
   rxcui AS rxcui
 FROM new_clinical_drug_form;
 

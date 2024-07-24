@@ -20,6 +20,7 @@ PRAGMA foreign_keys = ON;
 .import --skip 1 ../templates/ndc_clinical_drug.tsv ndc_clinical_drug
 .import --skip 1 ../templates/obsolete.tsv obsolete
 .import --skip 1 ../templates/unit.tsv unit
+.import --skip 1 ../templates/dose_form.tsv dose_form
 
 -- Set current_dron_id.
 DELETE FROM current_dron_id;

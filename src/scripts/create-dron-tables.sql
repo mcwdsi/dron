@@ -113,6 +113,12 @@ CREATE TABLE unit (
     ontology_label TEXT UNIQUE NOT NULL
 );
 
+CREATE TABLE dose_form (
+    rxcui INTEGER PRIMARY KEY NOT NULL,
+    label TEXT UNIQUE NOT NULL,
+    curie TEXT NOT NULL
+);
+
 -- Create triggers for automatically assigning DRON IDs.
 -- First create a table with one row to track the current ID.
 CREATE TABLE current_dron_id ( id INTEGER );
