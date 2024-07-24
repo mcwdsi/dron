@@ -58,10 +58,16 @@ UO:0000001	owl:Class
 UO:0000002	owl:Class
 UO:0000006	owl:Class
 UO:0000022	owl:NamedIndividual
+UO:0000040	owl:NamedIndividual
 UO:0000051	owl:Class
 UO:0000095	owl:Class
+UO:0000098	owl:NamedIndividual
 UO:0000105	owl:Class
+UO:0000176	owl:NamedIndividual
+UO:0000187	owl:NamedIndividual
+UO:0000201	owl:NamedIndividual
 UO:0000280	owl:Class
+UO:0010073	owl:NamedIndividual
 CHEBI:100241	owl:Class
 CHEBI:12777	owl:Class
 CHEBI:15854	owl:Class

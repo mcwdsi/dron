@@ -19,7 +19,9 @@ These are the current imports in DRON
 | ro | http://purl.obolibrary.org/obo/ro.owl | slme |
 | apollo_sv | http://purl.obolibrary.org/obo/apollo_sv.owl | None |
 | go | http://purl.obolibrary.org/obo/go.owl | None |
+| iao | http://purl.obolibrary.org/obo/iao.owl | None |
 | obi | http://purl.obolibrary.org/obo/obi.owl | None |
+| uo | http://purl.obolibrary.org/obo/uo.owl | custom |
 | ogms | http://purl.obolibrary.org/obo/ogms.owl | None |
 | bfo | http://purl.obolibrary.org/obo/bfo.owl | slme |
 | omo | http://purl.obolibrary.org/obo/omo.owl | mirror |

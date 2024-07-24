@@ -31,7 +31,10 @@ import_group:
       slme_individuals: exclude
     - id: apollo_sv
     - id: go
+    - id: iao
     - id: obi
+    - id: uo
+      module_type: custom
     - id: ogms
     - id: bfo
       module_type: slme
