@@ -33,7 +33,7 @@ $(TMPDIR)/ldtab.jar: | $(TMPDIR)
 LDTAB := java -jar $(TMPDIR)/ldtab.jar
 
 # Load DrOn templates into SQLite.
-$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql
+$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql $(TEMPLATEDIR)/*.tsv
 	rm -f $@
 	sqlite3 $@ < $<
 	sqlite3 $@ < $(word 2,$^)

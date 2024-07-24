@@ -168,14 +168,15 @@ INSERT OR IGNORE INTO dron.clinical_drug_strength
 SELECT DISTINCT
   cd.curie AS clinical_drug,
   i.curie AS ingredient,
-  s.ATV AS strength,
-  'UO:0000022' AS unit
+  SUBSTR(s.ATV, 1, INSTR(s.ATV, ' ') - 1) AS strength,
+  u.curie AS unit
 FROM dron.clinical_drug AS cd
 LEFT JOIN dron.ingredient AS i
 LEFT JOIN rxnorm.RXNCONSO AS c
 LEFT JOIN rxnorm.RXNREL AS r1
 LEFT JOIN rxnorm.RXNREL AS r2
 LEFT JOIN rxnorm.RXNSAT AS s
+LEFT JOIN dron.unit AS u
 WHERE cd.rxcui IN (SELECT rxcui FROM new_clinical_drug)
   AND r1.RXCUI1 = cd.rxcui
   AND r1.RELA = 'constitutes'
@@ -187,7 +188,8 @@ WHERE cd.rxcui IN (SELECT rxcui FROM new_clinical_drug)
   AND i.rxcui = r2.RXCUI1
   AND s.RXCUI = c.RXCUI
   AND s.SAB = 'RXNORM'
-  AND s.ATN = 'RXN_STRENGTH';
+  AND s.ATN = 'RXN_STRENGTH'
+  AND SUBSTR(s.ATV, INSTR(s.ATV, ' ') + 1) = u.label;
 
 -- Create new branded drugs
 -- and link them to their clinical drugs.
