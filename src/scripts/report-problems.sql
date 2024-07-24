@@ -30,7 +30,7 @@ CREATE TABLE problem (
     'column' TEXT,
     'level' TEXT,
     'rule' TEXT,
-    'message TEXT'
+    'message' TEXT
 );
 
 INSERT INTO problem
