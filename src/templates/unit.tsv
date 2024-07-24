@@ -1,8 +1,8 @@
 curie	label	ontology_label
-UO:0000187	%	percent
-UO:0010073	CELLS	cell count
-UO:0000201	CELLS/ML	cells per milliliter
 UO:0000022	MG	milligram
-UO:0000176	MG/ML	milligram per milliliter
-UO:0000098	ML	milliliter
 UO:0000040	MMOL	millimole
+UO:0000098	ML	milliliter
+UO:0000176	MG/ML	milligram per milliliter
+UO:0000187	%	percent
+UO:0000201	CELLS/ML	cells per milliliter
+UO:0010073	CELLS	cell count
