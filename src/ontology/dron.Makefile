@@ -3,6 +3,18 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
+##########################
+#### Custom UO Import ####
+##########################
+
+$(IMPORTDIR)/uo_import.owl: $(MIRRORDIR)/uo.owl $(IMPORTDIR)/uo_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
+		query --update ../sparql/preprocess-module.ru \
+		remove --base-iri "$(OBOBASE)/UO_" --axioms external --preserve-structure false --trim false \
+		extract --method MIREOT --upper-term UO:0000000 $(patsubst %, --lower-term %, $(ANNOTATION_PROPERTIES)) --lower-terms $(IMPORTDIR)/uo_terms_combined.txt \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		$(ANNOTATE_CONVERT_FILE); fi
+
 ##################################
 #### Custom release artefacts ####
 ##################################
@@ -33,7 +45,7 @@ $(TMPDIR)/ldtab.jar: | $(TMPDIR)
 LDTAB := java -jar $(TMPDIR)/ldtab.jar
 
 # Load DrOn templates into SQLite.
-$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql
+$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql $(TEMPLATEDIR)/*.tsv
 	rm -f $@
 	sqlite3 $@ < $<
 	sqlite3 $@ < $(word 2,$^)

@@ -107,6 +107,12 @@ CREATE TABLE obsolete (
     replaced_by TEXT
 );
 
+CREATE TABLE unit (
+    curie TEXT PRIMARY KEY NOT NULL,
+    label TEXT UNIQUE NOT NULL,
+    ontology_label TEXT UNIQUE NOT NULL
+);
+
 -- Create triggers for automatically assigning DRON IDs.
 -- First create a table with one row to track the current ID.
 CREATE TABLE current_dron_id ( id INTEGER );
