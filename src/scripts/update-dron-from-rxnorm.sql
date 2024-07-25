@@ -12,7 +12,7 @@ CREATE TABLE new_clinical_drug_form AS
 SELECT
   RXCUI AS rxcui,
   STR AS label,
-  COALESCE(df.curie, 'DRON:0000005') AS parent -- default 'drug product'
+  COALESCE(df.curie, 'DRON:00000005') AS parent -- default 'drug product'
 FROM rxnorm.RXNCONSO AS c
 LEFT JOIN rxnorm.RXNREL AS r ON r.RXCUI2 = c.RXCUI
 LEFT JOIN dron.dose_form AS df ON r.RXCUI1 = df.rxcui
