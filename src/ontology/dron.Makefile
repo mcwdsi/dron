@@ -24,7 +24,7 @@ $(IMPORTDIR)/uo_import.owl: $(MIRRORDIR)/uo.owl $(IMPORTDIR)/uo_terms_combined.t
 # (no NDC) and the run a regular full release.
 
 LITE_ARTEFACTS=$(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-ingredient.owl $(COMPONENTSDIR)/dron-obsolete.owl $(IMPORT_OWL_FILES)
-$(TMPDIR)/dron-edit_lite.owl: $(SRC) $(LITE_ARTEFACTS)
+$(TMPDIR)/dron-edit_lite.owl: $(SRC) $(LITE_ARTEFACTS) | $(TMPDIR)/
 	$(ROBOT) remove --input $(SRC) --select imports \
 	merge $(patsubst %, -i %, $(LITE_ARTEFACTS)) --output $@.tmp.owl && mv $@.tmp.owl $@
 
@@ -45,7 +45,7 @@ $(TMPDIR)/ldtab.jar: | $(TMPDIR)
 LDTAB := java -jar $(TMPDIR)/ldtab.jar
 
 # Load DrOn templates into SQLite.
-$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql $(TEMPLATEDIR)/*.tsv
+$(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql $(TEMPLATEDIR)/*.tsv | $(TMPDIR)/
 	rm -f $@
 	sqlite3 $@ < $<
 	sqlite3 $@ < $(word 2,$^)
