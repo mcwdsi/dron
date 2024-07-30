@@ -10,8 +10,8 @@ ATTACH 'tmp/rxnorm.db' AS rxnorm;
 DROP TABLE IF EXISTS new_clinical_drug_form;
 CREATE TABLE new_clinical_drug_form AS
 SELECT
-  RXCUI AS rxcui,
-  STR AS label,
+  c.RXCUI AS rxcui,
+  c.STR AS label,
   COALESCE(df.curie, 'DRON:00000005') AS parent -- default 'drug product'
 FROM rxnorm.RXNCONSO AS c
 LEFT JOIN rxnorm.RXNREL AS r ON r.RXCUI2 = c.RXCUI
