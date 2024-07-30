@@ -85,6 +85,9 @@ update-rxnorm: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPT
 $(TMPDIR)/problems.db: $(TMPDIR)/dron.db $(TMPDIR)/chebi.db $(TMPDIR)/rxnorm.db $(SCRIPTSDIR)/report-problems.sql
 	sqlite3 $@ < $(word 4,$^)
 
+$(TMPDIR)/problems.tsv: $(TMPDIR)/problems.db
+	sqlite3 $< ".mode tabs" ".headers on" "SELECT * FROM problem" > $@
+
 # Convert DrOn template tables to LDTab format tables.
 $(TMPDIR)/ldtab.db: $(TMPDIR)/dron.db $(SCRIPTSDIR)/prefix.tsv $(SCRIPTSDIR)/convert-dron-ldtab.sql | $(TMPDIR)/ldtab.jar
 	$(eval DB=$@)

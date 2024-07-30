@@ -1,7 +1,7 @@
 #!/bin/sh
 
 RXNORM=${1:?Please enter an RxNorm_full version: MMDDYYY}
-UMLS_APIKEY=${UMLS_APIKEY:-2}
+UMLS_APIKEY=${2:-$UMLS_APIKEY}
 UMLS_APIKEY=${UMLS_APIKEY:?Please provide a UMLS API key https://uts.nlm.nih.gov/uts/edit-profile}
 
 fail() {
@@ -21,5 +21,5 @@ curl -L -o "${FILE}" --fail-with-body \
   || fail "Could not download ${FILE}"
 
 echo "Extracting RRF files to ${DIR}/"
-unzip -j -d "${DIR}" "${FILE}" rrf/* \
+unzip -j -o -d "${DIR}" "${FILE}" rrf/* \
   || fail "Could not unzip ${FILE}"

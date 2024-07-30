@@ -10,12 +10,12 @@ ATTACH 'tmp/rxnorm.db' AS rxnorm;
 DROP TABLE IF EXISTS new_clinical_drug_form;
 CREATE TABLE new_clinical_drug_form AS
 SELECT
-  RXCUI AS rxcui,
-  STR AS label,
+  c.RXCUI AS rxcui,
+  c.STR AS label,
   COALESCE(df.curie, 'DRON:00000005') AS parent -- default 'drug product'
 FROM rxnorm.RXNCONSO AS c
 LEFT JOIN rxnorm.RXNREL AS r ON r.RXCUI2 = c.RXCUI
-LEFT JOIN dron.dose_form AS df ON r.RXCUI1 = df.rxcui
+JOIN dron.dose_form AS df ON r.RXCUI1 = df.rxcui
 WHERE c.SAB = 'RXNORM'
   AND c.TTY = 'SCDF'
   AND c.RXCUI NOT IN (SELECT rxcui FROM dron.clinical_drug_form)
@@ -201,7 +201,7 @@ WHERE cd.rxcui IN (SELECT rxcui FROM new_clinical_drug)
 -- where the relation is 'tradename_of'
 -- the RXCUI1 is the clinical drug
 -- and the RXCUI2 is the branded drug.
-INSERT INTO dron.branded_drug
+INSERT OR IGNORE INTO dron.branded_drug
 SELECT DISTINCT
     NULL AS curie,
     c.STR AS label,
