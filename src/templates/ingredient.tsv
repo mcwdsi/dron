@@ -811,10 +811,18 @@ CHEBI:229649	leniolisib	2633005
 CHEBI:229657	lotilaner	1998841
 CHEBI:229658	perfluorohexyloctane	2637547
 CHEBI:229661	omaveloxolone	2631931
+CHEBI:229680	rezafungin	2639155
 CHEBI:229764	selinexor	2178390
 CHEBI:22984	calcium atom	1895
 CHEBI:229860	dichlorodifluoromethane	50110
+CHEBI:230550	roxatidine	114817
 CHEBI:23123	chloroacetate	48008
+CHEBI:231324	alpelisib	2169285
+CHEBI:231344	talazoparib	2099704
+CHEBI:231350	pacritinib	2595243
+CHEBI:231505	gallium nitrate	25544
+CHEBI:231598	tazemetostat	2274378
+CHEBI:231601	trastuzumab	224905
 CHEBI:23316	citral	1362890
 CHEBI:23334	cobalamins	42604
 CHEBI:23359	colchicine	2683
@@ -3177,7 +3185,6 @@ DRON:00012957	iron,peptonized	235272
 DRON:00012973	tenecteplase	259280
 DRON:00012977	human calcitonin	235481
 DRON:00012980	aldesleukin	70223
-DRON:00012982	gallium nitrate	25544
 DRON:00012984	imiglucerase	84959
 DRON:00012988	abciximab	83929
 DRON:00012997	basiliximab	196102
@@ -3189,7 +3196,6 @@ DRON:00013006	denileukin diftitox	214470
 DRON:00013009	sodium morrhuate	9892
 DRON:00013015	reteplase	76895
 DRON:00013023	lenograstim	70167
-DRON:00013025	trastuzumab	224905
 DRON:00013031	factor VIIa	4256
 DRON:00013033	asparaginase	1156
 DRON:00013035	cryptenamine	42618
@@ -3473,7 +3479,6 @@ DRON:00015757	silver mono(2-aminoethyl)phosphate	162901
 DRON:00015758	silver acetate	137939
 DRON:00015766	greater celandine	236982
 DRON:00015768	simaldrate	236730
-DRON:00015773	roxatidine	114817
 DRON:00015796	clebopride	21224
 DRON:00015798	dihydroxybutyl ether	14699
 DRON:00015826	sitosterols	9808
@@ -6050,7 +6055,6 @@ DRON:00858643	onasemnogene abeparvovec	2170226
 DRON:00858644	Atlantic halibut allergenic extract	2261370
 DRON:00858646	barley malt syrup	1306883
 DRON:00858647	glyceryl behenate-eicosadioate	1371968
-DRON:00860676	alpelisib	2169285
 DRON:00860678	relebactam	2184137
 DRON:00862664	influenza A virus vaccine, A-Texas-50-2012 (H3N2)-like virus	1541617
 DRON:00862665	Alnus serrulata pollen extract	2043275
@@ -6096,7 +6100,6 @@ DRON:00873124	hydroxypropyl guar (2500-4500 MPA.S at 1%)	1361655
 DRON:00873125	hydroxyethyl cellulose (5500 MPA.S at 2%)	1430439
 DRON:00874907	ubrogepant	2268216
 DRON:00874908	ferric derisomaltose	2274394
-DRON:00874909	tazemetostat	2274378
 DRON:00874910	hepatitis A virus strain CR 326F antigen, inactivated	2274413
 DRON:00874911	teprotumumab	2274803
 DRON:00874912	rimegepant	2282307
@@ -6234,7 +6237,6 @@ DRON:00965870	fosdenopterin	2531288
 DRON:00965871	infigratinib	2550729
 DRON:00965872	aducanumab	2557217
 DRON:00965874	tick-borne encephalitis purified antigen	2583637
-DRON:00965875	pacritinib	2595243
 DRON:00965876	relatlimab	2596773
 DRON:00965877	vipivotide tetraxetan	2597054
 DRON:00965878	inebilizumab	2373951
@@ -6336,7 +6338,6 @@ DRON:01002948	valbenazine	1918219
 DRON:01002949	durvalumab	1919503
 DRON:01002950	tisagenlecleucel	1986438
 DRON:01002951	benzhydrocodone	2001352
-DRON:01002952	talazoparib	2099704
 DRON:01002953	pyrethrum allergenic extract	2102029
 DRON:01002954	pumpkin whole allergenic extract	2102476
 DRON:01002955	rainbow trout allergenic extract	2102483
@@ -6683,7 +6684,6 @@ DRON:01035081	allogeneic processed thymus tissue	2626460
 DRON:01035082	allogeneic cultured keratinocytes and dermal fibroblasts in murine collagen	2626471
 DRON:01035083	futibatinib	2628190
 DRON:01035084	beremagene geperpavec	2637758
-DRON:01035085	rezafungin	2639155
 DRON:01035086	vilobelimab	2639620
 DRON:01035087	glofitamab	2639782
 DRON:01035088	1,1,1,2,2,3,3,4,4-nonafluorononane	2639943
