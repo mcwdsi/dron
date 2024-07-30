@@ -12275,7 +12275,7 @@ DRON:00081196	fenoprofen 400 MG Oral Capsule [Nalfon]	DRON:00059026	858118
 DRON:00081197	degarelix 80 MG Injection [Firmagon]	DRON:00057581	858125
 DRON:00081198	degarelix 120 MG Injection [Firmagon]	DRON:00057582	858127
 DRON:00081199	doxercalciferol 0.001 MG Oral Capsule [Hectorol]	DRON:00059029	858264
-DRON:00081200	diclofenac potassium 25 MG Oral Capsule [Zipsor]	DRON:00059042	858346
+DRON:00081200	diclofenac 25 MG Oral Capsule [Zipsor]	DRON:00059042	858346
 DRON:00081201	ketorolac tromethamine 4.5 MG/ML Ophthalmic Solution [Acuvail]	DRON:00059045	858366
 DRON:00081202	aloe polysaccharide 0.01 MG/MG / iodoquinol 0.0125 MG/MG Topical Gel [Aloquin]	DRON:00059044	858370
 DRON:00081203	24 HR minocycline 65 MG Extended Release Oral Tablet [Solodyn]	DRON:00059046	858374
@@ -12719,8 +12719,8 @@ DRON:00081640	0.4 ML fondaparinux sodium 12.5 MG/ML Prefilled Syringe [Arixtra]	
 DRON:00081641	0.6 ML fondaparinux sodium 12.5 MG/ML Prefilled Syringe [Arixtra]	DRON:00059321	861366
 DRON:00081642	sevelamer carbonate 2400 MG Powder for Oral Suspension [Renvela]	DRON:00059322	861373
 DRON:00081643	sevelamer carbonate 800 MG Powder for Oral Suspension [Renvela]	DRON:00059323	861377
-DRON:00081644	micafungin sodium 50 MG Injection [Mycamine]	DRON:00059324	861381
-DRON:00081645	micafungin sodium 100 MG Injection [Mycamine]	DRON:00059325	861385
+DRON:00081644	micafungin 50 MG Injection [Mycamine]	DRON:00059324	861381
+DRON:00081645	micafungin 100 MG Injection [Mycamine]	DRON:00059325	861385
 DRON:00081646	phenoxybenzamine hydrochloride 10 MG Oral Capsule [Dibenzyline]	DRON:00059327	861404
 DRON:00081647	azithromycin 1000 MG Powder for Oral Suspension [Zithromax]	DRON:00059328	861417
 DRON:00081648	timolol 0.0025 MG/MG Ophthalmic Gel [Timoptic]	DRON:00046222	861420

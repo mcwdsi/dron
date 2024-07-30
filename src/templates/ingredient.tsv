@@ -2859,7 +2859,7 @@ CHEBI:9122	sertindole	41996
 CHEBI:9123	sertraline	36437
 CHEBI:91295	ricinoleate	618482
 CHEBI:9130	sevoflurane	36453
-CHEBI:91327	1-[2-chloro-4-[(6,7-dimethoxy-4-quinolinyl)oxy]phenyl]-3-(5-methyl-3-isoxazolyl)urea	2534233
+CHEBI:91327	tivozanib	2534233
 CHEBI:9137	sibutramine	36514
 CHEBI:9139	sildenafil	136411
 CHEBI:91407	momelotinib	2665204
@@ -6322,7 +6322,7 @@ DRON:01002934	lorazepam	6470
 DRON:01002935	prenylamine	8674
 DRON:01002936	racemethionine	9100
 DRON:01002937	silymarin	9794
-DRON:01002938	(+)-panthenol	22701
+DRON:01002938	dexpanthenol	22701
 DRON:01002939	enoxaparin	67108
 DRON:01002940	reviparin	75960
 DRON:01002941	poloxamer	155156
