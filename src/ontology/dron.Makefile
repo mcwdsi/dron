@@ -42,7 +42,7 @@ dron-lite.owl: $(TMPDIR)/dron-edit_lite.owl
 $(TMPDIR)/ldtab.jar: | $(TMPDIR)
 	wget https://github.com/ontodev/ldtab.clj/releases/download/v2024-05-14/ldtab.jar -O $@
 
-LDTAB := java -jar $(TMPDIR)/ldtab.jar
+LDTAB := java -Xmx8G -jar $(TMPDIR)/ldtab.jar
 
 # Load DrOn templates into SQLite.
 $(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql $(TEMPLATEDIR)/*.tsv | $(TMPDIR)/
