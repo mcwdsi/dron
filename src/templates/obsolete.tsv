@@ -9,6 +9,7 @@ DRON:00015773	obsolete roxatidine	owl:Class	CHEBI:230550
 DRON:00015971	obsolete tiratricol	owl:Class	CHEBI:40021
 DRON:00016220	obsolete tilmicosin	owl:Class	CHEBI:195409
 DRON:00016393	obsolete dichlorodifluoromethane	owl:Class	CHEBI:229860
+DRON:00020050	obsolete ipilimumab	owl:Class	CHEBI:231679
 DRON:00020097	obsolete gamithromycin	owl:Class	CHEBI:195437
 DRON:00723507	obsolete ferrosoferric oxide	owl:Class	CHEBI:50821
 DRON:00723868	obsolete Juniperus communis whole extract	owl:Class	DRON:00010134
@@ -4530,6 +4531,7 @@ DRON:00763781	obsolete guaifenesin 400 MG / phenylephrine hydrochloride 15 MG Ex
 DRON:00763782	obsolete guaifenesin 50 MG/ML / phenylephrine hydrochloride 2.5 MG/ML Oral Solution	owl:Class	DRON:00057482
 DRON:00763785	obsolete 12 HR guaifenesin 550 MG / phenylephrine hydrochloride 8.5 MG Extended Release Oral Tablet	owl:Class	DRON:00068008
 DRON:00763786	obsolete guaifenesin 550 MG / phenylephrine hydrochloride 8.5 MG Extended Release Oral Tablet	owl:Class	DRON:00068009
+DRON:00767223	obsolete olaratumab	owl:Class	CHEBI:231681
 DRON:00767257	obsolete desoxycorticosterone 25 MG/ML Injectable Suspension	owl:Class	DRON:00044644
 DRON:00767258	obsolete desoxycorticosterone pivalate 25 MG/ML Injectable Suspension	owl:Class	DRON:00752448
 DRON:00767259	obsolete dexamethasone phosphate 10 MG/ML Injectable Solution	owl:Class	DRON:00044661

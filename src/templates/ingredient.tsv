@@ -795,6 +795,8 @@ CHEBI:22907	bleomycin	1622
 CHEBI:22909	borate ion	1424875
 CHEBI:229212	pirtobrutinib	2629338
 CHEBI:229213	elacestrant	2628469
+CHEBI:229217	nirogacestat	2670631
+CHEBI:229220	repotrectinib	2670644
 CHEBI:229221	fruquintinib	2670179
 CHEBI:229222	capivasertib	2669967
 CHEBI:229223	daprodustat	2628210
@@ -808,6 +810,7 @@ CHEBI:229539	durlobactam	2639089
 CHEBI:229599	trofinetide	2632852
 CHEBI:229643	zavegepant	2637955
 CHEBI:229649	leniolisib	2633005
+CHEBI:229652	iptacopan	2671061
 CHEBI:229657	lotilaner	1998841
 CHEBI:229658	perfluorohexyloctane	2637547
 CHEBI:229661	omaveloxolone	2631931
@@ -823,6 +826,8 @@ CHEBI:231350	pacritinib	2595243
 CHEBI:231505	gallium nitrate	25544
 CHEBI:231598	tazemetostat	2274378
 CHEBI:231601	trastuzumab	224905
+CHEBI:231679	ipilimumab	1094833
+CHEBI:231681	olaratumab	1855735
 CHEBI:23316	citral	1362890
 CHEBI:23334	cobalamins	42604
 CHEBI:23359	colchicine	2683
@@ -4781,7 +4786,6 @@ DRON:00020044	creeping bentgrass pollen extract	1094116
 DRON:00020045	redroot pigweed pollen extract	851930
 DRON:00020046	spiny pigweed pollen extract	895919
 DRON:00020047	broomweed pollen extract	1094193
-DRON:00020050	ipilimumab	1094833
 DRON:00020051	coast live oak pollen extract	852302
 DRON:00020052	mesquite pollen extract	852320
 DRON:00020053	annual bluegrass pollen extract	898404
@@ -5858,7 +5862,6 @@ DRON:00763727	eteplirsen	1810569
 DRON:00763728	vonicog alfa	1812589
 DRON:00763729	prussian blue insoluble	24902
 DRON:00767222	bezlotoxumab	1855048
-DRON:00767223	olaratumab	1855735
 DRON:00767224	hydroxypropyl cellulose (type H)	1811461
 DRON:00769184	levomefolate	1592257
 DRON:00769185	alexitol	644634
@@ -6699,3 +6702,6 @@ DRON:01035097	toripalimab	2669406
 DRON:01035098	ADAMTS13, recombinant	2670285
 DRON:01035099	C30-45 alkyl cetearyl dimethicone crosspolymer	2609244
 DRON:01035100	poly(DL-lactic-co-glycolic acid), (75:25; 20000 MW)	2664061
+DRON:01036992	Carthamus tinctorius (safflower) oleosomes extract	1307784
+DRON:01036993	ceteth-2	1425220
+DRON:01036994	egg shell membrane	1428044
