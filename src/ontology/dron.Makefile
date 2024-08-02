@@ -65,7 +65,7 @@ $(TMPDIR)/chebi.db: $(SCRIPTSDIR)/prefix.tsv $(TMPDIR)/mirror-chebi.owl $(SCRIPT
 	sqlite3 $(DB) < $(word 3,$^)
 
 # Create a SQLite database for RxNorm and load data from tmp/rxnorm/*.RRF.
-$(TMPDIR)/rxnorm.db: $(SCRIPTSDIR)/create-rxnorm-tables.sql $(SCRIPTSDIR)/load-rxnorm-tables.sql $(SCRIPTSDIR)/index-rxnorm-tables.sql | $(TMPDIR)/
+$(TMPDIR)/rxnorm.db: $(SCRIPTSDIR)/create-rxnorm-tables.sql $(SCRIPTSDIR)/load-rxnorm-tables.sql $(SCRIPTSDIR)/index-rxnorm-tables.sql $(TMPDIR)/rxnorm/*.RRF
 	rm -f $@
 	sqlite3 $@ < $<
 	sqlite3 $@ < $(word 2,$^) 2> /dev/null
