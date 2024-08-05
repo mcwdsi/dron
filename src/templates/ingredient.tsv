@@ -430,6 +430,7 @@ CHEBI:135978	domiphen	23623
 CHEBI:135983	teriparatide	32915
 CHEBI:135986	fluclorolone	108091
 CHEBI:135989	fluprednidene	236650
+CHEBI:135990	gepirone	2672253
 CHEBI:135993	nomegestrol	31930
 CHEBI:136003	levomethadone	236913
 CHEBI:136007	methylnaltrexone	29899
@@ -6705,3 +6706,5 @@ DRON:01035100	poly(DL-lactic-co-glycolic acid), (75:25; 20000 MW)	2664061
 DRON:01036992	Carthamus tinctorius (safflower) oleosomes extract	1307784
 DRON:01036993	ceteth-2	1425220
 DRON:01036994	egg shell membrane	1428044
+DRON:01039231	4-N-octylphenol	2395436
+DRON:01039232	PEG-5 cocamine	2395446
