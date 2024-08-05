@@ -23,3 +23,6 @@ curl -L -o "${FILE}" --fail-with-body \
 echo "Extracting RRF files to ${DIR}/"
 unzip -j -o -d "${DIR}" "${FILE}" rrf/* \
   || fail "Could not unzip ${FILE}"
+
+# Mark files as new.
+touch "${DIR}/*.RRF"

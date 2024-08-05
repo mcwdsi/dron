@@ -42,7 +42,7 @@ dron-lite.owl: $(TMPDIR)/dron-edit_lite.owl
 $(TMPDIR)/ldtab.jar: | $(TMPDIR)
 	wget https://github.com/ontodev/ldtab.clj/releases/download/v2024-05-14/ldtab.jar -O $@
 
-LDTAB := java -jar $(TMPDIR)/ldtab.jar
+LDTAB := java -Xmx8G -jar $(TMPDIR)/ldtab.jar
 
 # Load DrOn templates into SQLite.
 $(TMPDIR)/dron.db: $(SCRIPTSDIR)/create-dron-tables.sql $(SCRIPTSDIR)/load-dron-tables.sql $(SCRIPTSDIR)/index-dron-tables.sql $(TEMPLATEDIR)/*.tsv | $(TMPDIR)/
@@ -65,7 +65,7 @@ $(TMPDIR)/chebi.db: $(SCRIPTSDIR)/prefix.tsv $(TMPDIR)/mirror-chebi.owl $(SCRIPT
 	sqlite3 $(DB) < $(word 3,$^)
 
 # Create a SQLite database for RxNorm and load data from tmp/rxnorm/*.RRF.
-$(TMPDIR)/rxnorm.db: $(SCRIPTSDIR)/create-rxnorm-tables.sql $(SCRIPTSDIR)/load-rxnorm-tables.sql $(SCRIPTSDIR)/index-rxnorm-tables.sql | $(TMPDIR)/
+$(TMPDIR)/rxnorm.db: $(SCRIPTSDIR)/create-rxnorm-tables.sql $(SCRIPTSDIR)/load-rxnorm-tables.sql $(SCRIPTSDIR)/index-rxnorm-tables.sql $(TMPDIR)/rxnorm/*.RRF
 	rm -f $@
 	sqlite3 $@ < $<
 	sqlite3 $@ < $(word 2,$^) 2> /dev/null

@@ -1,11 +1,15 @@
 curie	label	type	replaced_by
 DRON:00010528	obsolete corn oil	owl:Class	CHEBI:195250
+DRON:00012982	obsolete gallium nitrate	owl:Class	CHEBI:231505
+DRON:00013025	obsolete trastuzumab	owl:Class	CHEBI:231601
 DRON:00013529	obsolete theodrenaline	owl:Class	CHEBI:135580
 DRON:00014271	obsolete azosemide	owl:Class	CHEBI:31248
 DRON:00014495	obsolete benznidazole	owl:Class	CHEBI:133833
+DRON:00015773	obsolete roxatidine	owl:Class	CHEBI:230550
 DRON:00015971	obsolete tiratricol	owl:Class	CHEBI:40021
 DRON:00016220	obsolete tilmicosin	owl:Class	CHEBI:195409
 DRON:00016393	obsolete dichlorodifluoromethane	owl:Class	CHEBI:229860
+DRON:00020050	obsolete ipilimumab	owl:Class	CHEBI:231679
 DRON:00020097	obsolete gamithromycin	owl:Class	CHEBI:195437
 DRON:00723507	obsolete ferrosoferric oxide	owl:Class	CHEBI:50821
 DRON:00723868	obsolete Juniperus communis whole extract	owl:Class	DRON:00010134
@@ -4527,6 +4531,7 @@ DRON:00763781	obsolete guaifenesin 400 MG / phenylephrine hydrochloride 15 MG Ex
 DRON:00763782	obsolete guaifenesin 50 MG/ML / phenylephrine hydrochloride 2.5 MG/ML Oral Solution	owl:Class	DRON:00057482
 DRON:00763785	obsolete 12 HR guaifenesin 550 MG / phenylephrine hydrochloride 8.5 MG Extended Release Oral Tablet	owl:Class	DRON:00068008
 DRON:00763786	obsolete guaifenesin 550 MG / phenylephrine hydrochloride 8.5 MG Extended Release Oral Tablet	owl:Class	DRON:00068009
+DRON:00767223	obsolete olaratumab	owl:Class	CHEBI:231681
 DRON:00767257	obsolete desoxycorticosterone 25 MG/ML Injectable Suspension	owl:Class	DRON:00044644
 DRON:00767258	obsolete desoxycorticosterone pivalate 25 MG/ML Injectable Suspension	owl:Class	DRON:00752448
 DRON:00767259	obsolete dexamethasone phosphate 10 MG/ML Injectable Solution	owl:Class	DRON:00044661
@@ -6199,6 +6204,7 @@ DRON:00858660	obsolete acebutolol 200 MG Oral Capsule	owl:Class	DRON:00062424
 DRON:00858661	obsolete acebutolol 100 MG Oral Capsule	owl:Class	DRON:00062425
 DRON:00858662	obsolete acebutolol 200 MG / hydrochlorothiazide 12.5 MG Oral Tablet	owl:Class	DRON:00062426
 DRON:00858663	obsolete acebutolol 400 MG Oral Tablet	owl:Class	DRON:00062427
+DRON:00860676	obsolete alpelisib	owl:Class	CHEBI:231324
 DRON:00860689	obsolete chlorpheniramine maleate 0.4 MG/ML / hydrocodone bitartrate 0.4 MG/ML / phenylephrine hydrochloride 1.5 MG/ML Oral Solution	owl:Class	DRON:00058990
 DRON:00860690	obsolete chlorpheniramine maleate 0.4 MG/ML / hydrocodone bitartrate 0.5 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution	owl:Class	DRON:00058992
 DRON:00860691	obsolete chlorpheniramine maleate 0.4 MG/ML / hydrocodone bitartrate 0.7 MG/ML / phenylephrine hydrochloride 1.5 MG/ML Oral Solution	owl:Class	DRON:00059103
@@ -6872,6 +6878,7 @@ DRON:00873175	obsolete caffeine 5 MG/ML / codeine phosphate 2 MG/ML / pheniramin
 DRON:00873176	obsolete codeine phosphate 10 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Oral Tablet	owl:Class	DRON:00062158
 DRON:00873177	obsolete ascorbic acid 35 MG/ML / cholecalciferol 0.01 MG/ML / vitamin A 0.225 MG/ML Oral Solution	owl:Class	DRON:00775765
 DRON:00873188	obsolete riluzole 50 MG Oral Film	owl:Class	DRON:00867788
+DRON:00874909	obsolete tazemetostat	owl:Class	CHEBI:231598
 DRON:00874943	obsolete vitamin E 90 MG Oral Tablet	owl:Class	DRON:00035198
 DRON:00874944	obsolete chlorpheniramine maleate 6 MG / guaifenesin 200 MG / phenylpropanolamine hydrochloride 75 MG Extended Release Oral Tablet	owl:Class	DRON:00035403
 DRON:00874945	obsolete chlorpheniramine maleate 4 MG / phenindamine tartrate 24 MG / phenylpropanolamine hydrochloride 50 MG Extended Release Oral Tablet	owl:Class	DRON:00035404
@@ -7862,6 +7869,7 @@ DRON:00961549	obsolete 1.32 ML paliperidone palmitate 311 MG/ML Prefilled Syring
 DRON:00961550	obsolete 2.63 ML paliperidone palmitate 311 MG/ML Prefilled Syringe	owl:Class	DRON:00776404
 DRON:00961551	obsolete iodine 0.02 MG/ML / sodium chloride 9 MG/ML Nasal Spray	owl:Class	DRON:00949260
 DRON:00965873	obsolete atogepant	owl:Class	CHEBI:196955
+DRON:00965875	obsolete pacritinib	owl:Class	CHEBI:231350
 DRON:00965925	obsolete 24 HR clonidine 0.09 MG/ML Extended Release Suspension	owl:Class	DRON:00059833
 DRON:00965926	obsolete 24 HR clonidine 0.17 MG Extended Release Oral Tablet	owl:Class	DRON:00059835
 DRON:00965927	obsolete clonidine 0.09 MG/ML Extended Release Suspension	owl:Class	DRON:00059834
@@ -7899,3 +7907,5 @@ DRON:00997002	obsolete calcium chloride 0.2 MG/ML / potassium chloride 0.3 MG/ML
 DRON:00997003	obsolete calcium chloride 0.33 MG/ML / glucose 50 MG/ML / potassium chloride 0.3 MG/ML / sodium chloride 8.6 MG/ML Injectable Solution	owl:Class	DRON:00058164
 DRON:00997004	obsolete calcium chloride 0.2 MG/ML / potassium chloride 0.3 MG/ML / sodium chloride 6 MG/ML / sodium lactate 3.1 MG/ML Injectable Solution	owl:Class	DRON:00058165
 DRON:00997005	obsolete calcium chloride 0.2 MG/ML / glucose 50 MG/ML / potassium chloride 3.28 MG/ML / sodium chloride 6 MG/ML / sodium lactate 3.1 MG/ML Injectable Solution	owl:Class	DRON:00789861
+DRON:01002952	obsolete talazoparib	owl:Class	CHEBI:231344
+DRON:01035085	obsolete rezafungin	owl:Class	CHEBI:229680

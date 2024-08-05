@@ -12275,7 +12275,7 @@ DRON:00081196	fenoprofen 400 MG Oral Capsule [Nalfon]	DRON:00059026	858118
 DRON:00081197	degarelix 80 MG Injection [Firmagon]	DRON:00057581	858125
 DRON:00081198	degarelix 120 MG Injection [Firmagon]	DRON:00057582	858127
 DRON:00081199	doxercalciferol 0.001 MG Oral Capsule [Hectorol]	DRON:00059029	858264
-DRON:00081200	diclofenac potassium 25 MG Oral Capsule [Zipsor]	DRON:00059042	858346
+DRON:00081200	diclofenac 25 MG Oral Capsule [Zipsor]	DRON:00059042	858346
 DRON:00081201	ketorolac tromethamine 4.5 MG/ML Ophthalmic Solution [Acuvail]	DRON:00059045	858366
 DRON:00081202	aloe polysaccharide 0.01 MG/MG / iodoquinol 0.0125 MG/MG Topical Gel [Aloquin]	DRON:00059044	858370
 DRON:00081203	24 HR minocycline 65 MG Extended Release Oral Tablet [Solodyn]	DRON:00059046	858374
@@ -12719,8 +12719,8 @@ DRON:00081640	0.4 ML fondaparinux sodium 12.5 MG/ML Prefilled Syringe [Arixtra]	
 DRON:00081641	0.6 ML fondaparinux sodium 12.5 MG/ML Prefilled Syringe [Arixtra]	DRON:00059321	861366
 DRON:00081642	sevelamer carbonate 2400 MG Powder for Oral Suspension [Renvela]	DRON:00059322	861373
 DRON:00081643	sevelamer carbonate 800 MG Powder for Oral Suspension [Renvela]	DRON:00059323	861377
-DRON:00081644	micafungin sodium 50 MG Injection [Mycamine]	DRON:00059324	861381
-DRON:00081645	micafungin sodium 100 MG Injection [Mycamine]	DRON:00059325	861385
+DRON:00081644	micafungin 50 MG Injection [Mycamine]	DRON:00059324	861381
+DRON:00081645	micafungin 100 MG Injection [Mycamine]	DRON:00059325	861385
 DRON:00081646	phenoxybenzamine hydrochloride 10 MG Oral Capsule [Dibenzyline]	DRON:00059327	861404
 DRON:00081647	azithromycin 1000 MG Powder for Oral Suspension [Zithromax]	DRON:00059328	861417
 DRON:00081648	timolol 0.0025 MG/MG Ophthalmic Gel [Timoptic]	DRON:00046222	861420
@@ -28026,3 +28026,79 @@ DRON:01010210	fruquintinib 5 MG Oral Capsule [Fruzaqla]	DRON:01001271	2670198
 DRON:01010211	ADAMTS13, recombinant-krhn 1500 UNT Injection [Adzynma]	DRON:01003433	2670300
 DRON:01010212	benzoic acid 9 MG / hyoscyamine sulfate 0.12 MG / methenamine 81.6 MG / methylene blue 10.8 MG / phenyl salicylate 36.2 MG Oral Tablet [Uribel Tabs]	DRON:00063346	2670308
 DRON:01010213	ADAMTS13, recombinant-krhn 500 UNT Injection [Adzynma]	DRON:01003434	2670313
+DRON:01035143	sitagliptin 100 MG Oral Tablet [Zituvio]	DRON:00055370	2670447
+DRON:01035144	sitagliptin 25 MG Oral Tablet [Zituvio]	DRON:00055371	2670449
+DRON:01035145	sitagliptin 50 MG Oral Tablet [Zituvio]	DRON:00055372	2670451
+DRON:01035146	50 ML immunoglobulin G, human 200 MG/ML Prefilled Syringe [Hizentra]	DRON:01035127	2670629
+DRON:01035147	nirogacestat 50 MG Oral Tablet [Ogsiveo]	DRON:01035136	2670643
+DRON:01035148	repotrectinib 40 MG Oral Capsule [Augtyro]	DRON:01035137	2670655
+DRON:01035149	50 ML vasopressin (USP) 1 UNT/ML Injection [Vasostrict]	DRON:01035125	2670683
+DRON:01035150	vasopressin (USP) 1 UNT/ML Injection [Vasostrict]	DRON:01035126	2670684
+DRON:01035151	pregabalin 50 MG/ML Oral Solution [Bonqat]	DRON:01035119	2671060
+DRON:01035152	iptacopan 200 MG Oral Capsule [Fabhalta]	DRON:01035138	2671080
+DRON:01035153	cholecalciferol 0.125 MG / levomefolate calcium 1 MG Oral Tablet [Folixate]	DRON:01035139	2671097
+DRON:01035154	melphalan 50 MG Injection [Hepzato]	DRON:00045377	2671196
+DRON:01035155	salicylic acid 60 MG/ML Topical Cream [Salycim]	DRON:00053308	2671250
+DRON:01035156	benzalkonium chloride 0.001 MG/MG Topical Gel [Tridergel]	DRON:00063909	2671305
+DRON:01035157	methotrexate 2 MG/ML Oral Solution [Jylamvo]	DRON:01035124	2671462
+DRON:01035158	cysteine hydrochloride 50 MG/ML Injectable Solution [Elcys]	DRON:00775501	2671585
+DRON:01035159	thyroid (USP) 15 MG Oral Tablet [Adthyza]	DRON:00046591	2671591
+DRON:01035160	thyroid (USP) 30 MG Oral Tablet [Adthyza]	DRON:00046206	2671594
+DRON:01035161	thyroid (USP) 60 MG Oral Tablet [Adthyza]	DRON:00046210	2671596
+DRON:01035162	thyroid (USP) 90 MG Oral Tablet [Adthyza]	DRON:00046212	2671598
+DRON:01035163	thyroid (USP) 120 MG Oral Tablet [Adthyza]	DRON:00037737	2671600
+DRON:01035164	10 ML ephedrine hydrochloride 4.7 MG/ML Injection [Rezipres]	DRON:01035123	2671680
+DRON:01035165	roflumilast 3 MG/ML Topical Foam [Zoryve]	DRON:01035142	2671684
+DRON:01035166	penicillin G benzathine 1200000 UNT Injection [Extencilline]	DRON:01035121	2671693
+DRON:01035167	penicillin G benzathine 2400000 UNT Injection [Extencilline]	DRON:01035122	2671697
+DRON:01037038	50 ML immune globulin intravenous (human) - stwk 100 MG/ML Injection [Alyglo]	DRON:01037015	2672105
+DRON:01037039	immune globulin intravenous (human) - stwk 100 MG/ML Injection [Alyglo]	DRON:01037016	2672106
+DRON:01037040	100 ML immune globulin intravenous (human) - stwk 100 MG/ML Injection [Alyglo]	DRON:01037017	2672108
+DRON:01037041	200 ML immune globulin intravenous (human) - stwk 100 MG/ML Injection [Alyglo]	DRON:01037018	2672110
+DRON:01037042	bosutinib 100 MG Oral Capsule [Bosulif]	DRON:01003425	2672326
+DRON:01037043	bosutinib 50 MG Oral Capsule [Bosulif]	DRON:01003426	2672328
+DRON:01037044	salicylic acid 0.06 MG/MG Topical Gel [Salyntra]	DRON:00045977	2672367
+DRON:01037045	24 HR gepirone 18.2 MG Extended Release Oral Tablet [Exxua]	DRON:01037028	2672379
+DRON:01037046	gepirone 18.2 MG Extended Release Oral Tablet [Exxua]	DRON:01037029	2672380
+DRON:01037047	24 HR gepirone 36.3 MG Extended Release Oral Tablet [Exxua]	DRON:01037030	2672385
+DRON:01037048	gepirone 36.3 MG Extended Release Oral Tablet [Exxua]	DRON:01037031	2672386
+DRON:01037049	24 HR gepirone 54.5 MG Extended Release Oral Tablet [Exxua]	DRON:01037032	2672391
+DRON:01037050	gepirone 54.5 MG Extended Release Oral Tablet [Exxua]	DRON:01037033	2672392
+DRON:01037051	24 HR gepirone 72.6 MG Extended Release Oral Tablet [Exxua]	DRON:01037034	2672397
+DRON:01037052	gepirone 72.6 MG Extended Release Oral Tablet [Exxua]	DRON:01037035	2672398
+DRON:01037053	camphor 50 MG/ML / menthol 60 MG/ML / methyl salicylate 100 MG/ML Topical Lotion [Satohap]	DRON:01037005	2672727
+DRON:01037054	rizatriptan 10 MG Oral Film [Rizafilm]	DRON:00988949	2672955
+DRON:01037055	thyroid (USP) 90 MG Oral Tablet [Apur]	DRON:00046212	2673097
+DRON:01037056	thyroid (USP) 60 MG Oral Tablet [Apur]	DRON:00046210	2673099
+DRON:01037057	thyroid (USP) 30 MG Oral Tablet [Apur]	DRON:00046206	2673101
+DRON:01037058	thyroid (USP) 15 MG Oral Tablet [Apur]	DRON:00046591	2673103
+DRON:01037059	thyroid (USP) 120 MG Oral Tablet [Apur]	DRON:00037737	2673105
+DRON:01037060	carprofen 100 MG Oral Tablet [Belprofen]	DRON:00059825	2673188
+DRON:01037061	carprofen 25 MG Oral Tablet [Belprofen]	DRON:00059826	2673190
+DRON:01037062	carprofen 75 MG Oral Tablet [Belprofen]	DRON:00059827	2673192
+DRON:01037063	eflornithine 192 MG Oral Tablet [Iwilfin]	DRON:01037036	2673205
+DRON:01037064	5 ML neostigmine methylsulfate 1 MG/ML Prefilled Syringe [Bloxiverz]	DRON:00776902	2673236
+DRON:01037065	neostigmine methylsulfate 1 MG/ML Prefilled Syringe [Bloxiverz]	DRON:00776903	2673237
+DRON:01037066	trilostane 20 MG Oral Capsule [Vetoryl]	DRON:01037001	2673427
+DRON:01037067	testosterone cypionate 200 MG/ML Injectable Solution [Testo-200]	DRON:00057871	2673519
+DRON:01037068	0.6 ML pegfilgrastim-cbqv 10 MG/ML Injection [Udenyca]	DRON:01037020	2673602
+DRON:01037069	pegfilgrastim-cbqv 10 MG/ML Injection [Udenyca]	DRON:01037021	2673603
+DRON:01039254	ibuprofen 200 MG Oral Capsule [Proprinal]	DRON:00045169	2673691
+DRON:01039255	1 ML omalizumab 150 MG/ML Auto-Injector [Xolair]	DRON:01039250	2673761
+DRON:01039256	0.5 ML omalizumab 150 MG/ML Auto-Injector [Xolair]	DRON:01039251	2673763
+DRON:01039257	selamectin 120 MG/ML Topical Solution [Selarid]	DRON:00063598	2673846
+DRON:01039258	selamectin 60 MG/ML Topical Solution [Selarid]	DRON:00063599	2673848
+DRON:01039259	altrenogest 2.2 MG/ML Oral Solution [Ovamed]	DRON:00067884	2673855
+DRON:01039260	ketoprofen 25 MG Oral Capsule [Kiprofen]	DRON:00035640	2673864
+DRON:01039261	0.25 ML ixekizumab 80 MG/ML Prefilled Syringe [Taltz]	DRON:01039246	2674932
+DRON:01039262	0.5 ML ixekizumab 80 MG/ML Prefilled Syringe [Taltz]	DRON:01039247	2674934
+DRON:01039263	lidocaine 0.04 MG/MG / menthol 0.005 MG/MG / methyl salicylate 0.001 MG/MG Medicated Patch [LidoPro Patch]	DRON:01039248	2675024
+DRON:01039264	eltrombopag 18 MG Oral Tablet [Alvaiz]	DRON:01039240	2675193
+DRON:01039265	eltrombopag 36 MG Oral Tablet [Alvaiz]	DRON:01039241	2675197
+DRON:01039266	eltrombopag 54 MG Oral Tablet [Alvaiz]	DRON:01039242	2675201
+DRON:01039267	eltrombopag 9 MG Oral Tablet [Alvaiz]	DRON:01039243	2675205
+DRON:01039268	budesonide 0.2 MG/ML Oral Suspension [Eohilia]	DRON:01039253	2675286
+DRON:01039269	capsaicin 0.25 MG/ML Topical Cream [Zostrix]	DRON:00036129	2675290
+DRON:01039270	10 ML doxorubicin hydrochloride liposome 2 MG/ML Injection [Caelyx]	DRON:00777655	2675326
+DRON:01039271	doxorubicin hydrochloride liposome 2 MG/ML Injection [Caelyx]	DRON:00777656	2675327
+DRON:01039272	clotrimazole 10 MG/ML / gentamicin 3 MG/ML / mometasone 1 MG/ML Otic Suspension [Mometavet]	DRON:00776304	2675489

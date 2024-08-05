@@ -24677,7 +24677,7 @@ DRON:00059038	ursodiol 50 MG/ML Oral Suspension	DRON:00030956	858333
 DRON:00059039	folic acid 0.2 MG / vitamin B12 1 MG Sublingual Tablet	DRON:00031054	858334
 DRON:00059040	ursodiol 150 MG Oral Tablet	DRON:00030950	858335
 DRON:00059041	chenodeoxycholic acid 250 MG / ursodiol 250 MG Oral Tablet	DRON:00030947	858337
-DRON:00059042	diclofenac potassium 25 MG Oral Capsule	DRON:00025236	858342
+DRON:00059042	diclofenac 25 MG Oral Capsule	DRON:00025236	858342
 DRON:00059043	calcium carbonate 1250 MG / cholecalciferol 500 UNT Chewable Tablet	DRON:00024823	858347
 DRON:00059044	aloe polysaccharide 0.01 MG/MG / iodoquinol 0.0125 MG/MG Topical Gel	DRON:00032793	858356
 DRON:00059045	ketorolac tromethamine 4.5 MG/ML Ophthalmic Solution	DRON:00026029	858364
@@ -24959,8 +24959,8 @@ DRON:00059320	0.4 ML fondaparinux sodium 12.5 MG/ML Prefilled Syringe	DRON:00031
 DRON:00059321	0.6 ML fondaparinux sodium 12.5 MG/ML Prefilled Syringe	DRON:00031645	861365
 DRON:00059322	sevelamer carbonate 2400 MG Powder for Oral Suspension	DRON:00032807	861370
 DRON:00059323	sevelamer carbonate 800 MG Powder for Oral Suspension	DRON:00032807	861375
-DRON:00059324	micafungin sodium 50 MG Injection	DRON:00030619	861379
-DRON:00059325	micafungin sodium 100 MG Injection	DRON:00030619	861383
+DRON:00059324	micafungin 50 MG Injection	DRON:00030619	861379
+DRON:00059325	micafungin 100 MG Injection	DRON:00030619	861383
 DRON:00059326	Articaine hydrochloride 40 MG/ML / Epinephrine 0.01 MG/ML Injectable Solution	DRON:00030797	861386
 DRON:00059327	phenoxybenzamine hydrochloride 10 MG Oral Capsule	DRON:00022935	861402
 DRON:00059328	azithromycin 1000 MG Powder for Oral Suspension	DRON:00020873	861416
@@ -44589,3 +44589,92 @@ DRON:01003431	crizotinib 50 MG Oral Pellet	DRON:01003048	2670176
 DRON:01003432	zinc gluconate 15 MG/ML Oral Spray	DRON:01003049	2670204
 DRON:01003433	ADAMTS13, recombinant-krhn 1500 UNT Injection	DRON:01003050	2670293
 DRON:01003434	ADAMTS13, recombinant-krhn 500 UNT Injection	DRON:01003050	2670311
+DRON:01035110	dextromethorphan hydrobromide 0.333 MG/ML / guaifenesin 6.67 MG/ML Oral Solution	DRON:00021552	2670470
+DRON:01035111	dextromethorphan hydrobromide 1.2 MG/ML / guaifenesin 26.4 MG/ML Oral Solution	DRON:00021552	2671189
+DRON:01035112	diphenhydramine hydrochloride 16.7 MG/ML Oral Solution	DRON:00021655	2671699
+DRON:01035113	lidocaine hydrochloride 50 MG/ML Topical Solution	DRON:00022266	2670601
+DRON:01035114	tramadol hydrochloride 25 MG Oral Tablet	DRON:00023639	2670390
+DRON:01035115	petrolatum 0.507 MG/MG / zinc oxide 0.4 MG/MG Paste	DRON:00025243	2671191
+DRON:01035116	menthol 0.035 MG/MG / methyl salicylate 0.1 MG/MG Topical Ointment	DRON:00025371	2670391
+DRON:01035117	ferrous sulfate 175 MG / folic acid 1 MG Oral Tablet	DRON:00031046	2670602
+DRON:01035118	camphor 0.035 MG/MG / menthol 0.03 MG/MG / methyl salicylate 0.1 MG/MG Topical Ointment	DRON:00032097	2670392
+DRON:01035119	pregabalin 50 MG/ML Oral Solution	DRON:00033081	2671054
+DRON:01035120	benzalkonium chloride 0.9 MG/ML Medicated Pad	DRON:00033085	2671580
+DRON:01035121	penicillin G benzathine 1200000 UNT Injection	DRON:00731684	2671687
+DRON:01035122	penicillin G benzathine 2400000 UNT Injection	DRON:00731684	2671695
+DRON:01035123	10 ML ephedrine hydrochloride 4.7 MG/ML Injection	DRON:00751906	2671679
+DRON:01035124	methotrexate 2 MG/ML Oral Solution	DRON:00786336	2671456
+DRON:01035125	50 ML vasopressin (USP) 1 UNT/ML Injection	DRON:00835004	2670680
+DRON:01035126	vasopressin (USP) 1 UNT/ML Injection	DRON:00835004	2670681
+DRON:01035127	50 ML immunoglobulin G, human 200 MG/ML Prefilled Syringe	DRON:00874916	2670628
+DRON:01035128	1 ML phenobarbital sodium 130 MG/ML Injection	DRON:00984403	2671204
+DRON:01035129	phenobarbital sodium 130 MG/ML Injection	DRON:00984403	2671205
+DRON:01035130	1 ML phenobarbital sodium 65 MG/ML Injection	DRON:00984403	2671207
+DRON:01035131	phenobarbital sodium 65 MG/ML Injection	DRON:00984403	2671208
+DRON:01035132	acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG Powder for Oral Solution	DRON:00994972	2670598
+DRON:01035133	acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG Powder for Oral Solution	DRON:00994972	2670678
+DRON:01035134	choline salicylate 29 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 6.67 MG/ML Oral Solution	DRON:01035103	2670541
+DRON:01035135	choline salicylate 29 MG/ML / guaifenesin 6.67 MG/ML Oral Solution	DRON:01035104	2670549
+DRON:01035136	nirogacestat 50 MG Oral Tablet	DRON:01035107	2670637
+DRON:01035137	repotrectinib 40 MG Oral Capsule	DRON:01035101	2670649
+DRON:01035138	iptacopan 200 MG Oral Capsule	DRON:01035102	2671074
+DRON:01035139	cholecalciferol 0.125 MG / levomefolate calcium 1 MG Oral Tablet	DRON:01035108	2671090
+DRON:01035140	hydrocortisone 6.67 MG/ML / tolnaftate 10 MG/ML Topical Solution	DRON:01035106	2671298
+DRON:01035141	chlophedianol hydrochloride 2.5 MG/ML / dexchlorpheniramine maleate 0.2 MG/ML Oral Solution	DRON:01035105	2671454
+DRON:01035142	roflumilast 3 MG/ML Topical Foam	DRON:01035109	2671682
+DRON:01037001	trilostane 20 MG Oral Capsule	DRON:00023680	2673425
+DRON:01037002	carboxymethylcellulose sodium 6 MG/ML Ophthalmic Solution	DRON:00024829	2672491
+DRON:01037003	camphor 0.04 MG/MG / menthol 0.155 MG/MG Topical Ointment	DRON:00025328	2672957
+DRON:01037004	menthol 0.0766 MG/MG Topical Ointment	DRON:00025372	2672826
+DRON:01037005	camphor 50 MG/ML / menthol 60 MG/ML / methyl salicylate 100 MG/ML Topical Lotion	DRON:00026176	2672725
+DRON:01037006	camphor 30 MG/ML / menthol 30 MG/ML / methyl salicylate 100 MG/ML Topical Cream	DRON:00026177	2673206
+DRON:01037007	camphor 0.108 MG/MG / Eucalyptus oil 0.07 MG/MG / menthol 0.11 MG/MG / methyl salicylate 0.002 MG/MG Topical Ointment	DRON:00030732	2672330
+DRON:01037008	camphor 110 MG/ML / menthol 160 MG/ML / methyl salicylate 300 MG/ML Topical Oil	DRON:00033685	2672334
+DRON:01037009	ferrous bisglycinate 36.5 MG Oral Tablet	DRON:00033788	2672922
+DRON:01037010	camphor 108 MG/ML / Eucalyptus oil 70 MG/ML / menthol 110 MG/ML / methyl salicylate 2 MG/ML Topical Oil	DRON:00034292	2672333
+DRON:01037011	chlophedianol hydrochloride 0.833 MG/ML / pyrilamine maleate 1.67 MG/ML Oral Solution	DRON:00752322	2672917
+DRON:01037012	camphor 22 MG/ML / menthol 140 MG/ML Topical Oil	DRON:00751427	2672336
+DRON:01037013	naloxone hydrochloride 30 MG/ML Nasal Spray	DRON:00731098	2673091
+DRON:01037014	20 ML levocarnitine 200 MG/ML Injection	DRON:00752062	2673428
+DRON:01037015	50 ML immune globulin intravenous (human) - stwk 100 MG/ML Injection	DRON:00763752	2672098
+DRON:01037016	immune globulin intravenous (human) - stwk 100 MG/ML Injection	DRON:00763752	2672099
+DRON:01037017	100 ML immune globulin intravenous (human) - stwk 100 MG/ML Injection	DRON:00763752	2672107
+DRON:01037018	200 ML immune globulin intravenous (human) - stwk 100 MG/ML Injection	DRON:00763752	2672109
+DRON:01037019	capsaicin 0.012 MG/ML / methyl salicylate 6.1 MG/ML Topical Solution	DRON:00761817	2671957
+DRON:01037020	0.6 ML pegfilgrastim-cbqv 10 MG/ML Injection	DRON:00942730	2673598
+DRON:01037021	pegfilgrastim-cbqv 10 MG/ML Injection	DRON:00942730	2673599
+DRON:01037022	1 ML nalmefene 0.1 MG/ML Injection	DRON:00961519	2672926
+DRON:01037023	nalmefene 0.1 MG/ML Injection	DRON:00961519	2672927
+DRON:01037024	azelaic acid 50 MG/ML / tranexamic acid 10 MG/ML Topical Cream	DRON:01036996	2672350
+DRON:01037025	lidocaine 0.05 MG/MG / phenylephrine hydrochloride 0.0025 MG/MG Rectal Ointment	DRON:01036999	2672354
+DRON:01037026	lidocaine 0.04 MG/MG / phenylephrine hydrochloride 0.0025 MG/MG Rectal Ointment	DRON:01036999	2673304
+DRON:01037027	salicylic acid 15 MG/ML / zinc pyrithione 10 MG/ML Topical Cream	DRON:01036997	2672357
+DRON:01037028	24 HR gepirone 18.2 MG Extended Release Oral Tablet	DRON:01036995	2672372
+DRON:01037029	gepirone 18.2 MG Extended Release Oral Tablet	DRON:01036995	2672373
+DRON:01037030	24 HR gepirone 36.3 MG Extended Release Oral Tablet	DRON:01036995	2672382
+DRON:01037031	gepirone 36.3 MG Extended Release Oral Tablet	DRON:01036995	2672383
+DRON:01037032	24 HR gepirone 54.5 MG Extended Release Oral Tablet	DRON:01036995	2672388
+DRON:01037033	gepirone 54.5 MG Extended Release Oral Tablet	DRON:01036995	2672389
+DRON:01037034	24 HR gepirone 72.6 MG Extended Release Oral Tablet	DRON:01036995	2672394
+DRON:01037035	gepirone 72.6 MG Extended Release Oral Tablet	DRON:01036995	2672395
+DRON:01037036	eflornithine 192 MG Oral Tablet	DRON:01037000	2673199
+DRON:01037037	acetic acid 250 MG/ML / benzoic acid 250 MG/ML Topical Solution	DRON:01036998	2673595
+DRON:01039235	chlorhexidine acetate 3.5 MG/ML Topical Solution	DRON:00021233	2675299
+DRON:01039236	tetracaine 0.019 MG/MG Topical Ointment	DRON:00023931	2673693
+DRON:01039237	camphor 0.048 MG/MG / menthol 0.01 MG/MG Topical Ointment	DRON:00025328	2673797
+DRON:01039238	salicylic acid 40 MG/ML Topical Cream	DRON:00026341	2675319
+DRON:01039239	0.5 ML hydromorphone hydrochloride 0.5 MG/ML Prefilled Syringe	DRON:00032110	2675350
+DRON:01039240	eltrombopag 18 MG Oral Tablet	DRON:00032391	2675187
+DRON:01039241	eltrombopag 36 MG Oral Tablet	DRON:00032391	2675195
+DRON:01039242	eltrombopag 54 MG Oral Tablet	DRON:00032391	2675199
+DRON:01039243	eltrombopag 9 MG Oral Tablet	DRON:00032391	2675203
+DRON:01039244	ethanol 0.83 ML/ML Medicated Pad	DRON:00032920	2674055
+DRON:01039245	camphor 55 MG/ML / menthol 160 MG/ML Topical Spray	DRON:00033626	2674950
+DRON:01039246	0.25 ML ixekizumab 80 MG/ML Prefilled Syringe	DRON:00750893	2674931
+DRON:01039247	0.5 ML ixekizumab 80 MG/ML Prefilled Syringe	DRON:00750893	2674933
+DRON:01039248	lidocaine 0.04 MG/MG / menthol 0.005 MG/MG / methyl salicylate 0.001 MG/MG Medicated Patch	DRON:00752313	2675022
+DRON:01039249	chlorhexidine gluconate 40 MG/ML Topical Foam	DRON:00973911	2675096
+DRON:01039250	1 ML omalizumab 150 MG/ML Auto-Injector	DRON:01003033	2673760
+DRON:01039251	0.5 ML omalizumab 150 MG/ML Auto-Injector	DRON:01003033	2673762
+DRON:01039252	mineral oil 140 MG/ML / petrolatum 749 MG/ML / phenylephrine hydrochloride 2.5 MG/ML Rectal Cream	DRON:01039234	2673871
+DRON:01039253	budesonide 0.2 MG/ML Oral Suspension	DRON:01039233	2675280
