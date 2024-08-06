@@ -11,6 +11,8 @@ DRON:00016220	obsolete tilmicosin	owl:Class	CHEBI:195409
 DRON:00016393	obsolete dichlorodifluoromethane	owl:Class	CHEBI:229860
 DRON:00020050	obsolete ipilimumab	owl:Class	CHEBI:231679
 DRON:00020097	obsolete gamithromycin	owl:Class	CHEBI:195437
+DRON:00723213	obsolete DEXTROSE, ANHYDROUS	owl:Class	DRON:00723869
+DRON:00723475	obsolete triethyl citrate	owl:Class	CHEBI:168426
 DRON:00723507	obsolete ferrosoferric oxide	owl:Class	CHEBI:50821
 DRON:00723868	obsolete Juniperus communis whole extract	owl:Class	DRON:00010134
 DRON:00723870	obsolete FD&C yellow no. 6	owl:Class	DRON:00723223
@@ -21,8 +23,10 @@ DRON:00723874	obsolete wormwood extract	owl:Class	DRON:00723417
 DRON:00723875	obsolete brown rice preparation	owl:Class	DRON:00723509
 DRON:00723876	obsolete Carbopol 981	owl:Class	DRON:00723518
 DRON:00723877	obsolete oleth-3-phosphate	owl:Class	DRON:00723681
+DRON:00723878	obsolete propylene glycol alginate	owl:Class	CHEBI:189044
 DRON:00723880	obsolete aluminum silicate	owl:Class	DRON:00723767
 DRON:00723905	obsolete Apis mellifera preparation	owl:Class	DRON:00723209
+DRON:00724141	obsolete propylene glycol monostearate	owl:Class	CHEBI:177857
 DRON:00724208	obsolete citric acid / simethicone / sodium bicarbonate Oral Granules	owl:Class	DRON:00025018
 DRON:00724209	obsolete paliperidone Extended Release Oral Tablet	owl:Class	DRON:00031438
 DRON:00724210	obsolete carbinoxamine Extended Release Oral Tablet	owl:Class	DRON:00025231
@@ -1229,6 +1233,7 @@ DRON:00725653	obsolete doxycycline hyclate 20 MG Oral Capsule	owl:Class	DRON:000
 DRON:00725654	obsolete glucagon (rDNA) 1 MG Injection	owl:Class	DRON:00044992
 DRON:00725655	obsolete doxycycline hyclate 100 MG Delayed Release Oral Capsule	owl:Class	DRON:00047187
 DRON:00725656	obsolete doxycycline hyclate 75 MG Delayed Release Oral Capsule	owl:Class	DRON:00047188
+DRON:00730881	obsolete hypophosphorous acid	owl:Class	CHEBI:29031
 DRON:00730905	obsolete PEG-30-dipolyhydroxystearate	owl:Class	DRON:00723802
 DRON:00730919	obsolete insulin isophane / insulin, regular, pork Injectable Suspension	owl:Class	DRON:00027020
 DRON:00730932	obsolete estrogens, conjugated (USP) Delayed Release Oral Tablet	owl:Class	DRON:00027051
@@ -4511,6 +4516,7 @@ DRON:00759238	obsolete 12 HR guaifenesin 800 MG / pseudoephedrine hydrochloride 
 DRON:00759239	obsolete guaifenesin 800 MG / pseudoephedrine hydrochloride 60 MG Extended Release Oral Tablet	owl:Class	DRON:00067698
 DRON:00759240	obsolete 12 HR guaifenesin 500 MG / pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet	owl:Class	DRON:00067874
 DRON:00759241	obsolete guaifenesin 500 MG / pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet	owl:Class	DRON:00067875
+DRON:00763729	obsolete prussian blue insoluble	owl:Class	CHEBI:30069
 DRON:00763730	obsolete Bacillus coagulans / Lactobacillus acidophilus Oral Tablet	owl:Class	DRON:00031495
 DRON:00763732	obsolete flumethasone / liothyronine Topical Ointment	owl:Class	DRON:00021941
 DRON:00763735	obsolete liothyronine Oral Capsule	owl:Class	DRON:00029156
