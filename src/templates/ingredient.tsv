@@ -825,6 +825,7 @@ CHEBI:23123	chloroacetate	48008
 CHEBI:231324	alpelisib	2169285
 CHEBI:231344	talazoparib	2099704
 CHEBI:231350	pacritinib	2595243
+CHEBI:231416	danicopan	2678952
 CHEBI:231505	gallium nitrate	25544
 CHEBI:231598	tazemetostat	2274378
 CHEBI:231601	trastuzumab	224905
@@ -2921,6 +2922,7 @@ CHEBI:93837	3-(4-phenyl-1-piperazinyl)propane-1,2-diol	23419
 CHEBI:9391	talampicillin	10322
 CHEBI:9398	tamsulosin	77492
 CHEBI:9405	tartrazine	1305578
+CHEBI:94187	givinostat	2678889
 CHEBI:9421	tazobactam	37617
 CHEBI:94314	7-[2-hydroxy-3-[2-hydroxyethyl(methyl)amino]propyl]-1,3-dimethylpurine-2,6-dione	89795
 CHEBI:94316	6-methoxy-N-[(1-prop-2-enyl-2-pyrrolidinyl)methyl]-2H-benzotriazole-5-carboxamide	17311
@@ -6711,3 +6713,9 @@ DRON:01043075	hydrogenated polydecene (1500 CST)	2389632
 DRON:01043076	papaya seed oil	2637855
 DRON:01043077	birch triterpenes	2675583
 DRON:01043078	gelatin type A porcine (195 bloom)	2679778
+DRON:01045075	milk fat, cow	1305763
+DRON:01045076	polyethylene glycol 350	1368165
+DRON:01045077	resmetirom	2677894
+DRON:01045078	aprocitentan	2679059
+DRON:01045079	vadadustat	2679296
+DRON:01047254	tovorafenib	2682434
