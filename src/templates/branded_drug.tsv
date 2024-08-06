@@ -6869,7 +6869,7 @@ DRON:00075790	gentamicin 0.003 MG/MG Ophthalmic Ointment [Ocu-Mycin]	DRON:000449
 DRON:00075791	gentamicin 3 MG/ML Ophthalmic Solution [Ocu-Mycin]	DRON:00044972	351322
 DRON:00075792	Immunoglobulins, Intravenous 120 MG/ML Injectable Solution [Carimune]	DRON:00044990	351326
 DRON:00075793	gramicidin 0.02 MG/ML / neomycin 1.75 MG/ML / polymyxin B 10000 UNT/ML Ophthalmic Solution [Ocu-Spore-G]	DRON:00054047	351329
-DRON:00075794	clindamycin 0.01 MG/MG Topical Gel [Clindagel]	DRON:00044497	351330
+DRON:00075794	Once-Daily clindamycin 0.01 MG/MG Topical Gel [Clindagel]	DRON:00044497	351330
 DRON:00075795	Guaifenesin 400 MG / Phenylpropanolamine 75 MG Extended Release Tablet [Miraphen LA]	DRON:00045052	351331
 DRON:00075796	Guaifenesin 600 MG / Pseudoephedrine 120 MG Extended Release Tablet [Guiadrine PSE]	DRON:00047471	351338
 DRON:00075797	Guaifenesin 600 MG / Pseudoephedrine 120 MG Extended Release Tablet [Miraphen PSE]	DRON:00047471	351339
@@ -7251,7 +7251,7 @@ DRON:00076172	168 HR estradiol 0.00188 MG/HR / levonorgestrel 0.000625 MG/HR Tra
 DRON:00076173	carbamazepine 100 MG Oral Tablet [Tegretol]	DRON:00035372	402910
 DRON:00076174	dirithromycin 250 MG Delayed Release Oral Tablet [Dynabac D5-Pak]	DRON:00044763	404019
 DRON:00076175	chorionic gonadotropin 500 UNT/ML Injectable Solution [A.P.L.]	DRON:00054066	404030
-DRON:00076176	clindamycin 0.01 MG/MG Topical Gel [Clindamax]	DRON:00044497	404032
+DRON:00076176	Twice-Daily clindamycin 0.01 MG/MG Topical Gel [Clindamax]	DRON:00044497	404032
 DRON:00076177	clindamycin 10 MG/ML Topical Lotion [Clindamax]	DRON:00035427	404033
 DRON:00076178	clobetasol propionate 0.5 MG/ML Topical Solution [Clobex]	DRON:00059344	404036
 DRON:00076179	hydrocortisone 10 MG/ML Topical Solution [Theracort Anti-Itch]	DRON:00045136	404042
@@ -10542,7 +10542,7 @@ DRON:00079463	benzoyl peroxide 0.1 MG/MG Topical Gel [Benzagel Wash]	DRON:000535
 DRON:00079464	Factor VIII 600 UNT/ML Injectable Solution [Advate]	DRON:00057309	804969
 DRON:00079465	clindamycin 10 MG/ML Topical Lotion [Cleocin-T]	DRON:00035427	804973
 DRON:00079466	clindamycin 10 MG/ML Topical Solution [Cleocin-T]	DRON:00044498	804975
-DRON:00079467	clindamycin 0.01 MG/MG Topical Gel [Cleocin-T]	DRON:00044497	804978
+DRON:00079467	Twice-Daily clindamycin 0.01 MG/MG Topical Gel [Cleocin-T]	DRON:00044497	804978
 DRON:00079468	caffeine 100 MG Oral Tablet [No Doz]	DRON:00044220	804996
 DRON:00079469	12 HR Guaifenesin 600 MG / Pseudoephedrine 120 MG Extended Release Tablet [Panmist LA]	DRON:00045062	805005
 DRON:00079470	peginterferon alfa-2b 0.05 MG Injection [Pegintron]	DRON:00043619	805007
