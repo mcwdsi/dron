@@ -24,11 +24,11 @@ UPDATE clinical_drug_form_ingredient
 SET ingredient = 'REPLACEMENT'
 WHERE ingredient = 'OBSOLETE';
 
-UPDATE clinical_drug_strength
+UPDATE OR REPLACE clinical_drug_strength
 SET ingredient = 'REPLACEMENT'
 WHERE ingredient = 'OBSOLETE';
 
-UPDATE branded_drug_excipient
+UPDATE OR REPLACE branded_drug_excipient
 SET ingredient = 'REPLACEMENT'
 WHERE ingredient = 'OBSOLETE';
 
