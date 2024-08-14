@@ -823,7 +823,7 @@ DRON:00035184	fluclorolone 0.00025 MG/MG Topical Ointment	DRON:00027723	150699
 DRON:00035185	formaldehyde 0.0075 MG/MG Topical Gel	DRON:00027724	150704
 DRON:00035186	celiprolol 400 MG Oral Tablet	DRON:00021196	150723
 DRON:00035187	oxprenolol 160 MG Oral Tablet	DRON:00022795	150751
-DRON:00035188	phenoxybenzamine 50 MG/ML Injectable Solution	DRON:00027680	150752
+DRON:00035188	phenoxybenzamine hydrochloride 50 MG/ML Injectable Solution	DRON:00027680	150752
 DRON:00035189	menthol 35.6 MG Gas for Inhalation	DRON:00027707	150813
 DRON:00035190	asparaginase Erwinia chrysanthemi 10000 UNT Injection	DRON:00027850	150889
 DRON:00035191	interferon alfa-n1 10000000 UNT/ML Injectable Solution	DRON:00026954	150902
@@ -10132,7 +10132,7 @@ DRON:00044493	citric acid 66.8 MG/ML / potassium citrate 220 MG/ML Oral Solution
 DRON:00044494	clarithromycin 37.5 MG/ML Oral Suspension	DRON:00021360	309321
 DRON:00044495	clarithromycin 50 MG/ML Oral Suspension	DRON:00021360	309322
 DRON:00044496	clindamycin 75 MG Oral Capsule	DRON:00021371	309329
-DRON:00044497	clindamycin 0.01 MG/MG Topical Gel	DRON:00026480	309332
+DRON:00044497	Once-Daily clindamycin 0.01 MG/MG Topical Gel	DRON:00026480	309332
 DRON:00044498	clindamycin 10 MG/ML Topical Solution	DRON:00026058	309333
 DRON:00044499	50 ML clindamycin 12 MG/ML Injection	DRON:00021373	309335
 DRON:00044500	50 ML clindamycin 18 MG/ML Injection	DRON:00021373	309336
@@ -44678,3 +44678,118 @@ DRON:01039250	1 ML omalizumab 150 MG/ML Auto-Injector	DRON:01003033	2673760
 DRON:01039251	0.5 ML omalizumab 150 MG/ML Auto-Injector	DRON:01003033	2673762
 DRON:01039252	mineral oil 140 MG/ML / petrolatum 749 MG/ML / phenylephrine hydrochloride 2.5 MG/ML Rectal Cream	DRON:01039234	2673871
 DRON:01039253	budesonide 0.2 MG/ML Oral Suspension	DRON:01039233	2675280
+DRON:01041111	acetaminophen 325 MG / ibuprofen 97.5 MG Oral Tablet	DRON:00022134	2675760
+DRON:01041112	menthol 0.125 MG/MG / methyl salicylate 0.125 MG/MG Topical Ointment	DRON:00025371	2675887
+DRON:01041113	hydrocortisone 20 MG/ML Topical Cream	DRON:00026253	2677688
+DRON:01041114	hydrocortisone acetate 10 MG/ML / lidocaine hydrochloride 50 MG/ML Topical Cream	DRON:00026258	2677462
+DRON:01041115	lidocaine hydrochloride 0.0388 MG/MG Topical Gel	DRON:00026477	2675768
+DRON:01041116	Twice-Daily clindamycin 0.01 MG/MG Topical Gel	DRON:00026480	2676585
+DRON:01041117	camphor 0.02 MG/MG Topical Ointment	DRON:00028413	2675876
+DRON:01041118	chlorhexidine gluconate 40 MG/ML Medicated Pad	DRON:00032202	2677515
+DRON:01041119	menthol 20 MG/ML Topical Oil	DRON:00724292	2675594
+DRON:01041120	0.7 ML influenza A virus A/California/122/2022 (H3N2) antigen 0.0857 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.0857 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.0857 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.0857 MG/ML Prefilled Syringe	DRON:00751705	2675573
+DRON:01041121	influenza A virus A/California/122/2022 (H3N2) antigen 0.0857 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.0857 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.0857 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.0857 MG/ML Prefilled Syringe	DRON:00751705	2675574
+DRON:01041122	0.5 ML influenza A virus A/California/122/2022 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2675669
+DRON:01041123	influenza A virus A/California/122/2022 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2675670
+DRON:01041124	0.5 ML influenza A virus A/Darwin/9/2021 (H3N2) antigen 0.12 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.12 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.12 MG/ML Prefilled Syringe	DRON:00751705	2677170
+DRON:01041125	influenza A virus A/Darwin/9/2021 (H3N2) antigen 0.12 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.12 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.12 MG/ML Prefilled Syringe	DRON:00751705	2677171
+DRON:01041126	0.5 ML influenza A virus A/Darwin/9/2021 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/2570/2019 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2677450
+DRON:01041127	influenza A virus A/Darwin/9/2021 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/2570/2019 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2677451
+DRON:01041128	influenza A virus A/California/122/2022 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Injectable Suspension	DRON:00731516	2675675
+DRON:01041129	influenza A virus A/Darwin/9/2021 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Injectable Suspension	DRON:00731516	2677457
+DRON:01041130	100 ML pantoprazole 0.4 MG/ML Injection	DRON:00751928	2675781
+DRON:01041131	pantoprazole 0.4 MG/ML Injection	DRON:00751928	2675782
+DRON:01041132	50 ML pantoprazole 0.8 MG/ML Injection	DRON:00751928	2675784
+DRON:01041133	pantoprazole 0.8 MG/ML Injection	DRON:00751928	2675785
+DRON:01041134	100 ML pantoprazole 0.8 MG/ML Injection	DRON:00751928	2675786
+DRON:01041135	camphor 0.05 MG/MG / menthol 0.05 MG/MG Medicated Patch	DRON:00752364	2675766
+DRON:01041136	0.4 ML emicizumab-kxwh 30 MG/ML Injection	DRON:00807850	2675567
+DRON:01041137	ethanol 0.55 ML/ML / isopropyl alcohol 0.2 ML/ML Topical Solution	DRON:00882976	2677517
+DRON:01041138	2.5 ML pegunigalsidase alfa-iwxj 2 MG/ML Injection	DRON:00994970	2676759
+DRON:01041139	birch triterpenes 0.1 MG/MG Topical Gel	DRON:01041110	2675587
+DRON:01041140	menthol 0.001 MG/MG / petrolatum 0.8 MG/MG Rectal Ointment	DRON:01041109	2675775
+DRON:01041141	lidocaine 50 MG/ML / menthol 7 MG/ML Rectal Cream	DRON:01041108	2675779
+DRON:01041142	firocoxib 9 MG/ML Oral Solution	DRON:01041106	2675880
+DRON:01041143	brompheniramine maleate 0.8 MG/ML / dextromethorphan hydrobromide 2 MG/ML Oral Solution	DRON:01041107	2676758
+DRON:01041144	flumethasone 0.5 MG/ML Injectable Solution	DRON:01041105	2677573
+DRON:01043091	salicylic acid 66 MG/ML Topical Solution	DRON:00020385	2679295
+DRON:01043092	baclofen 15 MG Oral Tablet	DRON:00020883	2679605
+DRON:01043093	chlorhexidine acetate 2 MG/ML Topical Solution	DRON:00021233	2679167
+DRON:01043094	cyclophosphamide 100 MG/ML Injectable Solution	DRON:00025484	2679073
+DRON:01043095	lidocaine 40 MG/ML Rectal Cream	DRON:00026285	2678387
+DRON:01043096	undecylenic acid 250 MG/ML Topical Cream	DRON:00026368	2677799
+DRON:01043097	acetaminophen 162.5 MG / dextromethorphan hydrobromide 5 MG Chewable Tablet	DRON:00030887	2678223
+DRON:01043098	1 ML naloxone hydrochloride 0.4 MG/ML Prefilled Syringe	DRON:00031627	2679504
+DRON:01043099	mecobalamin 0.5 MG Chewable Tablet	DRON:00034026	2679057
+DRON:01043100	dextromethorphan hydrobromide 3 MG/ML / pyrilamine maleate 1.2 MG/ML Oral Solution	DRON:00750990	2679777
+DRON:01043101	0.4 ML adalimumab-ryvk 100 MG/ML Auto-Injector	DRON:00731489	2677780
+DRON:01043102	adalimumab-ryvk 100 MG/ML Auto-Injector	DRON:00731489	2677781
+DRON:01043103	4 ML tocilizumab-aazg 20 MG/ML Injection	DRON:00751797	2679431
+DRON:01043104	tocilizumab-aazg 20 MG/ML Injection	DRON:00751797	2679432
+DRON:01043105	10 ML tocilizumab-aazg 20 MG/ML Injection	DRON:00751797	2679440
+DRON:01043106	20 ML tocilizumab-aazg 20 MG/ML Injection	DRON:00751797	2679442
+DRON:01043107	capsaicin 0.00013 MG/MG Medicated Patch	DRON:00750896	2677801
+DRON:01043108	acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Powder for Oral Solution	DRON:00759107	2677914
+DRON:01043109	acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Powder for Oral Solution	DRON:00763738	2677915
+DRON:01043110	16 ML docetaxel 10 MG/ML Injection	DRON:00769204	2679779
+DRON:01043111	8 ML docetaxel 10 MG/ML Injection	DRON:00769204	2679787
+DRON:01043112	0.5 ML benralizumab 20 MG/ML Prefilled Syringe	DRON:00803404	2679499
+DRON:01043113	benralizumab 20 MG/ML Prefilled Syringe	DRON:00803404	2679500
+DRON:01043114	ethanol 0.55 ML/ML / isopropyl alcohol 0.2 ML/ML Topical Foam	DRON:00904130	2677940
+DRON:01043115	lidocaine hydrochloride 0.05 MG/MG / racepinephrine hydrochloride 0.0002 MG/MG / tetracaine hydrochloride 0.02 MG/MG Topical Gel	DRON:00969045	2678255
+DRON:01043116	28 ACTUAT albuterol 0.09 MG/ACTUAT / budesonide 0.08 MG/ACTUAT Metered Dose Inhaler	DRON:01003035	2678391
+DRON:01043117	macitentan 10 MG / tadalafil 20 MG Oral Tablet	DRON:01043085	2677765
+DRON:01043118	macitentan 10 MG / tadalafil 40 MG Oral Tablet	DRON:01043085	2677773
+DRON:01043119	phentolamine 7.5 MG/ML Ophthalmic Solution	DRON:01043079	2677793
+DRON:01043120	resmetirom 100 MG Oral Tablet	DRON:01043086	2677899
+DRON:01043121	resmetirom 60 MG Oral Tablet	DRON:01043086	2677907
+DRON:01043122	resmetirom 80 MG Oral Tablet	DRON:01043086	2677911
+DRON:01043123	acetaminophen 162.5 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 5 MG Chewable Tablet	DRON:01043080	2678231
+DRON:01043124	menthol 0.0035 MG/MG / petrolatum 0.794 MG/MG / zinc oxide 0.05 MG/MG Rectal Ointment	DRON:01043084	2678264
+DRON:01043125	givinostat 8.86 MG/ML Oral Suspension	DRON:01043082	2678894
+DRON:01043126	danicopan 50 MG Oral Tablet	DRON:01043087	2678957
+DRON:01043127	danicopan 100 MG Oral Tablet	DRON:01043087	2678965
+DRON:01043128	aprocitentan 12.5 MG Oral Tablet	DRON:01043088	2679064
+DRON:01043129	vadadustat 150 MG Oral Tablet	DRON:01043089	2679301
+DRON:01043130	vadadustat 300 MG Oral Tablet	DRON:01043089	2679309
+DRON:01043131	vadadustat 450 MG Oral Tablet	DRON:01043089	2679313
+DRON:01043132	esomeprazole 20 MG Disintegrating Oral Tablet	DRON:01043081	2679449
+DRON:01043133	selpercatinib 120 MG Oral Tablet	DRON:01043090	2679805
+DRON:01043134	selpercatinib 160 MG Oral Tablet	DRON:01043090	2679810
+DRON:01043135	selpercatinib 40 MG Oral Tablet	DRON:01043090	2679813
+DRON:01043136	selpercatinib 80 MG Oral Tablet	DRON:01043090	2679815
+DRON:01043137	fluralaner 280 MG/ML / moxidectin 14 MG/ML Topical Solution	DRON:01043083	2679860
+DRON:01045085	sodium fluoride 0.3 MG/ML Mouthwash	DRON:00020344	2682817
+DRON:01045086	salicylic acid 70 MG/ML Topical Solution	DRON:00020385	2680357
+DRON:01045087	petrolatum 0.472 MG/MG Topical Ointment	DRON:00020449	2683093
+DRON:01045088	vitamin B12 1.5 MG Chewable Tablet	DRON:00021450	2682744
+DRON:01045089	naphazoline hydrochloride 10 MG/ML Nasal Spray	DRON:00023969	2680323
+DRON:01045090	acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML Oral Solution	DRON:00024950	2680300
+DRON:01045091	lidocaine 40 MG/ML / menthol 7 MG/ML Topical Cream	DRON:00026283	2680319
+DRON:01045092	potassium nitrate 0.045 MG/MG / sodium fluoride 0.011 MG/MG Toothpaste	DRON:00031210	2682752
+DRON:01045093	0.4 ML adalimumab-adbm 100 MG/ML Prefilled Syringe	DRON:00031664	2680743
+DRON:01045094	adalimumab-adbm 100 MG/ML Prefilled Syringe	DRON:00031664	2680744
+DRON:01045095	chloroxylenol 1.5 MG/ML Topical Foam	DRON:00034322	2682820
+DRON:01045096	0.4 ML adalimumab-adbm 100 MG/ML Auto-Injector	DRON:00731489	2680748
+DRON:01045097	adalimumab-adbm 100 MG/ML Auto-Injector	DRON:00731489	2680749
+DRON:01045098	10 ML tocilizumab-bavi 20 MG/ML Injection	DRON:00751797	2680287
+DRON:01045099	tocilizumab-bavi 20 MG/ML Injection	DRON:00751797	2680288
+DRON:01045100	20 ML tocilizumab-bavi 20 MG/ML Injection	DRON:00751797	2680296
+DRON:01045101	4 ML tocilizumab-bavi 20 MG/ML Injection	DRON:00751797	2680298
+DRON:01045102	lidocaine 0.0488 MG/MG Medicated Patch	DRON:00750984	2680724
+DRON:01045103	Sprinkle valbenazine 40 MG Oral Capsule	DRON:00786360	2680779
+DRON:01045104	Sprinkle valbenazine 60 MG Oral Capsule	DRON:00786360	2680781
+DRON:01045105	Sprinkle valbenazine 80 MG Oral Capsule	DRON:00786360	2680783
+DRON:01045106	100 ML edaravone 0.6 MG/ML Injection	DRON:00789771	2681044
+DRON:01045107	edaravone 0.6 MG/ML Injection	DRON:00789771	2681045
+DRON:01045108	cholecalciferol 0.125 MG / vitamin K2 0.18 MG Oral Capsule	DRON:00951900	2682748
+DRON:01045109	asciminib 100 MG Oral Tablet	DRON:00959217	2680278
+DRON:01045110	chlorhexidine 0.01 MG/MG / salicylic acid 0.01 MG/MG Topical Ointment	DRON:01003042	2682584
+DRON:01045111	nirogacestat 100 MG Oral Tablet	DRON:01035107	2680360
+DRON:01045112	nirogacestat 150 MG Oral Tablet	DRON:01035107	2680366
+DRON:01045113	cholecalciferol 0.125 MG / levomefolate calcium 1.7 MG Oral Tablet	DRON:01035108	2682746
+DRON:01045114	pradofloxacin 200 MG/ML Injectable Solution	DRON:01045080	2680716
+DRON:01045115	upadacitinib 1 MG/ML Oral Solution	DRON:01045081	2681015
+DRON:01045116	tovorafenib 100 MG Oral Tablet	DRON:01045084	2682450
+DRON:01045117	torsemide 2 MG/ML Oral Solution	DRON:01045082	2682555
+DRON:01045118	hydroxyurea 100 MG/ML Oral Solution	DRON:01045083	2682741
