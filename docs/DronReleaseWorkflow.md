@@ -1,5 +1,7 @@
 # Dron Release Workflow
 
+If you're running this workflow on a fresh clone of the DrOn repository, first [Initialize the repository](#Initialize-the-repository).
+
 To create a new Dron release:
 
 1. [Create a Branch](#Create-a-Branch)
@@ -125,3 +127,14 @@ cd ../../
 - This assumes you have already run the release, step 3 above.
 - Run `gh release create v2021-04-02 dron*`, but make sure you use the correct date of the release (
 This is not necessarily today - its the date you ran the ODK release pipeline. It can be seen form example in the Version IRI of dron-base.owl, or dron.owl. This will navigate you through a dialog, asking for title, and release notes. It is good to be familiar with the [default ODK release instructions](odk-workflows/ReleaseWorkflow.md) to understand what to write for each question. In essence, this is an _exact_ command line equivalent of the [manual version](odk-workflows/ReleaseWorkflow.md).
+
+## Initialize the repository
+
+If you are working on a fresh clone of the DrOn repository, before you can successfully run the DrOn release workflow, you must run the following commands to initialize the repository. Note that initialization does NOT eliminate the requirement for the Update Components step in the typical release workflow.
+
+```sh
+cd src/ontology
+mkdir tmp
+sh run.sh make all_components -B
+sh run.sh make all_imports -B
+```
