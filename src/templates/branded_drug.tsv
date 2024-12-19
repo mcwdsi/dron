@@ -2316,8 +2316,8 @@ DRON:00071237	torsemide 2.5 MG Oral Tablet [Torem]	DRON:00041205	201234
 DRON:00071238	torsemide 5 MG Oral Tablet [Torem]	DRON:00035992	201235
 DRON:00071239	torsemide 10 MG Oral Tablet [Torem]	DRON:00035989	201236
 DRON:00071240	torsemide 5 MG/ML Injectable Solution [Torem]	DRON:00042037	201237
-DRON:00071241	lamotrigine 5 MG Chewable Tablet [Lamictal]	DRON:00045292	201239
-DRON:00071242	lamotrigine 25 MG Chewable Tablet [Lamictal]	DRON:00045291	201240
+DRON:00071241	lamotrigine 5 MG Tablet for Oral Suspension [Lamictal]	DRON:00045292	201239
+DRON:00071242	lamotrigine 25 MG Tablet for Oral Suspension [Lamictal]	DRON:00045291	201240
 DRON:00071243	cimetidine 100 MG/ML Injectable Solution [Tagamet]	DRON:00041296	201249
 DRON:00071244	cimetidine 4 MG/ML Injectable Solution [Tagamet]	DRON:00042059	201250
 DRON:00071245	mesalamine 10 MG/ML Enema [Pentasa]	DRON:00034562	201251
@@ -7747,7 +7747,7 @@ DRON:00076668	nelfinavir 625 MG Oral Tablet [Viracept]	DRON:00048075	542370
 DRON:00076669	oxytetracycline 250 MG Oral Tablet [Terramycin]	DRON:00045669	542379
 DRON:00076670	potassium citrate 50 MG / sodium citrate 950 MG Oral Tablet [Citrolith]	DRON:00035817	542399
 DRON:00076671	montelukast 4 MG Oral Tablet [Singulair]	DRON:00047871	542405
-DRON:00076672	lamotrigine 2 MG Chewable Tablet [Lamictal]	DRON:00047203	542426
+DRON:00076672	lamotrigine 2 MG Tablet for Oral Suspension [Lamictal]	DRON:00047203	542426
 DRON:00076673	pantoprazole 40 MG Extended Release Oral Tablet [Protonix]	DRON:00053645	542448
 DRON:00076674	Phenylephrine 25 MG / Pyrilamine 60 MG Oral Tablet [Kl-161]	DRON:00047459	542456
 DRON:00076675	lanthanum carbonate 500 MG Chewable Tablet [Fosrenol]	DRON:00053333	542465
@@ -8341,7 +8341,7 @@ DRON:00077262	anagrelide 0.5 MG Oral Capsule [Agrylin]	DRON:00054465	597857
 DRON:00077263	24 HR nisoldipine 20 MG Extended Release Oral Tablet [Sular]	DRON:00045563	597921
 DRON:00077264	24 HR nisoldipine 30 MG Extended Release Oral Tablet [Sular]	DRON:00045564	597922
 DRON:00077265	24 HR nisoldipine 40 MG Extended Release Oral Tablet [Sular]	DRON:00047722	597923
-DRON:00077266	dinoprostone 10 MG Drug Implant [Cervidil]	DRON:00054470	597959
+DRON:00077266	dinoprostone 10 MG Vaginal Insert [Cervidil]	DRON:00054470	597959
 DRON:00077267	interferon alfa-n3 5000000 UNT/ML Injectable Solution [Alferon N]	DRON:00054606	598014
 DRON:00077268	fluoxetine 90 MG Delayed Release Oral Capsule [Prozac]	DRON:00046469	598032
 DRON:00077269	clemastine fumarate 1.34 MG Oral Tablet [Daily Hist]	DRON:00058899	598056
@@ -10671,7 +10671,7 @@ DRON:00079592	benzocaine 200 MG/ML Mucosal Spray [Hurricaine]	DRON:00047725	8083
 DRON:00079593	Dextromethorphan 60 MG / Guaifenesin 1200 MG / Pseudoephedrine 60 MG Extended Release Tablet [Aquatab C Reformulated Nov 2006]	DRON:00048005	808518
 DRON:00079594	Dextromethorphan 120 MG / Guaifenesin 1200 MG / Pseudoephedrine 60 MG Extended Release Tablet [Aquatab C Reformulated Nov 2006]	DRON:00057407	808531
 DRON:00079595	folic acid 2.2 MG / pyridoxine 25 MG / vitamin B12 1.3 MG Oral Tablet [Vita-Respa]	DRON:00056990	808534
-DRON:00079596	fosfomycin 3000 MG Powder for Oral Solution [Monurol]	DRON:00057423	808921
+DRON:00079596	fosfomycin 3000 MG Granules for Oral Solution [Monurol]	DRON:00057423	808921
 DRON:00079597	Menthol 100 MG/ML / methyl salicylate 150 MG/ML Topical Cream [Bengay Original]	DRON:00045384	808994
 DRON:00079598	Menthol 80 MG/ML / methyl salicylate 300 MG/ML Topical Cream [Bengay Arthritis]	DRON:00045397	808996
 DRON:00079599	carbidopa 10 MG / levodopa 100 MG Disintegrating Oral Tablet [Parcopa]	DRON:00053356	809002
