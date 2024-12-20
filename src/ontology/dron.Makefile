@@ -3,6 +3,9 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
+RXNORM_VERSION = $(shell grep RXNORM tmp/rxnorm/RXNSAB.RRF | cut -d"|" -f7)
+ANNOTATE_ONTOLOGY_VERSION += --annotation rdfs:comment "This version of DrOn is current through RxNorm version $(RXNORM_VERSION)"
+
 ##########################
 #### Custom UO Import ####
 ##########################

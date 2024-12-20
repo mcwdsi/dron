@@ -10926,8 +10926,8 @@ DRON:00045287	lactic acid 0.02 MG/MG / phenol 0.01 MG/MG / salicylic acid 0.03 M
 DRON:00045288	lactic acid 50 MG/ML Topical Lotion	DRON:00026277	311254
 DRON:00045289	Lactobacillus 1000 MG Granules	DRON:00022229	311258
 DRON:00045290	lactose 250 MG Oral Capsule	DRON:00024878	311260
-DRON:00045291	lamotrigine 25 MG Chewable Tablet	DRON:00022233	311264
-DRON:00045292	lamotrigine 5 MG Chewable Tablet	DRON:00022233	311265
+DRON:00045291	lamotrigine 25 MG Tablet for Oral Suspension	DRON:00022233	311264
+DRON:00045292	lamotrigine 5 MG Tablet for Oral Suspension	DRON:00022233	311265
 DRON:00045293	lansoprazole 30 MG Delayed Release Oral Capsule	DRON:00026864	311277
 DRON:00045294	lecithin 1200 MG Oral Tablet	DRON:00027067	311281
 DRON:00045295	leucovorin 10 MG/ML Injectable Solution	DRON:00022241	311282
@@ -12838,7 +12838,7 @@ DRON:00047199	aminosalicylic acid 500 MG Oral Capsule	DRON:00026677	348973
 DRON:00047200	acetaminophen 300 MG Oral Tablet	DRON:00020450	348978
 DRON:00047201	Tetracaine 5 MG/ML Injectable Solution	DRON:00023537	348980
 DRON:00047202	nitrogen 99.9 % Gas for Inhalation	DRON:00027625	348987
-DRON:00047203	lamotrigine 2 MG Chewable Tablet	DRON:00022233	349010
+DRON:00047203	lamotrigine 2 MG Tablet for Oral Suspension	DRON:00022233	349010
 DRON:00047204	amylase 39000 UNT / lipase 12000 UNT / protease 39000 UNT Delayed Release Oral Capsule	DRON:00027914	349013
 DRON:00047205	sodium fluoride 0.00008 MG/MG / sodium monofluorophosphate 0.008 MG/MG Toothpaste	DRON:00031228	349053
 DRON:00047206	Brompheniramine 0.8 MG/ML / Dextromethorphan 3 MG/ML / Pseudoephedrine 12 MG/ML Oral Solution	DRON:00024568	349068
@@ -20105,7 +20105,7 @@ DRON:00054466	anagrelide 1 MG Oral Capsule	DRON:00030799	597852
 DRON:00054467	Levalbuterol 0.045 MG/ACTUAT Inhalant Solution	DRON:00026866	597908
 DRON:00054468	ciclesonide 0.16 MG/ACTUAT Inhalant Solution	DRON:00030800	597916
 DRON:00054469	ciclesonide 0.08 MG/ACTUAT Inhalant Solution	DRON:00030800	597918
-DRON:00054470	dinoprostone 10 MG Drug Implant	DRON:00030771	597957
+DRON:00054470	dinoprostone 10 MG Vaginal Insert	DRON:00030771	597957
 DRON:00054471	Amyl Nitrite 0.2 ML Nasal Inhalant	DRON:00024800	597960
 DRON:00054472	Sodium Fluoride 0.5 MG/ML Oral Solution	DRON:00023412	597965
 DRON:00054473	amlodipine 10 MG / atorvastatin 20 MG Oral Tablet	DRON:00027941	597967
@@ -22980,7 +22980,7 @@ DRON:00057341	Sodium Chloride 0.3 MEQ/ML Injectable Solution	DRON:00023404	80614
 DRON:00057342	Sodium Chloride 0.462 MEQ/ML Injectable Solution	DRON:00023404	806145
 DRON:00057343	Sodium Chloride 5.13 MEQ/ML Injectable Solution	DRON:00023404	806147
 DRON:00057344	sodium chloride 0.084 MEQ/ML Ophthalmic Solution	DRON:00024735	806149
-DRON:00057345	dinoprostone 3 MG Drug Implant	DRON:00030771	806156
+DRON:00057345	dinoprostone 3 MG Vaginal Insert	DRON:00030771	806156
 DRON:00057346	calcium chloride 0.002 MEQ/ML / glucose 0.92 MG/ML / glutathione 0.184 MG/ML / magnesium chloride 0.002 MEQ/ML / potassium chloride 0.005 MEQ/ML / sodium bicarbonate 0.025 MEQ/ML / sodium chloride 0.133 MEQ/ML / sodium phosphate, dibasic 0.42 MG/ML Ophthalmic Solution	DRON:00032327	806384
 DRON:00057347	calcium chloride 0.004 MEQ/ML / magnesium chloride 0.003 MEQ/ML / potassium chloride 0.01 MEQ/ML / sodium acetate 0.0475 MEQ/ML / sodium chloride 0.109 MEQ/ML / sodium citrate 0.012 MEQ/ML Ophthalmic Solution	DRON:00032328	806392
 DRON:00057348	glucose 35 MG/ML / potassium chloride 0.027 MEQ/ML / sodium chloride 0.026 MEQ/ML Injectable Solution	DRON:00025508	806413
@@ -23058,7 +23058,7 @@ DRON:00057419	24 HR venlafaxine 75 MG Extended Release Oral Tablet	DRON:00030206
 DRON:00057420	fumarate 30 MG / nickel sulfate 1 MG / potassium bromide 15 MG Chewable Tablet	DRON:00032361	808758
 DRON:00057421	Calcium Citrate 2381 MG / Vitamin D 250 UNT Oral Powder	DRON:00032362	808883
 DRON:00057422	folic acid 0.4 MG / vitamin B12 0.1 MG / vitamin B6 50 MG Oral Tablet	DRON:00031040	808900
-DRON:00057423	fosfomycin 3000 MG Powder for Oral Solution	DRON:00021986	808917
+DRON:00057423	fosfomycin 3000 MG Granules for Oral Solution	DRON:00021986	808917
 DRON:00057424	menthol 75 MG/ML Topical Lotion	DRON:00026293	808937
 DRON:00057425	menthol 0.035 MG/MG Topical Gel	DRON:00020428	808955
 DRON:00057426	acetaminophen 130 MG / chlorpheniramine 2 MG / phenylephrine 10 MG / salicylamide 100 MG Oral Capsule	DRON:00024968	809125
@@ -44975,3 +44975,14 @@ DRON:01053919	trospium chloride 30 MG / xanomeline 125 MG Oral Capsule	DRON:0105
 DRON:01053920	trospium chloride 20 MG / xanomeline 100 MG Oral Capsule	DRON:01053870	2694989
 DRON:01053921	inavolisib 3 MG Oral Tablet	DRON:01053875	2695427
 DRON:01053922	inavolisib 9 MG Oral Tablet	DRON:01053875	2695435
+DRON:01057646	salicylic acid 18.5 MG/ML Topical Solution	DRON:00020385	2697740
+DRON:01057647	camphor 4 MG/ML / menthol 8 MG/ML Topical Cream	DRON:00026179	2697831
+DRON:01057648	camphor 40 MG/ML / menthol 40 MG/ML Topical Solution	DRON:00731066	2696072
+DRON:01057649	coagulation factor VIIa (recombinant)-jncw 2 MG Injection	DRON:00751787	2696277
+DRON:01057650	0.05 ML aflibercept-ayyh 40 MG/ML Injection	DRON:00751531	2696270
+DRON:01057651	aflibercept-ayyh 40 MG/ML Injection	DRON:00751531	2696271
+DRON:01057652	treprostinil 0.08 MG Inhalation Powder	DRON:00969052	2697737
+DRON:01057653	repotrectinib 160 MG Oral Capsule	DRON:01035101	2696876
+DRON:01057654	ethinyl estradiol 0.02 MG / norethindrone acetate 1 MG Disintegrating Oral Tablet	DRON:01057643	2696883
+DRON:01057655	inert ingredients 1 MG Disintegrating Oral Tablet	DRON:01057644	2696886
+DRON:01057656	pimobendan 1.5 MG/ML Oral Solution	DRON:01057645	2697718
