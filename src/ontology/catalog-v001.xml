@@ -14,7 +14,7 @@
   <uri name="http://purl.obolibrary.org/obo/dron/imports/ogms_import.owl" uri="imports/ogms_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/dron/imports/iao_import.owl" uri="imports/iao_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/dron/imports/uo_import.owl" uri="imports/uo_import.owl"/>
-  
+  <uri name="http://purl.obolibrary.org/obo/dron/imports/pato_import.owl" uri="imports/pato_import.owl"/>  
 <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-chebi.owl" uri="components/dron-chebi.owl"/>-->
   
   <!--  <uri name="http://purl.obolibrary.org/obo/dron/dron-hand.owl" uri="components/dron-hand.owl"/>-->

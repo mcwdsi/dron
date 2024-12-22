@@ -16,7 +16,7 @@
 # 3. [Update repo to latest ODK](update_repo)
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                082560e7167e4c838bb11575d493a5b738d1886fb5b1721258c2e706584f371f
+CONFIG_HASH=                19da4684159be042a50f7d4b9fa0ec9d7698d4c5d70529e63b99f62140d7e4a1
 
 
 # ----------------------------------------
@@ -165,7 +165,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ro apollo_sv go iao obi uo ogms bfo omo chebi pr
+IMPORTS =  ro apollo_sv go iao obi uo ogms bfo omo chebi pr pato
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -425,6 +425,16 @@ $(IMPORTDIR)/pr_import.owl: $(MIRRORDIR)/pr.owl $(IMPORTDIR)/pr_terms_combined.t
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
 		$(ANNOTATE_CONVERT_FILE); fi
 
+## Module for ontology: pato
+
+$(IMPORTDIR)/pato_import.owl: $(MIRRORDIR)/pato.owl $(IMPORTDIR)/pato_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+    extract -T $(IMPORTDIR)/pato_terms_combined.txt --copy-ontology-annotations true --force true --method BOT \
+    remove --base-iri http://purl.obolibrary.org/obo/PATO_ --axioms external --preserve-structure false --trim false \
+		remove $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) --term rdfs:label --term IAO:0000115  -T $(IMPORTDIR)/pato_terms_combined.txt --select complement \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		$(ANNOTATE_CONVERT_FILE); fi
+
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -587,6 +597,14 @@ else
 mirror-pr:
 	@echo "Not refreshing pr because refreshing large imports is disabled (IMP_LARGE=$(IMP_LARGE))."
 endif
+
+
+## ONTOLOGY: pato
+.PHONY: mirror-pato
+.PRECIOUS: $(MIRRORDIR)/pato.owl
+mirror-pato: | $(TMPDIR)
+	curl -L $(OBOBASE)/pato.owl --create-dirs -o $(TMPDIR)/pato-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/pato-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

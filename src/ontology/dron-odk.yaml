@@ -49,6 +49,10 @@ import_group:
       module_type: slme
       is_large: TRUE
       use_gzipped: TRUE
+    - id: pato
+      module_type: filter
+      base_iris:
+        - http://purl.obolibrary.org/obo/PATO_
 components:
   products:
     - filename: dron-ingredient.owl
