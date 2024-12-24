@@ -29,5 +29,5 @@ jobs:
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: main
-        run: echo "DRON in its current form is too big for GitHub Actions"
+        run: echo "DrOn in its current form is too big for GitHub Actions."
 
