@@ -1466,8 +1466,8 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000074> 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000074> "The psychoactive effect is added for illicit drugs such as crack cocaine."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000074> "We are including prophylactic and diagnostic effects / usage under the more general heading of 'therapeutic'."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000074> "drug product"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000074> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000075> (crack cocaine)
 
