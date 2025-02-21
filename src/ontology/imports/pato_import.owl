@@ -7,11 +7,12 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/pato_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2024-12-22/imports/pato_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pato/releases/2024-11-11/pato.owl>)
-Annotation(rdfs:comment "This version of DrOn is current through RxNorm version ")
-Annotation(owl:versionInfo "2024-12-22")
+<http://purl.obolibrary.org/obo/dron/releases/2025-02-21/imports/pato_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pato/releases/2025-02-01/pato.owl>)
+Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_250106F")
+Annotation(owl:versionInfo "2025-02-21")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000125>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
@@ -24,6 +25,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
@@ -51,6 +53,14 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/pato#scalar_slim> <http:
 #   Classes
 ############################
 
+# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000001> "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PATO_0000001> "PATO:0000072")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0000001> "PATO:0000001")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
+
 # Class: <http://purl.obolibrary.org/obo/PATO_0000125> (mass)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000125> "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.")
@@ -61,6 +71,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/pato#scalar_slim>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PATO_0000125> "For any biological use of PATO, the concept that should be used is 'mass' and not 'weight'. For example, increased weight of an organism.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000125> "mass")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
 
 )
