@@ -100,7 +100,7 @@ INSERT INTO dron_ingredient(subject, predicate, object, datatype) VALUES
 ('CHEBI:94449', 'rdfs:label', 'Glycopyrrolate', 'xsd:string');
 
 -- Add some missing DRON annotations for active ingredients.
--- "has_proper_part some (
+-- "'has part' some (
 --    scattered molecular aggregate
 --    and is_bearer_of some active ingredient
 --    and OBI:0000643 some INGREDIENT
@@ -210,7 +210,7 @@ SELECT
 FROM dron.ingredient_disposition;
 
 -- Assert rdfs:subClassOf
--- "has_proper_part some (
+-- "'has part' some (
 --    scattered molecular aggregate
 --    and is_bearer_of some active ingredient
 --    and OBI:0000643 some INGREDIENT
@@ -229,7 +229,7 @@ SELECT
 FROM dron.clinical_drug_form_ingredient;
 
 -- Assert rdfs:subClassOf
--- has_proper_part some (
+-- 'has part' some (
 --   scattered molecular aggregate
 --   and is_bearer_of some active ingredient
 --   and is_bearer_of some (
@@ -261,7 +261,7 @@ SELECT
 FROM dron.clinical_drug_strength;
 
 -- Assert rdfs:subClassOf
--- has_proper_part some (
+-- 'has part' some (
 --   scattered molecular aggregate
 --   and is_bearer_of some excipient
 --   and BFO_0000071 some INGREDIENT
@@ -287,7 +287,7 @@ INSERT INTO dron_rxnorm VALUES
 (1, 0, 'graph', 'obo:dron/dron-rxnorm.owl', 'rdf:type', 'owl:Ontology', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdf:type', 'owl:ObjectProperty', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdf:type', 'owl:TransitiveProperty', '_IRI', NULL),
-(1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdfs:label', 'has_proper_part', 'xsd:string', NULL),
+(1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdfs:label', 'has part', 'xsd:string', NULL),
 (1, 0, 'graph', 'RO:0000053', 'rdf:type', 'owl:ObjectProperty', '_IRI', NULL), 
 (1, 0, 'graph', 'RO:0000053', 'rdf:type', 'owl:TransitiveProperty', '_IRI', NULL), 
 (1, 0, 'graph', 'RO:0000053', 'rdfs:label', 'is_bearer_of', 'xsd:string', NULL), 
@@ -408,9 +408,8 @@ FROM dron.clinical_drug_form_disposition;
 -- Assert some general statements.
 INSERT INTO dron_ndc VALUES
 (1, 0, 'graph', 'obo:dron/dron-ndc.owl', 'rdf:type', 'owl:Ontology', '_IRI', NULL),
-(1, 0, 'graph', '<http://www.obofoundry.org/ro/ro.owl#has_proper_part>', 'rdf:type', 'owl:ObjectProperty', '_IRI', NULL),
-(1, 0, 'graph', '<http://www.obofoundry.org/ro/ro.owl#has_proper_part>', 'rdf:type', 'owl:TransitiveProperty', '_IRI', NULL),
-(1, 0, 'graph', '<http://www.obofoundry.org/ro/ro.owl#has_proper_part>', 'rdfs:label', 'has_proper_part', 'xsd:string', NULL),
+(1, 0, 'graph', '<http://purl.obolibrary.org/obo/RO_0002131>', 'rdf:type', 'owl:ObjectProperty', '_IRI', NULL),
+(1, 0, 'graph', '<http://purl.obolibrary.org/obo/RO_0002131>', 'rdfs:label', 'location of', 'xsd:string', NULL),
 (1, 0, 'graph', 'DRON:00000027', 'rdf:type', 'owl:Class', '_IRI', NULL); 
 
 -- Assert rdf:type is owl:Class
@@ -464,7 +463,7 @@ SELECT
     curie AS subject,
     'rdfs:subClassOf' AS predicate,
     REPLACE(
-        '{"owl:onProperty":[{"datatype":"_IRI","object":"<http://www.obofoundry.org/ro/ro.owl#has_proper_part>"}],"owl:someValuesFrom":[{"datatype":"_IRI","object":"DRUG"}],"rdf:type":[{"datatype":"_IRI","object":"owl:Restriction"}]}',
+        '{"owl:onProperty":[{"datatype":"_IRI","object":"<http://purl.obolibrary.org/obo/RO_0002131>"}],"owl:someValuesFrom":[{"datatype":"_IRI","object":"DRUG"}],"rdf:type":[{"datatype":"_IRI","object":"owl:Restriction"}]}',
         'DRUG',
         drug
     ) AS object,

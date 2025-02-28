@@ -701,7 +701,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000001> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000002> (portion of pure substance)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000002> "An object all of whose parts that are atoms or molecules are of the same type (as determined by a unique structure)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000002> "An object all of whose parts that are atoms or molecules are of the same type (as determined by a unique structure)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000002> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000002> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000002> "portion of pure substance"@en)
@@ -747,7 +747,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000006> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000007> (portion of solution)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000007> "A portion of mixture of two or more portions of pure substances whereby one or more of its pure substance parts called solute(s) is (are) dispersed evenly in another pure substance part called the solvent, whereby (1) the grains of the solvent and solute(s) are of size ≤10^-9m, and (2) the solvent typically has a much greater mass and volume than the solute(s)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000007> "A portion of mixture of two or more portions of pure substances whereby one or more of its pure substance parts called solute(s) is (are) dispersed evenly in another pure substance part called the solvent, whereby (1) the grains of the solvent and solute(s) are of size ≤10^-9m, and (2) the solvent typically has a much greater mass and volume than the solute(s)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000007> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000007> "William Hogan"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000007> "The phase (solid, liquid, gas) of the solution is usually the phase of the solvent."@en)
@@ -774,7 +774,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000009> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000010> (portion of emulsion)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000010> "A portion of colloid where both the dispersed material and the continuous medium are liquids"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000010> "A portion of colloid where both the dispersed material and the continuous medium are liquids."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000010> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000010> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000010> "portion of emulsion"@en)
