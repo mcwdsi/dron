@@ -45,6 +45,7 @@ OBI:0000576	owl:Class
 OBI:0001937	owl:DataProperty
 OBI:0001938	owl:ObjectProperty
 OBI:0100026	owl:Class
+OBI:0000643	owl:ObjectProperty
 OGMS:0000090	owl:Class
 PATO:0000125	owl:Class
 PR:000000001	owl:Class

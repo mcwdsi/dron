@@ -9,11 +9,13 @@ DRON:00015773	obsolete roxatidine	owl:Class	CHEBI:230550
 DRON:00015971	obsolete tiratricol	owl:Class	CHEBI:40021
 DRON:00016220	obsolete tilmicosin	owl:Class	CHEBI:195409
 DRON:00016393	obsolete dichlorodifluoromethane	owl:Class	CHEBI:229860
+DRON:00016802	obsolete chlorophyllin	owl:Class	CHEBI:232141
 DRON:00020050	obsolete ipilimumab	owl:Class	CHEBI:231679
 DRON:00020097	obsolete gamithromycin	owl:Class	CHEBI:195437
 DRON:00723213	obsolete DEXTROSE, ANHYDROUS	owl:Class	DRON:00723869
 DRON:00723475	obsolete triethyl citrate	owl:Class	CHEBI:168426
 DRON:00723507	obsolete ferrosoferric oxide	owl:Class	CHEBI:50821
+DRON:00723618	obsolete denatonium benzoate	owl:Class	CHEBI:232400
 DRON:00723868	obsolete Juniperus communis whole extract	owl:Class	DRON:00010134
 DRON:00723870	obsolete FD&C yellow no. 6	owl:Class	DRON:00723223
 DRON:00723871	obsolete carbomer homopolymer type c	owl:Class	DRON:00723250
@@ -7764,6 +7766,7 @@ DRON:00893970	obsolete dextromethorphan hydrobromide 60 MG / guaifenesin 1200 MG
 DRON:00893971	obsolete dextromethorphan hydrobromide 60 MG / guaifenesin 800 MG / phenylpropanolamine hydrochloride 75 MG Extended Release Oral Tablet	owl:Class	DRON:00852771
 DRON:00893972	obsolete 12 HR dextromethorphan hydrobromide 60 MG / guaifenesin 800 MG / phenylpropanolamine hydrochloride 75 MG Extended Release Oral Tablet	owl:Class	DRON:00852770
 DRON:00893973	obsolete benzocaine 0.2 MG/MG / menthol 0.001 MG/MG / zinc chloride 0.0015 MG/MG Oral Gel	owl:Class	DRON:00867799
+DRON:00904110	obsolete capmatinib	owl:Class	CHEBI:231693
 DRON:00904143	obsolete levorphanol tartrate 2 MG Oral Tablet	owl:Class	DRON:00035653
 DRON:00904144	obsolete levorphanol tartrate 2 MG/ML Injectable Solution	owl:Class	DRON:00045305
 DRON:00904145	obsolete Twice-Daily diclofenac epolamine 0.013 MG/MG Medicated Patch	owl:Class	DRON:00058711
@@ -7845,6 +7848,7 @@ DRON:00940695	obsolete inulin 200 MG / Lacticaseibacillus rhamnosus GG 100000000
 DRON:00942745	obsolete mannitol 40 MG Inhalation Powder	owl:Class	DRON:00937577
 DRON:00947347	obsolete 100 ML propofol lipid emulsion 20 MG/ML Injection	owl:Class	DRON:00883201
 DRON:00947348	obsolete propofol lipid emulsion 20 MG/ML Injection	owl:Class	DRON:00883202
+DRON:00949186	obsolete tirbanibulin	owl:Class	CHEBI:231702
 DRON:00953476	obsolete 2 ML fibrinogen, human 90 MG/ML / thrombin, human 500 UNT/ML Prefilled Syringe	owl:Class	DRON:00922279
 DRON:00953477	obsolete fibrinogen, human 90 MG/ML / thrombin, human 500 UNT/ML Prefilled Syringe	owl:Class	DRON:00922280
 DRON:00961525	obsolete sodium chloride 9 MG/ML Nasal Solution	owl:Class	DRON:00046023
