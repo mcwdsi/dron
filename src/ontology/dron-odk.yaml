@@ -30,12 +30,27 @@ import_group:
       module_type: slme
       slme_individuals: exclude
     - id: apollo_sv
+      module_type: filter
+      base_iris:
+        - http://purl.obolibrary.org/obo/APOLLO_SV_
     - id: go
+      module_type: filter
+      base_iris:
+        - http://purl.obolibrary.org/obo/GO_
     - id: iao
+      module_type: filter
+      base_iris:
+        - http://purl.obolibrary.org/obo/IAO_
     - id: obi
+      module_type: filter
+      base_iris:
+        - http://purl.obolibrary.org/obo/OBI_
     - id: uo
       module_type: custom
     - id: ogms
+      module_type: filter
+      base_iris:
+        - http://purl.obolibrary.org/obo/OGMS_
     - id: bfo
       module_type: slme
       slme_individuals: exclude
