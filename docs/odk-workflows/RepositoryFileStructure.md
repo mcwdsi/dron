@@ -17,12 +17,12 @@ These are the current imports in DRON
 | Import | URL | Type |
 | ------ | --- | ---- |
 | ro | http://purl.obolibrary.org/obo/ro.owl | slme |
-| apollo_sv | http://purl.obolibrary.org/obo/apollo_sv.owl | None |
-| go | http://purl.obolibrary.org/obo/go.owl | None |
-| iao | http://purl.obolibrary.org/obo/iao.owl | None |
-| obi | http://purl.obolibrary.org/obo/obi.owl | None |
+| apollo_sv | http://purl.obolibrary.org/obo/apollo_sv.owl | filter |
+| go | http://purl.obolibrary.org/obo/go.owl | filter |
+| iao | http://purl.obolibrary.org/obo/iao.owl | filter |
+| obi | http://purl.obolibrary.org/obo/obi.owl | filter |
 | uo | http://purl.obolibrary.org/obo/uo.owl | custom |
-| ogms | http://purl.obolibrary.org/obo/ogms.owl | None |
+| ogms | http://purl.obolibrary.org/obo/ogms.owl | filter |
 | bfo | http://purl.obolibrary.org/obo/bfo.owl | slme |
 | omo | http://purl.obolibrary.org/obo/omo.owl | mirror |
 | chebi | http://purl.obolibrary.org/obo/chebi.owl | slme |
