@@ -4127,7 +4127,7 @@ DRON:00073048	ticarcillin 200 MG/ML Injectable Solution [Ticar]	DRON:00046216	20
 DRON:00073049	ticarcillin 300 MG/ML Injectable Solution [Ticar]	DRON:00046217	208557
 DRON:00073050	ticlopidine hydrochloride 250 MG Oral Tablet [Ticlid]	DRON:00046221	208558
 DRON:00073051	dexamethasone 0.1 MG/ML Topical Spray [Aeroseb-Dex]	DRON:00038903	208559
-DRON:00073052	timolol 2.5 MG/ML Ophthalmic Solution [Betimol]	DRON:00035929	208560
+DRON:00073052	timolol hemihydrate 2.5 MG/ML Ophthalmic Solution [Betimol]	DRON:00035929	208560
 DRON:00073053	timolol 5 MG/ML Ophthalmic Solution [Betimol]	DRON:00046224	208561
 DRON:00073054	dexamethasone 0.4 MG/ML Topical Spray [Decaspray]	DRON:00037422	208562
 DRON:00073055	timolol 5 MG Oral Tablet [Blocadren]	DRON:00035932	208575
@@ -25186,7 +25186,7 @@ DRON:01007370	Emollient clobetasol propionate 0.5 MG/ML Topical Cream [Temovate]
 DRON:01007371	fentanyl 0.04 MG/ACTUAT Transdermal System [Ionsys]	DRON:00807898	1992293
 DRON:01007372	24 HR timolol 5 MG/ML Ophthalmic Solution [Istalol]	DRON:00807897	1992300
 DRON:01007373	12 HR timolol 5 MG/ML Ophthalmic Solution [Timoptic]	DRON:00807899	1992304
-DRON:01007374	12 HR timolol 5 MG/ML Ophthalmic Solution [Betimol]	DRON:00807899	1992305
+DRON:01007374	timolol hemihydrate 5 MG/ML Ophthalmic Solution [Betimol]	DRON:00807899	1992305
 DRON:01007375	psyllium 2500 MG Oral Wafer [Metamucil]	DRON:00803446	1992418
 DRON:01007376	diphenhydramine hydrochloride 2.5 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution [Wal-Dryl PE]	DRON:00064176	1992526
 DRON:01007377	2 ML rabies immune globulin, human 150 UNT/ML Injection [Kedrab]	DRON:00776427	1992536

@@ -914,7 +914,7 @@ CHEBI:26806	succinate	1307106
 CHEBI:2682	amphotericin B	236594
 CHEBI:26833	sulfur atom	10223
 CHEBI:26836	sulfuric acid	10231
-CHEBI:26849	tartaric acid	37578
+CHEBI:26849	DL-tartaric acid	37578
 CHEBI:2687	amsacrine	739
 CHEBI:26876	terpineol	1368180
 CHEBI:26948	vitamin B1	10454
@@ -1065,14 +1065,14 @@ CHEBI:29016	arginine	1091
 CHEBI:29031	phosphinic acid	1423684
 CHEBI:2904	atenolol	1202
 CHEBI:29081	synephrine	10288
-CHEBI:29101	sodium cation	1364429
+CHEBI:29101	sodium(1+)	1364429
 CHEBI:291342	desloratadine	275635
 CHEBI:2914	atracurium	1218
 CHEBI:291902	eptifibatide	75635
 CHEBI:2922	auranofin	1227
 CHEBI:29222	hypochlorite	1483317
 CHEBI:29228	hydrogen fluoride	5496
-CHEBI:29287	gold	1311190
+CHEBI:29287	gold atom	1311190
 CHEBI:2930	Aurothioglucose	4980
 CHEBI:29377	sodium carbonate	36685
 CHEBI:2946	azatadine	18600
@@ -1390,7 +1390,7 @@ CHEBI:33301	bismuth atom	1599
 CHEBI:33310	neon atom	7301
 CHEBI:33324	strontium atom	10122
 CHEBI:33325	radium atom	1546450
-CHEBI:33341	titanium	1305547
+CHEBI:33341	titanium atom	1305547
 CHEBI:33374	samarium atom	9549
 CHEBI:33382	lutetium atom	1534772
 CHEBI:33442	(S)-S-adenosyl-L-methionine	9504
