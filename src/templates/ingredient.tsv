@@ -836,6 +836,8 @@ CHEBI:231693	capmatinib	2362165
 CHEBI:231702	tirbanibulin	2471078
 CHEBI:232141	chlorophyllin	20852
 CHEBI:232400	denatonium benzoate	1313232
+CHEBI:232799	insulin lispro	86009
+CHEBI:232810	brigatinib	1921217
 CHEBI:23316	citral	1362890
 CHEBI:23334	cobalamins	42604
 CHEBI:23359	colchicine	2683
@@ -3695,7 +3697,6 @@ DRON:00017617	magnesium orotate	139233
 DRON:00017618	borage oil	68905
 DRON:00017622	NPH Insulin, Human	253181
 DRON:00017623	insulin, regular, human	253182
-DRON:00017625	insulin lispro	86009
 DRON:00017626	insulin detemir	139825
 DRON:00017627	insulin aspart, human	51428
 DRON:00017628	acidulated phosphate fluoride	236
@@ -5892,7 +5893,6 @@ DRON:00786322	ethylcellulose (50 MPA.S)	1739984
 DRON:00789748	avelumab	1875534
 DRON:00789749	ocrelizumab	1876366
 DRON:00789750	deutetrabenazine	1876905
-DRON:00789752	brigatinib	1921217
 DRON:00789755	sarilumab	1923319
 DRON:00789756	polyglyceryl-3 distearate	1367498
 DRON:00791692	Lacticaseibacillus casei	1592255
