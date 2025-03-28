@@ -836,6 +836,8 @@ CHEBI:231693	capmatinib	2362165
 CHEBI:231702	tirbanibulin	2471078
 CHEBI:232141	chlorophyllin	20852
 CHEBI:232400	denatonium benzoate	1313232
+CHEBI:232799	insulin lispro	86009
+CHEBI:232810	brigatinib	1921217
 CHEBI:23316	citral	1362890
 CHEBI:23334	cobalamins	42604
 CHEBI:23359	colchicine	2683
@@ -914,7 +916,7 @@ CHEBI:26806	succinate	1307106
 CHEBI:2682	amphotericin B	236594
 CHEBI:26833	sulfur atom	10223
 CHEBI:26836	sulfuric acid	10231
-CHEBI:26849	tartaric acid	37578
+CHEBI:26849	DL-tartaric acid	37578
 CHEBI:2687	amsacrine	739
 CHEBI:26876	terpineol	1368180
 CHEBI:26948	vitamin B1	10454
@@ -1065,14 +1067,14 @@ CHEBI:29016	arginine	1091
 CHEBI:29031	phosphinic acid	1423684
 CHEBI:2904	atenolol	1202
 CHEBI:29081	synephrine	10288
-CHEBI:29101	sodium cation	1364429
+CHEBI:29101	sodium(1+)	1364429
 CHEBI:291342	desloratadine	275635
 CHEBI:2914	atracurium	1218
 CHEBI:291902	eptifibatide	75635
 CHEBI:2922	auranofin	1227
 CHEBI:29222	hypochlorite	1483317
 CHEBI:29228	hydrogen fluoride	5496
-CHEBI:29287	gold	1311190
+CHEBI:29287	gold atom	1311190
 CHEBI:2930	Aurothioglucose	4980
 CHEBI:29377	sodium carbonate	36685
 CHEBI:2946	azatadine	18600
@@ -1390,7 +1392,7 @@ CHEBI:33301	bismuth atom	1599
 CHEBI:33310	neon atom	7301
 CHEBI:33324	strontium atom	10122
 CHEBI:33325	radium atom	1546450
-CHEBI:33341	titanium	1305547
+CHEBI:33341	titanium atom	1305547
 CHEBI:33374	samarium atom	9549
 CHEBI:33382	lutetium atom	1534772
 CHEBI:33442	(S)-S-adenosyl-L-methionine	9504
@@ -3695,7 +3697,6 @@ DRON:00017617	magnesium orotate	139233
 DRON:00017618	borage oil	68905
 DRON:00017622	NPH Insulin, Human	253181
 DRON:00017623	insulin, regular, human	253182
-DRON:00017625	insulin lispro	86009
 DRON:00017626	insulin detemir	139825
 DRON:00017627	insulin aspart, human	51428
 DRON:00017628	acidulated phosphate fluoride	236
@@ -5892,7 +5893,6 @@ DRON:00786322	ethylcellulose (50 MPA.S)	1739984
 DRON:00789748	avelumab	1875534
 DRON:00789749	ocrelizumab	1876366
 DRON:00789750	deutetrabenazine	1876905
-DRON:00789752	brigatinib	1921217
 DRON:00789755	sarilumab	1923319
 DRON:00789756	polyglyceryl-3 distearate	1367498
 DRON:00791692	Lacticaseibacillus casei	1592255
@@ -6737,3 +6737,13 @@ DRON:01059499	Luviset 360	2588489
 DRON:01059500	dimethicone/polyglycerin-3 crosspolymer	2604557
 DRON:01059501	hypromellose 2208 (200000 MPA.S)	2631986
 DRON:01059502	alpha-chlorohydrin	2699583
+DRON:01061504	cholecalciferol	2418
+DRON:01061505	lorazepam	6470
+DRON:01061506	prenylamine	8674
+DRON:01061507	enoxaparin	67108
+DRON:01061508	poloxamer	155156
+DRON:01061509	clofezone	183877
+DRON:01061510	cetearyl alcohol	1425218
+DRON:01061511	gentamicin	1596450
+DRON:01061512	acoramidis	2698312
+DRON:01061513	revumenib	2698325
