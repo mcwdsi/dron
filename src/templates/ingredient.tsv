@@ -707,7 +707,7 @@ CHEBI:17822	serine	9671
 CHEBI:17823	calcitriol	1894
 CHEBI:17824	propan-2-ol	797541
 CHEBI:178256	Isobutylparaben	1364296
-CHEBI:17833	gentamycin	142438
+CHEBI:17833	gentamycin	1596450
 CHEBI:17836	4-aminobenzoate	618974
 CHEBI:178699	Ethanolamine Oleate	24460
 CHEBI:17883	hydrogen chloride	5486
@@ -914,7 +914,7 @@ CHEBI:26806	succinate	1307106
 CHEBI:2682	amphotericin B	236594
 CHEBI:26833	sulfur atom	10223
 CHEBI:26836	sulfuric acid	10231
-CHEBI:26849	tartaric acid	37578
+CHEBI:26849	DL-tartaric acid	37578
 CHEBI:2687	amsacrine	739
 CHEBI:26876	terpineol	1368180
 CHEBI:26948	vitamin B1	10454
@@ -1000,7 +1000,7 @@ CHEBI:28243	octacosan-1-ol	12166
 CHEBI:28260	galactose	4626
 CHEBI:28262	dimethyl sulfoxide	3455
 CHEBI:28300	glutamine	4885
-CHEBI:28304	heparin	152610
+CHEBI:28304	heparin	5224
 CHEBI:28329	trioxsalen	10844
 CHEBI:28368	novobiocin	7538
 CHEBI:28384	vitamin K	11258
@@ -1053,7 +1053,7 @@ CHEBI:28918	(R)-adrenaline	3992
 CHEBI:28925	mechlorethamine	6674
 CHEBI:28934	vitamin D2	4018
 CHEBI:28938	ammonium	709
-CHEBI:28940	calciol	1244014
+CHEBI:28940	calciol	2418
 CHEBI:28946	theobromine	10437
 CHEBI:2896	astemizole	42328
 CHEBI:28966	chlorophyll	2388
@@ -1065,14 +1065,14 @@ CHEBI:29016	arginine	1091
 CHEBI:29031	phosphinic acid	1423684
 CHEBI:2904	atenolol	1202
 CHEBI:29081	synephrine	10288
-CHEBI:29101	sodium cation	1364429
+CHEBI:29101	sodium(1+)	1364429
 CHEBI:291342	desloratadine	275635
 CHEBI:2914	atracurium	1218
 CHEBI:291902	eptifibatide	75635
 CHEBI:2922	auranofin	1227
 CHEBI:29222	hypochlorite	1483317
 CHEBI:29228	hydrogen fluoride	5496
-CHEBI:29287	gold	1311190
+CHEBI:29287	gold atom	1311190
 CHEBI:2930	Aurothioglucose	4980
 CHEBI:29377	sodium carbonate	36685
 CHEBI:2946	azatadine	18600
@@ -1390,7 +1390,7 @@ CHEBI:33301	bismuth atom	1599
 CHEBI:33310	neon atom	7301
 CHEBI:33324	strontium atom	10122
 CHEBI:33325	radium atom	1546450
-CHEBI:33341	titanium	1305547
+CHEBI:33341	titanium atom	1305547
 CHEBI:33374	samarium atom	9549
 CHEBI:33382	lutetium atom	1534772
 CHEBI:33442	(S)-S-adenosyl-L-methionine	9504
@@ -2274,7 +2274,7 @@ CHEBI:65347	carfilzomib	1302966
 CHEBI:65349	mirabegron	1300786
 CHEBI:65353	lorcaserin	1300701
 CHEBI:6538	loratadine	28889
-CHEBI:6539	lorazepam	6470
+CHEBI:6539	Lorazepam	6470
 CHEBI:6541	losartan	52175
 CHEBI:6603	Lypressin	6531
 CHEBI:6633	Mafenide	6572
@@ -2889,7 +2889,7 @@ CHEBI:9137	sibutramine	36514
 CHEBI:9139	sildenafil	136411
 CHEBI:91407	momelotinib	2665204
 CHEBI:9142	silver(1+) sulfadiazinate	9793
-CHEBI:9144	silibinin	155067
+CHEBI:9144	silibinin	9794
 CHEBI:9147	octamethyltrisiloxane	9796
 CHEBI:9150	simvastatin	36567
 CHEBI:91508	2-[[2-[(acetylthio)methyl]-1-oxo-3-phenylpropyl]amino]acetic acid (phenylmethyl) ester	16738
@@ -6738,3 +6738,11 @@ DRON:01059499	Luviset 360	2588489
 DRON:01059500	dimethicone/polyglycerin-3 crosspolymer	2604557
 DRON:01059501	hypromellose 2208 (200000 MPA.S)	2631986
 DRON:01059502	alpha-chlorohydrin	2699583
+DRON:01061504	prenylamine	8674
+DRON:01061505	enoxaparin	67108
+DRON:01061506	certoparin	152610
+DRON:01061507	silybin	155067
+DRON:01061508	poloxamer	155156
+DRON:01061509	clofezone	183877
+DRON:01061510	acoramidis	2698312
+DRON:01061511	revumenib	2698325
