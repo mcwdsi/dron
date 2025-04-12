@@ -10,6 +10,7 @@ DRON:00015971	obsolete tiratricol	owl:Class	CHEBI:40021
 DRON:00016220	obsolete tilmicosin	owl:Class	CHEBI:195409
 DRON:00016393	obsolete dichlorodifluoromethane	owl:Class	CHEBI:229860
 DRON:00016802	obsolete chlorophyllin	owl:Class	CHEBI:232141
+DRON:00017625	obsolete insulin lispro	owl:Class	CHEBI:232799
 DRON:00020050	obsolete ipilimumab	owl:Class	CHEBI:231679
 DRON:00020097	obsolete gamithromycin	owl:Class	CHEBI:195437
 DRON:00723213	obsolete DEXTROSE, ANHYDROUS	owl:Class	DRON:00723869
@@ -5544,6 +5545,7 @@ DRON:00786398	obsolete nonacog alfa 1 UNT Injection	owl:Class	DRON:00776857
 DRON:00786404	obsolete 2 ML immunoglobulin G, human 180 MG/ML Injection	owl:Class	DRON:00778100
 DRON:00786405	obsolete immunoglobulin G, human 180 MG/ML Injection	owl:Class	DRON:00778101
 DRON:00786406	obsolete 10 ML immunoglobulin G, human 180 MG/ML Injection	owl:Class	DRON:00778102
+DRON:00789752	obsolete brigatinib	owl:Class	CHEBI:232810
 DRON:00789760	obsolete magnesium sulfate / potassium chloride / potassium phosphate / sodium chloride / sodium phosphate Irrigation Solution	owl:Class	DRON:00032272
 DRON:00789775	obsolete American house dust mite allergenic extract 5000 AU/ML Injectable Solution	owl:Class	DRON:00058530
 DRON:00789776	obsolete American house dust mite allergenic extract 10000 AU/ML Injectable Solution	owl:Class	DRON:00058533
