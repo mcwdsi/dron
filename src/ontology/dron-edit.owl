@@ -342,11 +342,11 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#sho
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "has_alternative_id")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (has cross-reference)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
 
@@ -395,7 +395,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0001901>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (has characteristic)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (is_bearer_of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/RO_0001901>)
 
@@ -438,7 +438,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135198> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (metaclazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (Metaclazepam hydrochloride)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -1458,7 +1458,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/DRON_000
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000075> "http://orcid.org/0000-0002-9881-1017")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000075> "crack cocaine"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000075> <http://purl.obolibrary.org/obo/DRON_00000074>)
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000075> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<RO:0000053> <http://purl.obolibrary.org/obo/DRON_00000028>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> <http://purl.obolibrary.org/obo/CHEBI_27958>)))))
+SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000075> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> <http://purl.obolibrary.org/obo/CHEBI_27958>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000500> (albendazole tablet)
 
