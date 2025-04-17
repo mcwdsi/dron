@@ -283,7 +283,6 @@ INSERT INTO dron_rxnorm VALUES
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdf:type', 'owl:TransitiveProperty', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdfs:label', 'has part', 'xsd:string', NULL),
 (1, 0, 'graph', 'RO:0000053', 'rdf:type', 'owl:ObjectProperty', '_IRI', NULL), 
-(1, 0, 'graph', 'RO:0000053', 'rdf:type', 'owl:TransitiveProperty', '_IRI', NULL), 
 (1, 0, 'graph', 'RO:0000053', 'rdfs:label', 'is_bearer_of', 'xsd:string', NULL), 
 (1, 0, 'graph', 'DRON:00000005', 'rdf:type', 'owl:Class', '_IRI', NULL), 
 (1, 0, 'graph', 'DRON:00000015', 'rdf:type', 'owl:Class', '_IRI', NULL), 
