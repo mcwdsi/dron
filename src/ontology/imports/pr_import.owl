@@ -7,20 +7,22 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/pr_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2025-03-26/imports/pr_import.owl>
-Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_241104F")
-Annotation(owl:versionInfo "2025-03-26")
+<http://purl.obolibrary.org/obo/dron/releases/2025-04-18/imports/pr_import.owl>
+Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_250407F")
+Annotation(owl:versionInfo "2025-04-18")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16247>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16526>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17245>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33247>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33708>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006412>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2759>))
@@ -144,6 +146,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_transitive>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0002180> "has_component")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002180> "has_component")
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002330> (genomically_related_to)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002330> "RO:0002330")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002330> "protein")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002330> "genomically_related_to")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0002330> "genomically_related_to")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002330> "genomically_related_to")
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002330>)
+
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002353> (output_of)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002353> "RO:0002353")
@@ -197,6 +208,22 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000040> "BFO:0000040")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity")
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_16113> (cholesterol)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_16113> "A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3beta-hydroxy group.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_16113> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_16113> "CHEBI:16113")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_16113> "cholesterol")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16113> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_16247> (phospholipid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_16247> "A lipid containing phosphoric acid as a mono- or di-ester. The term encompasses phosphatidic acids and phosphoglycerides.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_16247> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_16247> "CHEBI:16247")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_16247> "phospholipid")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16247> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_16526> (carbon dioxide)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_16526> "A one-carbon compound with formula CO2 in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food.")
@@ -247,13 +274,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33708> "amino-acid residue")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> <http://purl.obolibrary.org/obo/CHEBI_33247>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_50047> (organic amino compound)
+# Class: <http://purl.obolibrary.org/obo/COB_0000013> (molecule)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_50047> "A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_50047> "chebi_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50047> "CHEBI:50047")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50047> "organic amino compound")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000013> "A material entity that consists of two or more atoms that are all connected via covalent bonds such that any atom can be transitively connected with any other atom.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/COB_0000013> "core")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/COB_0000013> "COB:0000013")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000013> "molecule")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0006412> (translation)
 
@@ -305,30 +331,29 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/PR_000000001> (protein)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:WCB") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000000001> "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:WCB") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000000001> "An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PR_000000001> "natural protein")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "IEDB:BP") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000000001> "native protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000000001> "PR:000000001")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000000001> "Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (\"protein-containing molecular entity\"). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000000001> "protein")
 EquivalentClasses(<http://purl.obolibrary.org/obo/PR_000000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>)))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000018263>)
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> <http://purl.obolibrary.org/obo/PR_000064867>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PR_000000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <http://purl.obolibrary.org/obo/GO_0006412>))
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/pr#has_gene_template> <http://purl.obolibrary.org/obo/SO_0000704>))
 
 # Class: <http://purl.obolibrary.org/obo/PR_000018263> (amino acid chain)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:JSG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000018263> "An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:JSG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PR_000018263> "A molecule that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000018263> "peptide")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PRO:DAN") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/PR_000018263> "polypeptide")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PR_000018263> "protein")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PR_000018263> "PR:000018263")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PR_000018263> "Category=polymer.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PR_000018263> "amino acid chain")
-SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> <http://purl.obolibrary.org/obo/CHEBI_50047>)
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> <http://purl.obolibrary.org/obo/COB_0000013>)
 SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/pr#has_constituent_monomer> <http://purl.obolibrary.org/obo/CHEBI_33708>))
 
 # Class: <http://purl.obolibrary.org/obo/PR_000064867> (protein-containing molecular entity)
