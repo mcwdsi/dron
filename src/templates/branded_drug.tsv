@@ -26814,12 +26814,12 @@ DRON:01008998	ezetimibe 10 MG / rosuvastatin 20 MG Oral Tablet [Roszet]	DRON:009
 DRON:01008999	ezetimibe 10 MG / rosuvastatin 40 MG Oral Tablet [Roszet]	DRON:00942758	2536064
 DRON:01009000	ezetimibe 10 MG / rosuvastatin 5 MG Oral Tablet [Roszet]	DRON:00942754	2536066
 DRON:01009001	salicylic acid 170 MG/ML Topical Solution [Verruguin]	DRON:00045965	2536143
-DRON:01009002	30 ML idecabtagene vicleucel 15333333 CELLS/ML Injection [Abecma]	DRON:00942760	2536439
-DRON:01009003	idecabtagene vicleucel 15333333 CELLS/ML Injection [Abecma]	DRON:00942763	2536441
-DRON:01009004	70 ML idecabtagene vicleucel 6571428 CELLS/ML Injection [Abecma]	DRON:00942764	2536445
-DRON:01009005	idecabtagene vicleucel 6571428 CELLS/ML Injection [Abecma]	DRON:00942762	2536447
-DRON:01009006	100 ML idecabtagene vicleucel 4600000 CELLS/ML Injection [Abecma]	DRON:00942761	2536451
-DRON:01009007	idecabtagene vicleucel 4600000 CELLS/ML Injection [Abecma]	DRON:00942759	2536453
+DRON:01009002	30 ML idecabtagene vicleucel 17000000 CELLS/ML Injection [Abecma]	DRON:00942760	2536439
+DRON:01009003	idecabtagene vicleucel 17000000 CELLS/ML Injection [Abecma]	DRON:00942763	2536441
+DRON:01009004	70 ML idecabtagene vicleucel 7285714 CELLS/ML Injection [Abecma]	DRON:00942764	2536445
+DRON:01009005	idecabtagene vicleucel 7285714 CELLS/ML Injection [Abecma]	DRON:00942762	2536447
+DRON:01009006	100 ML idecabtagene vicleucel 5100000 CELLS/ML Injection [Abecma]	DRON:00942761	2536451
+DRON:01009007	idecabtagene vicleucel 5100000 CELLS/ML Injection [Abecma]	DRON:00942759	2536453
 DRON:01009008	24 HR viloxazine 100 MG Extended Release Oral Capsule [Qelbree]	DRON:00942765	2536554
 DRON:01009009	viloxazine 100 MG Extended Release Oral Capsule [Qelbree]	DRON:00942767	2536556
 DRON:01009010	baloxavir marboxil 80 MG Oral Tablet [Xofluza]	DRON:00940714	2536742
@@ -28497,3 +28497,72 @@ DRON:01063450	10 ML tocilizumab-anoh 20 MG/ML Injection [Avtozma]	DRON:01063400	
 DRON:01063451	tocilizumab-anoh 20 MG/ML Injection [Avtozma]	DRON:01063401	2705449
 DRON:01063452	20 ML tocilizumab-anoh 20 MG/ML Injection [Avtozma]	DRON:01063402	2705451
 DRON:01063453	4 ML tocilizumab-anoh 20 MG/ML Injection [Avtozma]	DRON:01063403	2705453
+DRON:01065749	26 ML ustekinumab-ttwe 5 MG/ML Injection [Pyzchiva]	DRON:01065694	2705564
+DRON:01065750	ustekinumab-ttwe 5 MG/ML Injection [Pyzchiva]	DRON:01065695	2705565
+DRON:01065751	0.5 ML ustekinumab-ttwe 90 MG/ML Prefilled Syringe [Pyzchiva]	DRON:01065680	2705573
+DRON:01065752	ustekinumab-ttwe 90 MG/ML Prefilled Syringe [Pyzchiva]	DRON:01065681	2705574
+DRON:01065753	1 ML ustekinumab-ttwe 90 MG/ML Prefilled Syringe [Pyzchiva]	DRON:01065682	2705576
+DRON:01065754	26 ML ustekinumab-kfce 5 MG/ML Injection [Yesintek]	DRON:01065696	2705588
+DRON:01065755	ustekinumab-kfce 5 MG/ML Injection [Yesintek]	DRON:01065697	2705589
+DRON:01065756	0.5 ML ustekinumab-kfce 90 MG/ML Prefilled Syringe [Yesintek]	DRON:01065683	2705597
+DRON:01065757	ustekinumab-kfce 90 MG/ML Prefilled Syringe [Yesintek]	DRON:01065684	2705598
+DRON:01065758	1 ML ustekinumab-kfce 90 MG/ML Prefilled Syringe [Yesintek]	DRON:01065685	2705600
+DRON:01065759	0.5 ML ustekinumab-kfce 90 MG/ML Injection [Yesintek]	DRON:01065698	2705603
+DRON:01065760	ustekinumab-kfce 90 MG/ML Injection [Yesintek]	DRON:01065699	2705604
+DRON:01065761	magnesium hydroxide 1200 MG Chewable Tablet [Mirafast]	DRON:00875097	2705611
+DRON:01065762	mirdametinib 1 MG Oral Capsule [Gomekli]	DRON:01065737	2705623
+DRON:01065763	mirdametinib 2 MG Oral Capsule [Gomekli]	DRON:01065738	2705628
+DRON:01065764	insulin aspart-szjj 100 UNT/ML Injectable Solution [Merilog]	DRON:01065673	2705739
+DRON:01065765	3 ML insulin aspart-szjj 100 UNT/ML Pen Injector [Merilog]	DRON:01065690	2705745
+DRON:01065766	insulin aspart-szjj 100 UNT/ML Pen Injector [Merilog]	DRON:01065691	2705746
+DRON:01065767	20 ML apomorphine hydrochloride 4.9 MG/ML Cartridge [Onapgo]	DRON:01065692	2705796
+DRON:01065768	apomorphine hydrochloride 4.9 MG/ML Cartridge [Onapgo]	DRON:01065693	2705797
+DRON:01065769	dimethyl sulfoxide 20 MG/ML / miconazole nitrate 20 MG/ML Topical Solution [Fungizyl]	DRON:01065739	2705803
+DRON:01065770	glycerin 7.5 MG/ML Ophthalmic Solution [Blink Dry Eye]	DRON:01065670	2705821
+DRON:01065771	glycerin 5 MG/ML Ophthalmic Solution [Blink Dry Eye]	DRON:00942785	2705824
+DRON:01065772	thyroid (USP) 180 MG Oral Tablet [Renthyroid]	DRON:00035925	2706315
+DRON:01065773	thyroid (USP) 30 MG Oral Tablet [Renthyroid]	DRON:00046206	2706317
+DRON:01065774	thyroid (USP) 45 MG Oral Tablet [Renthyroid]	DRON:01065668	2706321
+DRON:01065775	thyroid (USP) 60 MG Oral Tablet [Renthyroid]	DRON:00046210	2706323
+DRON:01065776	thyroid (USP) 75 MG Oral Tablet [Renthyroid]	DRON:01065669	2706327
+DRON:01065777	thyroid (USP) 90 MG Oral Tablet [Renthyroid]	DRON:00046212	2706329
+DRON:01065778	thyroid (USP) 120 MG Oral Tablet [Renthyroid]	DRON:00037737	2706331
+DRON:01065779	thyroid (USP) 15 MG Oral Tablet [Renthyroid]	DRON:00046591	2706333
+DRON:01065780	30 ML eculizumab-aagh 10 MG/ML Injection [Epysqli]	DRON:01065701	2706345
+DRON:01065781	eculizumab-aagh 10 MG/ML Injection [Epysqli]	DRON:01065702	2706346
+DRON:01065782	30 ML eculizumab-aeeb 10 MG/ML Injection [Bkemv]	DRON:01065703	2706358
+DRON:01065783	eculizumab-aeeb 10 MG/ML Injection [Bkemv]	DRON:01065704	2706359
+DRON:01065784	meclizine hydrochloride 25 MG Oral Tablet [Pepto Nausea]	DRON:00062184	2706368
+DRON:01065785	24 HR minocycline 40 MG Extended Release Oral Capsule [Emrosi]	DRON:01065674	2706378
+DRON:01065786	minocycline 40 MG Extended Release Oral Capsule [Emrosi]	DRON:01065675	2706379
+DRON:01065787	50 ML immune globulin intravenous (human) - dira 100 MG/ML Injection [Yimmugo]	DRON:01065726	2706393
+DRON:01065788	immune globulin intravenous (human) - dira 100 MG/ML Injection [Yimmugo]	DRON:01065727	2706394
+DRON:01065789	100 ML immune globulin intravenous (human) - dira 100 MG/ML Injection [Yimmugo]	DRON:01065728	2706396
+DRON:01065790	200 ML immune globulin intravenous (human) - dira 100 MG/ML Injection [Yimmugo]	DRON:01065729	2706398
+DRON:01065791	0.05 ML aflibercept-mrbb 40 MG/ML Injection [Ahzantive]	DRON:01065719	2706541
+DRON:01065792	aflibercept-mrbb 40 MG/ML Injection [Ahzantive]	DRON:01065720	2706542
+DRON:01065793	0.8 ML adalimumab-ryvk 100 MG/ML Auto-Injector [Simlandi]	DRON:01065700	2706645
+DRON:01065794	250 ML epinephrine 0.032 MG/ML Injection [Adrenalin]	DRON:01065715	2707359
+DRON:01065795	epinephrine 0.032 MG/ML Injection [Adrenalin]	DRON:01065716	2707360
+DRON:01065796	semaglutide 1.5 MG Oral Tablet [Rybelsus]	DRON:01065731	2707549
+DRON:01065797	semaglutide 4 MG Oral Tablet [Rybelsus]	DRON:01065732	2707553
+DRON:01065798	semaglutide 9 MG Oral Tablet [Rybelsus]	DRON:01065733	2707557
+DRON:01065799	carprofen 50 MG/ML Injectable Solution [Carofenvet]	DRON:00054940	2707566
+DRON:01065800	enrofloxacin 100 MG/ML Injectable Solution [Enropro]	DRON:00059982	2707573
+DRON:01065801	enrofloxacin 22.7 MG/ML Injectable Solution [Enropro]	DRON:00059914	2707575
+DRON:01065802	selinexor 10 MG Oral Tablet [Xpovio]	DRON:01065730	2708337
+DRON:01065803	melphalan 90 MG/ML Injectable Solution [Ivra]	DRON:01065746	2709003
+DRON:01065804	sodium chloride 9 MG/ML Inhalation Solution [Hydra-Neb]	DRON:00046022	2709009
+DRON:01065805	0.5 ML influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.12 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.12 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.12 MG/ML Prefilled Syringe [Fluzone 2025 Southern Hemisphere]	DRON:01065705	2709020
+DRON:01065806	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.12 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.12 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.12 MG/ML Prefilled Syringe [Fluzone 2025 Southern Hemisphere]	DRON:01065706	2709021
+DRON:01065807	0.7 ML influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.0857 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.0857 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.0857 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.0857 MG/ML Prefilled Syringe [Fluzone Quadrivalent 2025 Southern Hemisphere]	DRON:01065707	2709032
+DRON:01065808	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.0857 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.0857 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.0857 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.0857 MG/ML Prefilled Syringe [Fluzone Quadrivalent 2025 Southern Hemisphere]	DRON:01065708	2709033
+DRON:01065809	losartan potassium 10 MG/ML Oral Suspension [Arbli]	DRON:01065747	2709046
+DRON:01065810	0.5 ML influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Prefilled Syringe [Fluzone Quadrivalent 2025 Southern Hemisphere]	DRON:01065709	2709122
+DRON:01065811	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Prefilled Syringe [Fluzone Quadrivalent 2025 Southern Hemisphere]	DRON:01065710	2709123
+DRON:01065812	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Injectable Suspension [Fluzone Quadrivalent 2025 Southern Hemisphere]	DRON:01065713	2709128
+DRON:01065813	gepotidacin 750 MG Oral Tablet [Blujepa]	DRON:01065748	2709224
+DRON:01065814	miconazole nitrate 20 MG/ML Topical Cream [Desenex]	DRON:00062402	2709228
+DRON:01065815	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Injectable Suspension [Fluzone 2025 Southern Hemisphere]	DRON:01065714	2709235
+DRON:01065816	0.5 ML influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Prefilled Syringe [Fluzone 2025 Southern Hemisphere]	DRON:01065711	2709238
+DRON:01065817	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Prefilled Syringe [Fluzone 2025 Southern Hemisphere]	DRON:01065712	2709239

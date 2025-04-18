@@ -42797,12 +42797,12 @@ DRON:00942755	ezetimibe 10 MG / rosuvastatin 20 MG Oral Tablet	DRON:00942714	253
 DRON:00942756	0.6 ML dasiglucagon 1 MG/ML Auto-Injector	DRON:00942716	2535247
 DRON:00942757	ezetimibe 10 MG / rosuvastatin 10 MG Oral Tablet	DRON:00942714	2535750
 DRON:00942758	ezetimibe 10 MG / rosuvastatin 40 MG Oral Tablet	DRON:00942714	2535749
-DRON:00942759	idecabtagene vicleucel 4600000 CELLS/ML Injection	DRON:00942713	2536452
-DRON:00942760	30 ML idecabtagene vicleucel 15333333 CELLS/ML Injection	DRON:00942713	2536434
-DRON:00942761	100 ML idecabtagene vicleucel 4600000 CELLS/ML Injection	DRON:00942713	2536449
-DRON:00942762	idecabtagene vicleucel 6571428 CELLS/ML Injection	DRON:00942713	2536446
-DRON:00942763	idecabtagene vicleucel 15333333 CELLS/ML Injection	DRON:00942713	2536440
-DRON:00942764	70 ML idecabtagene vicleucel 6571428 CELLS/ML Injection	DRON:00942713	2536443
+DRON:00942759	idecabtagene vicleucel 5100000 CELLS/ML Injection	DRON:00942713	2536452
+DRON:00942760	30 ML idecabtagene vicleucel 17000000 CELLS/ML Injection	DRON:00942713	2536434
+DRON:00942761	100 ML idecabtagene vicleucel 5100000 CELLS/ML Injection	DRON:00942713	2536449
+DRON:00942762	idecabtagene vicleucel 7285714 CELLS/ML Injection	DRON:00942713	2536446
+DRON:00942763	idecabtagene vicleucel 17000000 CELLS/ML Injection	DRON:00942713	2536440
+DRON:00942764	70 ML idecabtagene vicleucel 7285714 CELLS/ML Injection	DRON:00942713	2536443
 DRON:00942765	24 HR viloxazine 100 MG Extended Release Oral Capsule	DRON:00942729	2536548
 DRON:00942766	24 HR viloxazine 150 MG Extended Release Oral Capsule	DRON:00942729	2536750
 DRON:00942767	viloxazine 100 MG Extended Release Oral Capsule	DRON:00942729	2536555
@@ -45097,3 +45097,88 @@ DRON:01063417	risdiplam 5 MG Oral Tablet	DRON:01063386	2705365
 DRON:01063418	vimseltinib 14 MG Oral Capsule	DRON:01063383	2705406
 DRON:01063419	vimseltinib 20 MG Oral Capsule	DRON:01063383	2705414
 DRON:01063420	vimseltinib 30 MG Oral Capsule	DRON:01063383	2705418
+DRON:01065664	hydrogen peroxide 14 MG/ML Mouthwash	DRON:00020339	2705805
+DRON:01065665	salicylic acid 180 MG/ML Topical Solution	DRON:00020385	2706381
+DRON:01065666	petrolatum 0.98 MG/MG Topical Ointment	DRON:00020449	2705552
+DRON:01065667	magnesium oxide 440 MG Oral Tablet	DRON:00022347	2707337
+DRON:01065668	thyroid (USP) 45 MG Oral Tablet	DRON:00023595	2706319
+DRON:01065669	thyroid (USP) 75 MG Oral Tablet	DRON:00023595	2706325
+DRON:01065670	glycerin 7.5 MG/ML Ophthalmic Solution	DRON:00024384	2705816
+DRON:01065671	sodium chloride 9 MG/ML Ophthalmic Solution	DRON:00024735	2706648
+DRON:01065672	camphor 0.015 MG/MG / menthol 0.02 MG/MG / methyl salicylate 0.03 MG/MG Topical Gel	DRON:00026577	2709004
+DRON:01065673	insulin aspart-szjj 100 UNT/ML Injectable Solution	DRON:00027053	2705733
+DRON:01065674	24 HR minocycline 40 MG Extended Release Oral Capsule	DRON:00027548	2706371
+DRON:01065675	minocycline 40 MG Extended Release Oral Capsule	DRON:00027548	2706372
+DRON:01065676	folic acid 0.2 MG/ML Oral Solution	DRON:00031030	2707361
+DRON:01065677	inulin 1700 MG Chewable Tablet	DRON:00031183	2707608
+DRON:01065678	acetaminophen 325 MG / chlorpheniramine maleate 4 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Oral Tablet	DRON:00031293	2709229
+DRON:01065679	camphor 0.05 MG/MG / menthol 0.1 MG/MG / methyl salicylate 0.235 MG/MG Topical Ointment	DRON:00032097	2709211
+DRON:01065680	0.5 ML ustekinumab-ttwe 90 MG/ML Prefilled Syringe	DRON:00032755	2705568
+DRON:01065681	ustekinumab-ttwe 90 MG/ML Prefilled Syringe	DRON:00032755	2705569
+DRON:01065682	1 ML ustekinumab-ttwe 90 MG/ML Prefilled Syringe	DRON:00032755	2705575
+DRON:01065683	0.5 ML ustekinumab-kfce 90 MG/ML Prefilled Syringe	DRON:00032755	2705592
+DRON:01065684	ustekinumab-kfce 90 MG/ML Prefilled Syringe	DRON:00032755	2705593
+DRON:01065685	1 ML ustekinumab-kfce 90 MG/ML Prefilled Syringe	DRON:00032755	2705599
+DRON:01065686	24 HR hydromorphone hydrochloride 24 MG Extended Release Oral Tablet	DRON:00033214	2706360
+DRON:01065687	hydromorphone hydrochloride 24 MG Extended Release Oral Tablet	DRON:00033214	2706361
+DRON:01065688	salicylic acid 30 MG/ML Topical Spray	DRON:00033614	2707560
+DRON:01065689	iodine 70 MG/ML / isopropyl alcohol 0.4 ML/ML Topical Solution	DRON:00730949	2709328
+DRON:01065690	3 ML insulin aspart-szjj 100 UNT/ML Pen Injector	DRON:00751122	2705741
+DRON:01065691	insulin aspart-szjj 100 UNT/ML Pen Injector	DRON:00751122	2705742
+DRON:01065692	20 ML apomorphine hydrochloride 4.9 MG/ML Cartridge	DRON:00731563	2705789
+DRON:01065693	apomorphine hydrochloride 4.9 MG/ML Cartridge	DRON:00731563	2705790
+DRON:01065694	26 ML ustekinumab-ttwe 5 MG/ML Injection	DRON:00751692	2705557
+DRON:01065695	ustekinumab-ttwe 5 MG/ML Injection	DRON:00751692	2705558
+DRON:01065696	26 ML ustekinumab-kfce 5 MG/ML Injection	DRON:00751692	2705581
+DRON:01065697	ustekinumab-kfce 5 MG/ML Injection	DRON:00751692	2705582
+DRON:01065698	0.5 ML ustekinumab-kfce 90 MG/ML Injection	DRON:00751692	2705601
+DRON:01065699	ustekinumab-kfce 90 MG/ML Injection	DRON:00751692	2705602
+DRON:01065700	0.8 ML adalimumab-ryvk 100 MG/ML Auto-Injector	DRON:00731489	2706644
+DRON:01065701	30 ML eculizumab-aagh 10 MG/ML Injection	DRON:00751881	2706338
+DRON:01065702	eculizumab-aagh 10 MG/ML Injection	DRON:00751881	2706339
+DRON:01065703	30 ML eculizumab-aeeb 10 MG/ML Injection	DRON:00751881	2706351
+DRON:01065704	eculizumab-aeeb 10 MG/ML Injection	DRON:00751881	2706352
+DRON:01065705	0.5 ML influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.12 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.12 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.12 MG/ML Prefilled Syringe	DRON:00751705	2709013
+DRON:01065706	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.12 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.12 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.12 MG/ML Prefilled Syringe	DRON:00751705	2709014
+DRON:01065707	0.7 ML influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.0857 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.0857 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.0857 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.0857 MG/ML Prefilled Syringe	DRON:00751705	2709025
+DRON:01065708	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.0857 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.0857 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.0857 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.0857 MG/ML Prefilled Syringe	DRON:00751705	2709026
+DRON:01065709	0.5 ML influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2709119
+DRON:01065710	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2709120
+DRON:01065711	0.5 ML influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2709236
+DRON:01065712	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2709237
+DRON:01065713	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML / influenza B virus B/Phuket/3073/2013 antigen 0.03 MG/ML Injectable Suspension	DRON:00731516	2709125
+DRON:01065714	influenza A virus A/Croatia/10136RV/2023 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Victoria/4897/2022 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Michigan/01/2021 antigen 0.03 MG/ML Injectable Suspension	DRON:00731516	2709231
+DRON:01065715	250 ML epinephrine 0.032 MG/ML Injection	DRON:00752139	2707356
+DRON:01065716	epinephrine 0.032 MG/ML Injection	DRON:00752139	2707357
+DRON:01065717	250 ML epinephrine 0.064 MG/ML Injection	DRON:00752139	2707568
+DRON:01065718	epinephrine 0.064 MG/ML Injection	DRON:00752139	2707569
+DRON:01065719	0.05 ML aflibercept-mrbb 40 MG/ML Injection	DRON:00751531	2706533
+DRON:01065720	aflibercept-mrbb 40 MG/ML Injection	DRON:00751531	2706534
+DRON:01065721	100 ML diltiazem hydrochloride 1 MG/ML Injection	DRON:00751181	2709225
+DRON:01065722	salicylic acid 0.1 MG/MG Medicated Patch	DRON:00751250	2707561
+DRON:01065723	24 HR nicotine 1.17 MG/HR Transdermal System	DRON:00759125	2707585
+DRON:01065724	nicotine 1.17 MG/HR Transdermal System	DRON:00759125	2707586
+DRON:01065725	5000 ML sodium chloride 9 MG/ML Injection	DRON:00763759	2708844
+DRON:01065726	50 ML immune globulin intravenous (human) - dira 100 MG/ML Injection	DRON:00763752	2706386
+DRON:01065727	immune globulin intravenous (human) - dira 100 MG/ML Injection	DRON:00763752	2706387
+DRON:01065728	100 ML immune globulin intravenous (human) - dira 100 MG/ML Injection	DRON:00763752	2706395
+DRON:01065729	200 ML immune globulin intravenous (human) - dira 100 MG/ML Injection	DRON:00763752	2706397
+DRON:01065730	selinexor 10 MG Oral Tablet	DRON:00858656	2708335
+DRON:01065731	semaglutide 1.5 MG Oral Tablet	DRON:00862753	2707547
+DRON:01065732	semaglutide 4 MG Oral Tablet	DRON:00862753	2707551
+DRON:01065733	semaglutide 9 MG Oral Tablet	DRON:00862753	2707555
+DRON:01065734	sulfur 0.1 MG/MG Paste	DRON:00882963	2708845
+DRON:01065735	biotin 2 MG/ML / minoxidil 50 MG/ML Topical Solution	DRON:01052042	2707693
+DRON:01065736	dextromethorphan hydrobromide 4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML / triprolidine hydrochloride 0.5 MG/ML Oral Solution	DRON:01059503	2707699
+DRON:01065737	mirdametinib 1 MG Oral Capsule	DRON:01065656	2705617
+DRON:01065738	mirdametinib 2 MG Oral Capsule	DRON:01065656	2705626
+DRON:01065739	dimethyl sulfoxide 20 MG/ML / miconazole nitrate 20 MG/ML Topical Solution	DRON:01065662	2705800
+DRON:01065740	prilocaine 10 MG/ML / procaine 50 MG/ML / tetracaine 10 MG/ML Topical Cream	DRON:01065660	2705813
+DRON:01065741	ascorbic acid 100 MG/ML Oral Suspension	DRON:01065658	2707116
+DRON:01065742	clotrimazole 10 MG/ML / miconazole 10 MG/ML Topical Cream	DRON:01065661	2707698
+DRON:01065743	buspirone hydrochloride 10 MG Oral Capsule	DRON:01065657	2708991
+DRON:01065744	buspirone hydrochloride 15 MG Oral Capsule	DRON:01065657	2708993
+DRON:01065745	buspirone hydrochloride 7.5 MG Oral Capsule	DRON:01065657	2708994
+DRON:01065746	melphalan 90 MG/ML Injectable Solution	DRON:01065655	2708998
+DRON:01065747	losartan potassium 10 MG/ML Oral Suspension	DRON:01065659	2709039
+DRON:01065748	gepotidacin 750 MG Oral Tablet	DRON:01065663	2709218
