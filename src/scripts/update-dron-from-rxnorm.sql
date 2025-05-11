@@ -239,21 +239,6 @@ WHERE r.RELA = 'has_inactive_ingredient'
   AND c2.RXAUI = r.RXAUI2
   AND c2.RXCUI = bd.rxcui;
 
--- Add NDCs for clinical drugs not already in that table.
-INSERT OR IGNORE INTO ndc_clinical_drug
-SELECT DISTINCT
-    NULL AS curie,
-    s.ATV AS ndc,
-    cd.curie AS drug
-FROM rxnorm.RXNSAT AS s
-LEFT JOIN clinical_drug AS cd
-LEFT JOIN ndc_clinical_drug AS n
-  ON s.ATV = n.ndc
-WHERE s.RXCUI = cd.rxcui
-  AND s.SAB = 'RXNORM'
-  AND s.ATN = 'NDC'
-  AND n.curie IS NULL;
-
 -- Add NDCs for branded drugs not already in that table.
 INSERT OR IGNORE INTO ndc_branded_drug
 SELECT DISTINCT
@@ -268,3 +253,19 @@ WHERE s.RXCUI = bd.rxcui
   AND s.SAB = 'RXNORM'
   AND s.ATN = 'NDC'
   AND n.curie IS NULL;
+
+-- Add NDCs for clinical drugs not already in that table.
+INSERT OR IGNORE INTO ndc_clinical_drug
+SELECT DISTINCT
+    NULL AS curie,
+    s.ATV AS ndc,
+    cd.curie AS drug
+FROM rxnorm.RXNSAT AS s
+LEFT JOIN clinical_drug AS cd
+LEFT JOIN ndc_clinical_drug AS n
+  ON s.ATV = n.ndc
+WHERE s.RXCUI = cd.rxcui
+  AND s.SAB = 'RXNORM'
+  AND s.ATN = 'NDC'
+  AND n.curie IS NULL
+  AND s.ATV not in (select ndc from ndc_branded_drug);
