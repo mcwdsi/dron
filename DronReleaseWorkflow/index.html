@@ -1,0 +1,1048 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../contributing/">
+      
+      
+        <link rel="next" href="../MigrationNotes/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>DrOn Release Workflow - The Drug Ontology</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dron-release-workflow" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="The Drug Ontology" class="md-header__button md-logo" aria-label="The Drug Ontology" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Drug Ontology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              DrOn Release Workflow
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="The Drug Ontology" class="md-nav__button md-logo" aria-label="The Drug Ontology" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    The Drug Ontology
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Basics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Basics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cite/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cite
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    History
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Editors Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Editors Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Standard ODK workflows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Standard ODK workflows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/EditorsWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editors Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ReleaseWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Release Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/RepoManagement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage your ODK Repository
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/SettingUpDockerForODK/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting up Docker for ODK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/UpdateImports/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imports management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ManageDocumentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managing the documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ContinuousIntegration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Continuous Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/RepositoryFileStructure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Your ODK Repository Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dron specific docs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Dron specific docs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    DrOn Release Workflow
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    DrOn Release Workflow
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-create-a-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Create a Branch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-fetch-rxnorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Fetch RxNorm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-update-labels" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Update Labels
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-update-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Update Templates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-update-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Update Components
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-run-odk-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Run ODK Workflow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Run ODK Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#experimental-workflow-using-github-client-api-gh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experimental workflow using GitHub client API (gh)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initialize-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initialize the repository
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UpdateComponents.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updateing DrOn components
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MigrationNotes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Notes on the 2021 Migration to ODK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-create-a-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Create a Branch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-fetch-rxnorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Fetch RxNorm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-update-labels" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Update Labels
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-update-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Update Templates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-update-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Update Components
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-run-odk-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Run ODK Workflow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Run ODK Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#experimental-workflow-using-github-client-api-gh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experimental workflow using GitHub client API (gh)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initialize-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initialize the repository
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="dron-release-workflow">Dron Release Workflow</h1>
+<p>If you're running this workflow on a fresh clone of the DrOn repository, first <a href="#Initialize-the-repository">Initialize the repository</a>.</p>
+<p>To create a new Dron release:</p>
+<ol>
+<li><a href="#Create-a-Branch">Create a Branch</a></li>
+<li><a href="#Fetch-RxNorm">Fetch RxNorm</a></li>
+<li><a href="#Update-Labels">Update Labels</a></li>
+<li><a href="#Update-Templates">Update Templates</a>)</li>
+<li><a href="#Update-Components">Update Components</a></li>
+<li><a href="#Run-ODK-Workflow">Run ODK Workflow</a></li>
+</ol>
+<p>Steps 3 and 4 should be repeated for each monthly RxNorm release, without skipping any months.</p>
+<h2 id="1-create-a-branch">1. Create a Branch</h2>
+<p>Starting from an up-to-date copy of the <code>main</code> branch, without any uncommitted changes, create a new branch for this release. The branch is usually named for today's date:</p>
+<pre><code class="language-sh">cd src/ontology
+git checkout main
+git pull
+git checkout -b release-YYYY-MM-DD
+</code></pre>
+<p>Note: You do not need to create a new branch in the ODK workflow steps -- this branch serves that purpose.</p>
+<h2 id="2-fetch-rxnorm">2. Fetch RxNorm</h2>
+<p>DrOn translates RxNorm data into ontological form. RxNorm publishes its data in monthly releases. The first step in updating DrOn is to fetch the next monthly release of RxNorm. It's important not to skip any months.</p>
+<p>The <code>src/scripts/fetch-rxnorm.sh</code> script will fetch an RxNorm monthly release file, save it to <code>src/ontolgy/tmp/rxnorm/</code>, and unzip the relevant RRF files. The script requires the full date of the RxNorm release file and an API key. For the rest of this document, "MMDDYYY" refers to the date of the RxNorm release file being processed.</p>
+<ol>
+<li>Find the full date of the RxNorm release at <a href="https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html">https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html</a></li>
+<li>Log in to your UMLS account and access your profile at <a href="https://uts.nlm.nih.gov/uts/edit-profile">https://uts.nlm.nih.gov/uts/edit-profile</a></li>
+<li>Copy your API key</li>
+<li>Run the script:</li>
+</ol>
+<pre><code class="language-sh">sh run.sh /work/src/scripts/fetch-rxnorm.sh MMDDYYY YOUR_API_KEY
+</code></pre>
+<h2 id="3-update-labels">3. Update Labels</h2>
+<p>DrOn uses term labels from RxNorm and ontology terms from ChEBI. Both these sources occasionally update their labels. The second step is to update the template files in <code>src/templates/</code> with any label changes:</p>
+<pre><code class="language-sh">sh run.sh make update-labels
+</code></pre>
+<p>You can inspect any changes to <code>src/templates/</code> using <code>git diff</code>. If there are changes, you may wish to commit them:</p>
+<pre><code class="language-sh">git diff --color-words ../templates/
+git add -u ../templates/
+git commit -m &quot;Updated labels from RxNorm MMDDYYY and latest ChEBI&quot;
+</code></pre>
+<h2 id="4-update-templates">4. Update Templates</h2>
+<p>Most of the content of DrOn is contained in the <code>src/templates/</code> files, and most of these are generated from the RxNorm release files.</p>
+<pre><code class="language-sh">sh run.sh make update-rxnorm
+</code></pre>
+<p>You will want to inspect changes using <code>git diff</code>. You should also look at a report of possible problems:</p>
+<pre><code class="language-sh">sh run.sh make tmp/problems.tsv
+</code></pre>
+<p>The report may suggest replacing DrOn ingredient terms with ChEBI terms. You can obsolete a DrOn term by adding it (with its replacement term) to <code>src/templates/obsolete.tsv</code> and running:</p>
+<pre><code class="language-sh">sh run.sh /work/src/scripts/obsolete-terms.sh
+</code></pre>
+<p>Once the templates look good, commit the changes:</p>
+<pre><code class="language-sh">git add -u ../templates/
+git commit -m &quot;Updated DrOn from RxNorm MMDDYYY&quot;
+</code></pre>
+<p>Most DrOn releases contain updates from three months of RxNorm releases. Repeat steps 3 and 4 for each month, in order, and commit your changes.</p>
+<h2 id="5-update-components">5. Update Components</h2>
+<p>The <code>src/templates/</code> tables are used to generate three OWL components for DrOn:</p>
+<ol>
+<li>dron-rxnorm</li>
+<li>dron-ndc</li>
+<li>dron-ingredient</li>
+</ol>
+<p>Build them with the <code>all_components</code> task:</p>
+<pre><code>sh run.sh make all_components -B
+</code></pre>
+<p>The files will be created in <code>src/ontology/components/</code> and will be imported into <code>dron-edit.owl</code> whenever it is loaded.</p>
+<h2 id="6-run-odk-workflow">6. Run ODK Workflow</h2>
+<p>Finally, follow the <a href="../odk-workflows/ReleaseWorkflow/">default ODK release instructions</a> to make a full DrOn build and GitHub release.</p>
+<h3 id="experimental-workflow-using-github-client-api-gh">Experimental workflow using GitHub client API (<code>gh</code>)</h3>
+<ul>
+<li>Install the GitHub release client API: https://github.com/cli/cli#installation. Note, this is a highly experimental process that requires a bit of pioneers spirit. When we did it on 7th April 2021, we performed the following steps on a Ubuntu machine (see <a href="https://github.com/cli/cli#installation">here</a> for instructions on other systems):</li>
+</ul>
+<pre><code>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt-get install software-properties-common
+sudo apt install gh
+gh --version
+
+OPTIONAL: git config --global user.name &quot;Nico Matentzoglu&quot; (use your own name)
+OPTIONAL: git config --global user.email nicolas.matentzoglu@gmail.com (use your own email, the one that is associated with your GitHub account)
+
+gh auth login
+cd ../../
+</code></pre>
+<ul>
+<li>This assumes you have already run the release, step 3 above.</li>
+<li>Run <code>gh release create v2021-04-02 dron*</code>, but make sure you use the correct date of the release (
+This is not necessarily today - its the date you ran the ODK release pipeline. It can be seen form example in the Version IRI of dron-base.owl, or dron.owl. This will navigate you through a dialog, asking for title, and release notes. It is good to be familiar with the <a href="../odk-workflows/ReleaseWorkflow/">default ODK release instructions</a> to understand what to write for each question. In essence, this is an <em>exact</em> command line equivalent of the <a href="../odk-workflows/ReleaseWorkflow/">manual version</a>.</li>
+</ul>
+<h2 id="initialize-the-repository">Initialize the repository</h2>
+<p>If you are working on a fresh clone of the DrOn repository, before you can successfully run the DrOn release workflow, you must run the following commands to initialize the repository. Note that initialization does NOT eliminate the requirement for the Update Components step in the typical release workflow.</p>
+<pre><code class="language-sh">cd src/ontology
+mkdir tmp
+sh run.sh make all_components -B
+sh run.sh make all_imports -B
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+        <script src="../search/main.js"></script>
+      
+    
+  </body>
+</html>
