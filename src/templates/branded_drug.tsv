@@ -8933,9 +8933,9 @@ DRON:00077854	Guaifenesin 15 MG/ML / Phenylephrine 1.5 MG/ML Oral Solution [Sitr
 DRON:00077855	Mepivacaine Hydrochloride 30 MG/ML Injectable Solution [Polocaine-MPF]	DRON:00063059	664852
 DRON:00077856	ketoconazole 0.02 MG/MG Topical Gel [Xolegel]	DRON:00055189	664961
 DRON:00077857	posaconazole 40 MG/ML Oral Suspension [Noxafil]	DRON:00055368	665022
-DRON:00077858	sitagliptin 100 MG Oral Tablet [Januvia]	DRON:00055370	665036
-DRON:00077859	sitagliptin 25 MG Oral Tablet [Januvia]	DRON:00055371	665040
-DRON:00077860	sitagliptin 50 MG Oral Tablet [Januvia]	DRON:00055372	665044
+DRON:00077858	sitagliptin phosphate 100 MG Oral Tablet [Januvia]	DRON:00055370	665036
+DRON:00077859	sitagliptin phosphate 25 MG Oral Tablet [Januvia]	DRON:00055371	665040
+DRON:00077860	sitagliptin phosphate 50 MG Oral Tablet [Januvia]	DRON:00055372	665044
 DRON:00077861	baclofen 10 MG Disintegrating Oral Tablet [Kemstro]	DRON:00054719	666857
 DRON:00077862	diphenidol 25 MG Oral Tablet [Vontrol]	DRON:00044757	667124
 DRON:00077863	estradiol 0.5 MG Oral Tablet [Innofem]	DRON:00035519	667128
@@ -12788,14 +12788,14 @@ DRON:00081709	glyburide 2.5 MG / metformin hydrochloride 500 MG Oral Tablet [Glu
 DRON:00081710	glyburide 5 MG / metformin hydrochloride 500 MG Oral Tablet [Glucovance]	DRON:00059378	861757
 DRON:00081711	metformin hydrochloride 1000 MG / rosiglitazone 2 MG Oral Tablet [Avandamet]	DRON:00059379	861762
 DRON:00081712	metformin hydrochloride 1000 MG / rosiglitazone 4 MG Oral Tablet [Avandamet]	DRON:00059380	861765
-DRON:00081713	metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet [Janumet]	DRON:00059381	861771
+DRON:00081713	metformin hydrochloride 1000 MG / sitagliptin phosphate 50 MG Oral Tablet [Janumet]	DRON:00059381	861771
 DRON:00081714	metformin hydrochloride 500 MG / pioglitazone 15 MG Oral Tablet [Actoplus Met]	DRON:00059382	861785
 DRON:00081715	metformin hydrochloride 500 MG / repaglinide 1 MG Oral Tablet [PrandiMet]	DRON:00059383	861789
 DRON:00081716	metformin hydrochloride 500 MG / repaglinide 2 MG Oral Tablet [PrandiMet]	DRON:00059384	861792
 DRON:00081717	metformin hydrochloride 500 MG / rosiglitazone 1 MG Oral Tablet [Avandamet]	DRON:00059385	861797
 DRON:00081718	metformin hydrochloride 500 MG / rosiglitazone 2 MG Oral Tablet [Avandamet]	DRON:00059386	861808
 DRON:00081719	metformin hydrochloride 500 MG / rosiglitazone 4 MG Oral Tablet [Avandamet]	DRON:00059387	861818
-DRON:00081720	metformin hydrochloride 500 MG / sitagliptin 50 MG Oral Tablet [Janumet]	DRON:00059388	861821
+DRON:00081720	metformin hydrochloride 500 MG / sitagliptin phosphate 50 MG Oral Tablet [Janumet]	DRON:00059388	861821
 DRON:00081721	metformin hydrochloride 850 MG / pioglitazone 15 MG Oral Tablet [Actoplus Met]	DRON:00059389	861824
 DRON:00081722	amylase 55000 UNT / lipase 10000 UNT / protease 34000 UNT Delayed Release Oral Capsule [Zenpep]	DRON:00059369	861830
 DRON:00081723	amylase 82000 UNT / lipase 15000 UNT / protease 51000 UNT Delayed Release Oral Capsule [Zenpep]	DRON:00059370	861834
@@ -18898,12 +18898,12 @@ DRON:00087819	thrombin, bovine 2000 UNT/ML Nasal Spray [Thrombin-JMI]	DRON:00056
 DRON:00087820	Acetaminophen 650 MG / Guaifenesin 400 MG / Phenylephrine Hydrochloride 10 MG Oral Tablet [Refenesen Chest Congestion & Pain Relief PE]	DRON:00066317	1243806
 DRON:00087821	8 HR Acetaminophen 650 MG / Guaifenesin 600 MG / Phenylephrine Hydrochloride 20 MG Extended Release Tablet [Duratuss A]	DRON:00066318	1243816
 DRON:00087822	Acetaminophen 650 MG / Guaifenesin 600 MG / Phenylephrine Hydrochloride 20 MG Extended Release Tablet [Duratuss A]	DRON:00066319	1243818
-DRON:00087823	24 HR metformin hydrochloride 1000 MG / sitagliptin 100 MG Extended Release Oral Tablet [Janumet]	DRON:00066321	1243833
-DRON:00087824	metformin hydrochloride 1000 MG / sitagliptin 100 MG Extended Release Oral Tablet [Janumet]	DRON:00066322	1243835
-DRON:00087825	24 HR metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet [Janumet]	DRON:00066323	1243843
-DRON:00087826	metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet [Janumet]	DRON:00066324	1243845
-DRON:00087827	24 HR metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet [Janumet]	DRON:00066325	1243848
-DRON:00087828	metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet [Janumet]	DRON:00066326	1243850
+DRON:00087823	24 HR metformin hydrochloride 1000 MG / sitagliptin phosphate 100 MG Extended Release Oral Tablet [Janumet]	DRON:00066321	1243833
+DRON:00087824	metformin hydrochloride 1000 MG / sitagliptin phosphate 100 MG Extended Release Oral Tablet [Janumet]	DRON:00066322	1243835
+DRON:00087825	24 HR metformin hydrochloride 1000 MG / sitagliptin phosphate 50 MG Extended Release Oral Tablet [Janumet]	DRON:00066323	1243843
+DRON:00087826	metformin hydrochloride 1000 MG / sitagliptin phosphate 50 MG Extended Release Oral Tablet [Janumet]	DRON:00066324	1243845
+DRON:00087827	24 HR metformin hydrochloride 500 MG / sitagliptin phosphate 50 MG Extended Release Oral Tablet [Janumet]	DRON:00066325	1243848
+DRON:00087828	metformin hydrochloride 500 MG / sitagliptin phosphate 50 MG Extended Release Oral Tablet [Janumet]	DRON:00066326	1243850
 DRON:00087829	benzethonium chloride 2 MG/ML Medicated Liquid Soap [Veti-Foam]	DRON:00066328	1243894
 DRON:00087830	benzocaine 0.1 MG/MG Oral Gel [Atopalm Oral Pain Relief]	DRON:00036071	1243899
 DRON:00087831	coal tar 20 MG/ML Topical Lotion [Elta Lite Tar]	DRON:00040447	1243908
