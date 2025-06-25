@@ -358,7 +358,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has related synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym")
 
@@ -689,6 +689,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9674> ObjectSomeValuesFrom(<htt
 # Class: <http://purl.obolibrary.org/obo/CHEBI_9683> (trichlormethiazide)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9683> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000059>))
+
+# Class: <http://purl.obolibrary.org/obo/COB_0000013> (molecule)
+
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0000013> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000001> (clinical drug role)
 

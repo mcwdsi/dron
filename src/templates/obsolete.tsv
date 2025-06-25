@@ -1,10 +1,14 @@
 curie	label	type	replaced_by
 DRON:00010528	obsolete corn oil	owl:Class	CHEBI:195250
+DRON:00011219	obsolete obidoxime	owl:Class	CHEBI:233583
 DRON:00012982	obsolete gallium nitrate	owl:Class	CHEBI:231505
 DRON:00013025	obsolete trastuzumab	owl:Class	CHEBI:231601
 DRON:00013529	obsolete theodrenaline	owl:Class	CHEBI:135580
 DRON:00014271	obsolete azosemide	owl:Class	CHEBI:31248
 DRON:00014495	obsolete benznidazole	owl:Class	CHEBI:133833
+DRON:00014527	obsolete brivudine	owl:Class	CHEBI:47278
+DRON:00015448	obsolete oxaceprol	owl:Class	CHEBI:233149
+DRON:00015646	obsolete potassium	owl:Class	CHEBI:231501
 DRON:00015773	obsolete roxatidine	owl:Class	CHEBI:230550
 DRON:00015971	obsolete tiratricol	owl:Class	CHEBI:40021
 DRON:00016220	obsolete tilmicosin	owl:Class	CHEBI:195409
@@ -6793,6 +6797,7 @@ DRON:00745757	obsolete 62372063030	owl:Class	DRON:01022465
 DRON:00745758	obsolete 62372065015	owl:Class	DRON:01022466
 DRON:00745759	obsolete 62372065030	owl:Class	DRON:01022467
 DRON:00746110	obsolete 63187017190	owl:Class	DRON:01023971
+DRON:00750810	obsolete fluralaner	owl:Class	CHEBI:233405
 DRON:00750912	obsolete carbinoxamine Extended Release Oral Capsule	owl:Class	DRON:00028438
 DRON:00750913	obsolete zolpidem Disintegrating Oral Tablet	owl:Class	DRON:00032475
 DRON:00750914	obsolete ubidecarenone / vitamin E Oral Wafer	owl:Class	DRON:00027160
@@ -12653,3 +12658,4 @@ DRON:01062938	obsolete 41167011000	owl:Class	DRON:00814849
 DRON:01062941	obsolete 00573556819	owl:Class	DRON:01065569
 DRON:01062942	obsolete 00573556919	owl:Class	DRON:01065570
 DRON:01064231	obsolete 75137000030	owl:Class	DRON:01065939
+DRON:01065653	obsolete suzetrigine	owl:Class	CHEBI:233446
