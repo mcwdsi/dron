@@ -373,6 +373,7 @@ CHEBI:135787	fluclorolone acetonide	190410
 CHEBI:135791	prednicarbate	34369
 CHEBI:135793	barnidipine	39879
 CHEBI:135802	tritoqualine	38810
+CHEBI:135810	atrasentan	2710449
 CHEBI:135811	pinaverium	33724
 CHEBI:135816	glucametacin	25834
 CHEBI:135820	cortivazol	21660
@@ -827,6 +828,7 @@ CHEBI:231324	alpelisib	2169285
 CHEBI:231344	talazoparib	2099704
 CHEBI:231350	pacritinib	2595243
 CHEBI:231416	danicopan	2678952
+CHEBI:231501	potassium permanganate	8604
 CHEBI:231505	gallium nitrate	25544
 CHEBI:231598	tazemetostat	2274378
 CHEBI:231601	trastuzumab	224905
@@ -838,8 +840,12 @@ CHEBI:232141	chlorophyllin	20852
 CHEBI:232400	denatonium benzoate	1313232
 CHEBI:232799	insulin lispro	86009
 CHEBI:232810	brigatinib	1921217
+CHEBI:233149	oxaceprol	28068
 CHEBI:23316	citral	1362890
 CHEBI:23334	cobalamins	42604
+CHEBI:233405	fluralaner	1538098
+CHEBI:233446	suzetrigine	2704819
+CHEBI:233583	obidoxime	42826
 CHEBI:23359	colchicine	2683
 CHEBI:23414	copper(II) sulfate	21579
 CHEBI:23614	deoxycholate	42627
@@ -1750,6 +1756,7 @@ CHEBI:4717	droperidol	3648
 CHEBI:471744	imipenem	5690
 CHEBI:4724	dyclonine	23744
 CHEBI:472657	cefixime	25033
+CHEBI:47278	brivudine	59161
 CHEBI:4728	dyphylline	3714
 CHEBI:472805	ouabain	7762
 CHEBI:47381	diclofenac	3355
@@ -3057,7 +3064,6 @@ DRON:00011013	manganese aspartate	253187
 DRON:00011118	miocamycin	6985
 DRON:00011125	molgramostim	70161
 DRON:00011136	muromonab-CD3	42405
-DRON:00011219	obidoxime	42826
 DRON:00011249	cyclopenthiazide	3000
 DRON:00011259	oxyphenonium	7818
 DRON:00011266	Bile fluid	1533
@@ -3374,7 +3380,6 @@ DRON:00014492	benperidol	1373
 DRON:00014509	monosulfiram	30206
 DRON:00014520	grape seed	237115
 DRON:00014524	bismuth oxide	19472
-DRON:00014527	brivudine	59161
 DRON:00014550	bromopride	19768
 DRON:00014557	butyl chloride	19900
 DRON:00014565	buflomedil	19836
@@ -3461,7 +3466,6 @@ DRON:00015389	neo-homosalate	236816
 DRON:00015409	nialamide	7394
 DRON:00015413	nitazoxanide	31819
 DRON:00015430	octoxynol-9	54034
-DRON:00015448	oxaceprol	28068
 DRON:00015457	oxerutins	67187
 DRON:00015460	opipramol	7674
 DRON:00015463	aluminum acetotartrate	46239
@@ -3484,7 +3488,6 @@ DRON:00015620	potassium glucoheptonate	236259
 DRON:00015626	prifinium	236174
 DRON:00015631	procyanidolic oligomer	236649
 DRON:00015645	potassium perchlorate	34318
-DRON:00015646	potassium permanganate	8604
 DRON:00015650	magnesium gluconate	52358
 DRON:00015656	prednazoline	168651
 DRON:00015660	bismuth chloride oxide	236964
@@ -5816,7 +5819,6 @@ DRON:00750806	zolazepam	1535252
 DRON:00750807	ramucirumab	1535922
 DRON:00750808	coagulation factor IX recombinant immunoglobulin G1 fusion protein	1535944
 DRON:00750809	troclosene	1537576
-DRON:00750810	fluralaner	1538098
 DRON:00750816	peginterferon beta-1a	1546168
 DRON:00750819	pembrolizumab	1547545
 DRON:00750821	Coccidioides immitis spherule	1549330
@@ -6753,9 +6755,9 @@ DRON:01063380	deutivacaftor	2701430
 DRON:01063381	vanzacaftor	2701431
 DRON:01065651	rice bran oil	1309223
 DRON:01065652	hydrogenated polybutene (1300 MW)	1314287
-DRON:01065653	suzetrigine	2704819
 DRON:01065654	vimseltinib	2705378
 DRON:01068076	hexamethylindanopyran	1314281
 DRON:01068077	tetraxetan	2260905
 DRON:01068078	mirdametinib	2705551
 DRON:01068079	gepotidacin	2709212
+DRON:01070175	berdazimer	2710434
