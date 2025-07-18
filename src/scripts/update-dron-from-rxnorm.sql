@@ -59,6 +59,23 @@ INSERT OR IGNORE INTO new_ingredient
 SELECT DISTINCT
     c.RXCUI AS rxcui,
     c.STR AS label
+FROM new_clinical_drug_form AS cdf
+LEFT JOIN rxnorm.RXNREL AS r ON r.RXCUI2 = cdf.rxcui
+LEFT JOIN rxnorm.RXNCONSO AS c ON c.RXCUI = r.RXCUI1
+WHERE r.RELA = 'has_ingredient'
+  AND c.SAB = 'RXNORM'
+  AND c.RXCUI NOT IN (SELECT rxcui FROM dron.ingredient);
+
+-- Find new ingredients for existing clinical drug forms.
+-- Shouldn't happen going forward but needed to fix first time.
+-- We join the RXNREL table
+-- where the relation is 'has_ingredient'
+-- the RXCUI1 is the ingredient
+-- and the RXCUI2 is the clinical drug form.
+INSERT OR IGNORE INTO new_ingredient
+SELECT DISTINCT
+    c.RXCUI AS rxcui,
+    c.STR AS label
 FROM dron.clinical_drug_form AS cdf
 LEFT JOIN rxnorm.RXNREL AS r ON r.RXCUI2 = cdf.rxcui
 LEFT JOIN rxnorm.RXNCONSO AS c ON c.RXCUI = r.RXCUI1
