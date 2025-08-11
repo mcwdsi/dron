@@ -6060,7 +6060,7 @@ DRON:00074981	Chlorpheniramine 4 MG / Methscopolamine 1.25 MG / Phenylephrine 10
 DRON:00074982	Chlorpheniramine 8 MG / Methscopolamine 2.5 MG / Phenylephrine 20 MG Extended Release Capsule [Extendryl SR]	DRON:00044598	213740
 DRON:00074983	Chlorpheniramine 8 MG / Methscopolamine 2.5 MG / Phenylephrine 20 MG Extended Release Capsule [Prehist D]	DRON:00044598	213741
 DRON:00074984	Chlorpheniramine 8 MG / Methscopolamine 2.5 MG / Phenylephrine 20 MG Extended Release Capsule [Sinodec]	DRON:00044598	213742
-DRON:00074985	BCG, live, Tice strain 50 MG/ML Topical Suspension [Tice BCG]	DRON:00037712	213744
+DRON:00074985	BCG, live, Tice strain 50 MG Powder for Intravesical Suspension [Tice BCG]	DRON:00037712	213744
 DRON:00074986	cefaclor 500 MG Oral Capsule [Ceclor Pulvules]	DRON:00035380	213751
 DRON:00074987	clorazepate dipotassium 3.75 MG Oral Tablet [Gen-xene]	DRON:00035395	213752
 DRON:00074988	cefaclor 50 MG/ML Oral Solution [Ceclor]	DRON:00050200	213766
@@ -6597,7 +6597,7 @@ DRON:00075518	prednisolone 25 MG/ML Injectable Suspension [Cotolone]	DRON:000430
 DRON:00075519	prednisolone 50 MG/ML Injectable Suspension [Cotolone]	DRON:00043090	261993
 DRON:00075520	Salicylic Acid 0.15 MG/MG Transdermal Patch [Trans-Ver-Sal]	DRON:00038921	261999
 DRON:00075521	Capsaicin 0.2 MG/ML Topical Cream [Icy Hot with Capsaicin]	DRON:00053943	262001
-DRON:00075522	valrubicin 40 MG/ML Irrigation Solution [Valstar]	DRON:00046287	262063
+DRON:00075522	valrubicin 40 MG/ML Intravesical Solution [Valstar]	DRON:00046287	262063
 DRON:00075523	72 HR fentanyl 0.1 MG/HR Transdermal System [Duragesic]	DRON:00039038	262071
 DRON:00075524	24 HR testosterone 0.25 MG/HR Transdermal System [Testoderm]	DRON:00046132	262072
 DRON:00075525	amoxicillin 40 MG/ML Oral Suspension [Amoxil]	DRON:00046403	262073
@@ -6768,7 +6768,7 @@ DRON:00075689	interferon alfa-2a 18000000 UNT/ML Injectable Solution [Roferon-A]
 DRON:00075690	ziprasidone 20 MG Oral Capsule [Geodon]	DRON:00046597	285127
 DRON:00075691	bimatoprost 0.3 MG/ML Ophthalmic Solution [Lumigan]	DRON:00044169	285128
 DRON:00075692	BCG, live, Montreal strain 120 MG/ML Irrigation Solution [Pacis]	DRON:00047186	308575
-DRON:00075693	BCG, live, Connaught strain 27 MG/ML Topical Suspension [TheraCys]	DRON:00047974	308576
+DRON:00075693	BCG, live, Connaught strain 81 MG Powder for Intravesical Suspension [TheraCys]	DRON:00047974	308576
 DRON:00075694	carbamazepine 20 MG/ML Oral Suspension [Tegretol]	DRON:00044292	308971
 DRON:00075695	carbamazepine 200 MG Oral Tablet [Tegretol]	DRON:00044293	308972
 DRON:00075696	carbamazepine 100 MG Chewable Tablet [Tegretol]	DRON:00044291	308974
@@ -11804,8 +11804,8 @@ DRON:00080725	benzocaine 50 MG/ML / resorcinol 20 MG/ML Vaginal Cream [Vagisil O
 DRON:00080726	Naproxen sodium 220 MG Oral Tablet [Midol Extended Relief]	DRON:00058284	849752
 DRON:00080727	benzyl alcohol 100 MG/ML Topical Solution [Zilactin-L Cold Sore Liquid]	DRON:00057009	849756
 DRON:00080728	0.85 ML sodium hyaluronate 30 MG/ML Prefilled Syringe [Healon]	DRON:00058318	849822
-DRON:00080729	tolvaptan 15 MG Oral Tablet [Samsca]	DRON:00058319	849831
-DRON:00080730	tolvaptan 30 MG Oral Tablet [Samsca]	DRON:00058320	849835
+DRON:00080729	Hyponatremia tolvaptan 15 MG Oral Tablet [Samsca]	DRON:00058319	849831
+DRON:00080730	Hyponatremia tolvaptan 30 MG Oral Tablet [Samsca]	DRON:00058320	849835
 DRON:00080731	3 ML somatropin 10 MG/ML Pen Injector [Norditropin]	DRON:00058321	849851
 DRON:00080732	mefenamic acid 250 MG Disintegrating Oral Tablet [Ponstan Dispersible]	DRON:00058322	849856
 DRON:00080733	Pulmonary Hypertension tadalafil 20 MG Oral Tablet [Adcirca]	DRON:00047971	849866
@@ -22693,10 +22693,10 @@ DRON:01004877	lisdexamfetamine dimesylate 10 MG Oral Capsule [Vyvanse]	DRON:0077
 DRON:01004878	sodium chloride 6.5 MG/ML Nasal Spray [Altamist]	DRON:00055770	1593876
 DRON:01004879	sodium chloride 6.5 MG/ML Nasal Spray [Little Noses]	DRON:00055770	1593881
 DRON:01004880	sodium chloride 11.25 MG/ML Nasal Spray [Aqua Maris]	DRON:00776094	1593886
-DRON:01004881	1.5 ML follitropin alfa 600 UNT/ML Pen Injector [Gonal F]	DRON:00776466	1594334
+DRON:01004881	1.44 ML follitropin alfa 625 UNT/ML Pen Injector [Gonal F]	DRON:00776466	1594334
 DRON:01004882	follitropin alfa 600 UNT/ML Prefilled Syringe [Gonal F]	DRON:00068665	1594335
-DRON:01004883	0.75 ML follitropin alfa 600 UNT/ML Pen Injector [Gonal F]	DRON:00776465	1594418
-DRON:01004884	0.5 ML follitropin alfa 600 UNT/ML Pen Injector [Gonal F]	DRON:00776461	1594432
+DRON:01004883	0.72 ML follitropin alfa 625 UNT/ML Pen Injector [Gonal F]	DRON:00776465	1594418
+DRON:01004884	0.48 ML follitropin alfa 625 UNT/ML Pen Injector [Gonal F]	DRON:00776461	1594432
 DRON:01004885	10 ML succinylcholine chloride 100 MG/ML Injection [Quelicin]	DRON:00776095	1594587
 DRON:01004886	succinylcholine chloride 20 MG/ML Injectable Solution [Anectine]	DRON:00776096	1594591
 DRON:01004887	succinylcholine chloride 20 MG/ML Injectable Solution [Quelicin]	DRON:00776096	1594593
@@ -23062,7 +23062,7 @@ DRON:01005246	30 ML adenosine 3 MG/ML Injection [Adenoscan]	DRON:00754418	165404
 DRON:01005247	0.5 ML ustekinumab 90 MG/ML Injection [Stelara]	DRON:00776458	1654079
 DRON:01005248	ustekinumab 90 MG/ML Injection [Stelara]	DRON:00756493	1654081
 DRON:01005249	1 ML ustekinumab 90 MG/ML Injection [Stelara]	DRON:00776460	1654083
-DRON:01005250	follitropin alfa 600 UNT/ML Pen Injector [Gonal F]	DRON:00776463	1654175
+DRON:01005250	follitropin alfa 625 UNT/ML Pen Injector [Gonal F]	DRON:00776463	1654175
 DRON:01005251	ecallantide 10 MG/ML Injection [Kalbitor]	DRON:00776464	1654183
 DRON:01005252	octreotide 0.05 MG/ML Injection [Sandostatin]	DRON:00776468	1654347
 DRON:01005253	octreotide 0.1 MG/ML Injection [Sandostatin]	DRON:00776469	1654352
@@ -27844,7 +27844,7 @@ DRON:01010028	0.5 ML tirzepatide 25 MG/ML Injection [Mounjaro]	DRON:00995061	264
 DRON:01010029	tirzepatide 25 MG/ML Injection [Mounjaro]	DRON:00995062	2644416
 DRON:01010030	0.5 ML tirzepatide 20 MG/ML Injection [Mounjaro]	DRON:00995063	2644419
 DRON:01010031	tirzepatide 20 MG/ML Injection [Mounjaro]	DRON:00995064	2644420
-DRON:01010032	nadofaragene firadenovec-vncg 15000000000 VIRAL-PARTICLES/ML Topical Suspension [Adstiladrin]	DRON:01001226	2644445
+DRON:01010032	nadofaragene firadenovec-vncg 15000000000 VIRAL-PARTICLES/ML Intravesical Suspension [Adstiladrin]	DRON:01001226	2644445
 DRON:01010033	1.5 ML talquetamab-tgvs 2 MG/ML Injection [Talvey]	DRON:01001227	2644458
 DRON:01010034	talquetamab-tgvs 2 MG/ML Injection [Talvey]	DRON:01001228	2644459
 DRON:01010035	1 ML talquetamab-tgvs 40 MG/ML Injection [Talvey]	DRON:01001229	2644464
