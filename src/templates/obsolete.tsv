@@ -13,7 +13,9 @@ DRON:00015773	obsolete roxatidine	owl:Class	CHEBI:230550
 DRON:00015971	obsolete tiratricol	owl:Class	CHEBI:40021
 DRON:00016220	obsolete tilmicosin	owl:Class	CHEBI:195409
 DRON:00016393	obsolete dichlorodifluoromethane	owl:Class	CHEBI:229860
+DRON:00016739	obsolete atipamezole	owl:Class	CHEBI:230832
 DRON:00016802	obsolete chlorophyllin	owl:Class	CHEBI:232141
+DRON:00017092	obsolete chymopapain	owl:Class	CHEBI:193860
 DRON:00017625	obsolete insulin lispro	owl:Class	CHEBI:232799
 DRON:00020050	obsolete ipilimumab	owl:Class	CHEBI:231679
 DRON:00020097	obsolete gamithromycin	owl:Class	CHEBI:195437
@@ -6797,7 +6799,9 @@ DRON:00745757	obsolete 62372063030	owl:Class	DRON:01022465
 DRON:00745758	obsolete 62372065015	owl:Class	DRON:01022466
 DRON:00745759	obsolete 62372065030	owl:Class	DRON:01022467
 DRON:00746110	obsolete 63187017190	owl:Class	DRON:01023971
+DRON:00750772	obsolete pirlimycin	owl:Class	CHEBI:201427
 DRON:00750810	obsolete fluralaner	owl:Class	CHEBI:233405
+DRON:00750833	obsolete nivolumab	owl:Class	CHEBI:231614
 DRON:00750912	obsolete carbinoxamine Extended Release Oral Capsule	owl:Class	DRON:00028438
 DRON:00750913	obsolete zolpidem Disintegrating Oral Tablet	owl:Class	DRON:00032475
 DRON:00750914	obsolete ubidecarenone / vitamin E Oral Wafer	owl:Class	DRON:00027160
@@ -8770,6 +8774,7 @@ DRON:00814520	obsolete lotilaner	owl:Class	CHEBI:229657
 DRON:00814539	obsolete 50 ML cytomegalovirus immune globulin, human 50 MG/ML Injection	owl:Class	DRON:00037431
 DRON:00814540	obsolete inositol niacinate 211.5 MG / niacin 750 MG Oral Capsule	owl:Class	DRON:00059737
 DRON:00815333	obsolete 63187091705	owl:Class	DRON:01033524
+DRON:00816343	obsolete tezacaftor	owl:Class	CHEBI:234517
 DRON:00816359	obsolete ethinyl estradiol 0.035 MG / ethynodiol diacetate 1 MG Oral Tablet	owl:Class	DRON:00044876
 DRON:00816360	obsolete ethinyl estradiol 0.05 MG / ethynodiol diacetate 1 MG Oral Tablet	owl:Class	DRON:00046668
 DRON:00816361	obsolete pitavastatin calcium 1 MG Oral Tablet	owl:Class	DRON:00059362
@@ -9702,6 +9707,7 @@ DRON:00862981	obsolete 0.25 ML influenza A virus vaccine, A-Victoria-361-2011 (H
 DRON:00863064	obsolete 00536124701	owl:Class	DRON:01024808
 DRON:00863065	obsolete 00536124710	owl:Class	DRON:01024809
 DRON:00864329	obsolete 57511010203	owl:Class	DRON:01033767
+DRON:00865534	obsolete elexacaftor	owl:Class	CHEBI:234518
 DRON:00865565	obsolete brompheniramine maleate 12 MG / phenylephrine hydrochloride 15 MG / phenylpropanolamine hydrochloride 15 MG Extended Release Oral Tablet	owl:Class	DRON:00035987
 DRON:00865566	obsolete chlorpheniramine maleate 8 MG / methscopolamine nitrate 2.5 MG / phenylpropanolamine hydrochloride 75 MG Extended Release Oral Capsule	owl:Class	DRON:00036003
 DRON:00865567	obsolete cholecalciferol 0.025 MG Oral Tablet	owl:Class	DRON:00036671
@@ -11292,6 +11298,7 @@ DRON:01002941	obsolete poloxamer	owl:Class	CHEBI:32026
 DRON:01002942	obsolete clofezone	owl:Class	CHEBI:8768
 DRON:01002946	obsolete gentamicin	owl:Class	CHEBI:17833
 DRON:01002952	obsolete talazoparib	owl:Class	CHEBI:231344
+DRON:01002959	obsolete ozanimod	owl:Class	CHEBI:234516
 DRON:01010214	obsolete 63736033924	owl:Class	DRON:00606761
 DRON:01010215	obsolete 63736033942	owl:Class	DRON:00729604
 DRON:01010216	obsolete 00132004202	owl:Class	DRON:00632917
@@ -12498,6 +12505,9 @@ DRON:01034859	obsolete carmoisine	owl:Class	CHEBI:82414
 DRON:01034861	obsolete sodium cation	owl:Class	CHEBI:29101
 DRON:01034896	obsolete sodium iodate	owl:Class	CHEBI:81708
 DRON:01034901	obsolete jasmine lactone	owl:Class	CHEBI:180915
+DRON:01034947	obsolete ethyl pyruvate	owl:Class	CHEBI:173421
+DRON:01035077	obsolete lenacapavir	owl:Class	CHEBI:234519
+DRON:01035078	obsolete adagrasib	owl:Class	CHEBI:233309
 DRON:01035085	obsolete rezafungin	owl:Class	CHEBI:229680
 DRON:01035463	obsolete 00699706134	owl:Class	DRON:00558065
 DRON:01035464	obsolete 00699709101	owl:Class	DRON:00558068
