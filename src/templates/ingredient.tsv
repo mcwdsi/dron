@@ -785,6 +785,7 @@ CHEBI:195437	gamithromycin	1113697
 CHEBI:195558	entrectinib	2197862
 CHEBI:196955	atogepant	2571813
 CHEBI:197511	docosanol	594680
+CHEBI:201412	sulopenem	2717833
 CHEBI:201427	pirlimycin	1367292
 CHEBI:2038	5-azacytidine	1251
 CHEBI:204734	desonide	3254
@@ -830,6 +831,7 @@ CHEBI:230550	roxatidine	114817
 CHEBI:230832	atipamezole	18475
 CHEBI:230846	pegvaliase	2046360
 CHEBI:230905	ribociclib	1873916
+CHEBI:231087	trilaciclib	2479690
 CHEBI:23123	chloroacetate	48008
 CHEBI:231324	alpelisib	2169285
 CHEBI:231344	talazoparib	2099704
@@ -840,12 +842,15 @@ CHEBI:231505	gallium nitrate	25544
 CHEBI:231598	tazemetostat	2274378
 CHEBI:231601	trastuzumab	224905
 CHEBI:231614	nivolumab	1597876
+CHEBI:231673	hyaluronidase	5464
 CHEBI:231679	ipilimumab	1094833
 CHEBI:231681	olaratumab	1855735
+CHEBI:231683	anakinra	72435
 CHEBI:231693	capmatinib	2362165
 CHEBI:231702	tirbanibulin	2471078
 CHEBI:232141	chlorophyllin	20852
 CHEBI:232400	denatonium benzoate	1313232
+CHEBI:232556	erdafitinib	2123125
 CHEBI:232799	insulin lispro	86009
 CHEBI:232810	brigatinib	1921217
 CHEBI:233149	oxaceprol	28068
@@ -853,10 +858,13 @@ CHEBI:23316	citral	1362890
 CHEBI:233309	adagrasib	2625882
 CHEBI:23334	cobalamins	42604
 CHEBI:233405	fluralaner	1538098
+CHEBI:233412	ponesimod	2532300
 CHEBI:233446	suzetrigine	2704819
 CHEBI:233583	obidoxime	42826
 CHEBI:23359	colchicine	2683
+CHEBI:234112	cenobamate	2265690
 CHEBI:23414	copper(II) sulfate	21579
+CHEBI:234515	ubrogepant	2268216
 CHEBI:234516	ozanimod	2288236
 CHEBI:234517	tezacaftor	1999382
 CHEBI:234518	elexacaftor	2256951
@@ -1302,6 +1310,7 @@ CHEBI:31941	oxaliplatin	32592
 CHEBI:31943	oxatomide	54236
 CHEBI:31952	Oxypertine	7815
 CHEBI:31959	pantethine	32863
+CHEBI:31960	panthenyl ethyl ether	1356484
 CHEBI:31974	Pentagastrin	7993
 CHEBI:31981	periciazine	8766
 CHEBI:31991	phenol red	8141
@@ -3521,7 +3530,6 @@ DRON:00015768	simaldrate	236730
 DRON:00015796	clebopride	21224
 DRON:00015798	dihydroxybutyl ether	14699
 DRON:00015826	sitosterols	9808
-DRON:00015828	hyaluronidase	5464
 DRON:00015838	black currant preparation	236154
 DRON:00015841	camphoric acid 1-methyl ester	30193
 DRON:00015845	SODIUM PHENOLSULFONATE	237124
@@ -3653,7 +3661,6 @@ DRON:00016911	dalteparin	67109
 DRON:00016913	filgrastim	68442
 DRON:00016914	glatiramer	214582
 DRON:00016918	somatropin	61148
-DRON:00016920	anakinra	72435
 DRON:00016923	Hepatitis A Vaccine, Inactivated	253174
 DRON:00016925	interferon beta-1a	75917
 DRON:00016926	Lyme Disease Vaccine	214177
@@ -6096,7 +6103,6 @@ DRON:00862685	butyl acrylate - methylacrylate acid copolymer (2 % methacrylic ac
 DRON:00865526	Carya laciniosa pollen extract	1305551
 DRON:00865527	Bacillus subtilis	1311119
 DRON:00865528	Aspergillus amstelodami extract	2101007
-DRON:00865529	erdafitinib	2123125
 DRON:00865530	darolutamide	2180325
 DRON:00865532	upadacitinib	2196092
 DRON:00865533	trifarotene	2205637
@@ -6107,7 +6113,6 @@ DRON:00867634	zanubrutinib	2262435
 DRON:00867636	voxelotor	2265678
 DRON:00867637	givosiran	2265712
 DRON:00867638	Helianthus annuus seed wax extract	1307740
-DRON:00870308	cenobamate	2265690
 DRON:00870309	Bacillus anthracis strain V770-NP1-R antigens	1368371
 DRON:00870310	Vibrio cholerae CVD 103-HGR strain live antigen	1812935
 DRON:00870311	lemborexant	2272403
@@ -6116,7 +6121,6 @@ DRON:00870313	hydrolysed bovine collagen (enzymatic; 2000-5000 MW)	1312600
 DRON:00870315	hydrogenated jojoba oil, randomized	1540881
 DRON:00873124	hydroxypropyl guar (2500-4500 MPA.S at 1%)	1361655
 DRON:00873125	hydroxyethyl cellulose (5500 MPA.S at 2%)	1430439
-DRON:00874907	ubrogepant	2268216
 DRON:00874908	ferric derisomaltose	2274394
 DRON:00874910	hepatitis A virus strain CR 326F antigen, inactivated	2274413
 DRON:00874911	teprotumumab	2274803
@@ -6181,7 +6185,6 @@ DRON:00940683	sucrose monolaurate	1363647
 DRON:00940684	liquid petroleum	1426663
 DRON:00942701	risdiplam	2390935
 DRON:00942702	levamlodipine	2376944
-DRON:00942703	trilaciclib	2479690
 DRON:00942705	dasiglucagon	2535233
 DRON:00942706	idecabtagene vicleucel	2536430
 DRON:00942708	verdinexor	2539289
@@ -6194,7 +6197,6 @@ DRON:00945503	modified corn starch (3-E-docecenyl succinic anhydride)	1426611
 DRON:00945504	lauroyl PEG-32 glycerides	1597625
 DRON:00945505	hydroxypropyl cellulose (160000 WAMW)	2166043
 DRON:00945506	Yucca schidigera stem	2376938
-DRON:00947298	ponesimod	2532300
 DRON:00947300	sotrovimab	2550731
 DRON:00947301	plasminogen	2557200
 DRON:00947302	pegcetacoplan	2557372
@@ -6452,7 +6454,6 @@ DRON:01034844	star anise extract	1350212
 DRON:01034845	lauramidopropylamine oxide	1356138
 DRON:01034846	stearyl glycyrrhetinate	1356147
 DRON:01034847	propylene glycol monolaurate	1356149
-DRON:01034848	panthenyl ethyl ether	1356484
 DRON:01034849	dioctyl maleate	1356765
 DRON:01034850	silybum marianum seed oil	1358002
 DRON:01034851	polyquaternium-51 (2-methacryloyloxyethyl phosphorylcholine:N-butyl methacrylate; 3:7)	1359090
@@ -6744,7 +6745,6 @@ DRON:01061504	prenylamine	8674
 DRON:01061505	enoxaparin	67108
 DRON:01061506	certoparin	152610
 DRON:01061507	silybin	155067
-DRON:01061508	poloxamer	155156
 DRON:01061509	clofezone	183877
 DRON:01061510	acoramidis	2698312
 DRON:01061511	revumenib	2698325
@@ -6772,6 +6772,5 @@ DRON:01071708	avutometinib	2714515
 DRON:01071709	deuruxolitinib	2716558
 DRON:01071710	acoltremon	2716801
 DRON:01071711	taletrectinib	2716919
-DRON:01074622	sulopenem	2717833
 DRON:01074623	sebetralstat	2717944
 DRON:01074624	sunvozertinib	2719226
