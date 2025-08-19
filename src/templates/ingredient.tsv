@@ -722,6 +722,7 @@ CHEBI:17992	sucrose	10159
 CHEBI:17996	chloride	153974
 CHEBI:180653	molnupiravir	2587901
 CHEBI:18067	phylloquinone	8308
+CHEBI:180915	jasmine lactone	1426261
 CHEBI:18145	(R,R,R)-alpha-tocopherol	237099
 CHEBI:18153	ethene	1314362
 CHEBI:18186	tyrosine	10962
@@ -823,6 +824,8 @@ CHEBI:229764	selinexor	2178390
 CHEBI:22984	calcium atom	1895
 CHEBI:229860	dichlorodifluoromethane	50110
 CHEBI:230550	roxatidine	114817
+CHEBI:230846	pegvaliase	2046360
+CHEBI:230905	ribociclib	1873916
 CHEBI:23123	chloroacetate	48008
 CHEBI:231324	alpelisib	2169285
 CHEBI:231344	talazoparib	2099704
@@ -1225,6 +1228,7 @@ CHEBI:31584	Etomidoline	17684
 CHEBI:31596	febuxostat	73689
 CHEBI:31597	biphenyl-4-ylacetic acid	262307
 CHEBI:31599	fenbufen	24830
+CHEBI:3160	botulinum toxin type A	1712
 CHEBI:31600	Fenipentol	24846
 CHEBI:31603	Feprazone	8673
 CHEBI:31604	ferric ammonium citrate	24897
@@ -2669,6 +2673,7 @@ CHEBI:81482	Methylenedioxycinnamic acid	324051
 CHEBI:81568	Luteinizing hormone	6383
 CHEBI:81569	Follicle stimulating hormone	227518
 CHEBI:81570	Chorionic gonadotropin	4986
+CHEBI:81708	sodium iodate	1422194
 CHEBI:81718	Calcium iodide	235273
 CHEBI:81862	potassium hydrogencarbonate	34296
 CHEBI:81882	Mercuric oxide	29545
@@ -2684,6 +2689,7 @@ CHEBI:82327	Ethyl acrylate	1859382
 CHEBI:82365	Palygorskite	18516
 CHEBI:8240	piperonal	33753
 CHEBI:82405	Benzoyl peroxide	1418
+CHEBI:82414	carmoisine	1363916
 CHEBI:8242	pipobroman	8347
 CHEBI:82431	Cyclamate	2969
 CHEBI:8245	Pirbuterol	33767
@@ -5954,9 +5960,7 @@ DRON:00819889	andexanet alfa	2045114
 DRON:00819890	erenumab	2045613
 DRON:00819891	distearyl phthalamic acid	1312560
 DRON:00819893	polyethylene oxide 2000000	2044901
-DRON:00822972	ribociclib	1873916
 DRON:00822973	abaloparatide	1921069
-DRON:00822974	pegvaliase	2046360
 DRON:00822975	sodium zirconium cyclosilicate	2047628
 DRON:00822976	Melaleuca alternifolia flowering top extract	1435096
 DRON:00825215	burosumab	2043855
@@ -6323,7 +6327,6 @@ DRON:01001187	cipaglucosidase alfa	2667433
 DRON:01001188	bimekizumab	2668041
 DRON:01001193	yeast, beta-D-glucan	2563625
 DRON:01001194	hypromellose acetate succinate	2645263
-DRON:01002929	botulinum toxin type A	1712
 DRON:01002931	dextran 70	3274
 DRON:01002932	dextran 75	3275
 DRON:01002933	isoproterenol	6054
@@ -6457,7 +6460,6 @@ DRON:01034855	stannic oxide	1363059
 DRON:01034856	lime peel extract	1363437
 DRON:01034857	dimethiconol (41 MPA.S)	1363579
 DRON:01034858	PEG-4 laurate	1363614
-DRON:01034859	carmoisine	1363916
 DRON:01034860	malpighia glabra fruit extract	1364406
 DRON:01034862	Aconitum kusnezoffi root extract	1364986
 DRON:01034863	Rosmarinus officinalis whole extract	1364990
@@ -6493,12 +6495,10 @@ DRON:01034892	Piper betle leaf extract	1421446
 DRON:01034893	Ipomoea pes-caprae flowering top extract	1421627
 DRON:01034894	hexyl salicylate	1421892
 DRON:01034895	poloxamer 403	1422193
-DRON:01034896	sodium iodate	1422194
 DRON:01034897	cuprous chloride	1423796
 DRON:01034898	N-lactoylethanolamine	1424270
 DRON:01034899	Helianthus annuus whole extract	1425412
 DRON:01034900	pigment red 48	1426161
-DRON:01034901	jasmine lactone	1426261
 DRON:01034902	hypromellose acetate succinate 12070923 (3 MM2-S)	1426290
 DRON:01034903	stearyl stearate	1426360
 DRON:01034904	polysorbate 65	1426405
