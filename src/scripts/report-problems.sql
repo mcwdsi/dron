@@ -65,9 +65,9 @@ SELECT
     'label',
     'WARN',
     'DrOn term has matching label in ChEBI',
-    i.curie || ' ' || c.curie || ' ' || i.label
+    i.curie || CHAR(9)  || i.label || CHAR(9) || c.curie
 FROM dron.ingredient AS i
-JOIN chebi.label AS c ON c.label = i.label
+JOIN chebi.label AS c ON c.label = i.label COLLATE NOCASE
 WHERE i.curie LIKE 'DRON:%';
 
 INSERT INTO problem
