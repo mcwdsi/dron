@@ -595,6 +595,7 @@ CHEBI:16737	creatinine	2913
 CHEBI:16742	orotic acid	7712
 CHEBI:167450	monomethyl fumarate	1546433
 CHEBI:167574	semaglutide	1991302
+CHEBI:167600	delgocitinib	2721163
 CHEBI:167626	2-hydroxyethyl octadecanoate	1426255
 CHEBI:167707	acalabrutinib	1986808
 CHEBI:16794	scopolamine	9601
@@ -856,6 +857,7 @@ CHEBI:231683	Anakinra	72435
 CHEBI:231693	capmatinib	2362165
 CHEBI:231702	tirbanibulin	2471078
 CHEBI:232141	chlorophyllin	20852
+CHEBI:232328	dordaviprone	2721194
 CHEBI:232400	denatonium benzoate	1313232
 CHEBI:232556	Erdafitinib	2123125
 CHEBI:232799	insulin lispro	86009
@@ -1330,6 +1332,7 @@ CHEBI:32015	Piretanide	33770
 CHEBI:32016	pirfenidone	1592254
 CHEBI:32020	pitavastatin	861634
 CHEBI:32026	Poloxamer	155152
+CHEBI:32026	poloxamer	155156
 CHEBI:32027	polyoxyl 40 stearate	1367133
 CHEBI:32028	poly(vinyl acetate)	1541597
 CHEBI:32029	potassium acetate	54987
@@ -1464,6 +1467,7 @@ CHEBI:3437	carteolol	2116
 CHEBI:34380	monobenzone	17145
 CHEBI:34385	4-aminopyridine	897018
 CHEBI:34393	4-chloro-3,5-dimethylphenol	20877
+CHEBI:3440	carvacrol	1998840
 CHEBI:3441	carvedilol	20352
 CHEBI:34474	6alpha-Fluoroprednisolone	4497
 CHEBI:34511	9-Fluoroprednisolone	1546449
@@ -6773,3 +6777,9 @@ DRON:01071710	acoltremon	2716801
 DRON:01071711	taletrectinib	2716919
 DRON:01074623	sebetralstat	2717944
 DRON:01074624	sunvozertinib	2719226
+DRON:01076447	magnesium aluminum silicate type IIA	2106996
+DRON:01076448	tetraethyl silicate	2594593
+DRON:01076449	zongertinib	2721604
+DRON:01076450	aceclidine	2721766
+DRON:01076451	brensocatib	2721880
+DRON:01076452	rilzabrutinib	2722398
