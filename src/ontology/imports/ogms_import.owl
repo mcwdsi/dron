@@ -7,10 +7,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/ogms_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2025-07-19/imports/ogms_import.owl>
+<http://purl.obolibrary.org/obo/dron/releases/2025-10-31/imports/ogms_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl>)
-Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_250707F")
-Annotation(owl:versionInfo "2025-07-19")
+Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_251006F")
+Annotation(owl:versionInfo "2025-10-31")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000090>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
