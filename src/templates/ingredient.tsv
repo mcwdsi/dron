@@ -2514,6 +2514,7 @@ CHEBI:7465	naltrexone	7243
 CHEBI:7466	nandrolone	7244
 CHEBI:74669	1,2-dioleoyl-sn-glycero-3-phosphocholine	1424656
 CHEBI:746859	travoprost	283809
+CHEBI:746908	lurbinectedin	2374729
 CHEBI:7470	Naphazoline	7247
 CHEBI:7476	naproxen	7258
 CHEBI:74768	aluminium sulfate (anhydrous)	17621
@@ -6148,7 +6149,6 @@ DRON:00904106	triheptanoin	1313234
 DRON:00904107	dupilumab	1876376
 DRON:00904108	golodirsen	2267207
 DRON:00904109	isatuximab	2282018
-DRON:00904111	lurbinectedin	2374729
 DRON:00904112	cedazuridine	2384449
 DRON:00904113	dioleylamidoethyl(diethoxylated-hydroxyethyl)monium methosulfate	2375307
 DRON:00910508	tucatinib	2361285
@@ -6781,3 +6781,4 @@ DRON:01076448	tetraethyl silicate	2594593
 DRON:01076449	zongertinib	2721604
 DRON:01076450	aceclidine	2721766
 DRON:01076451	brensocatib	2721880
+DRON:01078060	rilzabrutinib	2722398
