@@ -11024,6 +11024,7 @@ DRON:00895518	obsolete 61958290101	owl:Class	DRON:01032621
 DRON:00895519	obsolete 61958290201	owl:Class	DRON:01032623
 DRON:00895744	obsolete 63824053766	owl:Class	DRON:01021760
 DRON:00904110	obsolete capmatinib	owl:Class	CHEBI:231693
+DRON:00904111	obsolete lurbinectedin	owl:Class	CHEBI:746908
 DRON:00904143	obsolete levorphanol tartrate 2 MG Oral Tablet	owl:Class	DRON:00035653
 DRON:00904144	obsolete levorphanol tartrate 2 MG/ML Injectable Solution	owl:Class	DRON:00045305
 DRON:00904145	obsolete Twice-Daily diclofenac epolamine 0.013 MG/MG Medicated Patch	owl:Class	DRON:00058711
@@ -12697,3 +12698,6 @@ DRON:01065653	obsolete suzetrigine	owl:Class	CHEBI:233446
 DRON:01074622	obsolete sulopenem	owl:Class	CHEBI:201412
 DRON:01076445	obsolete prenylamine	owl:Class	CHEBI:8397
 DRON:01076446	obsolete poloxamer	owl:Class	CHEBI:32026
+DRON:01078058	obsolete prenylamine	owl:Class	CHEBI:8397
+DRON:01078059	obsolete poloxamer	owl:Class	CHEBI:32026
+DRON:01079973	obsolete prenylamine	owl:Class	CHEBI:8397

@@ -1331,7 +1331,7 @@ CHEBI:32013	Pirenoxine	228080
 CHEBI:32015	Piretanide	33770
 CHEBI:32016	pirfenidone	1592254
 CHEBI:32020	pitavastatin	861634
-CHEBI:32026	Poloxamer	155152
+CHEBI:32026	Poloxamer	155156
 CHEBI:32027	polyoxyl 40 stearate	1367133
 CHEBI:32028	poly(vinyl acetate)	1541597
 CHEBI:32029	potassium acetate	54987
@@ -2514,6 +2514,7 @@ CHEBI:7465	naltrexone	7243
 CHEBI:7466	nandrolone	7244
 CHEBI:74669	1,2-dioleoyl-sn-glycero-3-phosphocholine	1424656
 CHEBI:746859	travoprost	283809
+CHEBI:746908	lurbinectedin	2374729
 CHEBI:7470	Naphazoline	7247
 CHEBI:7476	naproxen	7258
 CHEBI:74768	aluminium sulfate (anhydrous)	17621
@@ -2778,7 +2779,7 @@ CHEBI:8364	prazosin	8629
 CHEBI:83766	olaparib	1597582
 CHEBI:8378	prednisolone	8638
 CHEBI:8382	prednisone	8640
-CHEBI:8397	Prenylamine	34407
+CHEBI:8397	Prenylamine	8674
 CHEBI:8404	prilocaine	8686
 CHEBI:8405	primaquine	8687
 CHEBI:84050	trabectedin	1716278
@@ -6148,7 +6149,6 @@ DRON:00904106	triheptanoin	1313234
 DRON:00904107	dupilumab	1876376
 DRON:00904108	golodirsen	2267207
 DRON:00904109	isatuximab	2282018
-DRON:00904111	lurbinectedin	2374729
 DRON:00904112	cedazuridine	2384449
 DRON:00904113	dioleylamidoethyl(diethoxylated-hydroxyethyl)monium methosulfate	2375307
 DRON:00910508	tucatinib	2361285
@@ -6781,3 +6781,7 @@ DRON:01076448	tetraethyl silicate	2594593
 DRON:01076449	zongertinib	2721604
 DRON:01076450	aceclidine	2721766
 DRON:01076451	brensocatib	2721880
+DRON:01078060	rilzabrutinib	2722398
+DRON:01079974	poloxamer 188	155152
+DRON:01079975	propranolol glycol	2105554
+DRON:01079976	prenylamine lactate	34407

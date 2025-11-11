@@ -10,7 +10,7 @@ SELECT
     i.curie AS curie,
     'obsolete ' || i.label AS label,
     'owl:Class' AS type,
-    c.subject AS replaced_by
+    c.curie AS replaced_by
 FROM dron.ingredient AS i
-JOIN chebi.label AS c ON c.label = i.label
+JOIN chebi.label AS c ON c.label = i.label COLLATE NOCASE
 WHERE i.curie LIKE 'DRON:%';
