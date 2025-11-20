@@ -4,6 +4,7 @@ github_org: ufbmi
 repo: dron
 report_fail_on: None
 use_dosdps: FALSE
+gzip_main: TRUE
 export_formats:
   - owl
   - obo
