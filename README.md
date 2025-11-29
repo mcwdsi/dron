@@ -4,5 +4,6 @@ This site supports the development of the Drug Ontology, a formal ontology of dr
 
 The original use cases for this ontology included comparative effectiveness research and research into drug-induced liver injury.
 
-The issue tracker for this project is located [here](https://ontology.atlassian.net/browse/DRON).
+The original issue tracker for this project remains located [here](https://ontology.atlassian.net/browse/DRON).
+
 
