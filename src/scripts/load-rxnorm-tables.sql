@@ -8,3 +8,4 @@ PRAGMA foreign_keys = ON;
 .import tmp/rxnorm/RXNCONSO.RRF RXNCONSO
 .import tmp/rxnorm/RXNSAT.RRF RXNSAT
 .import tmp/rxnorm/RXNREL.RRF RXNREL
+.import tmp/rxnorm/RXNATOMARCHIVE.RRF RXNATOMARCHIVE
