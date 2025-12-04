@@ -65,3 +65,25 @@ CREATE TABLE RXNREL
    CVF       varchar(50)
 )
 ;
+
+-- DROP  TABLE IF EXISTS RXNATOMARCHIVE;
+CREATE TABLE RXNATOMARCHIVE
+(
+   RXAUI             varchar(8) NOT NULL,
+   AUI               varchar(10),
+   STR               varchar(4000) NOT NULL,
+   ARCHIVE_TIMESTAMP varchar(280) NOT NULL,
+   CREATED_TIMESTAMP varchar(280) NOT NULL,
+   UPDATED_TIMESTAMP varchar(280) NOT NULL,
+   CODE              varchar(50),
+   IS_BRAND          varchar(1),
+   LAT               varchar(3),
+   LAST_RELEASED     varchar(30),
+   SAUI              varchar(50),
+   VSAB              varchar(40),
+   RXCUI             varchar(8),
+   SAB               varchar(20),
+   TTY               varchar(20),
+   MERGED_TO_RXCUI   varchar(8)
+)
+;
