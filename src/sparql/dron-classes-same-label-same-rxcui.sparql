@@ -1,0 +1,12 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?x ?y ?z ?w
+WHERE {
+	?x rdfs:label ?z .
+	?y rdfs:label ?z .
+	?x <http://purl.obolibrary.org/obo/DRON_00010000> ?w .
+	?y <http://purl.obolibrary.org/obo/DRON_00010000> ?w.
+	
+	FILTER (?x != ?y)
+}
