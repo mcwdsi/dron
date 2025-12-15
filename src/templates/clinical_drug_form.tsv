@@ -14038,24 +14038,19 @@ DRON:00724213	acyclovir Buccal Tablet	DRON:00000022	1423661
 DRON:00724216	budesonide Extended Release Oral Tablet	DRON:00000022	1366549
 DRON:00724237	ceftiofur Injectable Solution	DRON:00000020	1421028
 DRON:00724250	acetaminophen / phenylephrine Effervescent Oral Tablet	DRON:00000022	1536881
-DRON:00724261	insulin pork, isophane Injectable Suspension	DRON:00000021	378859
 DRON:00724264	potassium bicarbonate Effervescent Oral Tablet	DRON:00000022	1536876
 DRON:00724276	acetaminophen / oxycodone Extended Release Oral Tablet	DRON:00000022	1491831
 DRON:00724277	cobicistat Oral Tablet	DRON:00000022	1551992
 DRON:00724278	carbidopa / levodopa Oral Suspension	DRON:00000021	1599845
 DRON:00724279	menthol Oral Spray	DRON:00000005	1492662
-DRON:00724283	Psyllium / sennosides, USP Oral Granules	DRON:00000005	393270
 DRON:00724285	zinc gluconate Injectable Solution	DRON:00000020	1549707
 DRON:00724289	monofluorophosphate / silicon dioxide Toothpaste	DRON:00000005	1373758
-DRON:00724290	Thyme preparation Oral Lozenge	DRON:00000005	452149
 DRON:00724292	menthol Topical Oil	DRON:00000005	1442684
 DRON:00724295	panthenol Topical Solution	DRON:00000020	1365692
 DRON:00724297	Aspirin Oral Strip	DRON:00000005	1535483
 DRON:00724298	Cholecalciferol / Cod Liver Oil / Docosahexaenoate / Eicosapentaenoate / Vitamin A Oral Capsule	DRON:00000026	1425204
 DRON:00724301	tilmicosin Oral Solution	DRON:00000020	1489419
 DRON:00724306	theanine Disintegrating Oral Tablet	DRON:00000022	1368935
-DRON:00724307	Juniperus communis whole extract Oral Capsule	DRON:00000026	370727
-DRON:00724311	Calcium Chloride / Fibrinogen / fibrinolysis inhibitor / Thrombin Prefilled Applicator	DRON:00000005	1304238
 DRON:00724312	menthol / methyl salicylate Paste	DRON:00000005	1421026
 DRON:00724327	brimonidine Topical Gel	DRON:00000015	1436952
 DRON:00724328	apixaban Oral Tablet	DRON:00000022	1364434
@@ -14088,8 +14083,6 @@ DRON:00730926	olodaterol / tiotropium Metered Dose Inhaler	DRON:00000005	1658459
 DRON:00730927	benzoate Topical Spray	DRON:00000005	1439930
 DRON:00730928	etanercept Auto-Injector	DRON:00000005	1653222
 DRON:00730929	lufenuron / milbemycin oxime / praziquantel Chewable Tablet	DRON:00000022	1487091
-DRON:00730930	levothyroxine Injectable Solution	DRON:00000020	372594
-DRON:00730931	Amphotericin Oral Lozenge	DRON:00000005	562079
 DRON:00730935	lenvatinib Oral Capsule	DRON:00000026	1604344
 DRON:00730937	budesonide Delayed Release Oral Capsule	DRON:00000026	1489770
 DRON:00730938	Betamethasone / Clotrimazole / Gentamicin Sulfate (USP) Otic Ointment	DRON:00000019	1367695
@@ -14102,7 +14095,6 @@ DRON:00730953	estradiol / trenbolone Drug Implant	DRON:00000005	1549460
 DRON:00730955	carbamide peroxide Oral Gel	DRON:00000015	1543166
 DRON:00730956	hepatitis B surface antigen vaccine Injection	DRON:00000005	1657681
 DRON:00730957	levocetirizine / loratadine Topical Cream	DRON:00000017	1653938
-DRON:00730958	Brompheniramine / Phenylpropanolamine Extended Release Oral Capsule	DRON:00000026	450664
 DRON:00730963	trolamine salicylate Topical Solution	DRON:00000020	1546895
 DRON:00730964	isoflupredone Injectable Suspension	DRON:00000021	1364590
 DRON:00730965	interferon beta-1a Auto-Injector	DRON:00000005	1649993
@@ -14123,7 +14115,6 @@ DRON:00730999	enalapril Oral Solution	DRON:00000020	1435623
 DRON:00731000	alogliptin Oral Tablet	DRON:00000022	1368005
 DRON:00731001	ibrutinib Oral Capsule	DRON:00000026	1442985
 DRON:00731002	acetaminophen / dextromethorphan / phenylephrine Granules for Oral Solution	DRON:00000020	1659966
-DRON:00731009	carbinoxamine / Phenylephrine Extended Release Oral Capsule	DRON:00000026	450723
 DRON:00731014	naloxegol Oral Tablet	DRON:00000022	1551781
 DRON:00731017	aspirin / chlorpheniramine / phenylephrine Effervescent Oral Tablet	DRON:00000022	1536839
 DRON:00731022	isavuconazonium Injection	DRON:00000005	1650227
@@ -14141,7 +14132,6 @@ DRON:00731034	phenytoin Injection	DRON:00000005	1670350
 DRON:00731035	carbetapentane / guaiFENesin / Phenylephrine Oral Capsule	DRON:00000026	1374859
 DRON:00731038	naloxone Cartridge	DRON:00000005	1659913
 DRON:00731041	collagen Oral Capsule	DRON:00000026	1489698
-DRON:00731042	pumpkin seed oil / Saw palmetto extract / Zinc Gluconate Oral Capsule	DRON:00000026	375708
 DRON:00731043	chlorpheniramine / dextromethorphan / phenylephrine Effervescent Oral Tablet	DRON:00000022	1536861
 DRON:00731044	hydrocodone Extended Release Oral Tablet	DRON:00000022	1595729
 DRON:00731048	folic acid / Lactobacillus casei Oral Capsule	DRON:00000026	1604562
@@ -14181,7 +14171,6 @@ DRON:00731098	naloxone Nasal Spray	DRON:00000005	1725058
 DRON:00731099	nelarabine Injection	DRON:00000005	1724135
 DRON:00731100	cilastatin / imipenem Injection	DRON:00000005	1726203
 DRON:00731101	short ragweed pollen extract Sublingual Tablet	DRON:00000022	1495462
-DRON:00731104	pumpkin seed oil / Saw palmetto extract Oral Capsule	DRON:00000026	581420
 DRON:00731105	coconut oil Oral Capsule	DRON:00000026	1490723
 DRON:00731107	chlorhexidine / ketoconazole Medicated Shampoo	DRON:00000005	1424015
 DRON:00731108	influenza A virus (H1N1) antigen / influenza A virus (H3N2) antigen / influenza B virus antigen Nasal Spray	DRON:00000005	1664473
@@ -14221,7 +14210,6 @@ DRON:00731158	clotrimazole / gentamicin / mometasone Otic Suspension	DRON:000000
 DRON:00731160	hepatitis A vaccine (inactivated) strain HM175 Injection	DRON:00000005	1658057
 DRON:00731161	baclofen Topical Cream	DRON:00000017	1494655
 DRON:00731163	dexmedetomidine Oral Gel	DRON:00000015	1732667
-DRON:00731167	Echinacea purpurea extract / Menthol Oral Lozenge	DRON:00000005	900514
 DRON:00731172	chlorhexidine / ketoconazole / salicyloyl phytosphingosine Topical Solution	DRON:00000020	1495164
 DRON:00731173	aluminum chloride Medicated Pad	DRON:00000005	1423694
 DRON:00731174	levothyroxine Oral Powder	DRON:00000005	1423482
@@ -14248,7 +14236,6 @@ DRON:00731203	metoprolol Cartridge	DRON:00000005	1744258
 DRON:00731204	ferric carboxymaltose Injection	DRON:00000005	1741059
 DRON:00731205	methocarbamol Injection	DRON:00000005	1740942
 DRON:00731207	lidocaine / petrolatum Topical Ointment	DRON:00000019	1733857
-DRON:00731209	Urea [14C] Delayed Release Oral Capsule	DRON:00000026	378889
 DRON:00731212	molybdenum Injection	DRON:00000005	1742563
 DRON:00731213	factor VIII Injection	DRON:00000005	1718961
 DRON:00731214	cisatracurium Injection	DRON:00000005	1730193
@@ -14258,12 +14245,10 @@ DRON:00731218	DAUNOrubicin Liposomal Injection	DRON:00000005	1732350
 DRON:00731219	darbepoetin alfa Injection	DRON:00000005	1654923
 DRON:00731220	EPINEPHrine / Lidocaine / Tetracaine Topical Solution	DRON:00000020	1375968
 DRON:00731221	amphotericin B Injection	DRON:00000005	1737431
-DRON:00731227	dexchlorpheniramine / Methscopolamine / Pseudoephedrine Extended Release Oral Capsule	DRON:00000026	645189
 DRON:00731230	atropine Auto-Injector	DRON:00000005	1668013
 DRON:00731232	physostigmine Injection	DRON:00000005	1739532
 DRON:00731233	bupivacaine / epinephrine Cartridge	DRON:00000005	1670364
 DRON:00731235	lorazepam Injection	DRON:00000005	1665187
-DRON:00731236	Digitalis leaf extract Oral Tablet	DRON:00000022	438983
 DRON:00731239	butorphanol Injection	DRON:00000005	1728350
 DRON:00731240	colloidal oatmeal Topical Spray	DRON:00000005	1552198
 DRON:00731241	chlorhexidine / ketoconazole / salicyloyl phytosphingosine Topical Spray	DRON:00000005	1495198
@@ -14282,7 +14267,6 @@ DRON:00731271	measles virus vaccine live, Enders' attenuated Edmonston strain / 
 DRON:00731273	chlophedianol / pyrilamine Oral Tablet	DRON:00000022	1735486
 DRON:00731274	benzoyl peroxide / salicylic acid / sulfur Medicated Shampoo	DRON:00000005	1424006
 DRON:00731278	lipegfilgrastim Injectable Solution	DRON:00000020	1440049
-DRON:00731279	Chlorpheniramine / Phenylpropanolamine / Pseudoephedrine Extended Release Oral Tablet	DRON:00000022	484900
 DRON:00731284	afoxolaner Chewable Tablet	DRON:00000022	1442098
 DRON:00731286	azelate Topical Foam	DRON:00000024	1659799
 DRON:00731287	chlorhexidine / ketoconazole / salicyloyl phytosphingosine Medicated Pad	DRON:00000005	1739987
@@ -14299,7 +14283,6 @@ DRON:00731304	atropine Injection	DRON:00000005	1666780
 DRON:00731307	robenacoxib Injectable Solution	DRON:00000020	1664295
 DRON:00731310	chloroxylenol / salicylic acid Medicated Shampoo	DRON:00000005	1721426
 DRON:00731311	midazolam Cartridge	DRON:00000005	1666776
-DRON:00731316	diethyltoluamide Topical Spray	DRON:00000005	647217
 DRON:00731319	daclatasvir Oral Tablet	DRON:00000022	1660184
 DRON:00731320	silicon dioxide / tricalcium phosphate Toothpaste	DRON:00000005	1374793
 DRON:00731322	sumatriptan Jet Injector	DRON:00000005	1657166
@@ -14318,12 +14301,8 @@ DRON:00731344	Acetaminophen / Pheniramine / Phenylephrine Granules for Oral Susp
 DRON:00731346	aspirin / chlorpheniramine / dextromethorphan / phenylephrine Effervescent Oral Tablet	DRON:00000022	1537028
 DRON:00731349	basiliximab Injection	DRON:00000005	1656642
 DRON:00731350	histamine Topical Lotion	DRON:00000018	1546704
-DRON:00731351	Racepinephrine / Zinc phenolsulfonate Oral Pellet	DRON:00000005	629943
-DRON:00731353	1-ALPHA-VITAMIN D Delayed Release Oral Capsule	DRON:00000026	378256
-DRON:00731355	dexbrompheniramine / Pseudoephedrine Extended Release Oral Capsule	DRON:00000026	371738
 DRON:00731356	palivizumab Injection	DRON:00000005	1657340
 DRON:00731358	azacitidine Injection	DRON:00000005	1726497
-DRON:00731359	ergocalciferol Extended Release Oral Capsule	DRON:00000026	539545
 DRON:00731360	thymol Medicated Liquid Soap	DRON:00000005	1483343
 DRON:00731361	buprenorphine Injection	DRON:00000005	1729358
 DRON:00731362	alectinib Oral Capsule	DRON:00000026	1727478
@@ -14339,12 +14318,10 @@ DRON:00731377	insulin lispro Pen Injector	DRON:00000005	1652238
 DRON:00731378	acetic acid / chlorhexidine / ketoconazole Medicated Shampoo	DRON:00000005	1439946
 DRON:00731386	insulin lispro / insulin lispro protamine, human Pen Injector	DRON:00000005	1653104
 DRON:00731387	miconazole / triclosan Topical Cream	DRON:00000017	1366797
-DRON:00731389	Lactobacillus Oral Granules	DRON:00000005	372561
 DRON:00731392	olaparib Oral Capsule	DRON:00000026	1597586
 DRON:00731395	chlorhexidine / miconazole Topical Solution	DRON:00000020	1549209
 DRON:00731396	Regular Insulin, Human Inhalant Powder	DRON:00000005	1543201
 DRON:00731398	daratumumab Injection	DRON:00000005	1721950
-DRON:00731400	carbetapentane / Chlorpheniramine Delayed Release Oral Tablet	DRON:00000022	615123
 DRON:00731401	albiglutide Pen Injector	DRON:00000005	1659115
 DRON:00731403	mechlorethamine Injection	DRON:00000005	1740442
 DRON:00731405	aspirin / diphenhydramine Effervescent Oral Tablet	DRON:00000022	1536669
@@ -14367,12 +14344,10 @@ DRON:00731431	remifentanil Injection	DRON:00000005	1729577
 DRON:00731432	dodecylbenzenesulfonic acid Topical Solution	DRON:00000020	1369895
 DRON:00731440	natalizumab Injection	DRON:00000005	1656270
 DRON:00731444	Bisacodyl Oral Tablet	DRON:00000022	1550932
-DRON:00731449	Echinacea Preparation / Goldenseal extract Oral Capsule	DRON:00000026	371997
 DRON:00731452	doxylamine / pyridoxine Delayed Release Oral Tablet	DRON:00000022	1375946
 DRON:00731453	triclosan / undecylenate Topical Cream	DRON:00000017	1372912
 DRON:00731454	treprostinil Extended Release Oral Tablet	DRON:00000022	1488664
 DRON:00731455	Ketoprofen Topical Cream	DRON:00000017	1365881
-DRON:00731456	Calcium Carbonate / Vitamin D Oral Wafer	DRON:00000005	374905
 DRON:00731459	tiotropium Metered Dose Inhaler	DRON:00000005	1552001
 DRON:00731461	secukinumab Prefilled Syringe	DRON:00000005	1599791
 DRON:00731463	clove oil / Eucalyptus oil / menthol Topical Spray	DRON:00000005	1592732
@@ -14380,7 +14355,6 @@ DRON:00731471	glucosamine Chewable Tablet	DRON:00000022	1486991
 DRON:00731474	diphtheria toxoid vaccine, inactivated / tetanus toxoid vaccine, inactivated Injection	DRON:00000005	1657590
 DRON:00731476	aspirin / citric acid / sodium bicarbonate Effervescent Oral Tablet	DRON:00000022	1536466
 DRON:00731477	elvitegravir Oral Tablet	DRON:00000022	1551982
-DRON:00731479	Calcium Carbonate / Cholecalciferol Oral Lozenge	DRON:00000005	438172
 DRON:00731484	tesamorelin Injection	DRON:00000005	1719678
 DRON:00731488	aminophylline Injection	DRON:00000005	1724665
 DRON:00731489	adalimumab Auto-Injector	DRON:00000005	1655725
@@ -14401,7 +14375,6 @@ DRON:00731518	rituximab Injection	DRON:00000005	1657861
 DRON:00731519	emtricitabine / rilpivirine / tenofovir alafenamide Oral Tablet	DRON:00000022	1741732
 DRON:00731520	sotalol Oral Solution	DRON:00000020	1593724
 DRON:00731521	chlophedianol / dexbrompheniramine / pseudoephedrine Oral Solution	DRON:00000020	1441374
-DRON:00731522	dexchlorpheniramine / Pseudoephedrine Extended Release Oral Capsule	DRON:00000026	376209
 DRON:00731524	protein C Injection	DRON:00000005	1659766
 DRON:00731529	fibrinogen concentrate (human) Injection	DRON:00000005	1719684
 DRON:00731530	ammonium chloride Injection	DRON:00000005	1724676
@@ -14416,17 +14389,14 @@ DRON:00731542	doripenem Injection	DRON:00000005	1739536
 DRON:00731544	cholecalciferol / glucose Chewable Tablet	DRON:00000022	1375984
 DRON:00731545	desoximetasone Topical Spray	DRON:00000005	1376337
 DRON:00731547	naloxone / oxycodone Extended Release Oral Tablet	DRON:00000022	1545901
-DRON:00731548	Ascorbic Acid / Bioflavonoids Extended Release Oral Tablet	DRON:00000022	370595
 DRON:00731550	belimumab Injection	DRON:00000005	1656394
 DRON:00731551	colloidal oatmeal Topical Powder	DRON:00000005	1596550
 DRON:00731554	glycerin / lidocaine Medicated Pad	DRON:00000005	1602011
 DRON:00731556	capsaicin / menthol / methyl salicylate Topical Solution	DRON:00000020	1721524
-DRON:00731557	Loratadine / Pseudoephedrine Extended Release Oral Capsule	DRON:00000026	721634
 DRON:00731558	sodium chloride Cartridge	DRON:00000005	1661423
 DRON:00731562	ampicillin / sulbactam Injection	DRON:00000005	1659591
 DRON:00731563	apomorphine Cartridge	DRON:00000005	1654025
 DRON:00731565	aldesleukin Injection	DRON:00000005	1719781
-DRON:00731567	ubidecarenone / Vitamin E Extended Release Oral Tablet	DRON:00000022	452462
 DRON:00731572	calcium gluconate Effervescent Oral Tablet	DRON:00000022	1536913
 DRON:00731579	neostigmine Prefilled Syringe	DRON:00000005	1668224
 DRON:00731583	glycerin / hypromellose / phenylephrine Ophthalmic Solution	DRON:00000020	1726658
@@ -14438,10 +14408,8 @@ DRON:00731595	dextromethorphan / phenylephrine / thonzylamine Oral Solution	DRON
 DRON:00731597	paclitaxel Injection	DRON:00000005	1663181
 DRON:00731598	metroNIDAZOLE Prefilled Applicator	DRON:00000005	1492667
 DRON:00731599	panitumumab Injection	DRON:00000005	1657702
-DRON:00731603	Astemizole / Pseudoephedrine Extended Release Oral Capsule	DRON:00000026	376170
 DRON:00731606	oxaliplatin Injection	DRON:00000005	1736775
 DRON:00731607	macitentan Oral Tablet	DRON:00000022	1442136
-DRON:00731608	guaiFENesin / Phenylephrine / Phenylpropanolamine Delayed Release Oral Tablet	DRON:00000022	375445
 DRON:00731609	insulin aspart, human Cartridge	DRON:00000005	1653195
 DRON:00731615	manganese chloride Injection	DRON:00000005	1724142
 DRON:00731616	Capsicum oleoresin Topical Gel	DRON:00000015	1373384
@@ -14451,15 +14419,11 @@ DRON:00731621	moxidectin Injectable Suspension	DRON:00000021	1551500
 DRON:00731622	gamma-Aminobutyrate / Melatonin / valerian root extract Oral Tablet	DRON:00000022	1368915
 DRON:00731624	cholecalciferol / inulin Chewable Tablet	DRON:00000022	1432984
 DRON:00731625	Allantoin / Lidocaine / Petrolatum Transdermal Patch	DRON:00000005	1540661
-DRON:00731626	Horse Chestnut Preparation Extended Release Oral Capsule	DRON:00000026	372405
 DRON:00731627	fomepizole Injection	DRON:00000005	1719751
 DRON:00731628	alpha 1-antitrypsin Injection	DRON:00000005	1661207
 DRON:00731631	rilonacept Injection	DRON:00000005	1724259
 DRON:00731632	camphor / menthol / tetracaine Topical Spray	DRON:00000005	1607010
-DRON:00731633	Vitamin E Oral Lozenge	DRON:00000005	452588
 DRON:00731636	influenza A virus vaccine, A-Victoria-361-2011 (H3N2)-like virus / influenza A-California-7-2009-(H1N1)v-like virus vaccine / influenza B virus vaccine, B-Massachusetts-2-2012-like virus Injectable Suspension	DRON:00000021	1429569
-DRON:00731637	Echinacea purpurea extract Oral Lozenge	DRON:00000005	900504
-DRON:00731638	diphenylpyraline / phenylpropanolamine Extended Release Oral Capsule	DRON:00000026	371913
 DRON:00731640	diphenhydramine Injection	DRON:00000005	1723739
 DRON:00731641	vitamin K2 Oral Tablet	DRON:00000022	1430297
 DRON:00731644	empagliflozin Oral Tablet	DRON:00000022	1545657
@@ -14467,7 +14431,6 @@ DRON:00731645	chlorhexidine / ketoconazole / salicyloyl phytosphingosine Topical
 DRON:00731647	idarucizumab Injection	DRON:00000005	1716194
 DRON:00731648	xylitol Oral Lozenge	DRON:00000005	1539633
 DRON:00731652	golimumab Auto-Injector	DRON:00000005	1653141
-DRON:00731653	Calcium Carbonate / Cholecalciferol Delayed Release Oral Tablet	DRON:00000022	438174
 DRON:00731654	peginterferon alfa-2b Pen Injector	DRON:00000005	1720752
 DRON:00731657	dextromethorphan / menthol / phenylephrine Oral Solution	DRON:00000020	1648574
 DRON:00731659	doramectin Topical Solution	DRON:00000020	1488525
@@ -14493,7 +14456,6 @@ DRON:00731686	tacrolimus Extended Release Oral Tablet	DRON:00000022	1664433
 DRON:00731687	trimethobenzamide Injection	DRON:00000005	1726679
 DRON:00731688	esomeprazole Injection	DRON:00000005	1728037
 DRON:00731689	fluticasone / vilanterol Dry Powder Inhaler	DRON:00000005	1424887
-DRON:00731690	codeine / phenyltoloxamine Extended Release Oral Capsule	DRON:00000026	438590
 DRON:00731692	hyaluronate / mecobalamin Oral Lozenge	DRON:00000005	1650279
 DRON:00731696	sarolaner Chewable Tablet	DRON:00000022	1740365
 DRON:00731697	cholecalciferol / folic acid Oral Capsule	DRON:00000026	1593742
@@ -14502,7 +14464,6 @@ DRON:00731701	ascorbic acid Effervescent Oral Tablet	DRON:00000022	1536430
 DRON:00731702	deferiprone Oral Solution	DRON:00000020	1716263
 DRON:00731703	guaifenesin Oral Powder	DRON:00000005	1421651
 DRON:00731704	Dantrolene Injectable Suspension	DRON:00000021	1544752
-DRON:00731710	Bentonite / Goldenseal extract / Symphytum uplandicum leaf extract Oral Capsule	DRON:00000026	657536
 DRON:00731711	insulin, regular, human Pen Injector	DRON:00000005	1731314
 DRON:00750878	magnesium sulfate Oral Capsule	DRON:00000026	1666548
 DRON:00750879	tranexamic acid Injection	DRON:00000005	1789851
@@ -14553,18 +14514,15 @@ DRON:00750936	glycine / isoleucine / ubidecarenone Extended Release Oral Tablet	
 DRON:00750939	benzoyl peroxide Topical Solution	DRON:00000020	1488688
 DRON:00750940	eptifibatide Injection	DRON:00000005	1736469
 DRON:00750941	irinotecan liposomal Injection	DRON:00000005	1719771
-DRON:00750942	Chlorpheniramine / Phenylpropanolamine / phenyltoloxamine / Pseudoephedrine Extended Release Oral Capsule	DRON:00000026	484703
 DRON:00750944	haloperidol Injection	DRON:00000005	1719645
 DRON:00750946	luliconazole Topical Cream	DRON:00000017	1482683
 DRON:00750947	irinotecan Injection	DRON:00000005	1726318
 DRON:00750949	benzalkonium / ethanol Topical Spray	DRON:00000005	1598026
 DRON:00750951	peginterferon beta-1a Prefilled Syringe	DRON:00000005	1546171
-DRON:00750955	Chlorpheniramine / Phenylephrine / Phenylpropanolamine / Pyrilamine Disintegrating Oral Tablet	DRON:00000022	378191
 DRON:00750957	cariprazine Oral Capsule	DRON:00000026	1667659
 DRON:00750958	menthol / methyl salicylate Medicated Patch	DRON:00000005	1792911
 DRON:00750959	ampicillin Injectable Suspension	DRON:00000021	1666110
 DRON:00750961	dihydrostreptomycin / penicillin G Prefilled Syringe	DRON:00000005	1549544
-DRON:00750962	acetaminophen / HYDROcodone Disintegrating Oral Tablet	DRON:00000022	378221
 DRON:00750963	anti-inhibitor coagulant complex Injection	DRON:00000005	1659997
 DRON:00750964	tildipirosin Injectable Solution	DRON:00000020	1366656
 DRON:00750966	calcitriol Injection	DRON:00000005	1729380
@@ -14577,7 +14535,6 @@ DRON:00750981	belinostat Injectable Solution	DRON:00000020	1543546
 DRON:00750982	acetaminophen / chlorpheniramine / phenylephrine Effervescent Oral Tablet	DRON:00000022	1536930
 DRON:00750983	linezolid Injection	DRON:00000005	1662277
 DRON:00750984	lidocaine Medicated Patch	DRON:00000005	1792943
-DRON:00750989	limonene Delayed Release Oral Capsule	DRON:00000026	440921
 DRON:00750990	dextromethorphan / pyrilamine Oral Solution	DRON:00000020	1423305
 DRON:00750992	factor VIII / von Willebrand factor Injectable Solution	DRON:00000020	1488376
 DRON:00750994	2-mercaptobenzothiazole Topical Solution	DRON:00000020	1371894
@@ -14586,25 +14543,21 @@ DRON:00750999	doxorubicin Injection	DRON:00000005	1790094
 DRON:00751001	lidocaine Medicated Bar Soap	DRON:00000005	1535616
 DRON:00751002	canagliflozin Oral Tablet	DRON:00000022	1373462
 DRON:00751005	deferasirox Oral Tablet	DRON:00000022	1607783
-DRON:00751006	Pseudoephedrine / Scopolamine Extended Release Oral Tablet	DRON:00000022	375608
 DRON:00751008	chlorothiazide Injection	DRON:00000005	1731061
 DRON:00751009	cholecalciferol / sodium fluoride Oral Solution	DRON:00000020	1596004
 DRON:00751015	antithrombin III Injection	DRON:00000005	1659987
-DRON:00751017	Ascorbic Acid / Bioflavonoids / Hesperidin / Rutin Extended Release Oral Tablet	DRON:00000022	579476
 DRON:00751018	folic acid / succinic acid Oral Tablet	DRON:00000022	1376004
 DRON:00751019	aluminum phosphate Oral Gel	DRON:00000015	1648502
 DRON:00751020	Amitriptyline Topical Cream	DRON:00000017	1442340
 DRON:00751021	aspirin / dextromethorphan / doxylamine / phenylephrine Effervescent Oral Tablet	DRON:00000022	1536502
 DRON:00751024	levoleucovorin Injection	DRON:00000005	1720759
 DRON:00751025	allantoin / benzethonium Topical Solution	DRON:00000020	1437627
-DRON:00751030	codeine Extended Release Oral Tablet	DRON:00000022	371614
 DRON:00751031	dacarbazine Injection	DRON:00000005	1731337
 DRON:00751032	daptomycin Injection	DRON:00000005	1731096
 DRON:00751033	Nonoxynol-9 Prefilled Applicator	DRON:00000005	1597810
 DRON:00751034	dopamine Injection	DRON:00000005	1743862
 DRON:00751035	allantoin / menthol Topical Ointment	DRON:00000019	1658451
 DRON:00751037	azithromycin Injection	DRON:00000005	1668237
-DRON:00751038	chlorpheniramine / phenylephrine / scopolamine Extended Release Oral Capsule	DRON:00000026	657593
 DRON:00751039	benzalkonium / camphor Topical Cream	DRON:00000017	1374849
 DRON:00751040	sodium nitrite Injection	DRON:00000005	1790155
 DRON:00751045	imidocarb Injectable Solution	DRON:00000020	1740253
@@ -14625,11 +14578,9 @@ DRON:00751070	hydrocortisone / salicylic acid / sulfur Topical Cream	DRON:000000
 DRON:00751071	brivaracetam Oral Tablet	DRON:00000022	1739760
 DRON:00751073	allopurinol Injection	DRON:00000005	1721587
 DRON:00751074	ferrous bisglycinate Oral Capsule	DRON:00000026	1442182
-DRON:00751076	Ox bile extract Delayed Release Oral Tablet	DRON:00000022	375890
 DRON:00751077	chlorcyclizine Oral Tablet	DRON:00000022	1366493
 DRON:00751078	cholic acid Oral Capsule	DRON:00000026	1440860
 DRON:00751082	rabies virus vaccine wistar strain PM-1503-3M (human), inactivated Injection	DRON:00000005	1658035
-DRON:00751083	Grape Seed Extract Extended Release Oral Capsule	DRON:00000026	379177
 DRON:00751084	alirocumab Auto-Injector	DRON:00000005	1659155
 DRON:00751085	Saffron Extract Oral Tablet	DRON:00000022	1484908
 DRON:00751087	eucalyptol / menthol / methyl salicylate / thymol Topical Powder	DRON:00000005	1424241
@@ -14638,10 +14589,6 @@ DRON:00751090	ivacaftor Oral Granules	DRON:00000005	1606861
 DRON:00751094	empagliflozin / metformin Oral Tablet	DRON:00000022	1664313
 DRON:00751097	dexmedetomidine Injection	DRON:00000005	1718899
 DRON:00751098	benzyl alcohol / menthol Mucous Membrane Topical Solution	DRON:00000020	1364572
-DRON:00751099	Milk thistle extract Extended Release Oral Tablet	DRON:00000022	372929
-DRON:00751102	Garlic preparation / Soybean Lecithin Oral Capsule	DRON:00000026	376356
-DRON:00751103	Lactobacillus rhamnosus GG Oral Granules	DRON:00000005	1310652
-DRON:00751104	Calcium Chloride / Fibrinogen / fibrinolysis inhibitor / Thrombin Topical Solution	DRON:00000020	1304285
 DRON:00751106	umeclidinium / vilanterol Dry Powder Inhaler	DRON:00000005	1487517
 DRON:00751107	clonidine Injection	DRON:00000005	1732370
 DRON:00751112	Kentucky bluegrass pollen extract / orchard grass pollen extract / perennial rye grass pollen extract / sweet vernal grass pollen extract / Timothy grass pollen extract Sublingual Tablet	DRON:00000022	1550698
@@ -14663,15 +14610,12 @@ DRON:00751141	calcium acetate / magnesium acetate / potassium acetate / potassiu
 DRON:00751142	benzocaine / salicylic acid Topical Ointment	DRON:00000019	1603376
 DRON:00751143	aluminum acetate Topical Spray	DRON:00000005	1657021
 DRON:00751144	epinephrine / lidocaine Rectal Gel	DRON:00000015	1733889
-DRON:00751145	cayenne extract Oral Capsule	DRON:00000026	374948
 DRON:00751147	BCG, live, Tice strain Injection	DRON:00000005	1653578
 DRON:00751148	insulin aspart protamine, human / insulin aspart, human Pen Injector	DRON:00000005	1653207
-DRON:00751149	Dextromethorphan / guaiFENesin / Phenylephrine Extended Release Oral Capsule	DRON:00000026	375429
 DRON:00751150	trabectedin Injection	DRON:00000005	1718588
 DRON:00751151	sumatriptan Auto-Injector	DRON:00000005	1657150
 DRON:00751152	hemin Injection	DRON:00000005	1790298
 DRON:00751154	dexpanthenol / salicylic acid Topical Solution	DRON:00000020	1648150
-DRON:00751157	ST. JOHN'S WORT EXTRACT Extended Release Oral Tablet	DRON:00000022	373955
 DRON:00751158	eugenol / guaiacol Oral Ointment	DRON:00000019	1673045
 DRON:00751162	bleomycin Injection	DRON:00000005	1726672
 DRON:00751163	alpha-D-galactosidase enzyme / lactase Chewable Tablet	DRON:00000022	1494182
@@ -14680,7 +14624,6 @@ DRON:00751165	patiromer Powder for Oral Suspension	DRON:00000021	1716208
 DRON:00751168	Cytarabine liposome Injection	DRON:00000005	1732356
 DRON:00751170	glyceryl phosphate Injection	DRON:00000005	1743531
 DRON:00751173	benzalkonium / benzocaine / menthol Topical Cream	DRON:00000017	1483192
-DRON:00751174	carbinoxamine / Phenylpropanolamine / Pyrilamine Extended Release Oral Capsule	DRON:00000026	450669
 DRON:00751175	exenatide Injection	DRON:00000005	1653611
 DRON:00751176	palonosetron Injection	DRON:00000005	1728049
 DRON:00751178	coconut oil / linseed oil Oral Capsule	DRON:00000026	1486414
@@ -14688,11 +14631,9 @@ DRON:00751179	aspirin / caffeine Effervescent Oral Tablet	DRON:00000022	1536814
 DRON:00751180	Bupivacaine liposome Injection	DRON:00000005	1726511
 DRON:00751181	diltiazem Injection	DRON:00000005	1791228
 DRON:00751183	apremilast Oral Tablet	DRON:00000022	1492731
-DRON:00751184	Dextromethorphan / Phenylpropanolamine Oral Lozenge	DRON:00000005	373417
 DRON:00751185	levofloxacin Injection	DRON:00000005	1665494
 DRON:00751186	acetaminophen / dextromethorphan / guaifenesin / phenylephrine Oral Suspension	DRON:00000021	1593449
 DRON:00751187	calcium carbonate / magnesium hydroxide / simethicone Oral Suspension	DRON:00000021	1788931
-DRON:00751189	ECHINACEA ANGUSTIFOLIA Extract / Goldenseal extract Oral Capsule	DRON:00000026	376981
 DRON:00751190	interferon gamma-1b Injection	DRON:00000005	1720955
 DRON:00751196	ketoprofen Topical Powder	DRON:00000005	1488713
 DRON:00751199	ethacrynate Injection	DRON:00000005	1729078
@@ -14700,15 +14641,11 @@ DRON:00751201	clobazam Oral Suspension	DRON:00000021	1366191
 DRON:00751202	olodaterol Metered Dose Inhaler	DRON:00000005	1546062
 DRON:00751203	resorcinol / sulfur Paste	DRON:00000005	1370096
 DRON:00751206	diphenhydramine / phenylephrine Oral Suspension	DRON:00000021	1535701
-DRON:00751212	Echinacea Preparation / Goldenseal extract Oral Tablet	DRON:00000022	371998
 DRON:00751213	alfentanil Injection	DRON:00000005	1723205
 DRON:00751214	vedolizumab Injection	DRON:00000005	1656996
 DRON:00751216	parathyroid hormone Cartridge	DRON:00000005	1650456
 DRON:00751217	varicella-zoster immune globulin Injection	DRON:00000005	1658017
-DRON:00751218	Chlorpheniramine / Dexamethasone Extended Release Oral Capsule	DRON:00000026	376211
-DRON:00751219	Dextromethorphan / Theophylline Extended Release Oral Tablet	DRON:00000022	374082
 DRON:00751220	hydrocortisone / phenol Topical Gel	DRON:00000015	1372888
-DRON:00751221	Aloe Extract / sennosides, USP Delayed Release Oral Tablet	DRON:00000022	451451
 DRON:00751223	econazole Topical Foam	DRON:00000024	1442584
 DRON:00751225	hydrocortisone / tretinoin Topical Cream	DRON:00000017	1651330
 DRON:00751226	evening primrose oil / linoleate Oral Capsule	DRON:00000026	1372576
@@ -14725,22 +14662,16 @@ DRON:00751244	doxycycline Injection	DRON:00000005	1652652
 DRON:00751247	palbociclib Oral Capsule	DRON:00000026	1601379
 DRON:00751249	chlophedianol / thonzylamine Oral Solution	DRON:00000020	1428136
 DRON:00751250	salicylic acid Medicated Patch	DRON:00000005	1793025
-DRON:00751251	Hepatitis A Vaccine, Inactivated / Hepatitis B Surface Antigen Vaccine Injectable Suspension	DRON:00000021	606374
 DRON:00751252	SUMAtriptan Transdermal Patch	DRON:00000005	1366808
 DRON:00751253	calcium phosphate / cholecalciferol Chewable Tablet	DRON:00000022	1428931
 DRON:00751254	levonordefrin / mepivacaine Cartridge	DRON:00000005	1661498
-DRON:00751255	Dextromethorphan Extended Release Oral Capsule	DRON:00000026	371755
 DRON:00751257	sumatriptan Injection	DRON:00000005	1656981
 DRON:00751258	potassium nitrate Oral Paste	DRON:00000005	1425868
 DRON:00751261	ketoconazole / phytosphingosine Topical Solution	DRON:00000020	1534844
 DRON:00751264	aspirin / dextromethorphan / phenylephrine Effervescent Oral Tablet	DRON:00000022	1536497
-DRON:00751265	Garlic preparation Delayed Release Oral Tablet	DRON:00000022	379030
-DRON:00751269	dexchlorpheniramine / guaiFENesin / HYDROcodone / Phenylephrine Extended Release Oral Capsule	DRON:00000026	749605
 DRON:00751270	stearate Medicated Bar Soap	DRON:00000005	1652113
 DRON:00751271	omega-3 carboxylic acids Oral Capsule	DRON:00000026	1652624
 DRON:00751274	dasabuvir Oral Tablet	DRON:00000022	1597385
-DRON:00751281	ST. JOHN'S WORT EXTRACT Delayed Release Oral Tablet	DRON:00000022	373952
-DRON:00751283	Echinacea angustifolia root extract / Echinacea purpurea root extract Oral Capsule	DRON:00000026	1094113
 DRON:00751285	osimertinib Oral Tablet	DRON:00000022	1721564
 DRON:00751286	dimethyl fumarate Delayed Release Oral Capsule	DRON:00000026	1373482
 DRON:00751287	capsaicin / histamine / menthol Topical Cream	DRON:00000017	1656331
@@ -14748,13 +14679,11 @@ DRON:00751288	olanzapine Injection	DRON:00000005	1718924
 DRON:00751289	eslicarbazepine Oral Tablet	DRON:00000022	1482506
 DRON:00751290	biotin / panthenol Medicated Shampoo	DRON:00000005	1488576
 DRON:00751292	hypromellose / naphazoline / polysorbate 80 / zinc sulfate Ophthalmic Gel	DRON:00000015	1374717
-DRON:00751293	calcium lactate / ergocalciferol Extended Release Oral Tablet	DRON:00000022	438234
 DRON:00751295	vortioxetine Oral Tablet	DRON:00000022	1439807
 DRON:00751297	sotalol Injection	DRON:00000005	1721605
 DRON:00751306	acetaminophen / dextromethorphan / phenylephrine Effervescent Oral Tablet	DRON:00000022	1536923
 DRON:00751307	acetaminophen / dextromethorphan / diphenhydramine / guaifenesin / phenylephrine Oral Capsule	DRON:00000026	1664629
 DRON:00751312	pectin Oral Suspension	DRON:00000021	1495177
-DRON:00751313	belladonna alkaloids / chlorpheniramine / pseudoephedrine Extended Release Oral Tablet	DRON:00000022	701451
 DRON:00751314	ceftolozane / tazobactam Injection	DRON:00000005	1656794
 DRON:00751315	fludarabine Injection	DRON:00000005	1740863
 DRON:00751318	sebelipase alfa Injection	DRON:00000005	1726978
@@ -14781,17 +14710,13 @@ DRON:00751350	citric acid / potassium citrate Powder for Oral Solution	DRON:0000
 DRON:00751351	diphenhydramine / naproxen Oral Tablet	DRON:00000022	1550955
 DRON:00751354	cetuximab Injection	DRON:00000005	1657657
 DRON:00751356	iodine / isopropyl alcohol / sodium iodide Topical Solution	DRON:00000020	1596422
-DRON:00751357	dimethicone Delayed Release Oral Capsule	DRON:00000026	371871
 DRON:00751360	dexbrompheniramine Chewable Tablet	DRON:00000022	1545305
 DRON:00751361	ethanol / isopropyl alcohol Topical Gel	DRON:00000015	1666877
 DRON:00751362	ketorolac Injection	DRON:00000005	1665000
 DRON:00751363	bevacizumab Injection	DRON:00000005	1657065
 DRON:00751364	cefotetan Injection	DRON:00000005	1722918
-DRON:00751365	Salix alba bark extract Oral Capsule	DRON:00000026	375359
-DRON:00751369	Ammonium Chloride / licorice root extract Oral Lozenge	DRON:00000005	437454
 DRON:00751372	radium chloride Ra-223 Injection	DRON:00000005	1745384
 DRON:00751375	fosphenytoin Injection	DRON:00000005	1670194
-DRON:00751379	Goldenseal extract / Papain Oral Tablet	DRON:00000022	447063
 DRON:00751381	povidone-iodine Topical Lotion	DRON:00000018	1659941
 DRON:00751382	sodium thiosulfate Injection	DRON:00000005	1790148
 DRON:00751383	Timothy grass pollen extract Sublingual Tablet	DRON:00000022	1495308
@@ -14804,7 +14729,6 @@ DRON:00751395	brivaracetam Oral Solution	DRON:00000020	1739784
 DRON:00751399	octreotide Injection	DRON:00000005	1654342
 DRON:00751402	evolocumab Prefilled Syringe	DRON:00000005	1665903
 DRON:00751403	tocilizumab Prefilled Syringe	DRON:00000005	1441526
-DRON:00751405	Ginkgo biloba extract Extended Release Oral Tablet	DRON:00000022	372317
 DRON:00751406	sacubitril / valsartan Oral Tablet	DRON:00000022	1656338
 DRON:00751409	obinutuzumab Injection	DRON:00000005	1656294
 DRON:00751411	acetaminophen / dextromethorphan / doxylamine / phenylephrine Oral Tablet	DRON:00000022	1546875
@@ -14827,18 +14751,15 @@ DRON:00751440	chlorpheniramine Oral Lozenge	DRON:00000005	1673790
 DRON:00751442	tedizolid Injection	DRON:00000005	1724288
 DRON:00751443	pembrolizumab Injection	DRON:00000005	1657745
 DRON:00751446	brilliant green / cod liver oil / gentian violet Topical Lotion	DRON:00000018	1372936
-DRON:00751447	hydrocodone / phenyltoloxamine Extended Release Oral Tablet	DRON:00000022	440436
 DRON:00751450	mometasone Metered Dose Inhaler	DRON:00000005	1536141
 DRON:00751454	streptomycin Injection	DRON:00000005	1736464
 DRON:00751455	alpha Tocopherol / Ascorbic Acid / doconexent / Docusate / Ferrous fumarate / Folic Acid / pyridoxine / tricalcium phosphate Oral Capsule	DRON:00000026	1485529
 DRON:00751456	allantoin / zinc oxide Topical Ointment	DRON:00000019	1441177
 DRON:00751466	camphor / capsaicin / Eucalyptus oil / menthol / methyl salicylate Topical Oil	DRON:00000005	1598275
-DRON:00751467	Pancreas extract Delayed Release Oral Capsule	DRON:00000026	447113
 DRON:00751468	biotin Disintegrating Oral Tablet	DRON:00000022	1606307
 DRON:00751469	acetaminophen / chlorpheniramine / dextromethorphan / guaifenesin / phenylephrine Oral Solution	DRON:00000020	1743367
 DRON:00751470	ponatinib Oral Tablet	DRON:00000022	1364351
 DRON:00751471	tipiracil / trifluridine Oral Tablet	DRON:00000022	1670309
-DRON:00751473	Brompheniramine / Phenylpropanolamine Disintegrating Oral Tablet	DRON:00000022	376185
 DRON:00751474	pramoxine / salicyloyl phytosphingosine Medicated Liquid Soap	DRON:00000005	1495186
 DRON:00751476	capsaicin / lidocaine / menthol / methyl salicylate Medicated Patch	DRON:00000005	1792950
 DRON:00751477	alpha hydroxy acids / urea Topical Cream	DRON:00000017	1428951
@@ -14863,7 +14784,6 @@ DRON:00751504	hyaluronate / lidocaine Prefilled Syringe	DRON:00000005	1595247
 DRON:00751505	ketorolac Cartridge	DRON:00000005	1665674
 DRON:00751507	methylene blue Injection	DRON:00000005	1737849
 DRON:00751508	coagulation factor IX recombinant immunoglobulin G1 fusion protein Injection	DRON:00000005	1666319
-DRON:00751509	Pheniramine Extended Release Oral Tablet	DRON:00000022	373313
 DRON:00751510	mycophenolate mofetil Injection	DRON:00000005	1726176
 DRON:00751512	idursulfase Injection	DRON:00000005	1727299
 DRON:00751515	niacinamide / salicylic acid Topical Solution	DRON:00000020	1648154
@@ -14872,7 +14792,6 @@ DRON:00751519	cysteine Injection	DRON:00000005	1667992
 DRON:00751521	caffeine Injection	DRON:00000005	1729388
 DRON:00751523	ifosfamide Injection	DRON:00000005	1791587
 DRON:00751524	betamethasone / calcipotriene Topical Foam	DRON:00000024	1716093
-DRON:00751525	Astemizole / Pseudoephedrine Extended Release Oral Tablet	DRON:00000022	370954
 DRON:00751526	ethanolamine oleate Injection	DRON:00000005	1736567
 DRON:00751527	sodium bicarbonate Granules for Oral Solution	DRON:00000020	1656653
 DRON:00751528	ospemifene Oral Tablet	DRON:00000022	1370975
@@ -14914,7 +14833,6 @@ DRON:00751584	cefuroxime Injection	DRON:00000005	1665443
 DRON:00751585	halobetasol Topical Lotion	DRON:00000018	1789961
 DRON:00751587	amifostine Injection	DRON:00000005	1721593
 DRON:00751589	isoflupredone / neomycin / tetracaine Topical Ointment	DRON:00000019	1551513
-DRON:00751590	carbetapentane / Chlorpheniramine / ePHEDrine / Phenylephrine Extended Release Oral Tablet	DRON:00000022	378298
 DRON:00751594	betamethasone / hydroquinone / tretinoin Topical Cream	DRON:00000017	1651568
 DRON:00751595	estradiol / progesterone Drug Implant	DRON:00000005	1648168
 DRON:00751601	acetaminophen / carbidopa Chewable Tablet	DRON:00000022	1534413
@@ -14936,8 +14854,6 @@ DRON:00751632	chlorpheniramine / codeine Extended Release Oral Tablet	DRON:00000
 DRON:00751633	dapagliflozin Oral Tablet	DRON:00000022	1488568
 DRON:00751636	nesiritide Injection	DRON:00000005	1738341
 DRON:00751642	mesalamine Delayed Release Oral Capsule	DRON:00000026	1368953
-DRON:00751643	magnesium sulfate Oral Granules	DRON:00000005	1053345
-DRON:00751645	Cholecalciferol Extended Release Oral Capsule	DRON:00000026	485803
 DRON:00751646	panthenol / salicylic acid Medicated Shampoo	DRON:00000005	1650437
 DRON:00751649	salicylic acid Otic Suspension	DRON:00000021	1495102
 DRON:00751651	adalimumab Injection	DRON:00000005	1656695
@@ -14948,15 +14864,12 @@ DRON:00751661	follitropin alfa Pen Injector	DRON:00000005	1654170
 DRON:00751663	acetaminophen / dextromethorphan / phenylephrine Oral Powder	DRON:00000005	1741525
 DRON:00751664	insulin detemir Pen Injector	DRON:00000005	1654190
 DRON:00751665	deoxycholate Injection	DRON:00000005	1649974
-DRON:00751673	Eucalyptus extract / Menthol Oral Lozenge	DRON:00000005	439487
 DRON:00751674	sumatriptan Cartridge	DRON:00000005	1657159
-DRON:00751677	carbinoxamine / Pseudoephedrine / Scopolamine Extended Release Oral Tablet	DRON:00000022	446970
 DRON:00751680	elotuzumab Injection	DRON:00000005	1726109
 DRON:00751684	tobramycin Injection	DRON:00000005	1740474
 DRON:00751690	cabozantinib Oral Tablet	DRON:00000022	1790160
 DRON:00751691	edetate calcium Injection	DRON:00000005	1734349
 DRON:00751692	ustekinumab Injection	DRON:00000005	1654076
-DRON:00751693	Vitamin A Extended Release Oral Tablet	DRON:00000022	452568
 DRON:00751701	vinCRIStine liposome Injection	DRON:00000005	1727293
 DRON:00751703	benztropine Injection	DRON:00000005	1726504
 DRON:00751704	mitomycin Injection	DRON:00000005	1740893
@@ -14964,9 +14877,7 @@ DRON:00751705	influenza A virus (H1N1) antigen / influenza A virus (H3N2) antige
 DRON:00751707	factor XIII Injection	DRON:00000005	1667999
 DRON:00751708	cangrelor Injection	DRON:00000005	1656055
 DRON:00751710	drospirenone / estradiol Oral Tablet	DRON:00000022	1483548
-DRON:00751712	Magnesium salt Extended Release Oral Tablet	DRON:00000022	385029
 DRON:00751713	verapamil Injection	DRON:00000005	1665056
-DRON:00751714	Glycyrrhiza glabra extract Oral Capsule	DRON:00000026	375552
 DRON:00751715	dinutuximab Injection	DRON:00000005	1657967
 DRON:00751718	peginterferon alfa-2a Injection	DRON:00000005	1651307
 DRON:00751719	benzyl alcohol / isopropyl alcohol / picrate / tannic acid Topical Spray	DRON:00000005	1432136
@@ -14980,7 +14891,6 @@ DRON:00751730	dexbrompheniramine Oral Solution	DRON:00000020	1545308
 DRON:00751731	bupropion / naltrexone Extended Release Oral Tablet	DRON:00000022	1551466
 DRON:00751732	pirfenidone Oral Capsule	DRON:00000026	1592278
 DRON:00751734	Coccidioides immitis spherule Injectable Solution	DRON:00000020	1666440
-DRON:00751735	Cetirizine / Pseudoephedrine Extended Release Oral Capsule	DRON:00000026	371365
 DRON:00751736	dalbavancin Injectable Solution	DRON:00000020	1539242
 DRON:00751737	Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine Injection	DRON:00000005	1657731
 DRON:00751739	doconexent Delayed Release Oral Capsule	DRON:00000026	1549229
@@ -14994,12 +14904,10 @@ DRON:00751751	umeclidinium Dry Powder Inhaler	DRON:00000005	1539250
 DRON:00751752	moxidectin / praziquantel Oral Gel	DRON:00000015	1488361
 DRON:00751753	iodine / isopropyl alcohol / potassium iodide Topical Solution	DRON:00000020	1552239
 DRON:00751755	tacrolimus Injection	DRON:00000005	1738334
-DRON:00751757	tamsulosin Extended Release Oral Capsule	DRON:00000026	451890
 DRON:00751760	carmustine Injection	DRON:00000005	1729368
 DRON:00751761	polidocanol Injectable Foam	DRON:00000024	1485067
 DRON:00751762	atazanavir Oral Powder	DRON:00000005	1598984
 DRON:00751764	cefazolin Injection	DRON:00000005	1665049
-DRON:00751765	Echinacea purpurea extract / Eucalyptus oil / Menthol Oral Lozenge	DRON:00000005	900512
 DRON:00751768	bazedoxifene / estrogens, conjugated (USP) Oral Tablet	DRON:00000022	1441390
 DRON:00751770	capsaicin Topical Oil	DRON:00000005	1734776
 DRON:00751771	sarolaner Oral Tablet	DRON:00000022	1740383
@@ -15016,14 +14924,12 @@ DRON:00751792	cholecalciferol / Lactobacillus reuteri Oral Suspension	DRON:00000
 DRON:00751793	calcium gluconate Injection	DRON:00000005	1668247
 DRON:00751794	isoflupredone / neomycin / tetracaine Topical Powder	DRON:00000005	1551410
 DRON:00751797	tocilizumab Injection	DRON:00000005	1657973
-DRON:00751798	Goldenseal extract Oral Tablet	DRON:00000022	379031
 DRON:00751802	iodoform / zinc oxide Topical Powder	DRON:00000005	1373113
 DRON:00751804	coal tar / menthol / salicylic acid Medicated Shampoo	DRON:00000005	1484889
 DRON:00751808	Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / meningococcal group C polysaccharide / meningococcal polysaccharide vaccine group Y Injection	DRON:00000005	1657738
 DRON:00751809	dalfopristin / quinupristin Injection	DRON:00000005	1724201
 DRON:00751811	hydromorphone Injection	DRON:00000005	1724207
 DRON:00751812	avibactam / ceftazidime Injection	DRON:00000005	1718938
-DRON:00751817	Cat's Claw preparation Extended Release Oral Tablet	DRON:00000022	371310
 DRON:00751818	calamine / pramoxine Topical Spray	DRON:00000005	1544716
 DRON:00751819	ivermectin / praziquantel Oral Paste	DRON:00000005	1648209
 DRON:00751822	fibrinogen concentrate (human) / Thrombin Topical Powder	DRON:00000005	1655047
@@ -15041,13 +14947,9 @@ DRON:00751849	pomalidomide Oral Capsule	DRON:00000026	1369717
 DRON:00751852	infliximab Injection	DRON:00000005	1655941
 DRON:00751855	flibanserin Oral Tablet	DRON:00000022	1665513
 DRON:00751856	camphor / capsaicin / methyl salicylate Topical Solution	DRON:00000020	1440063
-DRON:00751857	Ibuprofen / Pseudoephedrine Extended Release Oral Capsule	DRON:00000026	440508
 DRON:00751858	nicardipine Injection	DRON:00000005	1791339
-DRON:00751859	Echinacea purpurea root extract Oral Capsule	DRON:00000026	375509
-DRON:00751861	guaiFENesin / phenylpropanolamine / pseudoephedrine Extended Release Oral Capsule	DRON:00000026	484837
 DRON:00751862	finafloxacin Otic Suspension	DRON:00000021	1598644
 DRON:00751864	raltegravir Oral Suspension	DRON:00000021	1486579
-DRON:00751865	Echinacea purpurea extract / Goldenseal extract Oral Capsule	DRON:00000026	377055
 DRON:00751867	dienogest Oral Tablet	DRON:00000022	1546331
 DRON:00751868	zinc oxide Medicated Pad	DRON:00000005	1599808
 DRON:00751869	niacinamide / salicylic acid Topical Spray	DRON:00000005	1741558
@@ -15060,7 +14962,6 @@ DRON:00751879	acetaminophen / chlorpheniramine / pseudoephedrine Powder for Oral
 DRON:00751881	eculizumab Injection	DRON:00000005	1655947
 DRON:00751882	elbasvir / grazoprevir Oral Tablet	DRON:00000022	1734634
 DRON:00751884	thymol Medicated Pad	DRON:00000005	1484750
-DRON:00751885	Tetracycline Extended Release Oral Capsule	DRON:00000026	384623
 DRON:00751887	cimetidine Effervescent Oral Tablet	DRON:00000022	1537222
 DRON:00751888	insulin glulisine, human Pen Injector	DRON:00000005	1651313
 DRON:00751892	epinephrine Auto-Injector	DRON:00000005	1661387
@@ -15072,7 +14973,6 @@ DRON:00751899	pramoxine / salicyloyl phytosphingosine Topical Solution	DRON:0000
 DRON:00751902	cyclosporine Injection	DRON:00000005	1732364
 DRON:00751903	ethinyl estradiol / norethindrone Oral Capsule	DRON:00000026	1421458
 DRON:00751904	eribulin Injection	DRON:00000005	1736560
-DRON:00751905	Echinacea purpurea extract / pectin Oral Lozenge	DRON:00000005	904220
 DRON:00751906	ephedrine Injection	DRON:00000005	1734678
 DRON:00751907	milrinone Injection	DRON:00000005	1791839
 DRON:00751908	cobicistat / darunavir Oral Tablet	DRON:00000022	1600703
@@ -15100,7 +15000,6 @@ DRON:00751947	albumin human, USP Injection	DRON:00000005	1741289
 DRON:00751948	potassium gluconate Oral Powder	DRON:00000005	1422899
 DRON:00751949	phenytoin Cartridge	DRON:00000005	1670368
 DRON:00751951	capsaicin / chondroitin sulfates / glucosamine / lidocaine Medicated Patch	DRON:00000005	1792920
-DRON:00751952	Dextromethorphan / guaiacolsulfonic acid / Phenylephrine Extended Release Oral Tablet	DRON:00000022	375698
 DRON:00751953	alpha tocopherol / cholecalciferol / vitamin A Injectable Solution	DRON:00000020	1716010
 DRON:00751956	pemetrexed Injection	DRON:00000005	1728071
 DRON:00751959	niacinamide Medicated Shampoo	DRON:00000005	1595451
@@ -15127,7 +15026,6 @@ DRON:00751992	lidocaine Jet Injector	DRON:00000005	1672969
 DRON:00751993	isavuconazonium Oral Capsule	DRON:00000026	1608326
 DRON:00751994	ertapenem Injection	DRON:00000005	1734682
 DRON:00751995	benzyl alcohol / lidocaine Topical Spray	DRON:00000005	1488327
-DRON:00751996	Colestipol Oral Granules	DRON:00000005	544539
 DRON:00751999	glycerin Medicated Liquid Soap	DRON:00000005	1549080
 DRON:00752001	polyethylene glycol 3350 / potassium chloride / sodium bicarbonate / sodium chloride Powder for Oral Solution	DRON:00000020	1718982
 DRON:00752003	digoxin Injection	DRON:00000005	1743558
@@ -15135,18 +15033,15 @@ DRON:00752005	cholecalciferol / vitamin E Oral Wafer	DRON:00000005	1366141
 DRON:00752007	melphalan Injection	DRON:00000005	1740949
 DRON:00752008	fenbendazole Oral Granules	DRON:00000005	1667767
 DRON:00752009	potassium chloride Effervescent Oral Tablet	DRON:00000022	1536433
-DRON:00752010	Flavin Mononucleotide Delayed Release Oral Tablet	DRON:00000022	833481
 DRON:00752011	chlophedianol / chlorpheniramine / phenylephrine Oral Tablet	DRON:00000022	1368962
 DRON:00752013	benzocaine Mouthwash	DRON:00000005	1494056
 DRON:00752016	RABEprazole Delayed Release Oral Capsule	DRON:00000026	1437488
-DRON:00752017	Chlorpheniramine Oral Pellet	DRON:00000005	630323
 DRON:00752020	Bacillus coagulans Chewable Tablet	DRON:00000022	1670413
 DRON:00752021	acyclovir Injection	DRON:00000005	1734931
 DRON:00752023	levetiracetam Injection	DRON:00000005	1790330
 DRON:00752027	taliglucerase alfa Injection	DRON:00000005	1724281
 DRON:00752028	plasma protein fraction Injection	DRON:00000005	1729437
 DRON:00752031	amylase / papain / protease Chewable Tablet	DRON:00000022	1372676
-DRON:00752032	African Pygeum Extract / Bearberry preparation / pumpkin seed oil / Saw palmetto extract Oral Capsule	DRON:00000026	580126
 DRON:00752033	Amylases / Bromelains / Papain / papaya extract Chewable Tablet	DRON:00000022	1426285
 DRON:00752035	camphor / phenol / tannic acid / zinc oxide Topical Ointment	DRON:00000019	1423409
 DRON:00752038	dexlansoprazole Disintegrating Oral Tablet	DRON:00000022	1736030
@@ -15164,7 +15059,6 @@ DRON:00752054	Bacillus coagulans / inulin Oral Capsule	DRON:00000026	1441381
 DRON:00752057	maropitant Injectable Solution	DRON:00000020	1421037
 DRON:00752058	Tobramycin Inhalant Powder	DRON:00000005	1374568
 DRON:00752059	nitroprusside Injection	DRON:00000005	1666592
-DRON:00752060	Caffeine / Phenylephrine Extended Release Oral Tablet	DRON:00000022	376279
 DRON:00752061	cefovecin Injectable Solution	DRON:00000020	1591904
 DRON:00752062	levocarnitine Injection	DRON:00000005	1791370
 DRON:00752063	papaverine Injection	DRON:00000005	1789944
@@ -15202,7 +15096,6 @@ DRON:00752111	canagliflozin / metformin Oral Tablet	DRON:00000022	1545148
 DRON:00752112	atezolizumab Injection	DRON:00000005	1792779
 DRON:00752113	follitropin alfa Injection	DRON:00000005	1720918
 DRON:00752114	methyl salicylate Medicated Pad	DRON:00000005	1485641
-DRON:00752115	caffeine / phenyltoloxamine Extended Release Oral Capsule	DRON:00000026	438618
 DRON:00752117	benzalkonium / lidocaine Medicated Liquid Soap	DRON:00000005	1537070
 DRON:00752119	uridine triacetate Oral Granules	DRON:00000005	1665466
 DRON:00752121	oxacillin Injection	DRON:00000005	1743541
@@ -15213,7 +15106,6 @@ DRON:00752132	aripiprazole Prefilled Syringe	DRON:00000005	1602162
 DRON:00752134	edoxaban Oral Tablet	DRON:00000022	1599542
 DRON:00752139	epinephrine Injection	DRON:00000005	1660013
 DRON:00752145	sodium bicarbonate / tartaric acid Granules for Oral Solution	DRON:00000020	1659142
-DRON:00752146	Chlorpheniramine / Pseudoephedrine / Scopolamine Extended Release Oral Tablet	DRON:00000022	721618
 DRON:00752148	cholecalciferol / folic acid Oral Tablet	DRON:00000022	1720257
 DRON:00752150	alpha tocopherol Injectable Solution	DRON:00000020	1716044
 DRON:00752157	bumetanide Injection	DRON:00000005	1727568
@@ -15224,9 +15116,6 @@ DRON:00752165	ferric pyrophosphate Injection	DRON:00000005	1790865
 DRON:00752167	mannitol Injection	DRON:00000005	1791383
 DRON:00752168	nonoxynol-9 Vaginal Film	DRON:00000005	1788957
 DRON:00752169	Erwinia asparaginase Injection	DRON:00000005	1729156
-DRON:00752170	Eucalyptus extract Delayed Release Oral Capsule	DRON:00000026	439454
-DRON:00752171	Goldenseal extract Oral Capsule	DRON:00000026	372344
-DRON:00752172	ammonium phosphate / DISODIUM PYROPHOSPHATE / Sodium Phosphate, Monobasic Delayed Release Oral Tablet	DRON:00000022	385043
 DRON:00752173	peramivir Injection	DRON:00000005	1724184
 DRON:00752174	promethazine Prefilled Syringe	DRON:00000005	1538131
 DRON:00752177	zinc chloride Injection	DRON:00000005	1727284
@@ -15243,7 +15132,6 @@ DRON:00752201	hypochlorite Topical Solution	DRON:00000020	1483322
 DRON:00752202	zinc oxide Rectal Ointment	DRON:00000019	1534849
 DRON:00752204	chlorpromazine Injection	DRON:00000005	1730075
 DRON:00752208	alogliptin / pioglitazone Oral Tablet	DRON:00000022	1368401
-DRON:00752209	Digitalis leaf extract Oral Capsule	DRON:00000026	438985
 DRON:00752210	factor IX / factor VII / factor X / protein C / protein S / prothrombin Injection	DRON:00000005	1670052
 DRON:00752211	methylprednisolone Injection	DRON:00000005	1743703
 DRON:00752214	acetylcysteine Injection	DRON:00000005	1742774
@@ -15251,7 +15139,6 @@ DRON:00752218	Hepatitis A Vaccine, Inactivated Injection	DRON:00000005	1658099
 DRON:00752219	aripiprazole lauroxil Prefilled Syringe	DRON:00000005	1673268
 DRON:00752221	oclacitinib Oral Tablet	DRON:00000022	1487010
 DRON:00752222	eluxadoline Oral Tablet	DRON:00000022	1653785
-DRON:00752224	Psyllium Oral Granules	DRON:00000005	375252
 DRON:00752226	afatinib Oral Tablet	DRON:00000022	1430445
 DRON:00752229	furosemide Injection	DRON:00000005	1719285
 DRON:00752230	cefepime Injection	DRON:00000005	1665087
@@ -15275,14 +15162,11 @@ DRON:00752275	perampanel Oral Suspension	DRON:00000021	1790121
 DRON:00752278	fenoldopam Injection	DRON:00000005	1730924
 DRON:00752279	Cholecalciferol / Magnesium Oxide / Turmeric extract Oral Capsule	DRON:00000026	1370011
 DRON:00752283	capsaicin / histamine Topical Cream	DRON:00000017	1543747
-DRON:00752285	Acetaminophen / carbinoxamine / Phenylpropanolamine Extended Release Oral Capsule	DRON:00000026	450652
 DRON:00752287	teriparatide Pen Injector	DRON:00000005	1659758
 DRON:00752288	testosterone Injection	DRON:00000005	1738784
 DRON:00752289	carbachol Injection	DRON:00000005	1738778
-DRON:00752291	coenzyme Q10 Disintegrating Oral Tablet	DRON:00000022	835949
 DRON:00752292	zinc oxide Disintegrating Oral Tablet	DRON:00000022	1670273
 DRON:00752293	Nafarelin Nasal Inhaler	DRON:00000005	1791286
-DRON:00752296	diphenylpyraline / Phenylephrine Extended Release Oral Tablet	DRON:00000022	450765
 DRON:00752297	lorazepam Cartridge	DRON:00000005	1664995
 DRON:00752298	benzalkonium / benzocaine / menthol Oral Gel	DRON:00000015	1543431
 DRON:00752303	somatropin Pen Injector	DRON:00000005	1735493
@@ -15498,7 +15382,6 @@ DRON:00763772	nitroglycerin Sublingual Powder	DRON:00000005	1810782
 DRON:00763773	aspirin / omeprazole Delayed Release Oral Tablet	DRON:00000022	1811629
 DRON:00763774	pentazocine Injection	DRON:00000005	1811472
 DRON:00763775	eteplirsen Injection	DRON:00000005	1810572
-DRON:00763776	liothyronine Injectable Solution	DRON:00000020	377133
 DRON:00763777	sevelamer Powder for Oral Suspension	DRON:00000021	1812612
 DRON:00763778	clofarabine Injection	DRON:00000005	1806666
 DRON:00767225	bezlotoxumab Injection	DRON:00000005	1855051
@@ -15656,7 +15539,6 @@ DRON:00780964	aspirin / citric acid / sodium bicarbonate Granules for Oral Solut
 DRON:00780965	telotristat ethyl Oral Tablet	DRON:00000022	1872452
 DRON:00784479	lanolin Topical Lotion	DRON:00000018	1873967
 DRON:00784481	psyllium Powder for Oral Suspension	DRON:00000021	1873468
-DRON:00784482	urea c-13 Oral Suspension	DRON:00000021	385057
 DRON:00784484	chlorhexidine / salicyloyl phytosphingosine Medicated Shampoo	DRON:00000005	1875599
 DRON:00786323	allantoin / menthol Topical Gel	DRON:00000015	1875521
 DRON:00786327	vitamin K1 Sublingual Tablet	DRON:00000022	1923354
@@ -15678,7 +15560,6 @@ DRON:00786357	durvalumab Injection	DRON:00000005	1919506
 DRON:00786358	capsaicin / methyl salicylate Topical Ointment	DRON:00000019	1923328
 DRON:00786360	valbenazine Oral Capsule	DRON:00000026	1918223
 DRON:00786361	haloperidol Prefilled Syringe	DRON:00000005	1876501
-DRON:00786362	urea c-13 Oral Solution	DRON:00000020	452493
 DRON:00789757	cholecalciferol / glucose Oral Gel	DRON:00000015	1919488
 DRON:00789758	Lactobacillus rhamnosus GG Oral Suspension	DRON:00000021	1923358
 DRON:00789759	brigatinib Oral Tablet	DRON:00000022	1921221
@@ -15746,13 +15627,10 @@ DRON:00800946	meropenem / vaborbactam Injection	DRON:00000005	1945216
 DRON:00800948	fluticasone / umeclidinium / vilanterol Dry Powder Inhaler	DRON:00000005	1945037
 DRON:00800949	European house dust mite allergenic extract Injectable Solution	DRON:00000020	1926200
 DRON:00800950	chlophedianol / pseudoephedrine / pyrilamine Oral Solution	DRON:00000020	1943495
-DRON:00800954	prasterone Vaginal Suppository	DRON:00000005	1927687
-DRON:00800965	Ginkgo biloba extract / prasterone Oral Capsule	DRON:00000026	377050
 DRON:00800967	tisagenlecleucel Injection	DRON:00000005	1986441
 DRON:00800971	histamine / menthol / methyl salicylate Topical Cream	DRON:00000017	1947259
 DRON:00800972	secnidazole Oral Granules	DRON:00000005	1946691
 DRON:00800973	silicon dioxide Toothpaste	DRON:00000005	1947316
-DRON:00800974	aluminum chlorohydrate / ethanol Topical Solution	DRON:00000020	378581
 DRON:00803393	pregabalin Extended Release Oral Tablet	DRON:00000022	1988973
 DRON:00803394	abemaciclib Oral Tablet	DRON:00000022	1946829
 DRON:00803395	capsaicin / lidocaine / trolamine salicylate Topical Solution	DRON:00000020	1987015
@@ -15825,19 +15703,13 @@ DRON:00817886	resorcinol / sulfur Topical Gel	DRON:00000015	2003189
 DRON:00817887	benzocaine / menthol / zinc chloride Topical Cream	DRON:00000017	1876612
 DRON:00817888	ertugliflozin / sitagliptin Oral Tablet	DRON:00000022	1992824
 DRON:00817889	toldimfos Injectable Solution	DRON:00000020	2001186
-DRON:00817890	Amylases / Endopeptidases / Papain / papaya extract Oral Tablet	DRON:00000022	578496
-DRON:00817891	papaya extract Oral Tablet	DRON:00000022	375201
 DRON:00817892	hydrocortisone / ketoconazole Medicated Shampoo	DRON:00000005	2003644
 DRON:00817893	lamivudine / tenofovir disoproxil Oral Tablet	DRON:00000022	2003248
 DRON:00817895	Bifidobacterium Infantis Powder for Oral Suspension	DRON:00000021	2003326
-DRON:00817896	Amylases / Bromelains / Papain / papaya extract Chewable Tablet	DRON:00000022	1426285
 DRON:00817897	sarilumab Auto-Injector	DRON:00000005	2003754
-DRON:00817898	papaya extract Oral Capsule	DRON:00000026	447076
 DRON:00817899	amphotericin B lipid complex Injection	DRON:00000005	2001762
 DRON:00817900	rabacfosadine Injection	DRON:00000005	2003599
-DRON:00817901	cilantro extract / sennosides, USP Oral Solution	DRON:00000020	757236
 DRON:00817902	sodium citrate Chewable Tablet	DRON:00000022	2002799
-DRON:00817903	Papain / papaya extract Chewable Tablet	DRON:00000022	447066
 DRON:00819894	pramoxine / zinc acetate Medicated Pad	DRON:00000005	2044804
 DRON:00819895	benzethonium / thymol Topical Gel	DRON:00000015	2044642
 DRON:00819896	menthol Rectal Ointment	DRON:00000019	2045394
@@ -15910,7 +15782,6 @@ DRON:00829159	eravacycline Injection	DRON:00000005	2055910
 DRON:00829160	doravirine Oral Tablet	DRON:00000022	2055759
 DRON:00829161	palonosetron Prefilled Syringe	DRON:00000005	2056926
 DRON:00829162	alpha tocopherol / silicon dioxide Toothpaste	DRON:00000005	2055298
-DRON:00831760	Sporisorium cruentum allergenic extract Injectable Solution	DRON:00000020	852130
 DRON:00831761	baricitinib Oral Tablet	DRON:00000022	2047240
 DRON:00831762	camphor / peppermint oil Topical Gel	DRON:00000015	2059049
 DRON:00831765	omadacycline Injection	DRON:00000005	2059287
@@ -15920,8 +15791,6 @@ DRON:00831770	duvelisib Oral Capsule	DRON:00000026	2058513
 DRON:00831775	fremanezumab Prefilled Syringe	DRON:00000005	2056694
 DRON:00831776	damoctocog alfa pegol Injection	DRON:00000005	2055658
 DRON:00831778	milbemycin oxime / praziquantel Chewable Tablet	DRON:00000022	2058473
-DRON:00831781	Bifidobacterium animalis / Lactobacillus acidophilus / Lactobacillus casei rhamnosus Oral Capsule	DRON:00000026	1249670
-DRON:00831784	Bifidobacterium animalis / Bifidobacterium bifidum / Lactobacillus acidophilus / Lactobacillus casei rhamnosus Oral Capsule	DRON:00000026	1241762
 DRON:00831785	galcanezumab Auto-Injector	DRON:00000005	2058871
 DRON:00831787	doravirine / lamivudine / tenofovir disoproxil Oral Tablet	DRON:00000022	2055807
 DRON:00831789	galcanezumab Prefilled Syringe	DRON:00000005	2058884
@@ -15934,7 +15803,6 @@ DRON:00831806	stiripentol Oral Capsule	DRON:00000026	2054972
 DRON:00831807	sarecycline Oral Tablet	DRON:00000022	2059022
 DRON:00831808	tecovirimat Oral Capsule	DRON:00000026	2055108
 DRON:00831809	lusutrombopag Oral Tablet	DRON:00000022	2054988
-DRON:00831811	Bermuda grass smut allergenic extract / Sporisorium cruentum allergenic extract Injectable Solution	DRON:00000020	1232659
 DRON:00831814	omalizumab Prefilled Syringe	DRON:00000005	2058942
 DRON:00831821	telmisartan Oral Solution	DRON:00000020	2057151
 DRON:00831823	inotersen Prefilled Syringe	DRON:00000005	2099317
@@ -15944,7 +15812,6 @@ DRON:00831832	moxetumomab pasudotox Injection	DRON:00000005	2099308
 DRON:00831834	riluzole Oral Suspension	DRON:00000021	2058146
 DRON:00831835	amikacin liposomal Inhalant Solution	DRON:00000020	2059183
 DRON:00831841	dacomitinib Oral Tablet	DRON:00000022	2058914
-DRON:00831843	Lichtheimia ramosa extract Injectable Solution	DRON:00000020	1014751
 DRON:00834970	betamethasone / gentamicin Topical Ointment	DRON:00000019	2103396
 DRON:00834971	Bermuda grass smut allergenic extract / Johnson grass smut allergenic extract Injectable Solution	DRON:00000020	2103307
 DRON:00834972	camphor / capsaicin / menthol Topical Lotion	DRON:00000018	2101533
@@ -16134,13 +16001,9 @@ DRON:00845287	triclabendazole Oral Tablet	DRON:00000022	2118605
 DRON:00845288	latanoprost / netarsudil Ophthalmic Solution	DRON:00000020	2119699
 DRON:00845289	hyaluronidase / trastuzumab Injection	DRON:00000005	2119712
 DRON:00845290	albutrepenonacog alfa Injection	DRON:00000005	2119303
-DRON:00847535	influenza B virus vaccine B/Brisbane/60/2008 antigen / Influenza Virus Vaccine, Inactivated A-California-07-2009 X-181 (H1N1) strain / Influenza Virus Vaccine, Inactivated A-Victoria-210-2009 X-187 (H3N2) (A-Perth-16-2009) strain Prefilled Syringe	DRON:00000005	1006271
 DRON:00847536	diazepam Prefilled Syringe	DRON:00000005	2120549
-DRON:00847538	influenza B virus vaccine B/Brisbane/60/2008 antigen / Influenza Virus Vaccine, Inactivated A-California-07-2009 X-181 (H1N1) strain / Influenza Virus Vaccine, Inactivated A-Victoria-210-2009 X-187 (H3N2) (A-Perth-16-2009) strain Injectable Suspension	DRON:00000021	1006283
 DRON:00847539	dolutegravir / lamivudine Oral Tablet	DRON:00000022	2122517
-DRON:00847542	influenza B virus vaccine B/Brisbane/60/2008 antigen / Influenza Virus Vaccine, Inactivated A-California-07-2009 X-179A (H1N1) strain / Influenza Virus Vaccine, Inactivated A-Victoria-210-2009 X-187 (H3N2) (A-Perth-16-2009) strain Prefilled Syringe	DRON:00000005	1005943
 DRON:00847544	cladribine Oral Tablet	DRON:00000022	2122633
-DRON:00847545	influenza B virus vaccine B/Brisbane/60/2008 antigen / Influenza Virus Vaccine, Inactivated A-California-07-2009 X-179A (H1N1) strain / Influenza Virus Vaccine, Inactivated A-Victoria-210-2009 X-187 (H3N2) (A-Perth-16-2009) strain Injectable Suspension	DRON:00000021	1005933
 DRON:00847547	halobetasol / tazarotene Topical Lotion	DRON:00000018	2166087
 DRON:00847548	measles virus vaccine live, Enders' attenuated Edmonston strain Injection	DRON:00000005	2122272
 DRON:00847549	calamine / zinc oxide Topical Ointment	DRON:00000019	2122109
@@ -16212,11 +16075,9 @@ DRON:00862688	entrectinib Oral Capsule	DRON:00000026	2197866
 DRON:00862698	pitolisant Oral Tablet	DRON:00000022	2197883
 DRON:00862700	benzoyl peroxide Topical Spray	DRON:00000005	2199868
 DRON:00862701	istradefylline Oral Tablet	DRON:00000022	2199019
-DRON:00862705	Atlantic halibut preparation Injectable Solution	DRON:00000020	2174527
 DRON:00862708	camphor / turpentine Topical Cream	DRON:00000017	2198794
 DRON:00862713	influenza A virus vaccine, A-Texas-50-2012 (H3N2)-like virus / influenza A-California-7-2009-(H1N1)v-like virus vaccine / influenza B virus vaccine B/Brisbane/60/2008 antigen / influenza B virus vaccine, B-Massachusetts-2-2012-like virus Prefilled Syringe	DRON:00000005	1541620
 DRON:00862716	California black walnut pollen extract / English walnut pollen extract Injectable Solution	DRON:00000020	2203660
-DRON:00862720	ubidecarenone / Vitamin E Extended Release Oral Tablet	DRON:00000022	452462
 DRON:00862722	oneseed juniper pollen extract / Rocky Mountain juniper pollen extract Injectable Solution	DRON:00000020	2203673
 DRON:00862728	menthol / menthyl salicylate Topical Cream	DRON:00000017	2198893
 DRON:00862730	hard maple pollen extract / red maple pollen extract Injectable Solution	DRON:00000020	2203586
@@ -16343,16 +16204,12 @@ DRON:00874939	tazemetostat Oral Tablet	DRON:00000022	2274383
 DRON:00874940	ascorbic acid Powder for Oral Suspension	DRON:00000021	2284147
 DRON:00874941	eptinezumab Injection	DRON:00000005	2283048
 DRON:00874942	meloxicam Injection	DRON:00000005	2281105
-DRON:00877763	ascorbic acid / niacin / riboflavin / thiamine / vitamin A / vitamin B12 / vitamin B6 / vitamin D / vitamin E Oral Solution	DRON:00000020	876857
 DRON:00877766	empagliflozin / linagliptin / metformin Extended Release Oral Tablet	DRON:00000022	2359278
 DRON:00877779	cytarabine / daunorubicin Injection	DRON:00000005	2285807
-DRON:00877786	ascorbic acid / folic acid / niacin / riboflavin / sodium fluoride / thiamine / vitamin A / vitamin B12 / vitamin B6 / vitamin D / vitamin E Chewable Tablet	DRON:00000022	1235387
-DRON:00877788	ascorbic acid / beta carotene / ergocalciferol / folic acid / niacin / pantothenic acid / pyridoxine / riboflavin / thiamine / vitamin A / vitamin B12 / vitamin E Oral Tablet	DRON:00000022	1298291
 DRON:00877805	colloidal oatmeal / mineral oil Topical Cream	DRON:00000017	2286992
 DRON:00877808	amisulpride Injection	DRON:00000005	2284231
 DRON:00877817	amikacin Inhalation Suspension	DRON:00000021	2285804
 DRON:00877833	selumetinib Oral Capsule	DRON:00000026	2289417
-DRON:00877835	cobalamins / vitamin B12 Oral Tablet	DRON:00000022	375726
 DRON:00877844	ozanimod Oral Capsule	DRON:00000026	2288405
 DRON:00877852	bimatoprost Drug Implant	DRON:00000005	2286601
 DRON:00882945	polyethylene glycol 400 / propylene glycol Ophthalmic Suspension	DRON:00000021	2369382
@@ -16379,7 +16236,6 @@ DRON:00882969	meadow fescue grass pollen extract Injectable Suspension	DRON:0000
 DRON:00882976	ethanol / isopropyl alcohol Topical Solution	DRON:00000020	2287039
 DRON:00882989	orchard grass pollen extract Injectable Suspension	DRON:00000021	2367784
 DRON:00882992	benzocaine / menthol / zinc chloride Oral Gel	DRON:00000015	2362012
-DRON:00882995	ascorbic acid / calcium carbonate / copper sulfate / ferrous fumarate / folic acid / magnesium oxide / niacinamide / potassium iodide / pyridoxine / riboflavin / thiamine / vitamin A / vitamin B12 / vitamin D / vitamin E / zinc sulfate Oral Tablet	DRON:00000022	828812
 DRON:00883002	remdesivir Injection	DRON:00000005	2284959
 DRON:00883013	european olive pollen extract Injectable Suspension	DRON:00000021	2367781
 DRON:00883014	redroot pigweed pollen extract Injectable Suspension	DRON:00000021	2367786
