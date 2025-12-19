@@ -46,7 +46,7 @@ SELECT
 FROM clinical_drug_form
 WHERE curie = 'OBSOLETE';
 
-UPDATE clinical_drug_form_ingredient
+UPDATE OR REPLACE clinical_drug_form_ingredient
 SET clinical_drug_form = 'REPLACEMENT'
 WHERE clinical_drug_form = 'OBSOLETE';
 
