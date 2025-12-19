@@ -1,51 +1,60 @@
 Prefix(:=<http://purl.obolibrary.org/obo/dron/imports/pato_import.owl#>)
+Prefix(cl:=<http://purl.obolibrary.org/obo/cl#>)
+Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
+Prefix(go:=<http://purl.obolibrary.org/obo/go#>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(core:=<http://purl.obolibrary.org/obo/uberon/core#>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
+Prefix(pato:=<http://purl.obolibrary.org/obo/pato#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(chebi:=<http://purl.obolibrary.org/obo/chebi#2>)
+Prefix(terms:=<http://purl.org/dc/terms/>)
+Prefix(chebi1:=<http://purl.obolibrary.org/obo/chebi#3>)
+Prefix(chebi2:=<http://purl.obolibrary.org/obo/chebi#1>)
+Prefix(terms3:=<http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/>)
+Prefix(ubprop:=<http://purl.obolibrary.org/obo/ubprop#>)
+Prefix(subsets:=<http://purl.obolibrary.org/obo/ro/subsets#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/pato_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2025-11-11/imports/pato_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/pato/releases/2025-05-14/pato.owl>)
+<http://purl.obolibrary.org/obo/dron/releases/2025-12-19/imports/pato_import.owl>
+Annotation(dc:source <http://purl.obolibrary.org/obo/pato/releases/2025-05-14/pato.owl>)
 Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_251006F")
-Annotation(owl:versionInfo "2025-11-11")
+Annotation(owl:versionInfo "2025-12-19")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000125>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/pato#attribute_slim>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/pato#relational_slim>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/pato#scalar_slim>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
-Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
+Declaration(Class(obo:PATO_0000001))
+Declaration(Class(obo:PATO_0000125))
+Declaration(AnnotationProperty(obo:IAO_0000115))
+Declaration(AnnotationProperty(pato:attribute_slim))
+Declaration(AnnotationProperty(pato:relational_slim))
+Declaration(AnnotationProperty(pato:scalar_slim))
+Declaration(AnnotationProperty(dc:source))
+Declaration(AnnotationProperty(oboInOwl:SubsetProperty))
+Declaration(AnnotationProperty(oboInOwl:hasAlternativeId))
+Declaration(AnnotationProperty(oboInOwl:hasDbXref))
+Declaration(AnnotationProperty(oboInOwl:hasOBONamespace))
+Declaration(AnnotationProperty(oboInOwl:id))
+Declaration(AnnotationProperty(oboInOwl:inSubset))
 ############################
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/pato#attribute_slim> (<http://purl.obolibrary.org/obo/pato#attribute_slim>)
+# Annotation Property: pato:attribute_slim (pato:attribute_slim)
 
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/pato#attribute_slim> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+SubAnnotationPropertyOf(pato:attribute_slim oboInOwl:SubsetProperty)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/pato#relational_slim> (<http://purl.obolibrary.org/obo/pato#relational_slim>)
+# Annotation Property: pato:relational_slim (pato:relational_slim)
 
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/pato#relational_slim> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+SubAnnotationPropertyOf(pato:relational_slim oboInOwl:SubsetProperty)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/pato#scalar_slim> (<http://purl.obolibrary.org/obo/pato#scalar_slim>)
+# Annotation Property: pato:scalar_slim (pato:scalar_slim)
 
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/pato#scalar_slim> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+SubAnnotationPropertyOf(pato:scalar_slim oboInOwl:SubsetProperty)
 
 
 
@@ -53,25 +62,25 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/pato#scalar_slim> <http:
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
+# Class: obo:PATO_0000001 (quality)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000001> "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/PATO_0000001> "PATO:0000072")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0000001> "PATO:0000001")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PATOC:GVG") obo:IAO_0000115 obo:PATO_0000001 "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities")
+AnnotationAssertion(oboInOwl:hasAlternativeId obo:PATO_0000001 "PATO:0000072")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:PATO_0000001 "quality")
+AnnotationAssertion(oboInOwl:id obo:PATO_0000001 "PATO:0000001")
+AnnotationAssertion(rdfs:label obo:PATO_0000001 "quality")
 
-# Class: <http://purl.obolibrary.org/obo/PATO_0000125> (mass)
+# Class: obo:PATO_0000125 (mass)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PATOC:GVG") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000125> "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/PATO_0000125> "quality")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0000125> "PATO:0000125")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/pato#attribute_slim>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/pato#relational_slim>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/pato#scalar_slim>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/PATO_0000125> "For any biological use of PATO, the concept that should be used is 'mass' and not 'weight'. For example, increased weight of an organism.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000125> "mass")
-SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000125> <http://purl.obolibrary.org/obo/PATO_0000001>)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PATOC:GVG") obo:IAO_0000115 obo:PATO_0000125 "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:PATO_0000125 "quality")
+AnnotationAssertion(oboInOwl:id obo:PATO_0000125 "PATO:0000125")
+AnnotationAssertion(oboInOwl:inSubset obo:PATO_0000125 pato:attribute_slim)
+AnnotationAssertion(oboInOwl:inSubset obo:PATO_0000125 pato:relational_slim)
+AnnotationAssertion(oboInOwl:inSubset obo:PATO_0000125 pato:scalar_slim)
+AnnotationAssertion(rdfs:comment obo:PATO_0000125 "For any biological use of PATO, the concept that should be used is 'mass' and not 'weight'. For example, increased weight of an organism.")
+AnnotationAssertion(rdfs:label obo:PATO_0000125 "mass")
+SubClassOf(obo:PATO_0000125 obo:PATO_0000001)
 
 
 )
