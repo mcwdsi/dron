@@ -8,7 +8,7 @@ CREATE TABLE rxcui (
 CREATE TABLE disposition (
     curie TEXT PRIMARY KEY,
     label TEXT UNIQUE NOT NULL,
-    datatype TEXT
+    datatype TEXT NOT NULL
 );
 
 CREATE TABLE ingredient (
