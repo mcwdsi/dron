@@ -156,8 +156,16 @@ SELECT
     'xsd:string' AS datatype
 FROM (
     SELECT curie, label FROM dron.ingredient
-    UNION
-    SELECT curie, label FROM dron.disposition
+);
+
+INSERT OR IGNORE INTO dron_ingredient(subject, predicate, object, datatype)
+SELECT
+    curie as subject,
+    'rdfs:label' as predicate,
+    label as object,
+    datatype as datatype
+FROM (
+    SELECT curie, label, datatype FROM dron.disposition
 );
 
 -- Assert DRON:00010000 'has_RxCUI' annotation.
@@ -283,7 +291,7 @@ INSERT INTO dron_rxnorm VALUES
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdf:type', 'owl:TransitiveProperty', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdfs:label', 'has part', 'xsd:string', NULL),
 (1, 0, 'graph', 'RO:0000053', 'rdf:type', 'owl:ObjectProperty', '_IRI', NULL), 
-(1, 0, 'graph', 'RO:0000053', 'rdfs:label', 'is_bearer_of', 'xsd:string', NULL), 
+(1, 0, 'graph', 'RO:0000053', 'rdfs:label', 'is bearer of', '@en', NULL), 
 (1, 0, 'graph', 'DRON:00000005', 'rdf:type', 'owl:Class', '_IRI', NULL), 
 (1, 0, 'graph', 'DRON:00000015', 'rdf:type', 'owl:Class', '_IRI', NULL), 
 (1, 0, 'graph', 'DRON:00000017', 'rdf:type', 'owl:Class', '_IRI', NULL), 
@@ -295,15 +303,15 @@ INSERT INTO dron_rxnorm VALUES
 (1, 0, 'graph', 'DRON:00000024', 'rdf:type', 'owl:Class', '_IRI', NULL), 
 (1, 0, 'graph', 'DRON:00000026', 'rdf:type', 'owl:Class', '_IRI', NULL), 
 (1, 0, 'graph', 'DRON:00000032', 'rdf:type', 'owl:Class', '_IRI', NULL), 
-(1, 0, 'graph', 'DRON:00000033', 'rdfs:label', 'anti-malarial function of a drug product', 'xsd:string', NULL), 
-(1, 0, 'graph', 'DRON:00000034', 'rdfs:label', 'anti-hypertensive function of a drug product', 'xsd:string', NULL), 
-(1, 0, 'graph', 'DRON:00000035', 'rdfs:label', 'analgesic function of a drug product', 'xsd:string', NULL), 
+(1, 0, 'graph', 'DRON:00000033', 'rdfs:label', 'anti-malarial function', '@en', NULL), 
+(1, 0, 'graph', 'DRON:00000034', 'rdfs:label', 'anti-hypertensive function', '@en', NULL), 
+(1, 0, 'graph', 'DRON:00000035', 'rdfs:label', 'analgesic function', '@en', NULL), 
 (1, 0, 'graph', 'DRON:00010000', 'rdf:type', 'owl:AnnotationProperty', '_IRI', NULL), 
 (1, 0, 'graph', 'DRON:00010000', 'rdfs:label', 'has_RxCUI', 'xsd:string', NULL);
 
 -- Assert rdf:type is owl:Class
 -- for all clinical drug form, clinical drug, and branded drug
--- and dispositions in clinical_dru_form_disposition rows.
+-- and dispositions in clinical_drug_form_disposition rows.
 INSERT INTO dron_rxnorm(subject, predicate, object)
 SELECT
     curie AS subject,
@@ -321,21 +329,21 @@ FROM (
 
 -- Assert rdfs:label annotation
 -- for all clinical drug form, clinical drug, and branded drug
--- and dispositions in clinical_dru_form_disposition rows.
+-- and dispositions in clinical_drug_form_disposition rows.
 INSERT INTO dron_rxnorm(subject, predicate, object, datatype)
 SELECT
     curie AS subject,
     'rdfs:label' AS predicate,
     label AS object,
-    'xsd:string' AS datatype
+    datatype
 FROM (
-    SELECT curie, label FROM dron.clinical_drug_form
+    SELECT curie, label, 'xsd:string' AS datatype FROM dron.clinical_drug_form
     UNION
-    SELECT curie, label FROM dron.clinical_drug
+    SELECT curie, label, 'xsd:string' AS datatype FROM dron.clinical_drug
     UNION
-    SELECT curie, label FROM dron.branded_drug
+    SELECT curie, label, 'xsd:string' AS datatype FROM dron.branded_drug
     UNION
-    SELECT d.curie, d.label
+    SELECT d.curie, d.label, d.datatype
     FROM dron.clinical_drug_form_disposition AS cdfd
     LEFT JOIN dron.disposition AS d
     WHERE cdfd.disposition = d.curie
