@@ -8,6 +8,7 @@ DRON:00000038	function-inhibiting delta receptor binding disposition	@en
 DRON:00000039	function-activating delta receptor binding disposition	@en
 DRON:00000040	function-inhibiting kappa receptor binding disposition	@en
 DRON:00000041	function-activating kappa receptor binding disposition	@en
+DRON:00000059	function-inhibiting sodium-chloride cotransporter binding disposition	@en
 DRON:00020323	non-activating competitive beta-adrenergic receptor binding disposition	@en
 DRON:00020324	function-inhibiting hydrogen/potassium adenosine triphosphatase enzyme (H+/K+ ATPase) binding disposition	@en
 DRON:00020325	function-inhibiting L-type voltage-gated calcium channel binding disposition	@en
