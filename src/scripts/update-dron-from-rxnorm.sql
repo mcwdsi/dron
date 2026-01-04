@@ -290,6 +290,11 @@ WHERE s.RXCUI = cd.rxcui
   AND n.curie IS NULL
   AND s.ATV not in (select ndc from ndc_branded_drug);
 
+-- In the event that there is an NDC in ndc_clinical_drug, and that is now--
+--  in the current version of RxNorm that we are processing--
+--  associated with a branded drug, then we will isnert a row in 
+--  ndc_branded_drug for this new association. Later, we will deal 
+--  with the redundancy.
 INSERT OR IGNORE INTO ndc_branded_drug
 SELECT DISTINCT
     n.curie as curie,
@@ -303,5 +308,9 @@ FROM rxnorm.RXNSAT as s,
    AND s.SAB = 'RXNORM'
    AND s.ATN = 'NDC';
 
+-- Here, we delete anything that got duplicated in the previous step.
+-- If we updated the NDC to a new branded_drug association, then 
+--  we created a new row in ndc_branded_drug, and to avoid duplicawtion
+--  now here will remove all such dups from ndc_clinical_drug
 DELETE from ndc_clinical_drug
 WHERE ndc in (select ndc from ndc_branded_drug); 
