@@ -271,7 +271,7 @@ LEFT JOIN ndc_branded_drug AS n
 WHERE s.RXCUI = bd.rxcui
   AND s.SAB = 'RXNORM'
   AND s.ATN = 'NDC'
-  AND n.curie IS NULL;
+  AND n.curie IS NULL
   AND s.ATV not in (select ndc from ndc_clinical_drug);
 
 -- Add NDCs for clinical drugs not already in ndc_clinical_drug or ndc_branded_drug.
@@ -295,7 +295,7 @@ WHERE s.RXCUI = cd.rxcui
 --  associated with a branded drug, then we will isnert a row in 
 --  ndc_branded_drug for this new association. Later, we will deal 
 --  with the redundancy.
-INSERT OR IGNORE INTO ndc_branded_drug
+INSERT INTO ndc_branded_drug
 SELECT DISTINCT
     n.curie as curie,
     n.ndc as ndc,
