@@ -2517,6 +2517,7 @@ CHEBI:746859	travoprost	283809
 CHEBI:746867	Remibrutinib	2724365
 CHEBI:746908	lurbinectedin	2374729
 CHEBI:7470	Naphazoline	7247
+CHEBI:747008	finerenone	2562811
 CHEBI:7476	naproxen	7258
 CHEBI:74768	aluminium sulfate (anhydrous)	17621
 CHEBI:7478	naratriptan	141366
@@ -6210,7 +6211,6 @@ DRON:00947303	somapacitan	2557373
 DRON:00949184	relugolix	2472778
 DRON:00949185	ansuvimab	2472152
 DRON:00949187	serdexmethylphenidate	2562176
-DRON:00949188	finerenone	2562811
 DRON:00949189	anifrolumab	2565265
 DRON:00949190	hydroxypropyl cellulose (type J)	1485045
 DRON:00951882	avalglucosidase alfa	2565814
@@ -6792,3 +6792,8 @@ DRON:01079981	elinzanetant	2725511
 DRON:01079982	nerandomilast	2725523
 DRON:01079983	imlunestrant	2725912
 DRON:01079984	ziftomenib	2725985
+DRON:01081386	Cocos nucifera whole extract	1367493
+DRON:01081387	myristamidopropylamine oxide	1485540
+DRON:01081388	magnesium aluminum silicate type IC	1730436
+DRON:01081389	terpene resin	2640032
+DRON:01081390	sevabertinib	2728187
