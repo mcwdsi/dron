@@ -1,0 +1,952 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../DronReleaseWorkflow/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Notes on the 2021 Migration to ODK - The Drug Ontology</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#odk-migration-march-2021" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="The Drug Ontology" class="md-header__button md-logo" aria-label="The Drug Ontology" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Drug Ontology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Notes on the 2021 Migration to ODK
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="The Drug Ontology" class="md-nav__button md-logo" aria-label="The Drug Ontology" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    The Drug Ontology
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Basics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Basics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cite/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cite
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    History
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Editors Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Editors Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Standard ODK workflows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Standard ODK workflows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/EditorsWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editors Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ReleaseWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Release Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/RepoManagement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage your ODK Repository
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/SettingUpDockerForODK/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting up Docker for ODK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/UpdateImports/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imports management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ManageDocumentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managing the documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ContinuousIntegration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Continuous Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/RepositoryFileStructure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Your ODK Repository Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dron specific docs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Dron specific docs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DronReleaseWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DrOn Release Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UpdateComponents.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updateing DrOn components
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Notes on the 2021 Migration to ODK
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Notes on the 2021 Migration to ODK
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#merge-upper-and-hand-into-a-single-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merge upper and hand into a single file
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparing-the-new-odk-based-dronowl-with-the-old-dronowl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparing the new ODK-based dron.owl with the old dron.owl
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#migration-checklist-for-the-dron-team" class="md-nav__link">
+    <span class="md-ellipsis">
+      Migration checklist for the DrOn team
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Migration checklist for the DrOn team">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instructions-for-shallow-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instructions for shallow review
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions-for-in-depth-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instructions for in-depth review
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#merge-upper-and-hand-into-a-single-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merge upper and hand into a single file
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparing-the-new-odk-based-dronowl-with-the-old-dronowl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparing the new ODK-based dron.owl with the old dron.owl
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#migration-checklist-for-the-dron-team" class="md-nav__link">
+    <span class="md-ellipsis">
+      Migration checklist for the DrOn team
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Migration checklist for the DrOn team">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instructions-for-shallow-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instructions for shallow review
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions-for-in-depth-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instructions for in-depth review
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="odk-migration-march-2021">ODK Migration March 2021</h1>
+<p>This document summarises the migration process to regular ODK setup in March 2021. It mainly serves historical purposes, tracing some of the decisions that were made, but also provides guidance on how to manage the migration process on the UFBMI side.</p>
+<p>The original repo of DrOn was on bitbucket: https://bitbucket.org/uamsdbmi/dron</p>
+<p>To make use of the GitHub ecosystem (GitHub actions for CI, GitHub releases), we migrated Dron to GitHub as well. This migration had one major downside: the GitHub maximum file size is 100 MB. This had two consequences:</p>
+<ol>
+<li>Large Dron components (dron-ndc, dron-ingredient and dron-rxnorm) could not be checked in directly.</li>
+<li>The Dron history could not be migrated, as the file size restriction applies to the git history as well.</li>
+</ol>
+<p>The remainder of the documents details the other key changes.</p>
+<h2 id="merge-upper-and-hand-into-a-single-file">Merge upper and hand into a single file</h2>
+<p>All the manually edited Dron axioms are now edited in <code>src/ontology/dron-edit.owl</code>. <code>dron-upper.owl</code> and <code>dron-hand.owl</code>, previously managed as separated OWL files, were merged into the new edit file as follows:</p>
+<pre><code>merge_release:
+    $(ROBOT) merge -i $(SRC) -i components/dron-hand.owl  -i components/dron-upper.owl --collapse-import-closure false -o $(SRC).ofn &amp;&amp; mv $(SRC).ofn $(SRC)
+</code></pre>
+<h2 id="comparing-the-new-odk-based-dronowl-with-the-old-dronowl">Comparing the new ODK-based dron.owl with the old dron.owl</h2>
+<p>The new DrOn release is a bit different than the old one. In the following we will discuss the differences in detail.</p>
+<ol>
+<li><em>Added imports</em>. Same as in other ontologies, such as OMRSE, we added proper imports to the Relation Ontology RO and BFO. This ensures that DRON modelling is logically consistent with the BFO worldview, which keeps it compatible with other OBO/BFO-based ontologies. This means there are a few changes in and around external axioms, such as:<ul>
+<li>include BFO/RO axioms</li>
+<li>added/removed CHEBI axioms</li>
+<li>added/removed PRO axioms</li>
+</ul>
+</li>
+<li><em>Inferred subclasses</em>. If you open <code>src/ontology/dron-edit.owl</code> and run the reasoner, you will notice that DrOn has a good number of inferred-only subsumptions. Inferred-only subsumptions are those that the reasoner can deduce from the given axioms, but that are not <em>asserted</em> as a SubClassOf axiom. Example, if you run the reasoner in Protege, you will find that <a href="http://purl.obolibrary.org/obo/DRON_00001110">Ampicillin / cloxacillin suspension</a> is asserted to be a subclass of <code>drug suspension</code>. However, you will also notice that it can be inferred to be a SubClassOf <code>cloxacillin suspension</code>:</li>
+</ol>
+<p>[[img/inferred_subs.png]]</p>
+<p>It is important to remember that the standard ROBOT pipeline for the main ontology release a) runs the reasoner and b) strips out redundant axioms, see <a href="https://github.com/INCATools/ontology-development-kit/blob/master/docs/ReleaseArtefacts.md#release-artefact-2-full-required">here</a>.
+3. <em>Axiom removed due to unsatisfiability</em>: See <a href="https://github.com/matentzn/dron/issues/2">issue</a></p>
+<h2 id="migration-checklist-for-the-dron-team">Migration checklist for the DrOn team</h2>
+<p>The following section is intended as a guide for the DrOn team to fully migrate to the new ODK version of DrOn. The steps that need to be taken are as follows:</p>
+<ol>
+<li>Perform the repo review (see below)</li>
+<li>Migrate the GitHub repo to the <code>ufbmi</code> GitHub organisation</li>
+<li>Make a test release according <a href="../DronReleaseWorkflow/">the instructions</a></li>
+<li>If all good, change OBO foundry purls (Nico will do)</li>
+</ol>
+<p>If there are problems along the way, the Knocean team will help you sort them out.</p>
+<p>Below, we will first provide some instructions for a <em>shallow must-do</em> review, and then give some pointers to additional stuff that could be reviewed if the DrOn team is so inclined. </p>
+<h3 id="instructions-for-shallow-review">Instructions for shallow review</h3>
+<p><em>Note:</em> When reviewing diffs, its good to keep in mind that lines starting with a <code>-</code> have been removed from the original DrOn, and lines with a <code>+</code> have been added.</p>
+<ul>
+<li>Open ODK-based dron.owl (top level of GitHub repo) in Protege, side by side with the current dron.owl release (from Bitbucket) and spent 10 minutes looking for oddities in the upper levels of the class hierarchy (and perhaps a dozen terms and their annotations).</li>
+<li>Review <a href="https://www.dropbox.com/s/jia55otxatn71l9/dron-release-diff-merged.txt?dl=0">release-to-merge diff (DrOn only)</a>. This is the most important diff, which contains <em>all axioms that actually involve DrOn classes</em> that have changed between the current dron.owl release (from Bitbucket) and the merged form of the edit file (so essentially running <code>robot merge</code> on <code>src/ontology/dron-edit.owl</code>). This should be empty, or tiny. Currently, the only axiom in the diff head to be removed because of unsatisfiability (see <a href="https://github.com/matentzn/dron/issues/2">issue</a>).</li>
+<li>Review <a href="https://www.dropbox.com/s/vo1s8ehtizdmp5a/dron-release-diff-build.txt?dl=0">release-to-build diff (DrOn only)</a> (only elements that actually involve DrOn classes). This is already considerably larger, containing all axioms that have changed between the current dron.owl release (from Bitbucket) and the <em>ODK-released</em> version of DrOn. It is worth cherry picking some axioms from the diff and checking them in Protege (open dron-edit.owl in Protege and run Elk reasoner). See above section on inference and imports in ODK-based dron.owl.</li>
+</ul>
+<h3 id="instructions-for-in-depth-review">Instructions for in-depth review</h3>
+<ul>
+<li>Review <a href="https://www.dropbox.com/s/8pt56w13o9dgzu8/release-diff-merged.txt?dl=0">release-to-merge diff (non DrOn (external stuff))</a>. This is a huge diff including axioms that are due to changes in imported ontologies. Of the roughly 99% of these changes are due to the refreshed CHEBI import (80K changes). We believe its worth trying to identify patterns in these changes, like missing properties. Not that this is using the exact same config as OMRSE, so Matt D. should be quite familiar reviewing these.</li>
+<li>Review <a href="https://www.dropbox.com/s/2z7eiv11k0ago11/release-diff-build.txt?dl=0">release-to-build diff (non DrOn (external stuff)</a>. This (equally huge) diff includes all non-DrOn axioms that have changed between the current dron.owl release (from Bitbucket) and the <em>ODK-released</em> version of DrOn. This is 99% redundant with the above release-to-merge diff, so we recommend to disregard it.</li>
+<li>Become aware of issues we noticed during the work:<ul>
+<li><a href="https://github.com/matentzn/dron/issues/3">Has-proper-part and has-part usage Dron not compatible with RO</a></li>
+<li><a href="https://github.com/matentzn/dron/issues/1">Dron uses BFO:0000053 which is neither in RO nor BFO</a></li>
+</ul>
+</li>
+<li>Close the unsatisfiable classes <a href="https://github.com/matentzn/dron/issues/2">issue</a>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+        <script src="../search/main.js"></script>
+      
+    
+  </body>
+</html>
