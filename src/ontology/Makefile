@@ -16,7 +16,7 @@
 # 3. [Update repo to latest ODK](update_repo)
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                571f9b0920b03208345a12ecd6c4ad11ff3f742b5ebb5bc629edd65c955c0594
+CONFIG_HASH=                bb76721d3ad47b2bab0146faf06d6e19b71a117cfc7d4260f70baf43e6e40aab
 
 
 # ----------------------------------------

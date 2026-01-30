@@ -8,10 +8,9 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron.owl>
-Import(<http://purl.obolibrary.org/obo/dron/dron-ingredient.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/dron-ndc.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/dron-obsolete.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/components/dron-ingredient.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/components/dron-ndc.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/components/dron-rxnorm.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/apollo_sv_import.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/chebi_import.owl>)
@@ -342,15 +341,15 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#sho
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "has_alternative_id")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (has cross-reference)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has_narrow_synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has narrow synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has_narrow_synonym")
 
@@ -358,7 +357,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has related synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym")
 
@@ -1325,7 +1324,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000058> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000058> "enteric coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000058> <http://purl.obolibrary.org/obo/DRON_00000057>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000059> (<http://purl.obolibrary.org/obo/DRON_00000059>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000059> (function-inhibiting sodium-chloride cotransporter binding disposition)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000059> "function-inhibiting sodium-chloride cotransporter binding disposition"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000059> <http://purl.obolibrary.org/obo/BFO_0000016>)
