@@ -25,11 +25,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50906>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016301>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000465>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
@@ -138,6 +143,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0017001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019002>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020105>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000002>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000120>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/IAO_0000121>))
@@ -168,6 +174,10 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_gp2t
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_ontology>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_gocam>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ro/subsets#ro-eco>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#common_anatomy>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#human_subset>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#mouse_subset>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon/core#upper_level>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
@@ -381,6 +391,22 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/valid_for_gocam> <http:/
 # Annotation Property: <http://purl.obolibrary.org/obo/ro/subsets#ro-eco> (<http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
 
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ro/subsets#ro-eco> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/uberon/core#common_anatomy> (<http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/uberon/core#common_anatomy> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/uberon/core#human_subset> (<http://purl.obolibrary.org/obo/uberon/core#human_subset>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/uberon/core#human_subset> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/uberon/core#mouse_subset> (<http://purl.obolibrary.org/obo/uberon/core#mouse_subset>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/uberon/core#mouse_subset> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/uberon/core#upper_level> (<http://purl.obolibrary.org/obo/uberon/core#upper_level>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/uberon/core#upper_level> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (has cross-reference)
 
@@ -1513,6 +1539,13 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0019002> "negatively regulates characteristic")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0019002> <http://purl.obolibrary.org/obo/RO_0019000>)
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0020105> (is anatomical entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0020105> "This property only applies to anatomical entities.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/RO_0020105> <https://orcid.org/0000-0001-6677-8489>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0020105> "is anatomical entity")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0020105> <http://purl.obolibrary.org/obo/UBERON_0001062>)
+
 
 
 ############################
@@ -1610,6 +1643,26 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50906> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
+# Class: <http://purl.obolibrary.org/obo/COB_0000022> (organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000022> "A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000022> "'Maximal functionally integrated unit' is intended to express unity, which Barry considers synonymous with BFO 'object'."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000022> "Includes virus - we will later have a class for cellular organisms."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000022> "organism"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0000022> <http://purl.obolibrary.org/obo/UBERON_0000465>)
+
+# Class: <http://purl.obolibrary.org/obo/COB_0000026> (processed material entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COB_0000026> "A material entity processed by human activity with an intent to produce it."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/COB_0000026> "In the COB 2024 workshop there was much disagreement about this label."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000026> "processed material entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0000026> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/COB_0000035> (completely executed planned process)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000035> "completely executed planned process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0000035> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pdt") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003674> "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.")
@@ -1665,6 +1718,56 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0000001> "PATO:0000001")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000465> (material anatomical entity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://orcid.org/0000-0001-9114-8737") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000465> "Anatomical entity that has mass.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "AAO:0010264")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "AEO:0000006")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "BILA:0000006")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "CARO:0000006")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "EHDAA2:0003006")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "FMA:67165")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "HAO:0000006")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "TAO:0001836")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "TGMA:0001826")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0000465> "VHOG:0001721")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000465> "UBERON:0000465")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/uberon/core#human_subset>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/uberon/core#mouse_subset>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/uberon/core#upper_level>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000465> "material anatomical entity")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/UBERON_0001062>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (anatomical entity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "FMA:62955") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://orcid.org/0000-0001-9114-8737") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001062> "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "AAO:0010841")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "AEO:0000000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "BFO:0000004")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "BILA:0000000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "BIRNLEX:6")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "CARO:0000000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "EHDAA2:0002229")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "FMA:62955")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "HAO:0000000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "MA:0000001")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "NCIT:C12219")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "TAO:0100000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "TGMA:0001822")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "WBbt:0000100")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "XAO:0000000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/UBERON_0001062> "ZFA:0100000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0001062> "UBERON:0001062")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/uberon/core#common_anatomy>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/uberon/core#human_subset>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/uberon/core#mouse_subset>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/uberon/core#upper_level>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001062> "anatomical entity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0001062> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0020105>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/BFO_0000004>)
 
 
 ############################
