@@ -8,10 +8,10 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron.owl>
-Import(<http://purl.obolibrary.org/obo/dron/dron-ingredient.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/dron-ndc.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/dron-obsolete.owl>)
-Import(<http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/components/dron-ingredient.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/components/dron-ndc.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/components/dron-obsolete.owl>)
+Import(<http://purl.obolibrary.org/obo/dron/components/dron-rxnorm.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/apollo_sv_import.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/dron/imports/chebi_import.owl>)
@@ -350,7 +350,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has_narrow_synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has narrow synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has_narrow_synonym")
 
@@ -395,7 +395,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0001901>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (has characteristic)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (is bearer of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0001900> <http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/RO_0001901>)
 
@@ -1325,7 +1325,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000058> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000058> "enteric coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000058> <http://purl.obolibrary.org/obo/DRON_00000057>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000059> (<http://purl.obolibrary.org/obo/DRON_00000059>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000059> (function-inhibiting sodium-chloride cotransporter binding disposition)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000059> "function-inhibiting sodium-chloride cotransporter binding disposition"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000059> <http://purl.obolibrary.org/obo/BFO_0000016>)
@@ -2130,11 +2130,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000009> <http://purl.obolibrary.
 
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
+# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (obsolete planned process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/IAO_0000122>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (processed material)
+# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (obsolete processed material)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/IAO_0000122>)
 
@@ -2142,7 +2142,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000576> <http://purl.obolibrary.org/obo/IAO_0000123>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0100026> (organism)
+# Class: <http://purl.obolibrary.org/obo/OBI_0100026> (obsolete organism)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/IAO_0000122>)
 

@@ -4,7 +4,7 @@ ATTACH DATABASE 'tmp/dron.db' AS dron;
 
 -- Add some top-level terms.
 INSERT INTO dron_ingredient(subject, predicate, object) VALUES
-('obo:dron/dron-ingredient.owl', 'rdf:type', 'owl:Ontology'),
+('obo:dron/components/dron-ingredient.owl', 'rdf:type', 'owl:Ontology'),
 ('<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdf:type', 'owl:ObjectProperty'),
 ('BFO:0000016', 'rdf:type', 'owl:Class'),
 ('RO:0000053', 'rdf:type', 'owl:ObjectProperty'),
@@ -286,7 +286,7 @@ FROM dron.branded_drug_excipient;
 
 -- Assert some general statements.
 INSERT INTO dron_rxnorm VALUES
-(1, 0, 'graph', 'obo:dron/dron-rxnorm.owl', 'rdf:type', 'owl:Ontology', '_IRI', NULL),
+(1, 0, 'graph', 'obo:dron/components/dron-rxnorm.owl', 'rdf:type', 'owl:Ontology', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdf:type', 'owl:ObjectProperty', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdf:type', 'owl:TransitiveProperty', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/BFO_0000051>', 'rdfs:label', 'has part', 'xsd:string', NULL),
@@ -408,7 +408,7 @@ FROM dron.clinical_drug_form_disposition;
 
 -- Assert some general statements.
 INSERT INTO dron_ndc VALUES
-(1, 0, 'graph', 'obo:dron/dron-ndc.owl', 'rdf:type', 'owl:Ontology', '_IRI', NULL),
+(1, 0, 'graph', 'obo:dron/components/dron-ndc.owl', 'rdf:type', 'owl:Ontology', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/RO_0002131>', 'rdf:type', 'owl:ObjectProperty', '_IRI', NULL),
 (1, 0, 'graph', '<http://purl.obolibrary.org/obo/RO_0002131>', 'rdfs:label', 'location of', 'xsd:string', NULL),
 (1, 0, 'graph', 'DRON:00000027', 'rdf:type', 'owl:Class', '_IRI', NULL); 
@@ -479,7 +479,7 @@ FROM (
 -- ## Obsolete Terms
 
 INSERT INTO dron_obsolete(subject, predicate, object) VALUES
-('obo:dron/dron-obsolete.owl', 'rdf:type', 'owl:Ontology');
+('obo:dron/components/dron-obsolete.owl', 'rdf:type', 'owl:Ontology');
 
 INSERT OR IGNORE INTO dron_obsolete(subject, predicate, object)
 SELECT

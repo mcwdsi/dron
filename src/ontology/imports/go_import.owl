@@ -1,4 +1,7 @@
 Prefix(:=<http://purl.obolibrary.org/obo/dron/imports/go_import.owl#>)
+Prefix(EC:=<http://purl.uniprot.org/enzyme/>)
+Prefix(TC:=<http://identifiers.org/tcdb/>)
+Prefix(VZ:=<https://viralzone.expasy.org/>)
 Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
 Prefix(go:=<http://purl.obolibrary.org/obo/go#>)
 Prefix(obo:=<http://purl.obolibrary.org/obo/>)
@@ -6,16 +9,23 @@ Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(RHEA:=<http://rdf.rhea-db.org/>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
 Prefix(terms:=<http://purl.org/dc/terms/>)
+Prefix(MetaCyc:=<http://identifiers.org/metacyc.reaction/>)
+Prefix(Reactome:=<http://identifiers.org/reactome/>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(KEGG_REACTION:=<http://www.kegg.jp/entry/>)
+Prefix(UM-BBD_pathwayID:=<http://identifiers.org/umbbd.pathway/>)
+Prefix(UM-BBD_reactionID:=<http://identifiers.org/umbbd.reaction/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/go_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2025-12-19/imports/go_import.owl>
-Annotation(dc:source <http://purl.obolibrary.org/obo/go/releases/2025-10-10/go.owl>)
-Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_251006F")
-Annotation(owl:versionInfo "2025-12-19")
+<http://purl.obolibrary.org/obo/dron/releases/2026-01-31/imports/go_import.owl>
+Annotation(dc:source <http://purl.obolibrary.org/obo/go/releases/2026-01-23/go.owl>)
+Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_260105F")
+Annotation(owl:versionInfo "2026-01-31")
 
 Declaration(Class(obo:GO_0003008))
 Declaration(Class(obo:GO_0005488))

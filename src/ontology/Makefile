@@ -16,7 +16,7 @@
 # 3. [Update repo to latest ODK](update_repo)
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                571f9b0920b03208345a12ecd6c4ad11ff3f742b5ebb5bc629edd65c955c0594
+CONFIG_HASH=                651cdfe61d46925895e8a60ddf0a0087a9c166ca04c37d68d6e7ea84b6e0c6ac
 
 
 # ----------------------------------------
@@ -63,7 +63,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/dron-ingredient.owl $(COMPONENTSDIR)/dron-ndc.owl $(COMPONENTSDIR)/dron-rxnorm.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/dron-ingredient.owl $(COMPONENTSDIR)/dron-ndc.owl $(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-obsolete.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -563,6 +563,7 @@ recreate-components:
 	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-dron-ingredient.owl \
 		--assume-new=$(TMPDIR)/stamp-component-dron-ndc.owl \
 		--assume-new=$(TMPDIR)/stamp-component-dron-rxnorm.owl \
+		--assume-new=$(TMPDIR)/stamp-component-dron-obsolete.owl \
 		COMP=true IMP=false MIR=true PAT=true all_components
 
 .PHONY: no-mirror-recreate-components
@@ -570,6 +571,7 @@ no-mirror-recreate-components:
 	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-dron-ingredient.owl \
 		--assume-new=$(TMPDIR)/stamp-component-dron-ndc.owl \
 		--assume-new=$(TMPDIR)/stamp-component-dron-rxnorm.owl \
+		--assume-new=$(TMPDIR)/stamp-component-dron-obsolete.owl \
 		COMP=true IMP=false MIR=false PAT=true all_components
 
 .PHONY: recreate-%
