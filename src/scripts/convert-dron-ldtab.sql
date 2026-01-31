@@ -10,7 +10,7 @@ INSERT INTO dron_ingredient(subject, predicate, object) VALUES
 ('RO:0000053', 'rdf:type', 'owl:ObjectProperty'),
 ('OBI:0000643', 'rdf:type', 'owl:ObjectProperty'),
 ('IAO:0000039', 'rdf:type', 'owl:ObjectProperty'),
-('OBI:0000047', 'rdf:type', 'owl:Class'),
+('COB:0000026', 'rdf:type', 'owl:Class'),
 ('OBI:0000576', 'rdf:type', 'owl:Class'),
 ('OBI:0001937', 'rdf:type', 'owl:DatatypeProperty'),
 ('PATO:0000125', 'rdf:type', 'owl:Class'),
@@ -187,13 +187,13 @@ SELECT
     'BFO:0000016' AS object
 FROM dron.disposition;
 
--- Assert rdfs:subClassOf OBI:0000047 'processed material'
+-- Assert rdfs:subClassOf COB:0000026 'processed material entity'
 -- for all ingredient rows with DRON IDs.
 INSERT OR IGNORE INTO dron_ingredient(subject, predicate, object)
 SELECT
     curie AS subject,
     'rdfs:subClassOf' AS predicate,
-    'OBI:0000047' AS object
+    'COB:0000026' AS object
 FROM dron.ingredient
 WHERE curie LIKE 'DRON:%';
 

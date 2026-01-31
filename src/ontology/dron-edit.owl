@@ -293,10 +293,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032501>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050886>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000009>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000576>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PR_000000001>))
@@ -937,7 +937,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000028> "William R. Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000028> "active ingredient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000028> <http://purl.obolibrary.org/obo/DRON_00000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000028> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/DRON_00000031>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0000576>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0100026>))))))
+SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000028> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/DRON_00000031>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0000576>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/COB_0000022>))))))
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000029> (excipient)
 
@@ -967,7 +967,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000031> "William R. Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000031> "drug administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000031> <http://purl.obolibrary.org/obo/OGMS_0000090>)
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OGMS_0000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/DRON_00000005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/OBI_0100026>)))
+SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OGMS_0000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/DRON_00000005>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/COB_0000022>)))
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000032> (drug product therapeutic function)
 
@@ -2130,25 +2130,25 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000009> <http://purl.obolibrary.
 
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (obsolete planned process)
+# Class: <http://purl.obolibrary.org/obo/COB_0000035> (obsolete planned process)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/COB_0000035> <http://purl.obolibrary.org/obo/IAO_0000122>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (obsolete processed material)
+# Class: <http://purl.obolibrary.org/obo/COB_0000026> (obsolete processed material)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/COB_0000026> <http://purl.obolibrary.org/obo/IAO_0000122>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000576> (scattered molecular aggregate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000576> <http://purl.obolibrary.org/obo/IAO_0000123>)
 
-# Class: <http://purl.obolibrary.org/obo/OBI_0100026> (obsolete organism)
+# Class: <http://purl.obolibrary.org/obo/COB_0000022> (obsolete organism)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0100026> <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/COB_0000022> <http://purl.obolibrary.org/obo/IAO_0000122>)
 
 # Class: <http://purl.obolibrary.org/obo/OGMS_0000090> (treatment)
 
-SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000090> <http://purl.obolibrary.org/obo/OBI_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000090> <http://purl.obolibrary.org/obo/COB_0000035>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000125> (mass)
 
