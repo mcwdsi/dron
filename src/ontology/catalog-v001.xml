@@ -16,6 +16,7 @@
     <uri name="http://purl.obolibrary.org/obo/dron/components/dron-ingredient.owl" uri="components/dron-ingredient.owl" />
     <uri name="http://purl.obolibrary.org/obo/dron/components/dron-ndc.owl" uri="components/dron-ndc.owl" />
     <uri name="http://purl.obolibrary.org/obo/dron/components/dron-rxnorm.owl" uri="components/dron-rxnorm.owl" />
+    <uri name="http://purl.obolibrary.org/obo/dron/components/dron-obsolete.owl" uri="components/dron-obsolete.owl" />
   </group>
   <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public">
     <uri name="http://purl.obolibrary.org/obo/dron/dron-ingredient.owl" uri="components/dron-ingredient.owl" />

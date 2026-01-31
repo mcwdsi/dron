@@ -75,6 +75,7 @@ components:
     - filename: dron-ingredient.owl
     - filename: dron-ndc.owl
     - filename: dron-rxnorm.owl
+    - filename: dron-obsolete.owl
 robot_java_args: '-Xmx8G'
 custom_makefile_header: |
   ### Workflow

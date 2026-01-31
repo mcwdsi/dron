@@ -42,3 +42,4 @@ These are the components in DRON
 | dron-ingredient.owl | None |
 | dron-ndc.owl | None |
 | dron-rxnorm.owl | None |
+| dron-obsolete.owl | None |

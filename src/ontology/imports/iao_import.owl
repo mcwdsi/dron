@@ -15,10 +15,10 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/dron/imports/iao_import.owl>
-<http://purl.obolibrary.org/obo/dron/releases/2025-12-19/imports/iao_import.owl>
+<http://purl.obolibrary.org/obo/dron/releases/2026-01-31/imports/iao_import.owl>
 Annotation(dc:source <http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl>)
-Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_251006F")
-Annotation(owl:versionInfo "2025-12-19")
+Annotation(rdfs:comment "This version of DrOn is current through RxNorm version 20AA_260105F")
+Annotation(owl:versionInfo "2026-01-31")
 
 Declaration(Class(obo:BFO_0000031))
 Declaration(Class(obo:IAO_0000003))
@@ -41,6 +41,7 @@ Declaration(AnnotationProperty(obo:IAO_0000232))
 Declaration(AnnotationProperty(obo:IAO_0000412))
 Declaration(AnnotationProperty(obo:IAO_0000600))
 Declaration(AnnotationProperty(obo:IAO_0000602))
+Declaration(AnnotationProperty(obo:IAO_0100001))
 Declaration(AnnotationProperty(dc:source))
 ############################
 #   Annotation Properties
@@ -172,6 +173,15 @@ AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000602 "Person:Alan Ruttenberg"@en)
 AnnotationAssertion(obo:IAO_0000119 obo:IAO_0000602 "Person:Alan Ruttenberg"@en)
 AnnotationAssertion(obo:IAO_0000600 obo:IAO_0000602 "An axiom expressed in first order logic using CLIF syntax"@en)
 AnnotationAssertion(rdfs:label obo:IAO_0000602 "has associated axiom(fol)"@en)
+
+# Annotation Property: obo:IAO_0100001 (term replaced by)
+
+AnnotationAssertion(obo:IAO_0000111 obo:IAO_0100001 "term replaced by"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:IAO_0100001 "Use on obsolete terms, relating the term to another term that can be used as a substitute"@en)
+AnnotationAssertion(obo:IAO_0000117 obo:IAO_0100001 "Person:Alan Ruttenberg"@en)
+AnnotationAssertion(obo:IAO_0000119 obo:IAO_0100001 "Person:Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:comment obo:IAO_0100001 "Add as annotation triples in the granting ontology"@en)
+AnnotationAssertion(rdfs:label obo:IAO_0100001 "term replaced by"@en)
 
 
 ############################
