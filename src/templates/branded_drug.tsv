@@ -25100,8 +25100,8 @@ DRON:01007284	menthol 9.4 MG Oral Lozenge [Halls]	DRON:00801034	1947370
 DRON:01007285	fibrinogen, human 1 MG Injection [Fibryga]	DRON:00057711	1947382
 DRON:01007286	valbenazine 80 MG Oral Capsule [Ingrezza]	DRON:00801035	1986331
 DRON:01007287	acetaminophen 325 MG Oral Tablet [Dolofin]	DRON:00046365	1986337
-DRON:01007288	insulin aspart, human 100 UNT/ML Injectable Solution [Fiasp]	DRON:00045186	1986354
-DRON:01007289	3 ML insulin aspart, human 100 UNT/ML Pen Injector [Fiasp]	DRON:00754422	1986356
+DRON:01007288	Niacinamide insulin aspart, human 100 UNT/ML Injectable Solution [Fiasp]	DRON:00045186	1986354
+DRON:01007289	Niacinamide 3 ML insulin aspart, human 100 UNT/ML Pen Injector [Fiasp]	DRON:00754422	1986356
 DRON:01007290	insulin aspart, human 100 UNT/ML Pen Injector [Fiasp]	DRON:00752524	1986357
 DRON:01007291	salicylic acid 280 MG/ML Topical Solution [Xalix]	DRON:00801036	1986365
 DRON:01007292	1000 ML olive oil 160 MG/ML / soybean oil 40 MG/ML Injection [Clinolipid]	DRON:00801037	1986378
@@ -26147,7 +26147,7 @@ DRON:01008331	brolucizumab-dbll 120 MG/ML Injection [Beovu]	DRON:00865895	220492
 DRON:01008332	60 ACTUAT aclidinium bromide 0.4 MG/ACTUAT / formoterol fumarate 0.012 MG/ACTUAT Dry Powder Inhaler [Duaklir]	DRON:00865979	2205099
 DRON:01008333	aclidinium bromide 0.4 MG/ACTUAT / formoterol fumarate 0.012 MG/ACTUAT Dry Powder Inhaler [Duaklir]	DRON:00865980	2205101
 DRON:01008334	30 ACTUAT aclidinium bromide 0.4 MG/ACTUAT / formoterol fumarate 0.012 MG/ACTUAT Dry Powder Inhaler [Duaklir]	DRON:00865984	2205104
-DRON:01008335	3 ML insulin aspart, human 100 UNT/ML Cartridge [Fiasp]	DRON:00776439	2205454
+DRON:01008335	Niacinamide 3 ML insulin aspart, human 100 UNT/ML Cartridge [Fiasp]	DRON:00776439	2205454
 DRON:01008336	insulin aspart, human 100 UNT/ML Cartridge [Fiasp]	DRON:00776440	2205455
 DRON:01008337	baricitinib 1 MG Oral Tablet [Olumiant]	DRON:00865898	2205474
 DRON:01008338	phenylpropanolamine hydrochloride 145 MG Extended Release Oral Tablet [Proin]	DRON:00865899	2205498
