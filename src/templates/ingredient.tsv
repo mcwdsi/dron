@@ -2517,7 +2517,7 @@ CHEBI:746859	travoprost	283809
 CHEBI:746867	Remibrutinib	2724365
 CHEBI:746908	lurbinectedin	2374729
 CHEBI:7470	Naphazoline	7247
-CHEBI:747008	finerenone	2562811
+CHEBI:747008	Finerenone	2562811
 CHEBI:7476	naproxen	7258
 CHEBI:74768	aluminium sulfate (anhydrous)	17621
 CHEBI:7478	naratriptan	141366
@@ -6797,3 +6797,7 @@ DRON:01081387	myristamidopropylamine oxide	1485540
 DRON:01081388	magnesium aluminum silicate type IC	1730436
 DRON:01081389	terpene resin	2640032
 DRON:01081390	sevabertinib	2728187
+DRON:01086761	polyester-7	1368161
+DRON:01086762	ceramide eop	1537211
+DRON:01086763	Panax notoginseng whole extract	1606213
+DRON:01086764	aficamten	2731469
