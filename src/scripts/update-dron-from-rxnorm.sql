@@ -313,4 +313,10 @@ FROM rxnorm.RXNSAT as s,
 --  we created a new row in ndc_branded_drug, and to avoid duplicawtion
 --  now here will remove all such dups from ndc_clinical_drug
 DELETE from ndc_clinical_drug
-WHERE ndc in (select ndc from ndc_branded_drug); 
+WHERE ndc in (select ndc from ndc_branded_drug);
+
+-- Update rxcui to drugbank id mapping
+INSERT OR IGNORE INTO rxcui_drugbank
+SELECT distinct rxcui, code
+FROM rxnorm.RXNCONSO
+WHERE SAB = 'DRUGBANK'; 

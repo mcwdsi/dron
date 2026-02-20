@@ -120,6 +120,13 @@ CREATE TABLE dose_form (
     curie TEXT NOT NULL
 );
 
+CREATE TABLE rxcui_drugbank (
+    rxcui INTEGER,
+    drugbank TEXT NOT NULL,
+  PRIMARY KEY (rxcui, drugbank)
+);
+CREATE INDEX idx_ingredient_rxcui ON ingredient(rxcui);
+
 -- Create triggers for automatically assigning DRON IDs.
 -- First create a table with one row to track the current ID.
 CREATE TABLE current_dron_id ( id INTEGER );

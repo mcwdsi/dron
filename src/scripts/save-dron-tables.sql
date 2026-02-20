@@ -43,3 +43,6 @@ SELECT * FROM ndc_clinical_drug ORDER BY curie;
 
 .output obsolete.tsv
 SELECT * FROM obsolete ORDER BY curie;
+
+.output rxcui_drugbank.tsv
+SELECT * from rxcui_drugbank ORDER BY rxcui, drugbank;
