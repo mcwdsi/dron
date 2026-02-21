@@ -18,7 +18,7 @@ INSERT INTO dron_ingredient(subject, predicate, object) VALUES
 ('DRON:00000028', 'rdf:type', 'owl:Class'),
 ('DRON:00000029', 'rdf:type', 'owl:Class'),
 ('DRON:00010000', 'rdf:type', 'owl:AnnotationProperty'),
-('<http://www.geneontology.org/formats/oboInOwl#hasDbXref>', 'rdf:type', 'owl:AnnotationProperty');
+('oio:hasDbXref', 'rdf:type', 'owl:AnnotationProperty');
 
 -- Add some duplicate CHEBI annotations.
 -- TODO: Clean this up.
@@ -184,7 +184,7 @@ FROM dron.ingredient;
 INSERT OR IGNORE INTO dron_ingredient(subject, predicate, object, datatype)
 SELECT
     curie as subject,
-    '<http://www.geneontology.org/formats/oboInOwl#hasDbXref>' as predicate,
+    'oio:hasDbXref' as predicate,
     'drugbank:' || drugbank as object,
     'xsd:string' AS datatype
 FROM dron.rxcui_drugbank d, dron.ingredient i
