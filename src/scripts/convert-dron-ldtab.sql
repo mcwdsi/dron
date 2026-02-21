@@ -17,7 +17,8 @@ INSERT INTO dron_ingredient(subject, predicate, object) VALUES
 ('UO:0000022', 'rdf:type', 'owl:NamedIndividual'),
 ('DRON:00000028', 'rdf:type', 'owl:Class'),
 ('DRON:00000029', 'rdf:type', 'owl:Class'),
-('DRON:00010000', 'rdf:type', 'owl:AnnotationProperty');
+('DRON:00010000', 'rdf:type', 'owl:AnnotationProperty'),
+('oio:hasDbXref', 'rdf:type', 'owl:AnnotationProperty');
 
 -- Add some duplicate CHEBI annotations.
 -- TODO: Clean this up.
@@ -177,6 +178,18 @@ SELECT
     rxcui AS object,
     'xsd:string' AS datatype
 FROM dron.ingredient;
+
+-- Assert database_cross_reference.
+-- for all ingredients with DrugBank id
+INSERT OR IGNORE INTO dron_ingredient(subject, predicate, object, datatype)
+SELECT
+    curie as subject,
+    'oio:hasDbXref' as predicate,
+    'drugbank:' || drugbank as object,
+    'xsd:string' AS datatype
+FROM dron.rxcui_drugbank d, dron.ingredient i
+WHERE d.rxcui = i.rxcui;
+--  AND curie NOT LIKE 'CHEBI%';
 
 -- Assert rdfs:subClassOf BFO:0000016 'disposition'
 -- for all disposition rows.
