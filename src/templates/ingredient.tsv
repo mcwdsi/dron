@@ -2518,6 +2518,10 @@ CHEBI:746867	Remibrutinib	2724365
 CHEBI:746908	lurbinectedin	2374729
 CHEBI:7470	Naphazoline	7247
 CHEBI:747008	Finerenone	2562811
+CHEBI:747211	arimoclomol	2694283
+CHEBI:747213	aficamten	2731469
+CHEBI:747294	oliceridine	2392230
+CHEBI:747353	darolutamide	2180325
 CHEBI:7476	naproxen	7258
 CHEBI:74768	aluminium sulfate (anhydrous)	17621
 CHEBI:7478	naratriptan	141366
@@ -6111,7 +6115,6 @@ DRON:00862685	butyl acrylate - methylacrylate acid copolymer (2 % methacrylic ac
 DRON:00865526	Carya laciniosa pollen extract	1305551
 DRON:00865527	Bacillus subtilis	1311119
 DRON:00865528	Aspergillus amstelodami extract	2101007
-DRON:00865530	darolutamide	2180325
 DRON:00865532	upadacitinib	2196092
 DRON:00865533	trifarotene	2205637
 DRON:00865536	luspatercept	2262544
@@ -6167,7 +6170,6 @@ DRON:00922241	atoltivimab	2461338
 DRON:00922242	odesivimab	2461340
 DRON:00922243	maftivimab	2461339
 DRON:00925916	vaccinia virus	1668221
-DRON:00925917	oliceridine	2392230
 DRON:00925918	Hibiscus bifurcatus whole extract	2463334
 DRON:00929780	bamlanivimab	2463114
 DRON:00929781	casirivimab	2465242
@@ -6733,7 +6735,6 @@ DRON:01057636	C12-15 pareth-9	1362144
 DRON:01057637	hydroxyethyl cellulose (6500 MPA.S at 2%)	1376344
 DRON:01057638	thiafentanil	2691823
 DRON:01057639	ilunocitinib	2693414
-DRON:01057640	arimoclomol	2694283
 DRON:01057641	inavolisib	2695422
 DRON:01057642	polyacrylate crosspolymer-6	2698020
 DRON:01059494	diisostearyl malate	1363602
@@ -6800,7 +6801,6 @@ DRON:01081390	sevabertinib	2728187
 DRON:01086761	polyester-7	1368161
 DRON:01086762	ceramide eop	1537211
 DRON:01086763	Panax notoginseng whole extract	1606213
-DRON:01086764	aficamten	2731469
 DRON:01090541	coconut juice	1420960
 DRON:01090542	Lactiplantibacillus plantarum	1673942
 DRON:01090543	difamilast	2737149

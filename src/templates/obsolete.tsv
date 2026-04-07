@@ -10373,6 +10373,7 @@ DRON:00863064	obsolete 00536124701	owl:Class	DRON:01024808
 DRON:00863065	obsolete 00536124710	owl:Class	DRON:01024809
 DRON:00864329	obsolete 57511010203	owl:Class	DRON:01033767
 DRON:00865529	obsolete erdafitinib	owl:Class	CHEBI:232556
+DRON:00865530	obsolete darolutamide	owl:Class	CHEBI:747353
 DRON:00865534	obsolete elexacaftor	owl:Class	CHEBI:234518
 DRON:00865565	obsolete brompheniramine maleate 12 MG / phenylephrine hydrochloride 15 MG / phenylpropanolamine hydrochloride 15 MG Extended Release Oral Tablet	owl:Class	DRON:00035987
 DRON:00865566	obsolete chlorpheniramine maleate 8 MG / methscopolamine nitrate 2.5 MG / phenylpropanolamine hydrochloride 75 MG Extended Release Oral Capsule	owl:Class	DRON:00036003
@@ -11749,6 +11750,7 @@ DRON:00922297	obsolete cysteamine 3.8 MG/ML Ophthalmic Solution	owl:Class	DRON:0
 DRON:00922514	obsolete 15914000701	owl:Class	DRON:01034724
 DRON:00922515	obsolete 15914000702	owl:Class	DRON:01034725
 DRON:00922694	obsolete 43066001610	owl:Class	DRON:01022982
+DRON:00925917	obsolete oliceridine	owl:Class	CHEBI:747294
 DRON:00925932	obsolete secobarbital sodium 100 MG Oral Capsule	owl:Class	DRON:00045987
 DRON:00925933	obsolete magnesium sulfate 1000 MG Granules for Oral Solution	owl:Class	DRON:00064096
 DRON:00927554	obsolete 69102010501	owl:Class	DRON:01028578
@@ -13316,6 +13318,7 @@ DRON:01056756	obsolete 12843007640	owl:Class	DRON:01024830
 DRON:01056935	obsolete 00280220060	owl:Class	DRON:00654937
 DRON:01056936	obsolete 12843050090	owl:Class	DRON:00580188
 DRON:01056937	obsolete 12843055539	owl:Class	DRON:00701199
+DRON:01057640	obsolete arimoclomol	owl:Class	CHEBI:747211
 DRON:01058386	obsolete 65954035581	owl:Class	DRON:00695682
 DRON:01058387	obsolete 65954056481	owl:Class	DRON:00695705
 DRON:01058388	obsolete 65954059171	owl:Class	DRON:00714259
@@ -13399,3 +13402,4 @@ DRON:01079973	obsolete prenylamine	owl:Class	CHEBI:8397
 DRON:01079980	obsolete remibrutinib	owl:Class	CHEBI:746867
 DRON:01080135	obsolete 00904205112	owl:Class	DRON:00173908
 DRON:01080231	obsolete 00143947212	owl:Class	DRON:01077921
+DRON:01086764	obsolete aficamten	owl:Class	CHEBI:747213
