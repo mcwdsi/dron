@@ -1655,6 +1655,7 @@ CHEBI:4027	cyclophosphamide	3002
 CHEBI:40279	allopurinol	519
 CHEBI:40303	lovastatin	6472
 CHEBI:4031	cyclosporin A	3008
+CHEBI:4042	cypermethrin	2590266
 CHEBI:4046	cyproheptadine	3013
 CHEBI:404903	ertapenem	325642
 CHEBI:40572	diethylene glycol monoethyl ether	1311147
@@ -2519,9 +2520,11 @@ CHEBI:746908	lurbinectedin	2374729
 CHEBI:7470	Naphazoline	7247
 CHEBI:747008	Finerenone	2562811
 CHEBI:747211	arimoclomol	2694283
+CHEBI:747212	tradipitant	2739506
 CHEBI:747213	aficamten	2731469
 CHEBI:747294	Oliceridine	2392230
 CHEBI:747353	darolutamide	2180325
+CHEBI:747472	orforglipron	2739838
 CHEBI:7476	naproxen	7258
 CHEBI:74768	aluminium sulfate (anhydrous)	17621
 CHEBI:7478	naratriptan	141366
@@ -6806,3 +6809,5 @@ DRON:01090542	Lactiplantibacillus plantarum	1673942
 DRON:01090543	difamilast	2737149
 DRON:01090544	atinvicitinib	2737481
 DRON:01090545	icotrokinra	2739030
+DRON:01092801	neopentyl glycol diheptanoate	1306188
+DRON:01092802	relacorilant	2739519
