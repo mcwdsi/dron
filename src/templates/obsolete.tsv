@@ -9,6 +9,7 @@ DRON:00014162	obsolete potassium iodate	owl:Class	CHEBI:234593
 DRON:00014271	obsolete azosemide	owl:Class	CHEBI:31248
 DRON:00014495	obsolete benznidazole	owl:Class	CHEBI:133833
 DRON:00014527	obsolete brivudine	owl:Class	CHEBI:47278
+DRON:00015071	obsolete oxprenolol	owl:Class	CHEBI:747559
 DRON:00015448	obsolete oxaceprol	owl:Class	CHEBI:233149
 DRON:00015646	obsolete potassium	owl:Class	CHEBI:231501
 DRON:00015773	obsolete roxatidine	owl:Class	CHEBI:230550
@@ -22,6 +23,7 @@ DRON:00016802	obsolete chlorophyllin	owl:Class	CHEBI:232141
 DRON:00016920	obsolete anakinra	owl:Class	CHEBI:231683
 DRON:00017092	obsolete chymopapain	owl:Class	CHEBI:193860
 DRON:00017625	obsolete insulin lispro	owl:Class	CHEBI:232799
+DRON:00017803	obsolete detomidine	owl:Class	CHEBI:747608
 DRON:00017994	obsolete milbemycin oxime	owl:Class	CHEBI:201396
 DRON:00020050	obsolete ipilimumab	owl:Class	CHEBI:231679
 DRON:00020097	obsolete gamithromycin	owl:Class	CHEBI:195437
@@ -13359,6 +13361,7 @@ DRON:01065653	obsolete suzetrigine	owl:Class	CHEBI:233446
 DRON:01067897	obsolete 75137000030	owl:Class	DRON:01064231
 DRON:01067980	obsolete 83881040205	owl:Class	DRON:01062901
 DRON:01067981	obsolete 83881040215	owl:Class	DRON:01062902
+DRON:01068079	obsolete gepotidacin	owl:Class	CHEBI:747127
 DRON:01068191	obsolete 58933001102	owl:Class	DRON:00999808
 DRON:01068192	obsolete 58933001104	owl:Class	DRON:00999809
 DRON:01068193	obsolete 58933001112	owl:Class	DRON:00999810
@@ -13400,6 +13403,8 @@ DRON:01078269	obsolete 50332014307	owl:Class	DRON:00995463
 DRON:01078270	obsolete 50332014308	owl:Class	DRON:00995464
 DRON:01079973	obsolete prenylamine	owl:Class	CHEBI:8397
 DRON:01079980	obsolete remibrutinib	owl:Class	CHEBI:746867
+DRON:01079983	obsolete imlunestrant	owl:Class	CHEBI:747442
 DRON:01080135	obsolete 00904205112	owl:Class	DRON:00173908
 DRON:01080231	obsolete 00143947212	owl:Class	DRON:01077921
 DRON:01086764	obsolete aficamten	owl:Class	CHEBI:747213
+DRON:01090545	obsolete icotrokinra	owl:Class	CHEBI:747606

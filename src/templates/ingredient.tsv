@@ -2519,13 +2519,21 @@ CHEBI:746867	Remibrutinib	2724365
 CHEBI:746908	lurbinectedin	2374729
 CHEBI:7470	Naphazoline	7247
 CHEBI:747008	Finerenone	2562811
+CHEBI:747127	gepotidacin	2709212
 CHEBI:747211	arimoclomol	2694283
 CHEBI:747212	tradipitant	2739506
 CHEBI:747213	aficamten	2731469
 CHEBI:747294	Oliceridine	2392230
 CHEBI:747353	darolutamide	2180325
+CHEBI:747369	islatravir	2741688
+CHEBI:747442	imlunestrant	2725912
+CHEBI:747471	baxdrostat	2743398
 CHEBI:747472	orforglipron	2739838
+CHEBI:747473	vepdegestrant	2743350
+CHEBI:747559	oxprenolol	7801
 CHEBI:7476	naproxen	7258
+CHEBI:747606	icotrokinra	2739030
+CHEBI:747608	detomidine	22672
 CHEBI:74768	aluminium sulfate (anhydrous)	17621
 CHEBI:7478	naratriptan	141366
 CHEBI:74789	9-aminoacridine	645
@@ -3465,7 +3473,6 @@ DRON:00015036	heparinoids	5228
 DRON:00015038	HEPATITIS A IMMUNE GLOBULIN,HU	237062
 DRON:00015059	guarana preparation	236953
 DRON:00015065	halazone	59838
-DRON:00015071	oxprenolol	7801
 DRON:00015086	Lactobacillus	6204
 DRON:00015096	ifenprodil	27403
 DRON:00015097	imidazole-2-hydroxybenzoate	27438
@@ -3768,7 +3775,6 @@ DRON:00017785	Bifidobacterium infantis	100213
 DRON:00017790	clobutinol	21247
 DRON:00017796	chaste tree preparation	236664
 DRON:00017799	devil's claw preparation	236279
-DRON:00017803	detomidine	22672
 DRON:00017806	magnesium aspartate	142131
 DRON:00017808	malt soup extract	91264
 DRON:00017813	Peruvian balsam	33219
@@ -6765,7 +6771,6 @@ DRON:01065654	vimseltinib	2705378
 DRON:01068076	hexamethylindanopyran	1314281
 DRON:01068077	tetraxetan	2260905
 DRON:01068078	mirdametinib	2705551
-DRON:01068079	gepotidacin	2709212
 DRON:01070175	berdazimer	2710434
 DRON:01071701	toltrazuril	1535930
 DRON:01071702	ethylene-vinyl acetate copolymer (50% vinyl acetate)	1736747
@@ -6794,7 +6799,6 @@ DRON:01079978	C10-16 pareth-1	1437550
 DRON:01079979	paltusotine	2724363
 DRON:01079981	elinzanetant	2725511
 DRON:01079982	nerandomilast	2725523
-DRON:01079983	imlunestrant	2725912
 DRON:01079984	ziftomenib	2725985
 DRON:01081386	Cocos nucifera whole extract	1367493
 DRON:01081387	myristamidopropylamine oxide	1485540
@@ -6808,6 +6812,6 @@ DRON:01090541	coconut juice	1420960
 DRON:01090542	Lactiplantibacillus plantarum	1673942
 DRON:01090543	difamilast	2737149
 DRON:01090544	atinvicitinib	2737481
-DRON:01090545	icotrokinra	2739030
 DRON:01092801	neopentyl glycol diheptanoate	1306188
 DRON:01092802	relacorilant	2739519
+DRON:01094793	influenza A virus (H5N8) antigen	2743197
