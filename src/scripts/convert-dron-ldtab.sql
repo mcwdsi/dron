@@ -23,75 +23,75 @@ INSERT INTO dron_ingredient(subject, predicate, object) VALUES
 -- Add some duplicate CHEBI annotations.
 -- TODO: Clean this up.
 INSERT INTO dron_ingredient(subject, predicate, object, datatype) VALUES
-('CHEBI:135086', 'DRON:00010000', '235942', 'xsd:string'),
-('CHEBI:135086', 'DRON:00010000', '392938', 'xsd:string'),
+('CHEBI:135086', 'oio:hasDbXref', 'rxnorm:235942', 'xsd:string'),
+('CHEBI:135086', 'oio:hasDbXref', 'rxnorm:392938', 'xsd:string'),
 ('CHEBI:135086', 'rdfs:label', 'BUTETAMATE', 'xsd:string'),
 ('CHEBI:135086', 'rdfs:label', 'Butethamate', 'xsd:string'),
-('CHEBI:135621', 'DRON:00010000', '614654', 'xsd:string'),
+('CHEBI:135621', 'oio:hasDbXref', 'rxnorm:614654', 'xsd:string'),
 ('CHEBI:135621', 'rdfs:label', 'Metaclazepam hydrochloride', 'xsd:string'),
-('CHEBI:145994', 'DRON:00010000', '2284718', 'xsd:string'),
+('CHEBI:145994', 'oio:hasDbXref', 'rxnorm:2284718', 'xsd:string'),
 ('CHEBI:145994', 'rdfs:label', 'Lumateperone', 'xsd:string'),
-('CHEBI:149601', 'DRON:00010000', '2282403', 'xsd:string'),
+('CHEBI:149601', 'oio:hasDbXref', 'rxnorm:2282403', 'xsd:string'),
 ('CHEBI:149601', 'rdfs:label', 'bempedoic acid', 'xsd:string'),
-('CHEBI:15727', 'DRON:00010000', '858857', 'xsd:string'),
+('CHEBI:15727', 'oio:hasDbXref', 'rxnorm:858857', 'xsd:string'),
 ('CHEBI:15727', 'rdfs:label', 'L-carnosine', 'xsd:string'),
-('CHEBI:15956', 'DRON:00010000', '314583', 'xsd:string'),
+('CHEBI:15956', 'oio:hasDbXref', 'rxnorm:314583', 'xsd:string'),
 ('CHEBI:15956', 'rdfs:label', 'Biotin', 'xsd:string'),
-('CHEBI:16336', 'DRON:00010000', '62372', 'xsd:string'),
+('CHEBI:16336', 'oio:hasDbXref', 'rxnorm:62372', 'xsd:string'),
 ('CHEBI:16336', 'rdfs:label', 'Hyaluronan', 'xsd:string'),
-('CHEBI:16811', 'DRON:00010000', '9100', 'xsd:string'),
+('CHEBI:16811', 'oio:hasDbXref', 'rxnorm:9100', 'xsd:string'),
 ('CHEBI:16811', 'rdfs:label', 'Methionine', 'xsd:string'),
 ('CHEBI:17439', 'rdfs:label', 'Vitamin B 12', 'xsd:string'),
-('CHEBI:17833', 'DRON:00010000', '1596450', 'xsd:string'),
-('CHEBI:17833', 'DRON:00010000', '142438', 'xsd:string'),
+('CHEBI:17833', 'oio:hasDbXref', 'rxnorm:1596450', 'xsd:string'),
+('CHEBI:17833', 'oio:hasDbXref', 'rxnorm:142438', 'xsd:string'),
 ('CHEBI:17833', 'rdfs:label', 'gentamicin', 'xsd:string'),
 ('CHEBI:18067', 'rdfs:label', 'Vitamin K 1', 'xsd:string'),
-('CHEBI:2682', 'DRON:00010000', '732', 'xsd:string'),
+('CHEBI:2682', 'oio:hasDbXref', 'rxnorm:732', 'xsd:string'),
 ('CHEBI:2682', 'rdfs:label', 'Amphotericin B', 'xsd:string'),
-('CHEBI:27013', 'DRON:00010000', '42934', 'xsd:string'),
+('CHEBI:27013', 'oio:hasDbXref', 'rxnorm:42934', 'xsd:string'),
 ('CHEBI:27013', 'rdfs:label', 'Tocopherol', 'xsd:string'),
-('CHEBI:27373', 'DRON:00010000', '22701', 'xsd:string'),
+('CHEBI:27373', 'oio:hasDbXref', 'rxnorm:22701', 'xsd:string'),
 ('CHEBI:27373', 'rdfs:label', 'Panthenol', 'xsd:string'),
-('CHEBI:28304', 'DRON:00010000', '5224', 'xsd:string'),
+('CHEBI:28304', 'oio:hasDbXref', 'rxnorm:5224', 'xsd:string'),
 ('CHEBI:28304', 'rdfs:label', 'heparin', 'xsd:string'),
-('CHEBI:28940', 'DRON:00010000', '2418', 'xsd:string'),
+('CHEBI:28940', 'oio:hasDbXref', 'rxnorm:2418', 'xsd:string'),
 ('CHEBI:28940', 'rdfs:label', 'Cholecalciferol', 'xsd:string'),
-('CHEBI:32026', 'DRON:00010000', '155156', 'xsd:string'),
+('CHEBI:32026', 'oio:hasDbXref', 'rxnorm:155156', 'xsd:string'),
 ('CHEBI:32026', 'rdfs:label', 'Poloxamer', 'xsd:string'),
-('CHEBI:32027', 'DRON:00010000', '1426432', 'xsd:string'),
+('CHEBI:32027', 'oio:hasDbXref', 'rxnorm:1426432', 'xsd:string'),
 ('CHEBI:32027', 'rdfs:label', 'POLYOXYL 8 STEARATE', 'xsd:string'),
 ('CHEBI:32159', 'rdfs:label', 'sucralose', 'xsd:string'),
-('CHEBI:36773', 'DRON:00010000', '1952', 'xsd:string'),
+('CHEBI:36773', 'oio:hasDbXref', 'rxnorm:1952', 'xsd:string'),
 ('CHEBI:36773', 'rdfs:label', 'Camphor', 'xsd:string'),
-('CHEBI:4495', 'DRON:00010000', '6054', 'xsd:string'),
+('CHEBI:4495', 'oio:hasDbXref', 'rxnorm:6054', 'xsd:string'),
 ('CHEBI:4495', 'rdfs:label', 'Diazoxide', 'xsd:string'),
-('CHEBI:4562', 'DRON:00010000', '4025', 'xsd:string'),
+('CHEBI:4562', 'oio:hasDbXref', 'rxnorm:4025', 'xsd:string'),
 ('CHEBI:4562', 'rdfs:label', 'Dihydroergotamine', 'xsd:string'),
 ('CHEBI:46245', 'rdfs:label', 'coenzyme Q10', 'xsd:string'),
-('CHEBI:46936', 'DRON:00010000', '39371', 'xsd:string'),
+('CHEBI:46936', 'oio:hasDbXref', 'rxnorm:39371', 'xsd:string'),
 ('CHEBI:46936', 'rdfs:label', 'nonivamide', 'xsd:string'),
-('CHEBI:52071', 'DRON:00010000', '3274', 'xsd:string'),
-('CHEBI:52071', 'DRON:00010000', '3275', 'xsd:string'),
-('CHEBI:52071', 'DRON:00010000', '42635', 'xsd:string'),
+('CHEBI:52071', 'oio:hasDbXref', 'rxnorm:3274', 'xsd:string'),
+('CHEBI:52071', 'oio:hasDbXref', 'rxnorm:3275', 'xsd:string'),
+('CHEBI:52071', 'oio:hasDbXref', 'rxnorm:42635', 'xsd:string'),
 ('CHEBI:52071', 'rdfs:label', 'Dextran 40', 'xsd:string'),
 ('CHEBI:52071', 'rdfs:label', 'Dextran 70', 'xsd:string'),
 ('CHEBI:52071', 'rdfs:label', 'Dextran 75', 'xsd:string'),
-('CHEBI:6539', 'DRON:00010000', '6470', 'xsd:string'),
+('CHEBI:6539', 'oio:hasDbXref', 'rxnorm:6470', 'xsd:string'),
 ('CHEBI:6539', 'rdfs:label', 'Lorazepam', 'xsd:string'),
-('CHEBI:53258', 'DRON:00010000', '56466', 'xsd:string'),
+('CHEBI:53258', 'oio:hasDbXref', 'rxnorm:56466', 'xsd:string'),
 ('CHEBI:53258', 'rdfs:label', 'sodium citrate', 'xsd:string'),
-('CHEBI:61468', 'DRON:00010000', '324072', 'xsd:string'),
+('CHEBI:61468', 'oio:hasDbXref', 'rxnorm:324072', 'xsd:string'),
 ('CHEBI:61468', 'rdfs:label', 'Dimethicone 350', 'xsd:string'),
 ('CHEBI:78886', 'rdfs:label', '2-tert-butylhydroquinone', 'xsd:string'),
 ('CHEBI:82530', 'rdfs:label', 'ferric oxide, saccharated', 'xsd:string'),
-('CHEBI:8397', 'DRON:00010000', '8674', 'xsd:string'),
+('CHEBI:8397', 'oio:hasDbXref', 'rxnorm:8674', 'xsd:string'),
 ('CHEBI:8397', 'rdfs:label', 'Prenylamine', 'xsd:string'),
-('CHEBI:8768', 'DRON:00010000', '183877', 'xsd:string'),
+('CHEBI:8768', 'oio:hasDbXref', 'rxnorm:183877', 'xsd:string'),
 ('CHEBI:8768', 'rdfs:label', 'clofezone', 'xsd:string'),
-('CHEBI:9144', 'DRON:00010000', '9794', 'xsd:string'),
+('CHEBI:9144', 'oio:hasDbXref', 'rxnorm:9794', 'xsd:string'),
 ('CHEBI:9144', 'rdfs:label', 'Silymarin', 'xsd:string'),
-('CHEBI:9144', 'DRON:00010000', '155067', 'xsd:string'),
-('CHEBI:94449', 'DRON:00010000', '4955', 'xsd:string'),
+('CHEBI:9144', 'oio:hasDbXref', 'rxnorm:155067', 'xsd:string'),
+('CHEBI:94449', 'oio:hasDbXref', 'rxnorm:4955', 'xsd:string'),
 ('CHEBI:94449', 'rdfs:label', 'Glycopyrrolate', 'xsd:string');
 
 -- Add some missing DRON annotations for active ingredients.
@@ -169,14 +169,24 @@ FROM (
     SELECT curie, label, datatype FROM dron.disposition
 );
 
--- Assert DRON:00010000 'has_RxCUI' annotation.
--- for all ingredient rows.
+#-- Assert DRON:00010000 'has_RxCUI' annotation.
+#-- for all ingredient rows.
+#INSERT OR IGNORE INTO dron_ingredient(subject, predicate, object, datatype)
+#SELECT
+#    curie AS subject,
+#    'DRON:00010000' AS predicate,
+#    rxcui AS object,
+#    'xsd:string' AS datatype
+#FROM dron.ingredient;
+
+-- Assert database cross reference for RxCuis.
+-- for all ingredient rows
 INSERT OR IGNORE INTO dron_ingredient(subject, predicate, object, datatype)
 SELECT
-    curie AS subject,
-    'DRON:00010000' AS predicate,
-    rxcui AS object,
-    'xsd:string' AS datatype
+    curie as subject,
+    'oio:hasDbXref' as predicate,
+    'rxnorm:' || rxcui as object,
+    'xsd:string' as datatype
 FROM dron.ingredient;
 
 -- Assert database_cross_reference.
@@ -362,13 +372,29 @@ FROM (
     WHERE cdfd.disposition = d.curie
 );
 
--- Assert DRON:00010000 'has_RxCUI' annotation.
+#-- Assert DRON:00010000 'has_RxCUI' annotation.
+#-- for all clinical drug form, clinical drug, and branded drug rows.
+#INSERT INTO dron_rxnorm(subject, predicate, object, datatype)
+#SELECT
+#    curie AS subject,
+#    'DRON:00010000' AS predicate,
+#    rxcui AS object,
+#    'xsd:string' AS datatype
+#FROM (
+#    SELECT curie, rxcui FROM dron.clinical_drug_form
+#    UNION
+#    SELECT curie, rxcui FROM dron.clinical_drug
+#    UNION
+#    SELECT curie, rxcui FROM dron.branded_drug
+#);
+
+-- Assert database cross reference for RxCuis...
 -- for all clinical drug form, clinical drug, and branded drug rows.
 INSERT INTO dron_rxnorm(subject, predicate, object, datatype)
 SELECT
     curie AS subject,
-    'DRON:00010000' AS predicate,
-    rxcui AS object,
+    'oio:hasDbXref' AS predicate,
+    'rxnorm:' || rxcui AS object,
     'xsd:string' AS datatype
 FROM (
     SELECT curie, rxcui FROM dron.clinical_drug_form
