@@ -13427,7 +13427,7 @@ DRON:00047788	etoricoxib 60 MG Oral Tablet	DRON:00027792	388519
 DRON:00047789	etoricoxib 90 MG Oral Tablet	DRON:00027792	388520
 DRON:00047790	etoricoxib 120 MG Oral Tablet	DRON:00027792	388521
 DRON:00047791	timolol 0.001 MG/MG Ophthalmic Gel	DRON:00025398	388522
-DRON:00047792	betamethasone 0.0005 MG/MG / calcipotriene 0.00005 MG/MG Topical Ointment	DRON:00027794	388525
+DRON:00047792	betamethasone dipropionate 0.000643 MG/MG / calcipotriene 0.00005 MG/MG Topical Ointment	DRON:00027794	388525
 DRON:00047793	Leucovorin 25 MG/ML Injectable Solution	DRON:00022241	388641
 DRON:00047794	pseudoephedrine hydrochloride 120 MG / terfenadine 60 MG Oral Tablet	DRON:00023527	388661
 DRON:00047795	dyphylline 100 MG / guaifenesin 100 MG Oral Tablet	DRON:00021736	388681
@@ -23413,7 +23413,7 @@ DRON:00057774	superoxide dismutase 500 MG Delayed Release Oral Tablet	DRON:00032
 DRON:00057775	Methscopolamine 2.5 MG / Phenylephrine 40 MG Extended Release Oral Tablet	DRON:00032085	833446
 DRON:00057776	Garlic preparation 180 MG Delayed Release Oral Tablet	DRON:00027139	833447
 DRON:00057777	0.1 ML triamcinolone acetonide 80 MG/ML Prefilled Syringe	DRON:00031691	833449
-DRON:00057778	betamethasone 0.5 MG/ML / calcipotriene 0.05 MG/ML Topical Lotion	DRON:00032180	833461
+DRON:00057778	betamethasone dipropionate 0.643 MG/ML / calcipotriene 0.05 MG/ML Topical Suspension	DRON:00032180	833461
 DRON:00057779	Flavin Mononucleotide 5 MG Delayed Release Oral Tablet	DRON:00032476	833482
 DRON:00057780	amiodarone hydrochloride 200 MG Oral Tablet	DRON:00020523	833528
 DRON:00057781	amiodarone hydrochloride 50 MG/ML Injectable Solution	DRON:00025781	833532
@@ -41911,8 +41911,8 @@ DRON:00917248	ethanol 0.778 ML/ML Topical Solution	DRON:00025472	2396235
 DRON:00917249	benzalkonium chloride 0.000165 MG/MG / ethanol 0.71 ML/ML Topical Gel	DRON:00917226	2396233
 DRON:00917250	petrolatum 0.78 MG/MG / zinc oxide 0.076 MG/MG Topical Ointment	DRON:00025684	2396041
 DRON:00917251	ethanol 0.63 ML/ML Topical Foam	DRON:00027325	2396261
-DRON:00917252	168 HR ethinyl estradiol 0.00125 MG/HR / levonorgestrel 0.005 MG/HR Transdermal System	DRON:00917230	2396242
-DRON:00917253	ethinyl estradiol 0.00125 MG/HR / levonorgestrel 0.005 MG/HR Transdermal System	DRON:00917230	2396251
+DRON:00917252	168 HR ethinyl estradiol 0.000417 MG/HR / levonorgestrel 0.00167 MG/HR Transdermal System	DRON:00917230	2396242
+DRON:00917253	ethinyl estradiol 0.000417 MG/HR / levonorgestrel 0.00167 MG/HR Transdermal System	DRON:00917230	2396251
 DRON:00917254	benzalkonium chloride 10 MG/ML Medicated Liquid Soap	DRON:00033646	2396753
 DRON:00917255	benzalkonium chloride 0.000165 MG/MG / ethanol 0.55 ML/ML / isopropyl alcohol 0.15 ML/ML Topical Gel	DRON:00904138	2396264
 DRON:00917256	ethanol 0.7 ML/ML / isopropyl alcohol 0.1 ML/ML Topical Gel	DRON:00751361	2397131
@@ -45211,3 +45211,68 @@ DRON:01096815	12 HR dextromethorphan hydrobromide 30 MG / guaifenesin 600 MG / n
 DRON:01096816	dextromethorphan hydrobromide 30 MG / guaifenesin 600 MG / naproxen sodium 110 MG Extended Release Oral Tablet	DRON:01096791	2744507
 DRON:01096817	linerixibat 40 MG Oral Tablet	DRON:01096793	2745144
 DRON:01096818	menthol 0.001 MG/MG / pramoxine hydrochloride 0.01 MG/MG Topical Ointment	DRON:01096792	2745581
+DRON:01098995	menthol 12.5 MG/ML / methyl salicylate 150 MG/ML Topical Cream	DRON:00020434	2746494
+DRON:01098996	buprenorphine 12 MG Sublingual Tablet	DRON:00021043	2747481
+DRON:01098997	buprenorphine 4 MG Sublingual Tablet	DRON:00021043	2747482
+DRON:01098998	doxylamine succinate 6.25 MG Oral Capsule	DRON:00021721	2745969
+DRON:01098999	thrombin, bovine 1000 UNT/ML Topical Solution	DRON:00023591	2747110
+DRON:01099000	lidocaine 350 MG/ML Topical Spray	DRON:00025923	2747504
+DRON:01099001	menthol 44.9 MG/ML Topical Spray	DRON:00025964	2747220
+DRON:01099002	camphor 0.03 MG/MG / menthol 0.035 MG/MG Topical Gel	DRON:00026531	2745970
+DRON:01099003	tiopronin 200 MG Oral Tablet	DRON:00027554	2746890
+DRON:01099004	duloxetine 80 MG Delayed Release Oral Capsule	DRON:00030453	2745865
+DRON:01099005	duloxetine 90 MG Delayed Release Oral Capsule	DRON:00030453	2745867
+DRON:01099006	duloxetine 120 MG Delayed Release Oral Capsule	DRON:00030453	2745869
+DRON:01099007	azelaic acid 100 MG/ML Topical Cream	DRON:00030910	2746493
+DRON:01099008	0.5 ML filgrastim-laha 0.6 MG/ML Prefilled Syringe	DRON:00031642	2747351
+DRON:01099009	filgrastim-laha 0.6 MG/ML Prefilled Syringe	DRON:00031642	2747352
+DRON:01099010	0.8 ML filgrastim-laha 0.6 MG/ML Prefilled Syringe	DRON:00031642	2747360
+DRON:01099011	acetaminophen 21.7 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution	DRON:00031936	2746451
+DRON:01099012	ethanol 0.675 ML/ML Topical Spray	DRON:00033212	2746144
+DRON:01099013	1 ML denosumab-desu 60 MG/ML Prefilled Syringe	DRON:00033376	2746871
+DRON:01099014	denosumab-desu 60 MG/ML Prefilled Syringe	DRON:00033376	2746872
+DRON:01099015	calamine 0.05 MG/MG / menthol 0.0044 MG/MG / zinc oxide 0.206 MG/MG Topical Ointment	DRON:00724344	2746895
+DRON:01099016	3 ML insulin glargine-aldy 100 UNT/ML Pen Injector	DRON:00751877	2746568
+DRON:01099017	insulin glargine-aldy 100 UNT/ML Pen Injector	DRON:00751877	2746569
+DRON:01099018	1.7 ML denosumab-desu 70 MG/ML Injection	DRON:00730966	2747255
+DRON:01099019	denosumab-desu 70 MG/ML Injection	DRON:00730966	2747256
+DRON:01099020	0.5 ML influenza A virus A/Darwin/1415/2025 (H3N2) antigen 0.09 MG/ML / influenza A virus A/Missouri/11/2025 (H1N1) antigen 0.09 MG/ML / influenza B virus B/Pennsylvania/14/2025 antigen 0.09 MG/ML Prefilled Syringe	DRON:00751705	2746442
+DRON:01099021	influenza A virus A/Darwin/1415/2025 (H3N2) antigen 0.09 MG/ML / influenza A virus A/Missouri/11/2025 (H1N1) antigen 0.09 MG/ML / influenza B virus B/Pennsylvania/14/2025 antigen 0.09 MG/ML Prefilled Syringe	DRON:00751705	2746443
+DRON:01099022	0.5 ML influenza A virus A/Michigan/105/2025 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Switzerland/6849/2025 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Tokyo/EIS13-175/2025 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2746464
+DRON:01099023	influenza A virus A/Michigan/105/2025 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Switzerland/6849/2025 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Tokyo/EIS13-175/2025 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2746465
+DRON:01099024	0.5 ML influenza A virus A/Michigan/105/2025 (H3N2) antigen 0.12 MG/ML / influenza A virus A/Switzerland/6849/2025 (H1N1) antigen 0.12 MG/ML / influenza B virus B/Tokyo/EIS13-175/2025 antigen 0.12 MG/ML Prefilled Syringe	DRON:00751705	2746472
+DRON:01099025	influenza A virus A/Michigan/105/2025 (H3N2) antigen 0.12 MG/ML / influenza A virus A/Switzerland/6849/2025 (H1N1) antigen 0.12 MG/ML / influenza B virus B/Tokyo/EIS13-175/2025 antigen 0.12 MG/ML Prefilled Syringe	DRON:00751705	2746473
+DRON:01099026	0.5 ML influenza A virus A/Tasmania/318/2025 (H1N1) antigen 0.03 MG/ML / influenza A virus A/Tasmania/787/2025 (H3N2) antigen 0.03 MG/ML / influenza B virus B/Arizona/21/2025 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2746482
+DRON:01099027	influenza A virus A/Tasmania/318/2025 (H1N1) antigen 0.03 MG/ML / influenza A virus A/Tasmania/787/2025 (H3N2) antigen 0.03 MG/ML / influenza B virus B/Arizona/21/2025 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2746483
+DRON:01099028	0.5 ML influenza A virus A/Michigan/105/2025 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Missouri/11/2025 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Tokyo/EIS13-175/2025 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2746964
+DRON:01099029	influenza A virus A/Michigan/105/2025 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Missouri/11/2025 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Tokyo/EIS13-175/2025 antigen 0.03 MG/ML Prefilled Syringe	DRON:00751705	2746965
+DRON:01099030	influenza A virus A/Michigan/105/2025 (H3N2) antigen 0.03 MG/ML / influenza A virus A/Switzerland/6849/2025 (H1N1) antigen 0.03 MG/ML / influenza B virus B/Tokyo/EIS13-175/2025 antigen 0.03 MG/ML Injectable Suspension	DRON:00731516	2746456
+DRON:01099031	influenza A virus A/Darwin/1369/2025 (H3N2) antigen 158000000 UNT/ML / influenza A virus A/Switzerland/6849/2025 (H1N1) antigen 158000000 UNT/ML / influenza B virus B/Perth/115/2025 antigen 158000000 UNT/ML Nasal Spray	DRON:00731108	2747683
+DRON:01099032	Home Admin influenza A virus A/Darwin/1369/2025 (H3N2) antigen 158000000 UNT/ML / influenza A virus A/Switzerland/6849/2025 (H1N1) antigen 158000000 UNT/ML / influenza B virus B/Perth/115/2025 antigen 158000000 UNT/ML Nasal Spray	DRON:00731108	2747694
+DRON:01099033	20 ML trabectedin 0.05 MG/ML Injection	DRON:00751150	2745754
+DRON:01099034	trabectedin 0.05 MG/ML Injection	DRON:00751150	2745755
+DRON:01099035	capsaicin 0.005 MG/MG Medicated Patch	DRON:00750896	2746894
+DRON:01099036	camphor 0.059 MG/MG / levomenthol 0.008 MG/MG / methyl salicylate 0.046 MG/MG Medicated Patch	DRON:00752066	2747362
+DRON:01099037	1000 ML sodium bicarbonate 12.6 MG/ML Injection	DRON:00775089	2747138
+DRON:01099038	sodium bicarbonate 12.6 MG/ML Injection	DRON:00775089	2747139
+DRON:01099039	3 ML semaglutide 3.2 MG/ML Pen Injector	DRON:00807846	2745801
+DRON:01099040	semaglutide 3.2 MG/ML Pen Injector	DRON:00807846	2745802
+DRON:01099041	10 ML isatuximab-irfc 140 MG/ML Injection	DRON:00904118	2747132
+DRON:01099042	isatuximab-irfc 140 MG/ML Injection	DRON:00904118	2747133
+DRON:01099043	buspirone hydrochloride 5 MG Oral Capsule	DRON:01065657	2747227
+DRON:01099044	terbinafine 10 MG/ML / undecylenic acid 250 MG/ML Topical Solution	DRON:01092809	2747127
+DRON:01099045	milsaperidone 1 MG Oral Tablet	DRON:01098990	2745770
+DRON:01099046	milsaperidone 10 MG Oral Tablet	DRON:01098990	2745778
+DRON:01099047	milsaperidone 12 MG Oral Tablet	DRON:01098990	2745782
+DRON:01099048	milsaperidone 2 MG Oral Tablet	DRON:01098990	2745786
+DRON:01099049	milsaperidone 4 MG Oral Tablet	DRON:01098990	2745790
+DRON:01099050	milsaperidone 6 MG Oral Tablet	DRON:01098990	2745794
+DRON:01099051	milsaperidone 8 MG Oral Tablet	DRON:01098990	2745798
+DRON:01099052	ensitrelvir 125 MG Oral Tablet	DRON:01098991	2745993
+DRON:01099053	activated charcoal 0.3 MG/MG / sodium sulfate 0.0625 MG/MG Oral Gel	DRON:01098993	2747120
+DRON:01099054	activated charcoal 0.3 MG/MG Oral Gel	DRON:01098994	2747123
+DRON:01099055	miconazole nitrate 0.02 MG/MG Vaginal Gel	DRON:01098987	2747149
+DRON:01099056	lidocaine hydrochloride 10 MG/ML / magnesium chloride 20 MG/ML / menthol 37 MG/ML Topical Cream	DRON:01098989	2747156
+DRON:01099057	nilotinib 60 MG Disintegrating Oral Tablet	DRON:01098988	2747509
+DRON:01099058	nilotinib 80 MG Disintegrating Oral Tablet	DRON:01098988	2747518
+DRON:01099059	fenbendazole 222 MG Oral Tablet	DRON:01098992	2747692

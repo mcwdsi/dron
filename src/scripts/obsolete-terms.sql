@@ -20,7 +20,7 @@ UPDATE ingredient_disposition
 SET ingredient = 'REPLACEMENT'
 WHERE ingredient = 'OBSOLETE';
 
-UPDATE clinical_drug_form_ingredient
+UPDATE OR REPLACE clinical_drug_form_ingredient
 SET ingredient = 'REPLACEMENT'
 WHERE ingredient = 'OBSOLETE';
 
