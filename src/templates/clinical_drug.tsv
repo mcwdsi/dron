@@ -13427,7 +13427,7 @@ DRON:00047788	etoricoxib 60 MG Oral Tablet	DRON:00027792	388519
 DRON:00047789	etoricoxib 90 MG Oral Tablet	DRON:00027792	388520
 DRON:00047790	etoricoxib 120 MG Oral Tablet	DRON:00027792	388521
 DRON:00047791	timolol 0.001 MG/MG Ophthalmic Gel	DRON:00025398	388522
-DRON:00047792	betamethasone 0.0005 MG/MG / calcipotriene 0.00005 MG/MG Topical Ointment	DRON:00027794	388525
+DRON:00047792	betamethasone dipropionate 0.000643 MG/MG / calcipotriene 0.00005 MG/MG Topical Ointment	DRON:00027794	388525
 DRON:00047793	Leucovorin 25 MG/ML Injectable Solution	DRON:00022241	388641
 DRON:00047794	pseudoephedrine hydrochloride 120 MG / terfenadine 60 MG Oral Tablet	DRON:00023527	388661
 DRON:00047795	dyphylline 100 MG / guaifenesin 100 MG Oral Tablet	DRON:00021736	388681
@@ -23413,7 +23413,7 @@ DRON:00057774	superoxide dismutase 500 MG Delayed Release Oral Tablet	DRON:00032
 DRON:00057775	Methscopolamine 2.5 MG / Phenylephrine 40 MG Extended Release Oral Tablet	DRON:00032085	833446
 DRON:00057776	Garlic preparation 180 MG Delayed Release Oral Tablet	DRON:00027139	833447
 DRON:00057777	0.1 ML triamcinolone acetonide 80 MG/ML Prefilled Syringe	DRON:00031691	833449
-DRON:00057778	betamethasone 0.5 MG/ML / calcipotriene 0.05 MG/ML Topical Lotion	DRON:00032180	833461
+DRON:00057778	betamethasone dipropionate 0.643 MG/ML / calcipotriene 0.05 MG/ML Topical Suspension	DRON:00032180	833461
 DRON:00057779	Flavin Mononucleotide 5 MG Delayed Release Oral Tablet	DRON:00032476	833482
 DRON:00057780	amiodarone hydrochloride 200 MG Oral Tablet	DRON:00020523	833528
 DRON:00057781	amiodarone hydrochloride 50 MG/ML Injectable Solution	DRON:00025781	833532
@@ -41911,8 +41911,8 @@ DRON:00917248	ethanol 0.778 ML/ML Topical Solution	DRON:00025472	2396235
 DRON:00917249	benzalkonium chloride 0.000165 MG/MG / ethanol 0.71 ML/ML Topical Gel	DRON:00917226	2396233
 DRON:00917250	petrolatum 0.78 MG/MG / zinc oxide 0.076 MG/MG Topical Ointment	DRON:00025684	2396041
 DRON:00917251	ethanol 0.63 ML/ML Topical Foam	DRON:00027325	2396261
-DRON:00917252	168 HR ethinyl estradiol 0.00125 MG/HR / levonorgestrel 0.005 MG/HR Transdermal System	DRON:00917230	2396242
-DRON:00917253	ethinyl estradiol 0.00125 MG/HR / levonorgestrel 0.005 MG/HR Transdermal System	DRON:00917230	2396251
+DRON:00917252	168 HR ethinyl estradiol 0.000417 MG/HR / levonorgestrel 0.00167 MG/HR Transdermal System	DRON:00917230	2396242
+DRON:00917253	ethinyl estradiol 0.000417 MG/HR / levonorgestrel 0.00167 MG/HR Transdermal System	DRON:00917230	2396251
 DRON:00917254	benzalkonium chloride 10 MG/ML Medicated Liquid Soap	DRON:00033646	2396753
 DRON:00917255	benzalkonium chloride 0.000165 MG/MG / ethanol 0.55 ML/ML / isopropyl alcohol 0.15 ML/ML Topical Gel	DRON:00904138	2396264
 DRON:00917256	ethanol 0.7 ML/ML / isopropyl alcohol 0.1 ML/ML Topical Gel	DRON:00751361	2397131

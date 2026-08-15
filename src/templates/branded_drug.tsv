@@ -11133,9 +11133,9 @@ DRON:00080054	120 ACTUAT Triamcinolone Acetonide 0.05 MG/ACTUAT Nasal Inhaler [A
 DRON:00080055	sodium stibogluconate 100 MG/ML Injectable Solution [Pentostam]	DRON:00047810	833252
 DRON:00080056	quetiapine 50 MG Extended Release Oral Tablet [Seroquel]	DRON:00057737	833454
 DRON:00080057	calcium carbonate 1500 MG / cholecalciferol 0.01 MG Oral Tablet [Calcarb with D]	DRON:00051256	833456
-DRON:00080058	betamethasone 0.5 MG/ML / calcipotriene 0.05 MG/ML Topical Lotion [Taclonex]	DRON:00057778	833463
+DRON:00080058	betamethasone dipropionate 0.643 MG/ML / calcipotriene 0.05 MG/ML Topical Suspension [Taclonex]	DRON:00057778	833463
 DRON:00080059	levalbuterol 0.417 MG/ML Inhalation Solution [Xopenex]	DRON:00038376	833470
-DRON:00080060	betamethasone 0.0005 MG/MG / calcipotriene 0.00005 MG/MG Topical Ointment [Taclonex]	DRON:00047792	833472
+DRON:00080060	betamethasone dipropionate 0.000643 MG/MG / calcipotriene 0.00005 MG/MG Topical Ointment [Taclonex]	DRON:00047792	833472
 DRON:00080061	Camphor 0.048 MG/MG / Eucalyptus oil 0.012 MG/MG / Menthol 0.026 MG/MG Topical Ointment [Vicks Vaporub]	DRON:00055888	833512
 DRON:00080062	amiodarone hydrochloride 200 MG Oral Tablet [Cordarone]	DRON:00057780	833530
 DRON:00080063	amiodarone hydrochloride 50 MG/ML Injectable Solution [Cordarone]	DRON:00057781	833535
@@ -26616,8 +26616,8 @@ DRON:01008800	Sensor 60 ACTUAT fluticasone propionate 0.232 MG/ACTUAT / salmeter
 DRON:01008801	Sensor 60 ACTUAT fluticasone propionate 0.113 MG/ACTUAT Dry Powder Inhaler [Armonair]	DRON:00917263	2395836
 DRON:01008802	Sensor 60 ACTUAT fluticasone propionate 0.232 MG/ACTUAT Dry Powder Inhaler [Armonair]	DRON:00917259	2395838
 DRON:01008803	Sensor 60 ACTUAT fluticasone propionate 0.055 MG/ACTUAT Dry Powder Inhaler [Armonair]	DRON:00917269	2395840
-DRON:01008804	168 HR ethinyl estradiol 0.00125 MG/HR / levonorgestrel 0.005 MG/HR Transdermal System [Twirla]	DRON:00917252	2396258
-DRON:01008805	ethinyl estradiol 0.00125 MG/HR / levonorgestrel 0.005 MG/HR Transdermal System [Twirla]	DRON:00917253	2396260
+DRON:01008804	168 HR ethinyl estradiol 0.000417 MG/HR / levonorgestrel 0.00167 MG/HR Transdermal System [Twirla]	DRON:00917252	2396258
+DRON:01008805	ethinyl estradiol 0.000417 MG/HR / levonorgestrel 0.00167 MG/HR Transdermal System [Twirla]	DRON:00917253	2396260
 DRON:01008806	ephedrine sulfate 25 MG Oral Tablet [Bronkaid Max]	DRON:00065152	2396449
 DRON:01008807	azacitidine 200 MG Oral Tablet [Onureg]	DRON:00917265	2396770
 DRON:01008808	azacitidine 300 MG Oral Tablet [Onureg]	DRON:00917262	2396774
