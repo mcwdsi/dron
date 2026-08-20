@@ -62,10 +62,6 @@ import_group:
       module_type: slme
       is_large: TRUE
       use_gzipped: TRUE
-    - id: pr
-      module_type: slme
-      is_large: TRUE
-      use_gzipped: TRUE
     - id: pato
       module_type: filter
       base_iris:

@@ -11,7 +11,6 @@
     <uri name="http://purl.obolibrary.org/obo/dron/imports/bfo_import.owl" uri="imports/bfo_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/dron/imports/omo_import.owl" uri="imports/omo_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/dron/imports/chebi_import.owl" uri="imports/chebi_import.owl" />
-    <uri name="http://purl.obolibrary.org/obo/dron/imports/pr_import.owl" uri="imports/pr_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/dron/imports/pato_import.owl" uri="imports/pato_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/dron/components/dron-ingredient.owl" uri="components/dron-ingredient.owl" />
     <uri name="http://purl.obolibrary.org/obo/dron/components/dron-ndc.owl" uri="components/dron-ndc.owl" />
