@@ -2169,13 +2169,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000000> <http://purl.obolibrary.o
 
 # Individual: <http://purl.obolibrary.org/obo/DRON_00000077> (William R. Hogan)
 
-AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/DRON_00000077> "ORCID=0000-0002-9881-1017")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000077> "William R. Hogan"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <http://purl.obolibrary.org/obo/DRON_00000077>)
 
 # Individual: <http://purl.obolibrary.org/obo/DRON_00000078> (Matthew Diller)
 
-AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/DRON_00000078> "ORCID=0000-0001-6378-1703")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000078> "Matthew Diller"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <http://purl.obolibrary.org/obo/DRON_00000078>)
 
