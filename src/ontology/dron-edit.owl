@@ -194,6 +194,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00000072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00000073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00000074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00000075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00000076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00000500>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00000501>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DRON_00000502>))
@@ -318,6 +319,8 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/OBI_0001937>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0000022>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-6378-1703>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-9881-1017>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0001900>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002161>))
@@ -436,7 +439,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135198> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (Metaclazepam hydrochloride)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (metaclazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -1470,6 +1473,16 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000075> "c
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000075> <http://purl.obolibrary.org/obo/DRON_00000074>)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000075> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> <http://purl.obolibrary.org/obo/CHEBI_27958>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 
+# Class: <http://purl.obolibrary.org/obo/DRON_00000076> (scattered material aggregate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000076> "A material entity that consists of some material entity of a specific type that is located in some bounded region and which is part of a more massive material entity that has parts that are other such aggregates."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000076> "Matthew Diller"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/DRON_00000076> <https://github.com/mcwdsi/dron/issues/117>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/DRON_00000076> <https://orcid.org/0000-0002-9881-1017>)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000076> <https://orcid.org/0000-0001-6378-1703>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000076> "scattered material aggregate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000076> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
 # Class: <http://purl.obolibrary.org/obo/DRON_00000500> (albendazole tablet)
 
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000500> "Baxter Bramblett"@en)
@@ -2135,6 +2148,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.
 # Class: <http://purl.obolibrary.org/obo/OBI_0000576> (scattered molecular aggregate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000576> <http://purl.obolibrary.org/obo/IAO_0000123>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000576> <http://purl.obolibrary.org/obo/DRON_00000076>)
 
 # Class: <http://purl.obolibrary.org/obo/OGMS_0000090> (treatment)
 
@@ -2159,6 +2173,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000000> <http://purl.obolibrary.o
 # Individual: <http://purl.obolibrary.org/obo/UO_0000022> (milligram)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000022> <http://purl.obolibrary.org/obo/uo.owl>)
+
+# Individual: <https://orcid.org/0000-0001-6378-1703> (Matthew Diller)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-6378-1703> "Matthew Diller"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <https://orcid.org/0000-0001-6378-1703>)
+
+# Individual: <https://orcid.org/0000-0002-9881-1017> (William R. Hogan)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-9881-1017> "William R. Hogan"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <https://orcid.org/0000-0002-9881-1017>)
 
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000113> <http://purl.obolibrary.org/obo/bfo.owl>)
