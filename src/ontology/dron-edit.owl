@@ -1330,7 +1330,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000058> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000058> "enteric coating excipient"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000058> <http://purl.obolibrary.org/obo/DRON_00000057>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00000059> (<http://purl.obolibrary.org/obo/DRON_00000059>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00000059> (function-inhibiting sodium-chloride cotransporter binding disposition)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/DRON_00000059> "function-inhibiting sodium-chloride cotransporter binding disposition"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000059> <http://purl.obolibrary.org/obo/BFO_0000016>)
@@ -1477,7 +1477,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000075> ObjectIntersectionOf(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DRON_00000076> "A material entity that consists of some material entity of a specific type that is located in some bounded region and which is part of a more massive material entity that has parts that are other such aggregates."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000076> "Matthew Diller"@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/DRON_00000076> "William R. Hogan"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/DRON_00000076> <https://github.com/mcwdsi/dron/issues/117>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/DRON_00000076> <https://orcid.org/0000-0002-9881-1017>)
+AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000076> <https://orcid.org/0000-0001-6378-1703>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000076> "scattered material aggregate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000076> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
@@ -2049,39 +2051,39 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00001511> "s
 EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00001511> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000643> <http://purl.obolibrary.org/obo/CHEBI_2549>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00001511> <http://purl.obolibrary.org/obo/DRON_00000021>)
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00020594> (<http://purl.obolibrary.org/obo/DRON_00020594>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00020594> (hydroflumethiazide Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00020594> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023263> (<http://purl.obolibrary.org/obo/DRON_00023263>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023263> (quinethazone Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023263> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023291> (<http://purl.obolibrary.org/obo/DRON_00023291>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023291> (hydroflumethiazide / reserpine Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023291> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023294> (<http://purl.obolibrary.org/obo/DRON_00023294>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023294> (quinethazone / reserpine Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023294> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00023437> (<http://purl.obolibrary.org/obo/DRON_00023437>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00023437> (hydroflumethiazide / spironolactone Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00023437> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00030878> (<http://purl.obolibrary.org/obo/DRON_00030878>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00030878> (ethacrynate Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00030878> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00031260> (<http://purl.obolibrary.org/obo/DRON_00031260>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00031260> (hydroflumethiazide / potassium / Rauwolfia preparation Oral Tablet)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00031260> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000034>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00730857> (<http://purl.obolibrary.org/obo/DRON_00730857>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00730857> (obsolete mepolizumab)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00730857> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000069>))
 
-# Class: <http://purl.obolibrary.org/obo/DRON_00750806> (<http://purl.obolibrary.org/obo/DRON_00750806>)
+# Class: <http://purl.obolibrary.org/obo/DRON_00750806> (obsolete zolazepam)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00750806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -2146,6 +2148,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.
 # Class: <http://purl.obolibrary.org/obo/OBI_0000576> (scattered molecular aggregate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/OBI_0000576> <http://purl.obolibrary.org/obo/IAO_0000123>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000576> <http://purl.obolibrary.org/obo/DRON_00000076>)
 
 # Class: <http://purl.obolibrary.org/obo/OGMS_0000090> (treatment)
 

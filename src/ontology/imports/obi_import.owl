@@ -92,7 +92,6 @@ AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000576 "PERSON: Alan Ruttenberg"@en
 AnnotationAssertion(obo:IAO_0000118 obo:OBI_0000576 "Collective"@en)
 AnnotationAssertion(obo:IAO_0000119 obo:OBI_0000576 "Discussion in Karslruhe with, among others, Alan Rector, Stefan Schulz, Marijke Keet, Melanie Courtot, and Alan Ruttenberg. With inspiration from the paper Granularity, scale and collectivity: When size does and does not matter, Alan Recto, Jeremy Rogers, Thomas Bittner, Journal of Biomedical Informatics 39 (2006) 333-349"@en)
 AnnotationAssertion(rdfs:label obo:OBI_0000576 "scattered molecular aggregate"@en)
-SubClassOf(obo:OBI_0000576 obo:DRON_00000076)
 
 
 )
