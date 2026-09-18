@@ -318,9 +318,9 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/OBI_0001937>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/DRON_00000077>))
-Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/DRON_00000078>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0000022>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0001-6378-1703>))
+Declaration(NamedIndividual(<https://orcid.org/0000-0002-9881-1017>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0001900>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002161>))
@@ -2167,19 +2167,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/UO_0000000> <http://purl.obolibrary.o
 #   Named Individuals
 ############################
 
-# Individual: <http://purl.obolibrary.org/obo/DRON_00000077> (William R. Hogan)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000077> "William R. Hogan"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <http://purl.obolibrary.org/obo/DRON_00000077>)
-
-# Individual: <http://purl.obolibrary.org/obo/DRON_00000078> (Matthew Diller)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000078> "Matthew Diller"@en)
-ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <http://purl.obolibrary.org/obo/DRON_00000078>)
-
 # Individual: <http://purl.obolibrary.org/obo/UO_0000022> (milligram)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UO_0000022> <http://purl.obolibrary.org/obo/uo.owl>)
+
+# Individual: <https://orcid.org/0000-0001-6378-1703> (Matthew Diller)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0001-6378-1703> "Matthew Diller"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <https://orcid.org/0000-0001-6378-1703>)
+
+# Individual: <https://orcid.org/0000-0002-9881-1017> (William R. Hogan)
+
+AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-9881-1017> "William R. Hogan"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <https://orcid.org/0000-0002-9881-1017>)
 
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000113> <http://purl.obolibrary.org/obo/bfo.owl>)
