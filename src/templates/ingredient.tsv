@@ -2543,6 +2543,7 @@ CHEBI:747793	elafibranor	2684941
 CHEBI:7478	naratriptan	141366
 CHEBI:74789	9-aminoacridine	645
 CHEBI:747894	ceftiofur	1311521
+CHEBI:747901	zidesamtinib	2748283
 CHEBI:747921	isoproterenol	6054
 CHEBI:747932	racemethionine	9100
 CHEBI:747974	toceranib	1145945
@@ -2961,6 +2962,7 @@ CHEBI:753945	interferon alfa-n3	612937
 CHEBI:753957	licorice	42769
 CHEBI:753965	lactobacillus acidophilus	6205
 CHEBI:753966	lanolin alcohols	1426478
+CHEBI:753971	hydroxyethyl cellulose	27244
 CHEBI:753987	epoetin beta	105695
 CHEBI:753993	factor ix complex	1670383
 CHEBI:754003	bismuth aluminate	40762
@@ -3124,6 +3126,7 @@ CHEBI:756373	tucatinib	2361285
 CHEBI:756375	avacopan	2572100
 CHEBI:756391	sorbitan tristearate	1426397
 CHEBI:756409	difelikefalin	2569089
+CHEBI:756418	iberdomide	2749731
 CHEBI:756432	diroximel fumarate	2261783
 CHEBI:756452	difamilast	2737149
 CHEBI:756460	emapalumab	2104604
@@ -3308,6 +3311,7 @@ CHEBI:760410	fecal microbiota spores, live	2636537
 CHEBI:760479	avacincaptad pegol	2645108
 CHEBI:760498	tinzaparin	69646
 CHEBI:760524	glyceryl laurate	1311693
+CHEBI:760540	enlicitide	2747751
 CHEBI:76119	bumadizone	19847
 CHEBI:76128	dexketoprofen	237162
 CHEBI:76133	droxicam	23687
@@ -6843,3 +6847,4 @@ DRON:01092801	neopentyl glycol diheptanoate	1306188
 DRON:01094793	influenza A virus (H5N8) antigen	2743197
 DRON:01096789	hypromellose 2208 (1500 MPA.S)	2395758
 DRON:01098986	C9-11 pareth-8	1424458
+DRON:01101652	hydrogenated rapeseed oil	1440247
