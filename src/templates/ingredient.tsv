@@ -2536,13 +2536,14 @@ CHEBI:747559	oxprenolol	7801
 CHEBI:7476	naproxen	7258
 CHEBI:747606	Icotrokinra	2739030
 CHEBI:747608	detomidine	22672
-CHEBI:747652	velaglucerase alfa	901805
+CHEBI:747652	Velaglucerase alfa	901805
 CHEBI:74768	aluminium sulfate (anhydrous)	17621
 CHEBI:747786	ensitrelvir	2745988
 CHEBI:747793	elafibranor	2684941
 CHEBI:7478	naratriptan	141366
 CHEBI:74789	9-aminoacridine	645
 CHEBI:747894	ceftiofur	1311521
+CHEBI:747901	zidesamtinib	2748283
 CHEBI:747921	isoproterenol	6054
 CHEBI:747932	racemethionine	9100
 CHEBI:747974	toceranib	1145945
@@ -2578,7 +2579,7 @@ CHEBI:748820	benfluorex	18880
 CHEBI:748835	menthol	6750
 CHEBI:748840	bakuchiol	1368134
 CHEBI:748881	cupric chloride	21833
-CHEBI:748885	alkyl (C12-15) benzoate	1310548
+CHEBI:748885	alkyl (c12-15) benzoate	1310548
 CHEBI:748959	eucalyptol	21116
 CHEBI:749006	maribavir	2586068
 CHEBI:749073	racepinephrine	66887
@@ -2603,7 +2604,7 @@ CHEBI:7494	nefazodone	31565
 CHEBI:749405	oxyphenonium	7818
 CHEBI:749406	mangafodipir	236987
 CHEBI:749412	methixene	29682
-CHEBI:749424	onabotulinumtoxinA	860189
+CHEBI:749424	onabotulinumtoxina	860189
 CHEBI:749425	epoetin alfa	105694
 CHEBI:749426	pegfilgrastim	338036
 CHEBI:749427	denileukin diftitox	214470
@@ -2611,7 +2612,7 @@ CHEBI:749428	interferon alfa-2b	5880
 CHEBI:749433	becaplermin	115238
 CHEBI:749435	somatrem	56570
 CHEBI:749436	insulin glargine	274783
-CHEBI:749438	rimabotulinumtoxinB	860178
+CHEBI:749438	rimabotulinumtoxinb	860178
 CHEBI:749439	rasburicase	283821
 CHEBI:749440	alglucerase	46049
 CHEBI:749442	imiglucerase	84959
@@ -2663,15 +2664,15 @@ CHEBI:749549	abciximab	83929
 CHEBI:749550	cetuximab	318341
 CHEBI:749551	alemtuzumab	117055
 CHEBI:749553	daclizumab	190353
-CHEBI:749554	muromonab-CD3	42405
+CHEBI:749554	muromonab-cd3	42405
 CHEBI:749556	somatropin	61148
-CHEBI:749558	synthetic conjugated estrogens, B	618365
+CHEBI:749558	synthetic conjugated estrogens, b	618365
 CHEBI:749561	sacrosidase	214817
 CHEBI:749564	ferumoxsil	77754
 CHEBI:749567	thyrotropin alfa	4952
 CHEBI:749570	interferon alfacon-1	59744
 CHEBI:749571	infliximab	191831
-CHEBI:749575	Petrolatum, White	82074
+CHEBI:749575	petrolatum, white	82074
 CHEBI:749577	iodine povacrylex	692863
 CHEBI:749578	mecasermin rinfabate	616877
 CHEBI:749579	sinecatechins	753346
@@ -2697,7 +2698,7 @@ CHEBI:749611	ecallantide	658708
 CHEBI:749645	prifinium	236174
 CHEBI:749659	hydrochloric acid	5486
 CHEBI:749681	denosumab	993449
-CHEBI:749682	sipuleucel-T	997261
+CHEBI:749682	sipuleucel-t	997261
 CHEBI:749683	pegloticase	1011650
 CHEBI:749693	letermovir	1988648
 CHEBI:749726	pradofloxacin	1367269
@@ -2808,7 +2809,7 @@ CHEBI:7528	netilmycin	7337
 CHEBI:75283	miltefosine	1494066
 CHEBI:752856	segesterone	2055978
 CHEBI:752900	metreleptin	1491625
-CHEBI:752908	azficel-T	1114112
+CHEBI:752908	azficel-t	1114112
 CHEBI:752911	insulin degludec	1670007
 CHEBI:752915	vonicog alfa	1812589
 CHEBI:752916	romosozumab	2123126
@@ -2845,7 +2846,7 @@ CHEBI:753128	silodrate	1373351
 CHEBI:753129	sitosterols	9808
 CHEBI:753130	tolu balsam	1116238
 CHEBI:753134	pentastarch	816249
-CHEBI:753142	Plantago seed	82088
+CHEBI:753142	plantago seed	82088
 CHEBI:753145	polygeline	8521
 CHEBI:753149	povidone	8610
 CHEBI:753150	zein	1314423
@@ -2860,11 +2861,11 @@ CHEBI:753223	aloxiprin	17393
 CHEBI:75323	lactitol	28395
 CHEBI:753233	coal tar	2635
 CHEBI:753235	cod liver oil	2669
-CHEBI:753237	Capsicum oleoresin	235787
+CHEBI:753237	capsicum oleoresin	235787
 CHEBI:753245	clove oil	7624
 CHEBI:753248	anistreplase	40028
 CHEBI:753262	cascara sagrada	66869
-CHEBI:753265	Cellulose, Oxidized	2222
+CHEBI:753265	cellulose, oxidized	2222
 CHEBI:753271	eteplirsen	1810569
 CHEBI:753299	asfotase alfa	1720259
 CHEBI:753332	ublituximab	2626349
@@ -2874,7 +2875,7 @@ CHEBI:753350	ipecac	5975
 CHEBI:753359	juniper tar	6086
 CHEBI:753362	lanolin	6227
 CHEBI:753370	defibrotide	1311089
-CHEBI:753379	Eucalyptus oil	59087
+CHEBI:753379	eucalyptus oil	59087
 CHEBI:753382	betasizofiran	1368136
 CHEBI:753390	diphtheria antitoxin	3510
 CHEBI:753392	lemon oil	1309253
@@ -2886,7 +2887,7 @@ CHEBI:753420	dextran 70	3274
 CHEBI:753423	nutmeg oil	1309209
 CHEBI:753436	gitalin	89791
 CHEBI:753447	ancrod	772
-CHEBI:753449	Peruvian balsam	33219
+CHEBI:753449	peruvian balsam	33219
 CHEBI:753450	rose oil	1309371
 CHEBI:753451	rosin	1362931
 CHEBI:753469	lactase	41397
@@ -2900,7 +2901,7 @@ CHEBI:753504	orgotein	32526
 CHEBI:753505	pegaspargase	34132
 CHEBI:753513	petrolatum	8091
 CHEBI:753517	shellac	1368898
-CHEBI:753524	abobotulinumtoxinA	860168
+CHEBI:753524	abobotulinumtoxina	860168
 CHEBI:753551	ferric carboxymaltose	1433693
 CHEBI:753561	hypromellose acetate succinate	2645263
 CHEBI:753564	inotuzumab ozogamicin	1942950
@@ -2912,10 +2913,10 @@ CHEBI:753623	dupilumab	1876376
 CHEBI:753624	elosulfase alfa	1489914
 CHEBI:753625	peginterferon beta-1a	1546168
 CHEBI:753629	tildrakizumab	2053436
-CHEBI:753632	Smallpox Vaccine	9835
+CHEBI:753632	smallpox vaccine	9835
 CHEBI:753642	witch hazel	89821
 CHEBI:753644	glucose oxidase	1427073
-CHEBI:753652	collagenase Clostridium histolyticum	898492
+CHEBI:753652	collagenase clostridium histolyticum	898492
 CHEBI:753666	calaspargase pegol	2121416
 CHEBI:753668	sarilumab	1923319
 CHEBI:753684	peanut oil	18235
@@ -2925,7 +2926,7 @@ CHEBI:753703	plasma protein fraction	33835
 CHEBI:753709	polyethylene glycol 4000	1310594
 CHEBI:753718	tenecteplase	259280
 CHEBI:753740	xanthan gum	1307815
-CHEBI:753742	Yellow Fever Vaccine	89890
+CHEBI:753742	yellow fever vaccine	89890
 CHEBI:753754	varicella-zoster immune globulin	39385
 CHEBI:753772	crospovidone	1310706
 CHEBI:753779	aluminum chlorohydrex propylene glycol	1313224
@@ -2933,7 +2934,7 @@ CHEBI:753785	somatorelin	236901
 CHEBI:753788	spearmint oil	1305657
 CHEBI:753789	streptodornase	10104
 CHEBI:753807	agalsidase beta	338817
-CHEBI:753821	BCG Vaccine	1344
+CHEBI:753821	bcg vaccine	1344
 CHEBI:753829	cocoa butter	21389
 CHEBI:753832	cetyl esters wax	1311570
 CHEBI:753834	chlorophyllin copper complex	82242
@@ -2959,10 +2960,11 @@ CHEBI:753933	calcium polycarbophil	20063
 CHEBI:753936	ichthammol	5645
 CHEBI:753945	interferon alfa-n3	612937
 CHEBI:753957	licorice	42769
-CHEBI:753965	Lactobacillus acidophilus	6205
+CHEBI:753965	lactobacillus acidophilus	6205
 CHEBI:753966	lanolin alcohols	1426478
+CHEBI:753971	hydroxyethyl cellulose	27244
 CHEBI:753987	epoetin beta	105695
-CHEBI:753993	factor IX complex	1670383
+CHEBI:753993	factor ix complex	1670383
 CHEBI:754003	bismuth aluminate	40762
 CHEBI:754020	lenograstim	70167
 CHEBI:754025	magnesium silicate	1310566
@@ -3076,7 +3078,7 @@ CHEBI:755773	magnesium orotate	139233
 CHEBI:755776	lithium succinate	28817
 CHEBI:755778	somapacitan	2557373
 CHEBI:755784	aloglutamol	17392
-CHEBI:755786	Magnesium Pidolate	116240
+CHEBI:755786	magnesium pidolate	116240
 CHEBI:755787	ferrous ascorbate	4356
 CHEBI:755791	trifarotene	2205637
 CHEBI:755792	methoxy polyethylene glycol-epoetin beta	729596
@@ -3113,7 +3115,7 @@ CHEBI:755968	brensocatib	2721880
 CHEBI:755996	zanubrutinib	2262435
 CHEBI:756000	acoramidis	2698312
 CHEBI:756005	umbralisib	2478439
-CHEBI:756030	Alexitol sodium	236340
+CHEBI:756030	alexitol sodium	236340
 CHEBI:756047	calamine	106212
 CHEBI:756214	magnesium gluconate	52358
 CHEBI:75626	oleyl oleate	1426427
@@ -3124,6 +3126,7 @@ CHEBI:756373	tucatinib	2361285
 CHEBI:756375	avacopan	2572100
 CHEBI:756391	sorbitan tristearate	1426397
 CHEBI:756409	difelikefalin	2569089
+CHEBI:756418	iberdomide	2749731
 CHEBI:756432	diroximel fumarate	2261783
 CHEBI:756452	difamilast	2737149
 CHEBI:756460	emapalumab	2104604
@@ -3183,7 +3186,7 @@ CHEBI:757203	ferrous bisglycinate	1102188
 CHEBI:757206	fremanezumab	2056691
 CHEBI:757209	givosiran	2265712
 CHEBI:757211	golodirsen	2267207
-CHEBI:757216	hylan G-F 20	284637
+CHEBI:757216	hylan g-f 20	284637
 CHEBI:757219	inotersen	2099289
 CHEBI:757222	amivantamab	2549199
 CHEBI:757226	loncastuximab tesirine	2540964
@@ -3276,7 +3279,7 @@ CHEBI:758624	ziftomenib	2725985
 CHEBI:758781	vimseltinib	2705378
 CHEBI:758825	sebetralstat	2717944
 CHEBI:758852	flavocoxid	578889
-CHEBI:758999	Centella asiatica extract	1310164
+CHEBI:758999	centella asiatica extract	1310164
 CHEBI:759012	etranacogene dezaparvovec	2626727
 CHEBI:759066	berotralstat	2467540
 CHEBI:759077	paltusotine	2724363
@@ -3308,6 +3311,7 @@ CHEBI:760410	fecal microbiota spores, live	2636537
 CHEBI:760479	avacincaptad pegol	2645108
 CHEBI:760498	tinzaparin	69646
 CHEBI:760524	glyceryl laurate	1311693
+CHEBI:760540	enlicitide	2747751
 CHEBI:76119	bumadizone	19847
 CHEBI:76128	dexketoprofen	237162
 CHEBI:76133	droxicam	23687
@@ -6843,3 +6847,4 @@ DRON:01092801	neopentyl glycol diheptanoate	1306188
 DRON:01094793	influenza A virus (H5N8) antigen	2743197
 DRON:01096789	hypromellose 2208 (1500 MPA.S)	2395758
 DRON:01098986	C9-11 pareth-8	1424458
+DRON:01101652	hydrogenated rapeseed oil	1440247

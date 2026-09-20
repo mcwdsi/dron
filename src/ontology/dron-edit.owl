@@ -439,7 +439,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135198> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (metaclazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (Metaclazepam hydrochloride)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
@@ -643,6 +643,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6931> ObjectSomeValuesFrom(<htt
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_6970> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000060>))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_747608> (detomidine)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_747608> <http://purl.obolibrary.org/obo/CHEBI_24431>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_747793> (elafibranor)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_747793> <http://purl.obolibrary.org/obo/CHEBI_24431>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_747901> (zidesamtinib)
+
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_747901> <http://purl.obolibrary.org/obo/CHEBI_24431>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_76230> (meclofenamic acid(1-))
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_76230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000062>))
@@ -744,7 +756,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000005> "https://orcid.org/0000-0002-9881-1017"^^xsd:anyURI)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000005> "We changed the label to 'clinical drug product' because it was clear that the part of the definition re: bearer of a \"clinical drug role\" made it such. Other drugs don't have clinical drug roles, especially illicit ones. Therefore we changed the label here, as well as the subClassOf. Now it is subClassOf \"drug product\", which also required changing the definition here."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000005> "clinical drug product"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000005> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000006> (portion of mixture)
@@ -830,7 +842,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000015> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000015> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000015> "drug gel"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000015> <http://purl.obolibrary.org/obo/DRON_00000014>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000016> (drug emulsion)
@@ -839,7 +851,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000016> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000016> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000016> "drug emulsion"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000016> <http://purl.obolibrary.org/obo/DRON_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000017> (drug cream)
@@ -848,7 +860,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000017> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000017> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000017> "drug cream"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000017> <http://purl.obolibrary.org/obo/DRON_00000011>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000018> (drug lotion)
@@ -857,7 +869,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000018> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000018> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000018> "drug lotion"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000018> <http://purl.obolibrary.org/obo/DRON_00000012>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000019> (drug ointment)
@@ -866,7 +878,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000019> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000019> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000019> "drug ointment"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000019> <http://purl.obolibrary.org/obo/DRON_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000020> (drug solution)
@@ -875,7 +887,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000020> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000020> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000020> "drug solution"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000020> <http://purl.obolibrary.org/obo/DRON_00000007>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000021> (drug suspension)
@@ -884,7 +896,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000021> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000021> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000021> "drug suspension"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000021> <http://purl.obolibrary.org/obo/DRON_00000008>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000022> (drug tablet)
@@ -894,7 +906,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000022> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000022> "drug tablet"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000022> <http://purl.obolibrary.org/obo/BFO_0000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000023> (portion of foam)
 
@@ -910,7 +922,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/DRON_00000024> "William Hogan"@en)
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000024> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000024> "drug foam"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000024> <http://purl.obolibrary.org/obo/DRON_00000023>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000025> (FDA approved drug role)
@@ -928,7 +940,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(dcterms:creator <http://purl.obolibrary.org/obo/DRON_00000026> "William Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000026> "drug capsule"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000026> <http://purl.obolibrary.org/obo/BFO_0000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
+SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000001>)))
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000027> (packaged drug product)
 
@@ -1460,7 +1472,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000074> 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000074> "The psychoactive effect is added for illicit drugs such as crack cocaine."@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000074> "We are including prophylactic and diagnostic effects / usage under the more general heading of 'therapeutic'."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000074> "drug product"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000576> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DRON_00000074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DRON_00000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000028>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000074> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000075> (crack cocaine)
