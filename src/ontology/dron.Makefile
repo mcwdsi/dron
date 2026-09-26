@@ -114,6 +114,13 @@ $(COMPONENTSDIR)/dron-%.owl: $(COMPONENTSDIR)/dron-%.ttl
 # Override the all_components task.
 all_components: $(COMPONENTSDIR)/dron-ingredient.ttl $(COMPONENTSDIR)/dron-rxnorm.ttl $(COMPONENTSDIR)/dron-ndc.ttl $(COMPONENTSDIR)/dron-obsolete.ttl $(COMPONENTSDIR)/dron-ingredient.owl $(COMPONENTSDIR)/dron-rxnorm.owl $(COMPONENTSDIR)/dron-ndc.owl $(COMPONENTSDIR)/dron-obsolete.owl
 
+# Make UNII db
+$(TMPDIR)/unii.db: $(SCRIPTSDIR)/create-unii-table.sql $(SCRIPTSDIR)/load-unii-table.sql $(SCRIPTSDIR)/postprocess-unii-table.sql $(TMPDIR)/unii/UNII*txt
+	rm -f $@
+	sqlite3 $@ < $<
+	sqlite3 $@ < $(word 2,$^) #2> /dev/null
+	sqlite3 $@ < $(word 3,$^)
+
 ###################################
 #### Create templates from OWL ####
 ###################################
