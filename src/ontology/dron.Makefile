@@ -10,11 +10,11 @@ ANNOTATE_ONTOLOGY_VERSION += --annotation rdfs:comment "This version of DrOn is 
 #### Custom UO Import ####
 ##########################
 
-UO_IMPORTSEED = $(TMPDIR)/seed.txt
-$(UO_IMPORTSEED): $(IMPORTSEED)
-	cat $(IMPORTDIR)/uo_terms.txt $(IMPORTSEED) > $@
+UO_IMPORTSEED = $(TMPDIR)/uo_seed.txt
+$(UO_IMPORTSEED): $(IMPORTDIR)/uo_terms.txt $(IMPORTSEED)
+	cat $^ | sort | uniq > $@
 
-$(IMPORTDIR)/uo_import.owl: $(MIRRORDIR)/uo.owl $(IMPORTSEED) 
+$(IMPORTDIR)/uo_import.owl: $(MIRRORDIR)/uo.owl $(UO_IMPORTSEED) 
 	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
 		query --update ../sparql/preprocess-module.ru \
 		remove --base-iri "$(OBOBASE)/UO_" --axioms external --preserve-structure false --trim false \
