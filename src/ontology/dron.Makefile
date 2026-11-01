@@ -14,7 +14,7 @@ UO_IMPORTSEED = $(TMPDIR)/uo_seed.txt
 $(UO_IMPORTSEED): $(IMPORTDIR)/uo_terms.txt $(IMPORTSEED)
 	cat $^ | sort | uniq > $@
 
-$(IMPORTDIR)/uo_import.owl: $(MIRRORDIR)/uo.owl $(UO_IMPORTSEED) 
+$(IMPORTDIR)/uo_import.owl: $(MIRRORDIR)/uo.owl $(UO_IMPORTSEED)
 	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
 		query --update ../sparql/preprocess-module.ru \
 		remove --base-iri "$(OBOBASE)/UO_" --axioms external --preserve-structure false --trim false \
