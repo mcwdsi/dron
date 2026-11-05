@@ -439,7 +439,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135198> ObjectSomeValuesFrom(<h
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135556> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (metaclazepam)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_135621> (Metaclazepam hydrochloride)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_135621> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 

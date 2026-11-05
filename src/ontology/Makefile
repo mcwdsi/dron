@@ -16,7 +16,7 @@
 # 3. [Update repo to latest ODK](update_repo)
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                eabd58b85965b65cc8f5d33cdd1865e90e8aef227d007d1c3a1c3f31bdb09f73
+CONFIG_HASH=                03a25f70077c475791a0433ea259861af619bf1f422590e0e38db9b1152e8dad
 
 
 # ----------------------------------------
@@ -583,7 +583,7 @@ ifeq ($(MIR),true)
 .PHONY: mirror-ro
 .PRECIOUS: $(MIRRORDIR)/ro.owl
 mirror-ro: | $(TMPDIR)
-	curl -L $(OBOBASE)/ro.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/ro.owl --create-dirs -o $(TMPDIR)/ro-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/ro-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -591,7 +591,7 @@ mirror-ro: | $(TMPDIR)
 .PHONY: mirror-apollo_sv
 .PRECIOUS: $(MIRRORDIR)/apollo_sv.owl
 mirror-apollo_sv: | $(TMPDIR)
-	curl -L $(OBOBASE)/apollo_sv.owl --create-dirs -o $(TMPDIR)/apollo_sv-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/apollo_sv.owl --create-dirs -o $(TMPDIR)/apollo_sv-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/apollo_sv-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -599,7 +599,7 @@ mirror-apollo_sv: | $(TMPDIR)
 .PHONY: mirror-go
 .PRECIOUS: $(MIRRORDIR)/go.owl
 mirror-go: | $(TMPDIR)
-	curl -L $(OBOBASE)/go.owl --create-dirs -o $(TMPDIR)/go-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/go.owl --create-dirs -o $(TMPDIR)/go-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/go-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -607,7 +607,7 @@ mirror-go: | $(TMPDIR)
 .PHONY: mirror-iao
 .PRECIOUS: $(MIRRORDIR)/iao.owl
 mirror-iao: | $(TMPDIR)
-	curl -L $(OBOBASE)/iao.owl --create-dirs -o $(TMPDIR)/iao-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/iao.owl --create-dirs -o $(TMPDIR)/iao-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/iao-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -615,7 +615,7 @@ mirror-iao: | $(TMPDIR)
 .PHONY: mirror-obi
 .PRECIOUS: $(MIRRORDIR)/obi.owl
 mirror-obi: | $(TMPDIR)
-	curl -L $(OBOBASE)/obi.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/obi.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/obi-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -623,7 +623,7 @@ mirror-obi: | $(TMPDIR)
 .PHONY: mirror-uo
 .PRECIOUS: $(MIRRORDIR)/uo.owl
 mirror-uo: | $(TMPDIR)
-	curl -L $(OBOBASE)/uo.owl --create-dirs -o $(TMPDIR)/uo-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/uo.owl --create-dirs -o $(TMPDIR)/uo-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/uo-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -631,7 +631,7 @@ mirror-uo: | $(TMPDIR)
 .PHONY: mirror-ogms
 .PRECIOUS: $(MIRRORDIR)/ogms.owl
 mirror-ogms: | $(TMPDIR)
-	curl -L $(OBOBASE)/ogms.owl --create-dirs -o $(TMPDIR)/ogms-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/ogms.owl --create-dirs -o $(TMPDIR)/ogms-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/ogms-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -639,7 +639,7 @@ mirror-ogms: | $(TMPDIR)
 .PHONY: mirror-bfo
 .PRECIOUS: $(MIRRORDIR)/bfo.owl
 mirror-bfo: | $(TMPDIR)
-	curl -L $(OBOBASE)/bfo.owl --create-dirs -o $(TMPDIR)/bfo-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/bfo.owl --create-dirs -o $(TMPDIR)/bfo-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/bfo-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -647,7 +647,7 @@ mirror-bfo: | $(TMPDIR)
 .PHONY: mirror-omo
 .PRECIOUS: $(MIRRORDIR)/omo.owl
 mirror-omo: | $(TMPDIR)
-	curl -L $(OBOBASE)/omo.owl --create-dirs -o $(TMPDIR)/omo-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/omo.owl --create-dirs -o $(TMPDIR)/omo-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/omo-download.owl -o $(TMPDIR)/$@.owl
 
 
@@ -656,7 +656,7 @@ mirror-omo: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/chebi.owl
 ifeq ($(IMP_LARGE),true)
 mirror-chebi: | $(TMPDIR)
-	curl -L $(OBOBASE)/chebi.owl.gz --create-dirs -o $(MIRRORDIR)/chebi.owl.gz --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/chebi.owl.gz --create-dirs -o $(MIRRORDIR)/chebi.owl.gz --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(MIRRORDIR)/chebi.owl.gz -o $(TMPDIR)/$@.owl
 endif
 
@@ -665,7 +665,7 @@ endif
 .PHONY: mirror-pato
 .PRECIOUS: $(MIRRORDIR)/pato.owl
 mirror-pato: | $(TMPDIR)
-	curl -L $(OBOBASE)/pato.owl --create-dirs -o $(TMPDIR)/pato-download.owl --retry 4 --max-time 200 && \
+	curl -L $(OBOBASE)/pato.owl --create-dirs -o $(TMPDIR)/pato-download.owl --retry 4 --max-time 800 && \
 	$(ROBOT) convert -i $(TMPDIR)/pato-download.owl -o $(TMPDIR)/$@.owl
 
 
