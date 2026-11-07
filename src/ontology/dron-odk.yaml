@@ -15,6 +15,7 @@ release_artefacts:
   - custom-dron-lite
 import_group:
   module_type: filter
+  mirror_max_time_download: 800
   annotation_properties:
     - rdfs:label
     - IAO:0000111
