@@ -11,6 +11,7 @@ INSERT INTO dron_ingredient(subject, predicate, object) VALUES
 ('OBI:0000643', 'rdf:type', 'owl:ObjectProperty'),
 ('IAO:0000039', 'rdf:type', 'owl:ObjectProperty'),
 ('COB:0000026', 'rdf:type', 'owl:Class'),
+('OBI:0000576', 'rdf:type', 'owl:Class'),
 ('DRON:00000076', 'rdf:type', 'owl:Class'),
 ('OBI:0001937', 'rdf:type', 'owl:DatatypeProperty'),
 ('PATO:0000125', 'rdf:type', 'owl:Class'),
