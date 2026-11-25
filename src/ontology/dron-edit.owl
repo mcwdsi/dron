@@ -322,6 +322,7 @@ Declaration(DataProperty(<http://purl.obolibrary.org/obo/OBI_0001937>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/UO_0000022>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-6378-1703>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-9881-1017>))
+Declaration(NamedIndividual(<https://orcid.org/0009-0008-5544-3905>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0001900>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002161>))
@@ -2205,6 +2206,13 @@ ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <https://orcid.org/0
 
 AnnotationAssertion(rdfs:label <https://orcid.org/0000-0002-9881-1017> "William R. Hogan"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <https://orcid.org/0000-0002-9881-1017>)
+
+# Individual: <https://orcid.org/0009-0008-5544-3905> (Renuka Vepachedu)
+
+AnnotationAssertion(dcterms:created <https://orcid.org/0009-0008-5544-3905> "2026-11-25T00:03:11Z"^^xsd:dateTime)
+AnnotationAssertion(dcterms:creator <https://orcid.org/0009-0008-5544-3905> <https://orcid.org/0000-0002-9881-1017>)
+AnnotationAssertion(rdfs:label <https://orcid.org/0009-0008-5544-3905> "Renuka Vepachedu"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/COB_0000022> <https://orcid.org/0009-0008-5544-3905>)
 
 
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/BFO_0000113> <http://purl.obolibrary.org/obo/bfo.owl>)
