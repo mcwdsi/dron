@@ -345,7 +345,7 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#sho
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "has_alternative_id")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (has cross-reference)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
 
@@ -361,7 +361,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has related synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym")
 
@@ -1450,7 +1450,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DRON_00000072> "This is the mechanism of action of benzodiazepine drugs"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DRON_00000072> "function-activating GABA-A receptor binding disposition"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000072> <http://purl.obolibrary.org/obo/BFO_0000016>)
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
 # Class: <http://purl.obolibrary.org/obo/DRON_00000073> (hormone therapeutic function)
 
@@ -2105,10 +2104,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/DRON_00031260> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/DRON_00730857> (obsolete mepolizumab)
 
 SubClassOf(<http://purl.obolibrary.org/obo/DRON_00730857> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000069>))
-
-# Class: <http://purl.obolibrary.org/obo/DRON_00750806> (obsolete zolazepam)
-
-SubClassOf(<http://purl.obolibrary.org/obo/DRON_00750806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/DRON_00000072>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005488> (binding)
 
