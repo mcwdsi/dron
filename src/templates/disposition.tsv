@@ -9,6 +9,18 @@ DRON:00000039	function-activating delta receptor binding disposition	@en
 DRON:00000040	function-inhibiting kappa receptor binding disposition	@en
 DRON:00000041	function-activating kappa receptor binding disposition	@en
 DRON:00000059	function-inhibiting sodium-chloride cotransporter binding disposition	@en
+DRON:00000060	function-inhibiting glucocorticoid steroid receptor binding disposition	@en
+DRON:00000061	function-activating beta2-adrenergic receptor binding disposition	@en
+DRON:00000062	function-inhibiting 5-lipoxygenase binding disposition	@en
+DRON:00000063	non-activating competitive cysteinyl-leukotriene type 1 receptor binding disposition	@en
+DRON:00000064	function-activating alpha1A-adrenergic receptor binding disposition	@en
+DRON:00000066	non-activating competitive muscarinic cholinergic receptors binding disposition	@en
+DRON:00000067	function-inhibiting corticosteroid binding disposition	@en
+DRON:00000068	non-activating competitive phosphodiesterase binding disposition	@en
+DRON:00000069	function-inhibiting interleukin-5 binding disposition	@en
+DRON:00000070	non-activating competitive type III and type IV phosphodiesterase binding disposition	@en
+DRON:00000071	non-activating competitive adenosine A1 binding disposition	@en
+DRON:00000072	function-activating GABA-A receptor binding disposition	@en
 DRON:00020323	non-activating competitive beta-adrenergic receptor binding disposition	@en
 DRON:00020324	function-inhibiting hydrogen/potassium adenosine triphosphatase enzyme (H+/K+ ATPase) binding disposition	@en
 DRON:00020325	function-inhibiting L-type voltage-gated calcium channel binding disposition	@en
